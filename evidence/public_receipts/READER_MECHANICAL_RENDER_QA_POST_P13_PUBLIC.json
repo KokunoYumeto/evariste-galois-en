@@ -1,0 +1,2588 @@
+{
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
+    "source_bytes": 64267,
+    "source_name": "READER_MECHANICAL_RENDER_QA_POST_P13.json",
+    "source_sha256": "339CC55060078E35A80B22B8DE89C7265E7117D75F841709FC2EC530B50DA5BF"
+  },
+  "assertions": {
+    "mechanical_blank_topology_matches_structural_report": true,
+    "no_dark_pixel_edge_contacts": true,
+    "no_mechanically_black_pages": true,
+    "rendered_page_count_matches_structural_report": true,
+    "rendered_page_numbers_are_exact_and_contiguous": true,
+    "single_render_geometry": true,
+    "structural_report_passed": true,
+    "structural_report_schema_supported": true
+  },
+  "assessment_scope": "mechanical raster metrics only; no visual inspection performed",
+  "contact_sheet_files_present_but_not_inspected": [],
+  "dark_edge_contact_pages": [],
+  "mechanically_black_pages": [],
+  "mechanically_blank_pages": [
+    42,
+    80,
+    83,
+    84,
+    85
+  ],
+  "metric_parameters": {
+    "dark_threshold": 245,
+    "edge_width_pixels": 2,
+    "render_dpi": [
+      [
+        119.9896,
+        119.9896
+      ]
+    ]
+  },
+  "page_metrics": [
+    {
+      "bytes": 67139,
+      "content_bbox_at_threshold": [
+        105,
+        230,
+        746,
+        1136
+      ],
+      "dark_pixel_count": 20738,
+      "dark_pixel_fraction": 0.0198282975,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-01.png",
+      "mean": 252.3312,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 1,
+      "sha256": "83AADCC0514A44E319477E1D1364A61F289430A6EE2F3744E2D941186DB3090F",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 21.7477
+    },
+    {
+      "bytes": 89719,
+      "content_bbox_at_threshold": [
+        103,
+        207,
+        749,
+        1179
+      ],
+      "dark_pixel_count": 36216,
+      "dark_pixel_fraction": 0.0346273326,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-02.png",
+      "mean": 250.1985,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 2,
+      "sha256": "9322416D50CFA582CA79DE4A75A4D424EFE562EF627B3F151AB11AC503E56FCF",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 29.117
+    },
+    {
+      "bytes": 220077,
+      "content_bbox_at_threshold": [
+        103,
+        207,
+        749,
+        1179
+      ],
+      "dark_pixel_count": 139111,
+      "dark_pixel_fraction": 0.1330086941,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-03.png",
+      "mean": 233.0406,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 3,
+      "sha256": "C1DEDE6AFE848CC53A21CB2DC18ABC0FBE736A7B22EFCE211E85CCAA82FECFC6",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 56.0379
+    },
+    {
+      "bytes": 43397,
+      "content_bbox_at_threshold": [
+        103,
+        90,
+        747,
+        1179
+      ],
+      "dark_pixel_count": 14474,
+      "dark_pixel_fraction": 0.013839077,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-04.png",
+      "mean": 253.1621,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 4,
+      "sha256": "91F941D172D9F309041DA6F520C2E491217D22225A1B0BCA6C5A41ED414AEEE0",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 17.8929
+    },
+    {
+      "bytes": 69472,
+      "content_bbox_at_threshold": [
+        104,
+        207,
+        681,
+        1180
+      ],
+      "dark_pixel_count": 22501,
+      "dark_pixel_fraction": 0.021513961,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-05.png",
+      "mean": 252.121,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 5,
+      "sha256": "096A18A996A1ACCC0CFF177186D0BB8E28EDC20C87141CE4E0B402555DEABDCD",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 22.3731
+    },
+    {
+      "bytes": 99049,
+      "content_bbox_at_threshold": [
+        104,
+        73,
+        825,
+        1179
+      ],
+      "dark_pixel_count": 42670,
+      "dark_pixel_fraction": 0.0407982185,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-06.png",
+      "mean": 248.5577,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 6,
+      "sha256": "22EC5A17665DDC8F524F3EEE4E264CE4E95AD0AC18533378527C7611DB7AAB47",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 35.5559
+    },
+    {
+      "bytes": 22319,
+      "content_bbox_at_threshold": [
+        179,
+        73,
+        825,
+        1179
+      ],
+      "dark_pixel_count": 13536,
+      "dark_pixel_fraction": 0.0129422237,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-07.png",
+      "mean": 252.4218,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 7,
+      "sha256": "FFC87352419559F78EFFE6E0ECAFA2ABD8257415DCFAC5ED0482306318A26AB1",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 24.2173
+    },
+    {
+      "bytes": 19881,
+      "content_bbox_at_threshold": [
+        153,
+        73,
+        825,
+        1180
+      ],
+      "dark_pixel_count": 5414,
+      "dark_pixel_fraction": 0.005176507,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-08.png",
+      "mean": 254.1813,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 8,
+      "sha256": "97A6C30E433F60FBB5EAB811D7975C34402DA25419D9B5E0DB30ADF33A90A039",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 12.8277
+    },
+    {
+      "bytes": 291420,
+      "content_bbox_at_threshold": [
+        104,
+        73,
+        825,
+        1179
+      ],
+      "dark_pixel_count": 262756,
+      "dark_pixel_fraction": 0.2512298268,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-09.png",
+      "mean": 230.2107,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 9,
+      "sha256": "E1F261E013917FA44C6D8BCD15A5BBA6F1AB701159009E6E67487E795E440E38",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 49.3773
+    },
+    {
+      "bytes": 207125,
+      "content_bbox_at_threshold": [
+        104,
+        73,
+        824,
+        1180
+      ],
+      "dark_pixel_count": 48829,
+      "dark_pixel_fraction": 0.0466870451,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-10.png",
+      "mean": 248.4575,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 10,
+      "sha256": "AA1C66C23D1F5FD6EC8F54CEBDBBD5CC62B9CC5D75910C83A8F93472596C4817",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 34.4238
+    },
+    {
+      "bytes": 138269,
+      "content_bbox_at_threshold": [
+        103,
+        73,
+        783,
+        1185
+      ],
+      "dark_pixel_count": 49888,
+      "dark_pixel_fraction": 0.0476995905,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-11.png",
+      "mean": 249.2342,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 11,
+      "sha256": "1ABE757592A5EEC912C13FC6BBAA357CB7396823D0752ED1D6F797A0B2FF6E19",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 30.4381
+    },
+    {
+      "bytes": 149244,
+      "content_bbox_at_threshold": [
+        103,
+        76,
+        782,
+        1185
+      ],
+      "dark_pixel_count": 57920,
+      "dark_pixel_fraction": 0.0553792552,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-12.png",
+      "mean": 248.4872,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 12,
+      "sha256": "6E9E7138A705A8B41204946C1E7D4AFEBBAA77F3011F97BF1E66CDABC93C754E",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 31.8487
+    },
+    {
+      "bytes": 226291,
+      "content_bbox_at_threshold": [
+        103,
+        76,
+        782,
+        1185
+      ],
+      "dark_pixel_count": 104581,
+      "dark_pixel_fraction": 0.0999934027,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-13.png",
+      "mean": 241.3643,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 13,
+      "sha256": "3CF8F6CB286DF19AA5FBE1A1799D51EF6CE560D65AD579C71CAAB689622D16F6",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 44.4157
+    },
+    {
+      "bytes": 151971,
+      "content_bbox_at_threshold": [
+        103,
+        76,
+        783,
+        1185
+      ],
+      "dark_pixel_count": 60162,
+      "dark_pixel_fraction": 0.0575229066,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-14.png",
+      "mean": 248.2419,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 14,
+      "sha256": "8123347E053D4F4089A8354550C30B98D61D82EE44AEF8546966E8E2C916337C",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 32.3433
+    },
+    {
+      "bytes": 144308,
+      "content_bbox_at_threshold": [
+        103,
+        76,
+        782,
+        1185
+      ],
+      "dark_pixel_count": 57176,
+      "dark_pixel_fraction": 0.0546678918,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-15.png",
+      "mean": 248.5914,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 15,
+      "sha256": "DB1930273ABA7FA4340C6DB57E4E562A015955AE6A29D4912EF363814F0B81A4",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 31.5765
+    },
+    {
+      "bytes": 35803,
+      "content_bbox_at_threshold": [
+        104,
+        76,
+        782,
+        1184
+      ],
+      "dark_pixel_count": 11894,
+      "dark_pixel_fraction": 0.0113722524,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-16.png",
+      "mean": 253.5585,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 16,
+      "sha256": "04E03D54687CC280D3DF7533FAC9090410671CAE5ED9404D7D21D3DBFD18D016",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 15.6581
+    },
+    {
+      "bytes": 80949,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        808,
+        1193
+      ],
+      "dark_pixel_count": 29865,
+      "dark_pixel_fraction": 0.0285549284,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-17.png",
+      "mean": 250.9957,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 17,
+      "sha256": "3F57BA4A6BB297F84F344DC2F63061E20406EB17B99987ACA6B547763739ABFE",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 26.9151
+    },
+    {
+      "bytes": 90812,
+      "content_bbox_at_threshold": [
+        94,
+        61,
+        786,
+        1194
+      ],
+      "dark_pixel_count": 32000,
+      "dark_pixel_fraction": 0.0305962736,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-18.png",
+      "mean": 251.2919,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 18,
+      "sha256": "B1F18D71FBAA9E41EFB78A8FE26ED4D9AAB58FB0B8DC66CA290FCEC3E6881576",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 24.2749
+    },
+    {
+      "bytes": 59895,
+      "content_bbox_at_threshold": [
+        94,
+        61,
+        787,
+        1193
+      ],
+      "dark_pixel_count": 19132,
+      "dark_pixel_fraction": 0.0182927471,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-19.png",
+      "mean": 252.5749,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 19,
+      "sha256": "A89D3572683AD3685181D39D3997CC25C4BE67B7B9B0EC4AFC02447E1CE3A35A",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 20.7008
+    },
+    {
+      "bytes": 44492,
+      "content_bbox_at_threshold": [
+        94,
+        61,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 13261,
+      "dark_pixel_fraction": 0.012679287,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-20.png",
+      "mean": 253.2467,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 20,
+      "sha256": "6E989AFA1C7DB03453DF80A002A5871625C77592B7C6A03E34BF896A61BD3956",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 17.8418
+    },
+    {
+      "bytes": 98203,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 35631,
+      "dark_pixel_fraction": 0.0340679945,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-21.png",
+      "mean": 250.8194,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 21,
+      "sha256": "61F34439380F443A33751AB63A32332A3D1AFC2DB8FA25A31319BD3C6E3C7B0F",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 25.8506
+    },
+    {
+      "bytes": 220573,
+      "content_bbox_at_threshold": [
+        93,
+        61,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 113462,
+      "dark_pixel_fraction": 0.1084848247,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-22.png",
+      "mean": 238.6613,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 22,
+      "sha256": "1D4748E75C1DEB69D10F380472E6CD6BFE92FB307503D7868A9D94CCCAB5DE16",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 48.4386
+    },
+    {
+      "bytes": 98512,
+      "content_bbox_at_threshold": [
+        94,
+        69,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 31715,
+      "dark_pixel_fraction": 0.0303237755,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-23.png",
+      "mean": 251.3684,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 23,
+      "sha256": "A4ECA61252D87C6897EE903547771D7326150937C99923F4D12C5E8122CB697D",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 23.8119
+    },
+    {
+      "bytes": 56597,
+      "content_bbox_at_threshold": [
+        94,
+        61,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 34815,
+      "dark_pixel_fraction": 0.0332877895,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-24.png",
+      "mean": 249.5337,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 24,
+      "sha256": "D799BF02D6323720D4E9B11F0D27A9562A7271B9E597913A7899969B3896B8DD",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 30.4592
+    },
+    {
+      "bytes": 43354,
+      "content_bbox_at_threshold": [
+        94,
+        70,
+        728,
+        1194
+      ],
+      "dark_pixel_count": 16308,
+      "dark_pixel_fraction": 0.0155926259,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-25.png",
+      "mean": 252.6671,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 25,
+      "sha256": "622C3F73646D48BEC3A30057BD6CC45C4C3960D0E0D86B0E34D919E59B4D5CCB",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 17.243
+    },
+    {
+      "bytes": 215249,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        787,
+        1193
+      ],
+      "dark_pixel_count": 107063,
+      "dark_pixel_fraction": 0.1023665261,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-26.png",
+      "mean": 239.3661,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 26,
+      "sha256": "B2276B39F4DCB6F33C5568625AB30739B9229496FBB8BC3E178DE469936752F6",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 47.8188
+    },
+    {
+      "bytes": 165672,
+      "content_bbox_at_threshold": [
+        94,
+        70,
+        728,
+        1193
+      ],
+      "dark_pixel_count": 95974,
+      "dark_pixel_fraction": 0.0917639612,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-27.png",
+      "mean": 240.2826,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 27,
+      "sha256": "D70D3927299C3A760F34DD3369A4C04C9415BC29A9FD1F6C7AF80C7F1CF02D67",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 45.2088
+    },
+    {
+      "bytes": 101919,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 35582,
+      "dark_pixel_fraction": 0.0340211439,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-28.png",
+      "mean": 250.7949,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 28,
+      "sha256": "D412628BAA8EE167B6C806F9F1B02E3D0FA60C2E213EC6BC9F20DDF9C2FD91F6",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 26.0026
+    },
+    {
+      "bytes": 206986,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        787,
+        1193
+      ],
+      "dark_pixel_count": 90404,
+      "dark_pixel_fraction": 0.0864382974,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-29.png",
+      "mean": 242.6488,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 29,
+      "sha256": "B478FE9D42406EA2FE9B0ED00812702A0E676CDD3B0431A467C86709DE791168",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 42.5776
+    },
+    {
+      "bytes": 211840,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        786,
+        1194
+      ],
+      "dark_pixel_count": 93807,
+      "dark_pixel_fraction": 0.0896920198,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-30.png",
+      "mean": 242.4196,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 30,
+      "sha256": "10352BA239FA6C344C797CE130F23405E77A209511342EEB05AC49C417E41F52",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 42.652
+    },
+    {
+      "bytes": 190586,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 85985,
+      "dark_pixel_fraction": 0.0822131432,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-31.png",
+      "mean": 243.0211,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 31,
+      "sha256": "67CFAC78E4DCDCEB7F5E9CCCDF2AF6B33AAB1C6611650F79274C17E368037086",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 41.6758
+    },
+    {
+      "bytes": 148050,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        787,
+        1194
+      ],
+      "dark_pixel_count": 66465,
+      "dark_pixel_fraction": 0.0635494163,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-32.png",
+      "mean": 245.7035,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 32,
+      "sha256": "0DD95EE75CBEE05DE18967BFD7218ADEB59364EAE708438013E9108A57B60A26",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 37.2099
+    },
+    {
+      "bytes": 121963,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        797,
+        1208
+      ],
+      "dark_pixel_count": 44733,
+      "dark_pixel_fraction": 0.042770722,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-33.png",
+      "mean": 250.1156,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 33,
+      "sha256": "7E8597049BB753C4FED41F2B6CF0BD0C6D2B99AF87B9E53A7F6D61AA2D7EB6C8",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 27.3012
+    },
+    {
+      "bytes": 129596,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 46384,
+      "dark_pixel_fraction": 0.0443492985,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-34.png",
+      "mean": 250.0355,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 34,
+      "sha256": "BF7BBE67D4D540CE3C81D52754AE42B23553D92B4BC18BCDCCE1A609E96E2C3A",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 27.2374
+    },
+    {
+      "bytes": 167962,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 77565,
+      "dark_pixel_fraction": 0.0741624987,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-35.png",
+      "mean": 245.0191,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 35,
+      "sha256": "D2C4CE65AC442484C4B5BA24132BC368B2B2B98447845374300CDDE4109A9BB1",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 38.1407
+    },
+    {
+      "bytes": 139167,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        797,
+        1208
+      ],
+      "dark_pixel_count": 64959,
+      "dark_pixel_fraction": 0.0621094792,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-36.png",
+      "mean": 246.5183,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 36,
+      "sha256": "AE3D6898DC41ED53B4628A22931825393D4DC5AAD4AE327498533FAEF76C0169",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 35.6408
+    },
+    {
+      "bytes": 90940,
+      "content_bbox_at_threshold": [
+        85,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 27931,
+      "dark_pixel_fraction": 0.0267057662,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-37.png",
+      "mean": 252.007,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 37,
+      "sha256": "814C5B98078E1AA0FF61E54BB130D55790FCDF24B68B0FA60A97C2A6C6E4EBE6",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 21.2678
+    },
+    {
+      "bytes": 140154,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 63990,
+      "dark_pixel_fraction": 0.0611829858,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-38.png",
+      "mean": 246.3766,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 38,
+      "sha256": "635898CE5E066548A60015F855B10D11527E9AEABF641B8D18C4C31C30DD4453",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 35.9398
+    },
+    {
+      "bytes": 290319,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 159958,
+      "dark_pixel_fraction": 0.1529412102,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-39.png",
+      "mean": 232.4571,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 39,
+      "sha256": "A3E29EAF6082E7C9DBF3CAC98BECB38E221128971CBC3928AF06F9D378E5F493",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 55.2791
+    },
+    {
+      "bytes": 192073,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 88794,
+      "dark_pixel_fraction": 0.0848989223,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-40.png",
+      "mean": 243.7155,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 40,
+      "sha256": "4482078537EBA363F5E0BCFCE46FBCBD3D1FFAAFD94565D7EABD82200F9D9543",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 40.3522
+    },
+    {
+      "bytes": 29014,
+      "content_bbox_at_threshold": [
+        85,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 8000,
+      "dark_pixel_fraction": 0.0076490684,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-41.png",
+      "mean": 254.1221,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 41,
+      "sha256": "E166474CF6D0E7DCF1D7B0D800CC417289EA90557A2B7E720C416DE70D7AB06B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 11.5656
+    },
+    {
+      "bytes": 4846,
+      "content_bbox_at_threshold": null,
+      "dark_pixel_count": 0,
+      "dark_pixel_fraction": 0.0,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-42.png",
+      "mean": 255.0,
+      "mechanically_black": false,
+      "mechanically_blank": true,
+      "page": 42,
+      "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 0.0
+    },
+    {
+      "bytes": 110863,
+      "content_bbox_at_threshold": [
+        85,
+        49,
+        797,
+        1208
+      ],
+      "dark_pixel_count": 40818,
+      "dark_pixel_fraction": 0.0390274592,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-43.png",
+      "mean": 250.231,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 43,
+      "sha256": "12C6284BA721A5DC0761003BCC6014BC678B8414FB7FA3865FDB4DA3CE56F898",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 27.9174
+    },
+    {
+      "bytes": 132550,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 47898,
+      "dark_pixel_fraction": 0.0457968847,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-44.png",
+      "mean": 249.8335,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 44,
+      "sha256": "BBF483DEC470B52C4711B99419941700F6D414756C0012760CB583DA97547A57",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 27.839
+    },
+    {
+      "bytes": 191932,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 103726,
+      "dark_pixel_fraction": 0.0991759085,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-45.png",
+      "mean": 240.576,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 45,
+      "sha256": "3E71B1BBD9E04AA214987F2ABB1CCA2B5EC438BCA104EADA7EC2A8967EF2640F",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 45.9016
+    },
+    {
+      "bytes": 98939,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        797,
+        1207
+      ],
+      "dark_pixel_count": 30582,
+      "dark_pixel_fraction": 0.0292404762,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-46.png",
+      "mean": 251.7106,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 46,
+      "sha256": "79682E6AAD05E14DA06BA9FB9BF2BAA3AB243CFF21B8AC942F448207081D861B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 22.4005
+    },
+    {
+      "bytes": 214830,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1207
+      ],
+      "dark_pixel_count": 108987,
+      "dark_pixel_fraction": 0.1042061271,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-47.png",
+      "mean": 239.6691,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 47,
+      "sha256": "80AC10914FCD71F079955DBE927DABD44E29BDAA22EBC3491CFCCF48DBF6F6A1",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 46.5975
+    },
+    {
+      "bytes": 188895,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 84583,
+      "dark_pixel_fraction": 0.080872644,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-48.png",
+      "mean": 243.9755,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 48,
+      "sha256": "251AD13AC4531951634CD32A9E5CA660F5F9F0CC7886511784A02A07494B95E2",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 40.2226
+    },
+    {
+      "bytes": 122419,
+      "content_bbox_at_threshold": [
+        85,
+        49,
+        796,
+        1207
+      ],
+      "dark_pixel_count": 42456,
+      "dark_pixel_fraction": 0.040593606,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-49.png",
+      "mean": 250.4109,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 49,
+      "sha256": "86599244AF17640C943804D134E1E6BD8E70794838AA66DCF1720A68B4D37357",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 26.3178
+    },
+    {
+      "bytes": 109581,
+      "content_bbox_at_threshold": [
+        85,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 41075,
+      "dark_pixel_fraction": 0.0392731855,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-50.png",
+      "mean": 250.5501,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 50,
+      "sha256": "A01AA51E428DB642991F33E462F6FB28C03629769EE226725D27AF1FA42AE24A",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 25.9614
+    },
+    {
+      "bytes": 123396,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 45538,
+      "dark_pixel_fraction": 0.0435404096,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-51.png",
+      "mean": 249.7963,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 51,
+      "sha256": "7259597973C79415ACFFE86DEDBF565D42AA08D8CBCDC16663AEC7DE94451163",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 28.3714
+    },
+    {
+      "bytes": 187395,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 107075,
+      "dark_pixel_fraction": 0.1023779997,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-52.png",
+      "mean": 239.6651,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 52,
+      "sha256": "A8459469EE1AE7C84A990771046EAB2E8A2A24D72B772CB381AA7F4CADC6366E",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 47.2527
+    },
+    {
+      "bytes": 120634,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 44521,
+      "dark_pixel_fraction": 0.0425680217,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-53.png",
+      "mean": 249.9606,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 53,
+      "sha256": "B11947962A45E65D2784D2C251338282337E0DDC1E8FA813704636D24F2B9034",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 27.6447
+    },
+    {
+      "bytes": 142433,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 67066,
+      "dark_pixel_fraction": 0.0641240526,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-54.png",
+      "mean": 245.9728,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 54,
+      "sha256": "14B7370C68B838744172F30CEF1C9AF458671F52876D8E6358C1D5FD787C49FA",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 36.5285
+    },
+    {
+      "bytes": 207647,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 116448,
+      "dark_pixel_fraction": 0.1113398395,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-55.png",
+      "mean": 238.7154,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 55,
+      "sha256": "BBFE843B7E750A77BC9825E699ABC6030C47BCEDF612B0FB9529AC0025815982",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 48.1712
+    },
+    {
+      "bytes": 99848,
+      "content_bbox_at_threshold": [
+        71,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 34042,
+      "dark_pixel_fraction": 0.0325486983,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-56.png",
+      "mean": 251.2307,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 56,
+      "sha256": "F5BFEB771DB124BAB05448C621E57D047666BA35DEB93571D8C54384FBA68BF8",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 23.8108
+    },
+    {
+      "bytes": 117684,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 39490,
+      "dark_pixel_fraction": 0.0377577138,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-57.png",
+      "mean": 250.6379,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 57,
+      "sha256": "5986105548D54728C801A97884EDA5B6FEB92851CA11BB887BBC85A82F0438F7",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 25.4836
+    },
+    {
+      "bytes": 218847,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 120200,
+      "dark_pixel_fraction": 0.1149272526,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-58.png",
+      "mean": 238.3063,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 58,
+      "sha256": "B89F858F9DAA8EBB3C8DC777607832C95C1968B4C44B46B638827B69E49995DA",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 48.2763
+    },
+    {
+      "bytes": 187547,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 103683,
+      "dark_pixel_fraction": 0.0991347948,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-59.png",
+      "mean": 240.0233,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 59,
+      "sha256": "906C0A7F5E61D84321AE8788ABEAD2302D6C3CD94ED9576D9EE38F86F1BE64C8",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 46.5803
+    },
+    {
+      "bytes": 153946,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        838,
+        1208
+      ],
+      "dark_pixel_count": 76137,
+      "dark_pixel_fraction": 0.07279714,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-60.png",
+      "mean": 244.8177,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 60,
+      "sha256": "9035ACB93355A8D400FBC184548E40AF7320BA48F3533C1D0F6FBD6F9CEFF0C4",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 38.8069
+    },
+    {
+      "bytes": 122389,
+      "content_bbox_at_threshold": [
+        71,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 45569,
+      "dark_pixel_fraction": 0.0435700497,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-61.png",
+      "mean": 249.8387,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 61,
+      "sha256": "59BD77852740E9680C625F5715F99207D658D1B2246C1B99046191BE412FF222",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 27.7966
+    },
+    {
+      "bytes": 202840,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 114336,
+      "dark_pixel_fraction": 0.1093204854,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-62.png",
+      "mean": 238.8199,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 62,
+      "sha256": "8C256C77A65C0642B75DBC3EBC3935DFD7A079FC69A1829A188F166BA6CF57DD",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 47.9718
+    },
+    {
+      "bytes": 64208,
+      "content_bbox_at_threshold": [
+        71,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 19575,
+      "dark_pixel_fraction": 0.0187163142,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-63.png",
+      "mean": 252.8031,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 63,
+      "sha256": "06C3EE5E4D85FC052827051C88FDBAF3ACBFC2967BCBC1DC0FD297AD7A0CDECE",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 18.3255
+    },
+    {
+      "bytes": 190411,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 105459,
+      "dark_pixel_fraction": 0.1008328879,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-64.png",
+      "mean": 239.8062,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 64,
+      "sha256": "1C818D34519A924BA3E5A18F0AA7D407E350A27C5CD6F47D6F6A2DFDED1B9893",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 46.9435
+    },
+    {
+      "bytes": 85026,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 26229,
+      "dark_pixel_fraction": 0.0250784269,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-65.png",
+      "mean": 252.0822,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 65,
+      "sha256": "44C005D3668475ADF62AB6DB236A57CE640B0E152D9B02E4EAF8CA420891314C",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 20.9888
+    },
+    {
+      "bytes": 91028,
+      "content_bbox_at_threshold": [
+        71,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 28065,
+      "dark_pixel_fraction": 0.0268338881,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-66.png",
+      "mean": 251.924,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 66,
+      "sha256": "CC6BAEC1E44E18807C697C86EE755512F1D58E1A6D0890C3582D51603091D50A",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 21.4578
+    },
+    {
+      "bytes": 144764,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 69614,
+      "dark_pixel_fraction": 0.0665602809,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-67.png",
+      "mean": 245.5744,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 67,
+      "sha256": "4680565D6CEA11876FF1386D864A8C4DAE8526BC46A609C475981AD9500B8B7E",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 37.3078
+    },
+    {
+      "bytes": 29718,
+      "content_bbox_at_threshold": [
+        93,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 5936,
+      "dark_pixel_fraction": 0.0056756087,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-68.png",
+      "mean": 254.3097,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 68,
+      "sha256": "79582B5978E1D52AEDEE6FBD78100874CBD4BF0ED3499225DA514BF5D6BC62F1",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 10.6093
+    },
+    {
+      "bytes": 110433,
+      "content_bbox_at_threshold": [
+        66,
+        49,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 39444,
+      "dark_pixel_fraction": 0.0377137317,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-69.png",
+      "mean": 250.4908,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 69,
+      "sha256": "07A822AD881418AD13DAD4F5B4EB1F69587ACB0DB6C5F215CCA64C63F4519DB3",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 26.3488
+    },
+    {
+      "bytes": 156877,
+      "content_bbox_at_threshold": [
+        66,
+        52,
+        843,
+        1213
+      ],
+      "dark_pixel_count": 93362,
+      "dark_pixel_fraction": 0.0892665404,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-70.png",
+      "mean": 241.287,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 70,
+      "sha256": "022B7FBA4FE2056616D3114E9BDEE600FE291B904FC3C6488D303CD659958C00",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 45.2401
+    },
+    {
+      "bytes": 237321,
+      "content_bbox_at_threshold": [
+        65,
+        52,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 163213,
+      "dark_pixel_fraction": 0.1560534249,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-71.png",
+      "mean": 230.2334,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 71,
+      "sha256": "AEE6AEECFE847AE800273471838BF38130B160D40F91C1382F6C77140897D974",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 58.2635
+    },
+    {
+      "bytes": 76718,
+      "content_bbox_at_threshold": [
+        66,
+        49,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 23028,
+      "dark_pixel_fraction": 0.0220178434,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-72.png",
+      "mean": 252.5021,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 72,
+      "sha256": "6FE373A198FA7FEC688AF53DADC44233FC95F4BA5F18A322C495AE741BB49D7E",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 19.2323
+    },
+    {
+      "bytes": 259405,
+      "content_bbox_at_threshold": [
+        65,
+        52,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 171380,
+      "dark_pixel_fraction": 0.1638621676,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-73.png",
+      "mean": 229.4572,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 73,
+      "sha256": "CB1298D0039C1AA59EFC50E619453BAE3BC2A9CD6A01BD036989A9B79BA3A471",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 59.0337
+    },
+    {
+      "bytes": 138384,
+      "content_bbox_at_threshold": [
+        66,
+        49,
+        843,
+        1213
+      ],
+      "dark_pixel_count": 66998,
+      "dark_pixel_fraction": 0.0640590355,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-74.png",
+      "mean": 245.8338,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 74,
+      "sha256": "62B72E56DF080D9F60E1B0D796D989CBD8B9FBD9F8E59258F5CBF0BE466EB70E",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 37.0621
+    },
+    {
+      "bytes": 217210,
+      "content_bbox_at_threshold": [
+        66,
+        52,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 140443,
+      "dark_pixel_fraction": 0.134282264,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-75.png",
+      "mean": 234.4292,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 75,
+      "sha256": "7A2CB290B250A61DBA0217763550B5CB38C43EAE23FA57BA32FCB360DA970038",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 53.7452
+    },
+    {
+      "bytes": 168792,
+      "content_bbox_at_threshold": [
+        66,
+        52,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 96756,
+      "dark_pixel_fraction": 0.0925116577,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-76.png",
+      "mean": 240.9775,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 76,
+      "sha256": "44ABE3C3BED6115A586DAA844000C39FA5EA409F6EABD5A226EF7B1495962F4B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 45.3647
+    },
+    {
+      "bytes": 173095,
+      "content_bbox_at_threshold": [
+        65,
+        49,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 101152,
+      "dark_pixel_fraction": 0.0967148207,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-77.png",
+      "mean": 240.435,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 77,
+      "sha256": "AFF4F4AF98AD70BEACE1F0E66FF8F05313878B85340053585F269DB8A7F7E421",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 45.8105
+    },
+    {
+      "bytes": 117257,
+      "content_bbox_at_threshold": [
+        65,
+        52,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 57748,
+      "dark_pixel_fraction": 0.0552148002,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-78.png",
+      "mean": 246.77,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 78,
+      "sha256": "D70E03025B71EEB74F140AACABF6F621BC0922E9F3E72AEA5409058D157C8587",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 35.5995
+    },
+    {
+      "bytes": 89978,
+      "content_bbox_at_threshold": [
+        66,
+        52,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 51350,
+      "dark_pixel_fraction": 0.0490974577,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-79.png",
+      "mean": 247.4646,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 79,
+      "sha256": "A9B2DA06777F9614A171128C8C5592184060618B4AE38F1BCCD67DBC5D445424",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 34.4176
+    },
+    {
+      "bytes": 4846,
+      "content_bbox_at_threshold": null,
+      "dark_pixel_count": 0,
+      "dark_pixel_fraction": 0.0,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-80.png",
+      "mean": 255.0,
+      "mechanically_black": false,
+      "mechanically_blank": true,
+      "page": 80,
+      "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 0.0
+    },
+    {
+      "bytes": 134650,
+      "content_bbox_at_threshold": [
+        94,
+        73,
+        803,
+        1180
+      ],
+      "dark_pixel_count": 66984,
+      "dark_pixel_fraction": 0.0640456496,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-81.png",
+      "mean": 245.3398,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 81,
+      "sha256": "11B4984509E761BFEA5FFBA9030C233C1E08880133CC1523AF338D0978E05FFC",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 38.4256
+    },
+    {
+      "bytes": 151760,
+      "content_bbox_at_threshold": [
+        94,
+        73,
+        803,
+        1180
+      ],
+      "dark_pixel_count": 94247,
+      "dark_pixel_fraction": 0.0901127186,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-82.png",
+      "mean": 240.6284,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 82,
+      "sha256": "E70519FC767AC3293FEECBA97CAB261EDF8E2AC605CC2537B42D2F53DA95F774",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 45.4425
+    },
+    {
+      "bytes": 4846,
+      "content_bbox_at_threshold": null,
+      "dark_pixel_count": 0,
+      "dark_pixel_fraction": 0.0,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-83.png",
+      "mean": 255.0,
+      "mechanically_black": false,
+      "mechanically_blank": true,
+      "page": 83,
+      "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 0.0
+    },
+    {
+      "bytes": 4846,
+      "content_bbox_at_threshold": null,
+      "dark_pixel_count": 0,
+      "dark_pixel_fraction": 0.0,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-84.png",
+      "mean": 255.0,
+      "mechanically_black": false,
+      "mechanically_blank": true,
+      "page": 84,
+      "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 0.0
+    },
+    {
+      "bytes": 4846,
+      "content_bbox_at_threshold": null,
+      "dark_pixel_count": 0,
+      "dark_pixel_fraction": 0.0,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-85.png",
+      "mean": 255.0,
+      "mechanically_black": false,
+      "mechanically_blank": true,
+      "page": 85,
+      "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 0.0
+    }
+  ],
+  "render_directory": "local-private-custody/postp13-render-20260814T001946031",
+  "result": "PASS",
+  "schema_version": 2,
+  "structural_report": {
+    "blank_pages": [
+      42,
+      80,
+      83,
+      84,
+      85
+    ],
+    "page_count": 85,
+    "path": "local-private-custody/READER_STRUCTURAL_QA_POST_P13.json",
+    "pdf": "local-private-custody/GAL1897_EN_MODERN_READER.pdf",
+    "pdf_sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3",
+    "result": "PASS",
+    "sha256": "4E35C2C94AB22E92E6EE345C9DFAC4C2D6AE8AFDFCB4A338C376264EF985FC75"
+  },
+  "visual_inspection": {
+    "status": "NOT_PERFORMED_BY_THIS_SCRIPT",
+    "template": "galois_english_pdf_visual_inspection.template.json"
+  }
+}

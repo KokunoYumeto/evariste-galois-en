@@ -1,0 +1,4762 @@
+{
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
+    "source_bytes": 92449,
+    "source_name": "READER_STRUCTURAL_QA_POST_P13.json",
+    "source_sha256": "4E35C2C94AB22E92E6EE345C9DFAC4C2D6AE8AFDFCB4A338C376264EF985FC75"
+  },
+  "assertions": {
+    "all_fonts_embedded": true,
+    "all_link_annotations_valid": true,
+    "all_outline_destinations_resolve": true,
+    "all_page_boxes_valid_and_nested": true,
+    "all_page_content_streams_parse": true,
+    "all_required_dois_extract_with_pdftotext": true,
+    "all_required_dois_extract_with_pypdf": true,
+    "blank_topology_matches_declared": true,
+    "build_logs_have_no_errors": true,
+    "build_logs_have_no_unapproved_warnings": true,
+    "build_logs_readable": true,
+    "direct_font_resources_present": true,
+    "font_rows_present_and_parseable": true,
+    "link_annotations_present": true,
+    "not_encrypted": true,
+    "outline_titles_exact_and_ordered": true,
+    "page_count_derived_and_positive": true,
+    "pdffonts_available": true,
+    "pdffonts_no_diagnostics": true,
+    "pdffonts_succeeded": true,
+    "pdfinfo_available": true,
+    "pdfinfo_encryption_matches_pdf": true,
+    "pdfinfo_file_size_matches_pdf": true,
+    "pdfinfo_metadata_matches_pdf": true,
+    "pdfinfo_no_diagnostics": true,
+    "pdfinfo_page_boxes_match_first_page": true,
+    "pdfinfo_page_count_matches_pdf": true,
+    "pdfinfo_succeeded": true,
+    "pdftotext_available": true,
+    "pdftotext_extractable_text_nonempty": true,
+    "pdftotext_no_diagnostics": true,
+    "pdftotext_page_count_matches_pdf": true,
+    "pdftotext_succeeded": true,
+    "pypdf_extractable_text_nonempty": true,
+    "pypdf_extraction_succeeded_on_all_pages": true,
+    "required_metadata_exact": true,
+    "single_media_and_crop_geometry": true
+  },
+  "assessment_scope": "structural-and-mechanical; no visual inspection performed",
+  "blank_topology": {
+    "expected_pages": [
+      42,
+      80,
+      83,
+      84,
+      85
+    ],
+    "selector_spec": "42,80,83,84,85",
+    "structurally_blank_pages": [
+      42,
+      80,
+      83,
+      84,
+      85
+    ]
+  },
+  "build_logs": {
+    "allowed_warning_regexes": [
+      "^Package: infwarerr .*Providing info/warning/error messages"
+    ],
+    "errors": [],
+    "logs": [
+      {
+        "allowed_warnings": [
+          {
+            "line": 317,
+            "text": "Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)"
+          }
+        ],
+        "bytes": 69222,
+        "errors": [],
+        "path": "local-private-custody/GAL1897_EN_MODERN_READER.log",
+        "sha256": "021363FDE3E391FAD03EE4B13E278B172339D08E044BA4F467CA5E7EC1EB0971",
+        "unapproved_warnings": []
+      },
+      {
+        "allowed_warnings": [
+          {
+            "line": 317,
+            "text": "Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)"
+          }
+        ],
+        "bytes": 69222,
+        "errors": [],
+        "path": "local-private-custody/GAL1897_EN_MODERN_READER.log",
+        "sha256": "AAEDEACC3A6E490CD0B78136B24F1275D58905A58B68A7B7DEBDF046453650AA",
+        "unapproved_warnings": []
+      }
+    ],
+    "unapproved_warnings": [],
+    "unreadable": []
+  },
+  "bytes": 3826541,
+  "extraction": {
+    "pdftotext_page_count": 85,
+    "pdftotext_page_text_lengths": [
+      470,
+      892,
+      1997,
+      385,
+      547,
+      610,
+      64,
+      108,
+      238,
+      346,
+      1415,
+      1737,
+      2423,
+      1798,
+      1725,
+      334,
+      795,
+      1148,
+      779,
+      530,
+      1326,
+      2570,
+      1212,
+      681,
+      418,
+      2358,
+      1687,
+      1307,
+      2388,
+      2658,
+      2268,
+      1646,
+      1676,
+      1843,
+      2318,
+      1773,
+      1188,
+      1749,
+      3645,
+      2544,
+      317,
+      0,
+      1402,
+      1767,
+      2439,
+      1214,
+      2568,
+      2382,
+      1619,
+      1526,
+      2036,
+      2603,
+      1905,
+      2001,
+      3115,
+      1627,
+      1836,
+      3253,
+      2565,
+      2419,
+      1957,
+      2937,
+      858,
+      2581,
+      1156,
+      1312,
+      2013,
+      210,
+      1633,
+      2390,
+      3151,
+      1229,
+      3544,
+      2006,
+      3095,
+      2350,
+      2430,
+      1525,
+      1234,
+      0,
+      2143,
+      1381,
+      0,
+      0,
+      0
+    ],
+    "pdftotext_tool": {
+      "available": true,
+      "command": [
+        "local-private-custody/pdftotext.exe",
+        "-enc",
+        "UTF-8",
+        "local-private-custody/GAL1897_EN_MODERN_READER.pdf",
+        "-"
+      ],
+      "returncode": 0,
+      "stderr_lines": []
+    },
+    "pypdf_errors": [],
+    "pypdf_page_text_lengths": [
+      469,
+      890,
+      1987,
+      382,
+      535,
+      600,
+      61,
+      106,
+      234,
+      342,
+      1407,
+      1734,
+      2420,
+      1796,
+      1723,
+      332,
+      784,
+      1128,
+      696,
+      470,
+      1275,
+      2481,
+      1140,
+      620,
+      414,
+      2227,
+      1659,
+      1243,
+      2328,
+      2599,
+      2174,
+      1555,
+      1625,
+      1765,
+      2229,
+      1681,
+      1118,
+      1651,
+      3523,
+      2475,
+      296,
+      0,
+      1389,
+      1731,
+      2375,
+      1148,
+      2491,
+      2312,
+      1557,
+      1520,
+      2026,
+      2584,
+      1892,
+      1905,
+      3025,
+      1565,
+      1718,
+      3171,
+      2471,
+      2400,
+      1945,
+      2898,
+      850,
+      2492,
+      1098,
+      1224,
+      1967,
+      206,
+      1605,
+      2300,
+      3049,
+      1143,
+      3420,
+      1948,
+      3008,
+      2249,
+      2360,
+      1468,
+      1210,
+      0,
+      2129,
+      1380,
+      0,
+      0,
+      0
+    ],
+    "required_doi_strings": {
+      "10.5281/zenodo.21923856": {
+        "pdftotext": true,
+        "pypdf": true
+      },
+      "10.5281/zenodo.21924301": {
+        "pdftotext": true,
+        "pypdf": true
+      },
+      "10.5281/zenodo.21924302": {
+        "pdftotext": true,
+        "pypdf": true
+      }
+    }
+  },
+  "fonts": {
+    "direct_resource_names": [
+      "/BGRQNB+LMRoman12-Bold",
+      "/BXWBRP+LMMathItalic10-Regular",
+      "/BZJPIU+LMRoman10-BoldItalic",
+      "/DXVLHD+LMRoman7-Regular",
+      "/EGVVJU+LMRoman12-Regular",
+      "/ESRFCN+LMRoman17-Regular",
+      "/FLFDWN+LMRoman9-Regular",
+      "/GHLSGY+LMMono8-Regular",
+      "/HYQTGO+LMRoman7-Italic",
+      "/JMGURT+LMMathSymbols9-Regular",
+      "/JODEBO+LMMathItalic9-Regular",
+      "/JOJIXY+LMRomanCaps10-Regular",
+      "/JVUOIN+LMMono9-Regular",
+      "/JWSUPP+LMRoman6-Bold",
+      "/KCJFRP+LMRoman9-Bold",
+      "/KDIPQH+LMMathItalic7-Regular",
+      "/KDVJJX+LMRoman10-Bold",
+      "/KSQLZD+LMMathItalic8-Regular",
+      "/KVYLRB+LMRoman6-Regular",
+      "/LADYZX+LMMathSymbols5-Regular",
+      "/MIVTKR+LMMathSymbols6-Regular",
+      "/MYNWWR+LMMono10-Regular",
+      "/OQQVFW+LMRoman5-Regular",
+      "/PRGDUU+LMRoman10-Italic",
+      "/SEGJIS+LMMathSymbols8-Regular",
+      "/TGDEAR+LMRoman8-Bold",
+      "/UFAECB+LMMathExtension10-Regular",
+      "/ULNZHB+LMRoman10-Regular",
+      "/URFIMQ+LMMathItalic6-Regular",
+      "/URHYJZ+MSBM10",
+      "/WLGWNK+LMMathItalic5-Regular",
+      "/XJKYAF+LMMathSymbols7-Regular",
+      "/XWCLXY+LMRoman8-Regular",
+      "/YMBOHT+LMRoman8-Italic",
+      "/YRWYME+LMRoman9-Italic"
+    ],
+    "not_embedded": [],
+    "pdffonts_tool": {
+      "available": true,
+      "command": [
+        "local-private-custody/pdffonts.exe",
+        "local-private-custody/GAL1897_EN_MODERN_READER.pdf"
+      ],
+      "returncode": 0,
+      "stderr_lines": []
+    },
+    "rows": [
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "BGRQNB+LMRoman12-Bold",
+        "object_id": [
+          "49",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "ESRFCN+LMRoman17-Regular",
+        "object_id": [
+          "50",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "EGVVJU+LMRoman12-Regular",
+        "object_id": [
+          "51",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "ULNZHB+LMRoman10-Regular",
+        "object_id": [
+          "52",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "FLFDWN+LMRoman9-Regular",
+        "object_id": [
+          "53",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "PRGDUU+LMRoman10-Italic",
+        "object_id": [
+          "60",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "KDVJJX+LMRoman10-Bold",
+        "object_id": [
+          "67",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "MYNWWR+LMMono10-Regular",
+        "object_id": [
+          "68",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "ULNZHB+LMRoman10-Regular",
+        "object_id": [
+          "92",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "KVYLRB+LMRoman6-Regular",
+        "object_id": [
+          "110",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "KCJFRP+LMRoman9-Bold",
+        "object_id": [
+          "111",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "YRWYME+LMRoman9-Italic",
+        "object_id": [
+          "112",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "BZJPIU+LMRoman10-BoldItalic",
+        "object_id": [
+          "113",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "XJKYAF+LMMathSymbols7-Regular",
+        "object_id": [
+          "148",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "BXWBRP+LMMathItalic10-Regular",
+        "object_id": [
+          "166",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "ULNZHB+LMRoman10-Regular",
+        "object_id": [
+          "167",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "JOJIXY+LMRomanCaps10-Regular",
+        "object_id": [
+          "174",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "TGDEAR+LMRoman8-Bold",
+        "object_id": [
+          "181",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "JWSUPP+LMRoman6-Bold",
+        "object_id": [
+          "182",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "JODEBO+LMMathItalic9-Regular",
+        "object_id": [
+          "188",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "FLFDWN+LMRoman9-Regular",
+        "object_id": [
+          "189",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "JMGURT+LMMathSymbols9-Regular",
+        "object_id": [
+          "195",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "MIVTKR+LMMathSymbols6-Regular",
+        "object_id": [
+          "212",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "JVUOIN+LMMono9-Regular",
+        "object_id": [
+          "214",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "KVYLRB+LMRoman6-Regular",
+        "object_id": [
+          "221",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "UFAECB+LMMathExtension10-Regular",
+        "object_id": [
+          "251",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "URFIMQ+LMMathItalic6-Regular",
+        "object_id": [
+          "257",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "KCJFRP+LMRoman9-Bold",
+        "object_id": [
+          "259",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Builtin",
+        "embedded": true,
+        "name": "URHYJZ+MSBM10",
+        "object_id": [
+          "260",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "WLGWNK+LMMathItalic5-Regular",
+        "object_id": [
+          "272",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "OQQVFW+LMRoman5-Regular",
+        "object_id": [
+          "287",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "DXVLHD+LMRoman7-Regular",
+        "object_id": [
+          "288",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "HYQTGO+LMRoman7-Italic",
+        "object_id": [
+          "289",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "OQQVFW+LMRoman5-Regular",
+        "object_id": [
+          "300",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "LADYZX+LMMathSymbols5-Regular",
+        "object_id": [
+          "301",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "KDIPQH+LMMathItalic7-Regular",
+        "object_id": [
+          "303",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "DXVLHD+LMRoman7-Regular",
+        "object_id": [
+          "304",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "XWCLXY+LMRoman8-Regular",
+        "object_id": [
+          "404",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "YMBOHT+LMRoman8-Italic",
+        "object_id": [
+          "405",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "KSQLZD+LMMathItalic8-Regular",
+        "object_id": [
+          "418",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "SEGJIS+LMMathSymbols8-Regular",
+        "object_id": [
+          "419",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "XWCLXY+LMRoman8-Regular",
+        "object_id": [
+          "420",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "GHLSGY+LMMono8-Regular",
+        "object_id": [
+          "465",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "TGDEAR+LMRoman8-Bold",
+        "object_id": [
+          "586",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      }
+    ],
+    "unparsed_rows": []
+  },
+  "links": {
+    "annotations": [
+      {
+        "errors": [],
+        "kind": "URI",
+        "rect": [
+          248.006,
+          131.811,
+          360.418,
+          143.766
+        ],
+        "source_page": 1,
+        "target": "https://doi.org/10.5281/zenodo.21924301"
+      },
+      {
+        "errors": [],
+        "kind": "URI",
+        "rect": [
+          241.973,
+          119.856,
+          354.385,
+          131.811
+        ],
+        "source_page": 1,
+        "target": "https://doi.org/10.5281/zenodo.21924302"
+      },
+      {
+        "errors": [],
+        "kind": "URI",
+        "rect": [
+          264.099,
+          107.901,
+          376.51,
+          119.856
+        ],
+        "source_page": 1,
+        "target": "https://doi.org/10.5281/zenodo.21923856"
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          538.807,
+          372.691,
+          550.436
+        ],
+        "source_page": 5,
+        "target": 6
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          516.291,
+          219.176,
+          530.447
+        ],
+        "source_page": 5,
+        "target": 11
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          495.897,
+          387.085,
+          505.405
+        ],
+        "source_page": 5,
+        "target": 17
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          471.26,
+          251.934,
+          482.889
+        ],
+        "source_page": 5,
+        "target": 26
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          448.745,
+          382.237,
+          460.373
+        ],
+        "source_page": 5,
+        "target": 29
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          426.229,
+          306.631,
+          437.858
+        ],
+        "source_page": 5,
+        "target": 31
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          403.714,
+          220.752,
+          415.342
+        ],
+        "source_page": 5,
+        "target": 33
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          381.198,
+          223.935,
+          392.827
+        ],
+        "source_page": 5,
+        "target": 43
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          358.682,
+          409.661,
+          370.311
+        ],
+        "source_page": 5,
+        "target": 51
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          335.561,
+          345.662,
+          348.462
+        ],
+        "source_page": 5,
+        "target": 69
+      },
+      {
+        "errors": [],
+        "kind": "GoTo",
+        "rect": [
+          88.639,
+          313.651,
+          322.389,
+          325.28
+        ],
+        "source_page": 5,
+        "target": 81
+      }
+    ],
+    "count": 14
+  },
+  "metadata": {
+    "actual": {
+      "/Author": "Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "Évariste Galois, English translation, Galois theory, critical edition",
+      "/Producer": "MiKTeX pdfTeX-1.40.29",
+      "/Subject": "Modern-English translation aligned to the audited 1897 French diplomatic transcription",
+      "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes",
+      "/Trapped": "/False"
+    },
+    "required_exact": {
+      "/Author": "Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "Évariste Galois, English translation, Galois theory, critical edition",
+      "/Subject": "Modern-English translation aligned to the audited 1897 French diplomatic transcription",
+      "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes"
+    }
+  },
+  "outline": [
+    {
+      "depth": 0,
+      "error": null,
+      "page": 5,
+      "title": "Reader contents"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 6,
+      "title": "1897 publication matter"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 11,
+      "title": "Picard: Introduction"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 17,
+      "title": "Periodic continued fractions"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 26,
+      "title": "Notes on analysis"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 29,
+      "title": "Algebraic solution of equations"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 31,
+      "title": "Numerical equations"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 33,
+      "title": "Theory of numbers"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 43,
+      "title": "Letter to Auguste Chevalier"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 51,
+      "title": "Solvability by radicals"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 69,
+      "title": "Primitive equations"
+    },
+    {
+      "depth": 1,
+      "error": null,
+      "page": 81,
+      "title": "Historical contents and colophon"
+    }
+  ],
+  "page_boxes": {
+    "errors": [],
+    "unique_effective_boxes": {
+      "ArtBox": [
+        [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      ],
+      "BleedBox": [
+        [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      ],
+      "CropBox": [
+        [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      ],
+      "MediaBox": [
+        [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      ],
+      "TrimBox": [
+        [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      ]
+    }
+  },
+  "page_count": 85,
+  "pages": [
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1481,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 1,
+      "text_characters": 469
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 2508,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 2,
+      "text_characters": 890
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 10642,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 3,
+      "text_characters": 1987
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1744,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 4,
+      "text_characters": 382
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 2539,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 5,
+      "text_characters": 535
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 2533,
+      "marking_operators": [
+        "Do",
+        "TJ"
+      ],
+      "page": 6,
+      "text_characters": 600
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 494,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 7,
+      "text_characters": 61
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 648,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 8,
+      "text_characters": 106
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1075,
+      "marking_operators": [
+        "Do",
+        "TJ"
+      ],
+      "page": 9,
+      "text_characters": 234
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1390,
+      "marking_operators": [
+        "Do",
+        "TJ"
+      ],
+      "page": 10,
+      "text_characters": 342
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 4520,
+      "marking_operators": [
+        "Do",
+        "S",
+        "TJ"
+      ],
+      "page": 11,
+      "text_characters": 1407
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 5311,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 12,
+      "text_characters": 1734
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8673,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 13,
+      "text_characters": 2420
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 5343,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 14,
+      "text_characters": 1796
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 5381,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 15,
+      "text_characters": 1723
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1281,
+      "marking_operators": [
+        "Do",
+        "TJ"
+      ],
+      "page": 16,
+      "text_characters": 332
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 3294,
+      "marking_operators": [
+        "Do",
+        "S",
+        "TJ"
+      ],
+      "page": 17,
+      "text_characters": 784
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6029,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 18,
+      "text_characters": 1128
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12660,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 19,
+      "text_characters": 696
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8895,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 20,
+      "text_characters": 470
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8958,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 21,
+      "text_characters": 1275
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 19537,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 22,
+      "text_characters": 2481
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8801,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 23,
+      "text_characters": 1140
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 11337,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 24,
+      "text_characters": 620
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 3052,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 25,
+      "text_characters": 414
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 17880,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 26,
+      "text_characters": 2227
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12459,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 27,
+      "text_characters": 1659
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 10804,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 28,
+      "text_characters": 1243
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 14374,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 29,
+      "text_characters": 2328
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 13830,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 30,
+      "text_characters": 2599
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 15479,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 31,
+      "text_characters": 2174
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 13322,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 32,
+      "text_characters": 1555
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 7303,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 33,
+      "text_characters": 1625
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 11441,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 34,
+      "text_characters": 1765
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 14291,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 35,
+      "text_characters": 2229
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12888,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 36,
+      "text_characters": 1681
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8003,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 37,
+      "text_characters": 1118
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 15495,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 38,
+      "text_characters": 1651
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 24673,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 39,
+      "text_characters": 3523
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 14280,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 40,
+      "text_characters": 2475
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 2265,
+      "marking_operators": [
+        "Do",
+        "TJ"
+      ],
+      "page": 41,
+      "text_characters": 296
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 32,
+      "marking_operators": [],
+      "page": 42,
+      "text_characters": 0
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 4979,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 43,
+      "text_characters": 1389
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6716,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 44,
+      "text_characters": 1731
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 15298,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 45,
+      "text_characters": 2375
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8171,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 46,
+      "text_characters": 1148
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 17379,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 47,
+      "text_characters": 2491
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12579,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 48,
+      "text_characters": 2312
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8405,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 49,
+      "text_characters": 1557
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 4956,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 50,
+      "text_characters": 1520
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6811,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 51,
+      "text_characters": 2026
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 10643,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 52,
+      "text_characters": 2584
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6025,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 53,
+      "text_characters": 1892
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 10136,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 54,
+      "text_characters": 1905
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 17224,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 55,
+      "text_characters": 3025
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 7958,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 56,
+      "text_characters": 1565
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12827,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 57,
+      "text_characters": 1718
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 18602,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 58,
+      "text_characters": 3171
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 17045,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 59,
+      "text_characters": 2471
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 9858,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 60,
+      "text_characters": 2400
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6937,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 61,
+      "text_characters": 1945
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 13850,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 62,
+      "text_characters": 2898
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 2917,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 63,
+      "text_characters": 850
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 17198,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 64,
+      "text_characters": 2492
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6916,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 65,
+      "text_characters": 1098
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 10523,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 66,
+      "text_characters": 1224
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 9886,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 67,
+      "text_characters": 1967
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1462,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 68,
+      "text_characters": 206
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6118,
+      "marking_operators": [
+        "S",
+        "TJ"
+      ],
+      "page": 69,
+      "text_characters": 1605
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 17461,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 70,
+      "text_characters": 2300
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 22377,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 71,
+      "text_characters": 3049
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 13255,
+      "marking_operators": [
+        "TJ"
+      ],
+      "page": 72,
+      "text_characters": 1143
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 25188,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 73,
+      "text_characters": 3420
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 13914,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 74,
+      "text_characters": 1948
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 19655,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 75,
+      "text_characters": 3008
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 18864,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 76,
+      "text_characters": 2249
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 15948,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 77,
+      "text_characters": 2360
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12861,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 78,
+      "text_characters": 1468
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 6821,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 79,
+      "text_characters": 1210
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 32,
+      "marking_operators": [],
+      "page": 80,
+      "text_characters": 0
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 8761,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 81,
+      "text_characters": 2129
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 7408,
+      "marking_operators": [
+        "Do",
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 82,
+      "text_characters": 1380
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 32,
+      "marking_operators": [],
+      "page": 83,
+      "text_characters": 0
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 32,
+      "marking_operators": [],
+      "page": 84,
+      "text_characters": 0
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 32,
+      "marking_operators": [],
+      "page": 85,
+      "text_characters": 0
+    }
+  ],
+  "pdf": "local-private-custody/GAL1897_EN_MODERN_READER.pdf",
+  "pdfinfo": {
+    "fields": {
+      "ArtBox": "0.00     0.00   510.24   737.01",
+      "Author": "Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol",
+      "BleedBox": "0.00     0.00   510.24   737.01",
+      "Creator": "LaTeX with hyperref",
+      "CropBox": "0.00     0.00   510.24   737.01",
+      "Custom Metadata": "no",
+      "Encrypted": "no",
+      "File size": "3826541 bytes",
+      "Form": "none",
+      "JavaScript": "no",
+      "Keywords": "Évariste Galois, English translation, Galois theory, critical edition",
+      "MediaBox": "0.00     0.00   510.24   737.01",
+      "Metadata Stream": "no",
+      "Optimized": "no",
+      "PDF version": "1.5",
+      "Page rot": "0",
+      "Page size": "510.236 x 737.008 pts",
+      "Pages": "85",
+      "Producer": "MiKTeX pdfTeX-1.40.29",
+      "Subject": "Modern-English translation aligned to the audited 1897 French diplomatic transcription",
+      "Suspects": "no",
+      "Tagged": "no",
+      "Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes",
+      "TrimBox": "0.00     0.00   510.24   737.01",
+      "UserProperties": "no"
+    },
+    "tool": {
+      "available": true,
+      "command": [
+        "local-private-custody/pdfinfo.exe",
+        "-box",
+        "local-private-custody/GAL1897_EN_MODERN_READER.pdf"
+      ],
+      "returncode": 0,
+      "stderr_lines": []
+    }
+  },
+  "result": "PASS",
+  "schema_version": 2,
+  "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+}

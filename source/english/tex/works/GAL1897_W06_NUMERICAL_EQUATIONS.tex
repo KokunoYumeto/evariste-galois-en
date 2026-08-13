@@ -1,0 +1,155 @@
+% GAL1897_W06 — English translation of physical PDF pages 042–043.
+% Primary authority: the frozen 1897 French diplomatic transcription from
+% JP2 leaves L0041–L0042, navigated against the 96-page 1897 PDF.
+% Definite source-level mathematical errors are translated without silent repair
+% and identified in adjacent critical notes from the frozen critical baseline.
+
+\providecommand{\GalSourcePageStart}[4]{}%
+\providecommand{\GalSourcePageBoundary}[4]{\space}%
+\providecommand{\GalSourceError}[2]{#1}%
+\providecommand{\GalHistoricalFootnote}[1]{\footnote{#1}}%
+\providecommand{\GalArticleEndRule}{\par\smallskip\begin{center}\rule{0.18\linewidth}{0.4pt}\end{center}}%
+
+\GalSourcePageStart{042}{L0041}{13}{13}
+
+% ENSEG:W06:PDF042:0001
+\begin{center}
+{\Large\bfseries NOTE\par}
+\vspace{0.15em}
+{\scriptsize\bfseries ON THE\par}
+\vspace{0.18em}
+{\normalsize\bfseries SOLUTION OF NUMERICAL EQUATIONS\,\textsuperscript{(*)}.\par}
+\vspace{0.7em}
+\rule{0.12\linewidth}{0.4pt}
+\end{center}
+
+% ENSEG:W06:PDF042:0002
+\GalHistoricalFootnote{M.~Férussac's \emph{Bulletin des Sciences mathématiques}, vol.~XIII,
+p.~413 (1830, June issue). \textsc{(J. Liouville.)}}
+
+% ENSEG:W06:PDF042:0003
+M.~Legendre was the first to observe that, when an algebraic equation
+was put in the form
+% ENSEG:W06:PDF042:0004
+\[
+\varphi x=x,
+\]
+% ENSEG:W06:PDF042:0005
+where $\varphi x$ is a function of $x$ that increases continually with
+$x$, it was easy to find the root of this equation immediately below
+a given number $a$ if $\varphi a<a$, and the root immediately above $a$
+if $\varphi a>a$.
+
+% ENSEG:W06:PDF042:0006
+To prove this, construct the curve $y=\varphi x$ and the line $y=x$.
+Take an abscissa equal to $a$, and suppose, to fix ideas, that
+$\varphi a>a$. I say that it will be easy to obtain the root immediately
+above $a$. Indeed, the roots of the equation $\varphi x=x$ are simply
+the abscissas of the points where the line and the curve intersect, and
+it is clear that one will approach the nearest point of intersection by
+replacing the abscissa $a$ with the abscissa $\varphi a$. A still closer
+value will be obtained by taking $\varphi\varphi a$, then
+$\varphi\varphi\varphi a$, and so on.
+
+% ENSEG:W06:PDF042:0007
+Let $Fx=0$ be a given equation of degree $n$, and let $Fx=X-Y$,
+where $X$ and $Y$ contain only positive terms. Legendre successively
+puts the equation into these two forms:
+% ENSEG:W06:PDF042:0008
+\[
+x=\varphi x=\sqrt[n]{\frac{X}{\left(\dfrac{Y}{x^n}\right)}},
+\qquad
+\GalSourceError{x=\psi x=\sqrt[n]{\frac{X}{\left(\dfrac{x^n}{Y}\right)}}}{W06-PE001: the printed second radical is not in general equivalent to F(x)=0 and need not be the opposite-side fixed-point map; preserve it and consult the separate exact certificate};
+\]
+% ENSEG:W06:PDF042:0009
+the two functions $\varphi x$ and $\psi x$ are always, as one sees,
+one greater and the other less than $x$. Thus, with the aid of these two
+functions, one can obtain the two roots of the equation nearest to a
+given number $a$, one above and the other below it.
+
+% ENSEG:W06:PDF042:0010
+\GalCriticalNote{W06-PE001}{\textbf{Status: proved printed formula error;
+bounded prior-notice search closed with no explicit notice found.} The second
+displayed map is printed with numerator $X$ and denominator $x^n/Y$.
+It is not generally equivalent to $F(x)=0$ and need not lie on the side
+of $x$ opposite the first map. The full symmetric candidate
+$x=\psi x=\sqrt[n]{\frac{Y}{\left(\dfrac{X}{x^n}\right)}}$ is an editorial
+reconstruction, not an 1897 reading; the 1846 repetition preserves the
+printed form and is not a correcting witness. The printed formula and
+following claim remain unchanged in translation; downstream numerical use
+requires the separately labelled reconstruction. Evidence:
+\texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W06-PE001, its cited symbolic
+certificate, and \texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+
+\GalSourcePageBoundary{043}{L0042}{14}{14}
+
+% ENSEG:W06:PDF043:0011
+But this method has the disadvantage of requiring the extraction of an
+$n$th root at each operation. Here are two more convenient forms. Let us
+seek a number $k$ such that the function
+% ENSEG:W06:PDF043:0012
+\[
+x+\frac{Fx}{kx^n}
+\]
+% ENSEG:W06:PDF043:0013
+increases with $x$ when $x>1$. (It is enough, in fact, to know how to
+find the roots of an equation that are greater than unity.)
+
+% ENSEG:W06:PDF043:0014
+For the proposed condition we shall have
+% ENSEG:W06:PDF043:0015
+\[
+1+\frac{d\,\dfrac{X-Y}{kx^n}}{dx}>0,
+\qquad\text{or}\qquad
+1-\frac{nX-xX'}{kx^{n+1}}+\frac{nY-xY'}{kx^{n+1}}>0;
+\]
+% ENSEG:W06:PDF043:0016
+but identically we have
+% ENSEG:W06:PDF043:0017
+\[
+\GalSourceError{nX-xX'>0,\qquad nY-xY'>0}{W06-SE001: strict positivity is false for admissible positive-term decompositions, and the prescribed value k=(nX-xX')|_{x=1} can therefore be zero};
+\]
+% ENSEG:W06:PDF043:0018
+it is therefore enough to set
+% ENSEG:W06:PDF043:0019
+\[
+\frac{nX-xX'}{kx^{n+1}}<1\qquad\text{for}\qquad x>1,
+\]
+% ENSEG:W06:PDF043:0020
+and for this it is enough to take as $k$ the value of the function
+$\GalSourceError{nX-xX'}{W06-SE001}$ corresponding to $x=1$.
+
+% ENSEG:W06:PDF043:0021
+\GalCriticalNote{W06-SE001}{\textbf{Status: proved missing-hypothesis error;
+bounded prior-notice search closed with no explicit notice found.} For a
+positive-term polynomial $X=\sum c_jx^j$,
+$nX-xX'=\sum_{j<n}(n-j)c_jx^j$ is nonnegative, but it is strictly
+positive only when a coefficient below degree $n$ is positive; for
+$X=x^n$ it vanishes identically and the prescribed $k$ is zero. The same
+qualification is required for $Y$. The printed strict inequalities and
+prescription are retained; downstream convergence claims require these
+nonvanishing hypotheses. Evidence: \texttt{PRINTED\_AND\_SOURCE\_ERRORS.md},
+W06-SE001, its cited exact polynomial certificate, and
+\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+
+% ENSEG:W06:PDF043:0022
+One similarly finds a number $h$ such that the function
+% ENSEG:W06:PDF043:0023
+\[
+x-\frac{Fx}{hx^n}
+\]
+% ENSEG:W06:PDF043:0024
+will increase with $x$ when $x>1$, by replacing $Y$ with $X$.
+
+% ENSEG:W06:PDF043:0025
+Thus the given equation can be put into either of the forms
+% ENSEG:W06:PDF043:0026
+\[
+x=x+\frac{Fx}{kx^n},
+\qquad
+x=x-\frac{Fx}{hx^n},
+\]
+% ENSEG:W06:PDF043:0027
+both of which are rational and provide an easy method of solution.
+
+\GalArticleEndRule

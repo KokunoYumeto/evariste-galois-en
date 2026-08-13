@@ -1,0 +1,149 @@
+% GAL1897 modern-English reader -- independent translation layer.
+% The audited French diplomatic source remains immutable in ../french_diplomatic.
+% Historical claims are translated faithfully; repairs appear only in GPT Critical Notes.
+\documentclass[11pt,oneside,openany]{book}
+\pdfinfoomitdate=1
+\pdfsuppressptexinfo=15
+\pdftrailerid{}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,array}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[hyperfootnotes=false]{hyperref}
+\usepackage{bookmark}
+\usepackage[most]{tcolorbox}
+\usepackage[paperwidth=180mm,paperheight=260mm,left=22mm,right=22mm,top=18mm,bottom=20mm,marginparwidth=15mm,marginparsep=3mm]{geometry}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\allowdisplaybreaks[0]
+\pagestyle{plain}
+\hypersetup{pdftitle={Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes},pdfauthor={Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol},pdfsubject={Modern-English translation aligned to the audited 1897 French diplomatic transcription},pdfkeywords={Évariste Galois, English translation, Galois theory, critical edition},colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!55!black}
+\definecolor{GalCriticalBlue}{RGB}{35,74,112}
+\definecolor{GalCriticalBack}{RGB}{241,247,252}
+\newtcolorbox{GalCriticalBox}[1]{enhanced,breakable,colback=GalCriticalBack,colframe=GalCriticalBlue,boxrule=0.6pt,arc=1mm,left=2.5mm,right=2.5mm,top=1.5mm,bottom=1.5mm,title={GPT Critical Note [#1]},fonttitle=\bfseries\small,coltitle=white,before skip=0.8em,after skip=0.8em}
+
+% Translation defaults. Source anchors preserve alignment without historical page breaks.
+% The source marker already identifies the exact PDF/leaf coordinate.  The
+% historical folio is preserved in the TeX call and coverage ledger but is not
+% independently overprinted in the narrow outer margin, where it would collide
+% with the source marker in the dense W09--W10 layouts.
+\providecommand{\GalVisibleFolio}[1]{}
+\providecommand{\GalSourceAnchor}[2]{\hypertarget{source-#1}{}\leavevmode\vadjust{\smash{\hbox to 0pt{\hskip\dimexpr\linewidth-2mm\relax\vbox{\hsize=10mm\raggedright\tiny Source PDF #1\\#2}\hss}}}}
+\providecommand{\GalCriticalMarker}{\textsuperscript{\color{GalCriticalBlue}\ensuremath{\dagger}}}
+\providecommand{\GalCriticalNote}[2]{\hypertarget{critical-#1}{}\begin{GalCriticalBox}{#1}#2\end{GalCriticalBox}}
+\providecommand{\GalExcludedSourcePage}[4]{}
+\providecommand{\GalBlankTopologyPage}[4]{}
+\providecommand{\GalSourcePageBegin}[2]{\GalSourceAnchor{#1}{#2}}
+\providecommand{\GalSourcePageEnd}{\par}
+\providecommand{\GalWitnessNote}[1]{\par\begingroup\footnotesize\itshape\noindent [Witness note: #1]\par\endgroup}
+\providecommand{\GalUnresolvedSourcePage}[4]{#4}
+\providecommand{\GalSourcePageStart}[4]{\GalSourceAnchor{#1}{#2}}
+\providecommand{\GalSourcePageBoundary}[4]{\par\GalSourceAnchor{#1}{#2}\noindent}
+\providecommand{\GalSourcePageBoundaryInWord}[4]{-\par\GalSourceAnchor{#1}{#2}\noindent}
+\providecommand{\GalSourceBlankPage}[4]{\par\smallskip\noindent\textit{[Blank page in the 1897 witness: source PDF #1.]}\par\smallskip}
+\providecommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\providecommand{\GalPrintedOmission}[1]{\GalCriticalMarker}
+\providecommand{\GalSourceError}[2]{#1\GalCriticalMarker}
+\providecommand{\GalWitnessVariant}[2]{#1\textsuperscript{\color{GalCriticalBlue}\ensuremath{\ddagger}}}
+\providecommand{\GalControlReading}[2]{#1}
+\providecommand{\GalControlDefect}[2]{#1}
+\providecommand{\GalSourceErrorMark}[1]{\GalCriticalMarker}
+\providecommand{\GalProofGapMark}[1]{\GalCriticalMarker}
+\providecommand{\GalNotationAnomaly}[2]{#1}
+\providecommand{\GalCopySpecificMarks}[4]{}
+\providecommand{\GalCopySpecificMarkImage}[4]{}
+\providecommand{\GalSourceDerivedOrnament}[1]{\includegraphics{#1}}
+\providecommand{\GalSourceImage}[5]{}
+\providecommand{\GalUnresolvedImageReading}[4]{\includegraphics[width=0.38in]{#4}}
+\providecommand{\GalPrinterSignature}[1]{}
+\providecommand{\GalArticleEndRule}{\par\smallskip\begin{center}\rule{0.18\linewidth}{0.4pt}\end{center}}
+\providecommand{\GalArticleEndOrnament}[1]{\par\smallskip\begin{center}\includegraphics[width=0.23\linewidth]{#1}\end{center}}
+\providecommand{\GalHistoricalFootnote}[2]{\footnote{#2}}
+\providecommand{\GalHistoricalFootnoteText}[2]{\footnotetext{#2}}
+\providecommand{\GalHistoricalFootnoteMark}[1]{\textsuperscript{(#1)}}
+\providecommand{\GalHistoricalFootnoteBody}[1]{\begingroup\hypersetup{hidelinks}\footnote{#1}\endgroup}
+\providecommand{\GalHistoricalFootnoteTextBody}[1]{\begingroup\hypersetup{hidelinks}\footnotetext{#1}\endgroup}
+\providecommand{\GalHistoricalNote}[1]{\par\smallskip{\footnotesize #1\par}}
+\providecommand{\GalOrdinal}[1]{#1\textsuperscript{o}}
+
+\begin{document}
+\pagenumbering{gobble}
+\begin{titlepage}
+\centering
+\vspace*{0.11\textheight}
+{\Huge\bfseries Évariste Galois\par}
+\vspace{1.5em}
+{\LARGE Mathematical Works (1897)\par}
+\vspace{0.7em}
+{\Large Modern English Reader with GPT Critical Notes\par}
+\vfill
+{\large Manuscript Typesetting Project\par}
+\vspace{1em}
+{\small English concept DOI: \href{https://doi.org/10.5281/zenodo.21924301}{10.5281/zenodo.21924301}\par}
+{\small Exact release DOI: \href{https://doi.org/10.5281/zenodo.21924302}{10.5281/zenodo.21924302}\par}
+{\small French original concept DOI: \href{https://doi.org/10.5281/zenodo.21923856}{10.5281/zenodo.21923856}\par}
+\vspace{2em}
+  {\footnotesize Post-P13 web research and mathematical certificates: OpenAI GPT-5.6 Sol, Pro mode.\\Modern-English translation, critical integration, DOI release engineering, and independent QA: OpenAI GPT-5.6 Sol, Ultra mode.\par}
+\end{titlepage}
+\clearpage
+\frontmatter
+\chapter*{Editorial method and scope}
+This reader translates the complete substantive content of the audited French diplomatic transcription of the 1897 Gauthier--Villars edition. The main English text follows the printed historical claim, including claims later shown to be defective. A dagger marks a proved or suspected defect; a nearby boxed \emph{GPT Critical Note} gives its stable identifier, correction or qualification, supporting mathematical evidence, transmission status where known, and current research disposition. No correction is silently substituted into Galois's or the historical editors' text.
+
+Source-page markers map the translation to the frozen French witness. The aligned French transcription, source authority, complete ledgers, build scripts, and validation evidence accompany the release. Model and mechanical evidence can close this publication; no human-review gate is asserted.
+
+\chapter*{Post-P13 critical research closure}
+Before this exact release, OpenAI GPT-5.6 Sol in Pro mode completed the bounded post-P13 critical-research program against the immutable French diplomatic layer. OpenAI GPT-5.6 Sol in Ultra mode then integrated the returned results into this English reader and independently rechecked the release. The twenty-one task dispositions are nine \emph{repaired}, eight \emph{proved}, two \emph{rejected}, and two \emph{unresolved after bounded search}. Here \emph{rejected} means that a historical mathematical premise or proposed repair was disproved; it does not mean that the audit failed. The returned cold audit records 242 of 242 checks passing.
+
+\GalCriticalNote{POST-P13-A001}{\textbf{Status: repaired and closed in the critical layer.} All thirty-six proved source-error records now have a proved repair, a qualified replacement, or a counterexample rejecting the printed claim. No historical French byte and no faithfully translated historical claim was silently changed. The item-level certificates are preserved in \texttt{CRITICAL\_ERRATA\_CATALOGUE.csv}.}
+
+\GalCriticalNote{POST-P13-A002}{\textbf{Status: proved and closed.} A machine-readable dependency graph records forty-six local and cross-work edges and classifies each downstream result as surviving, surviving only under added hypotheses, or blocked. The graph accompanies this release as \texttt{DEPENDENCY\_PROPAGATION\_EDGES.csv}.}
+
+\GalCriticalNote{POST-P13-A003}{\textbf{Status: proved to the 2026-08-13 search cutoff.} The prior-notice matrix covers all thirty-six errors and fifteen witness or editorial variants. It distinguishes an earlier correct witness, explicit collation or erratum, later silent normalization, inaccessible candidate errata material, and a bounded negative search. In particular, the accessible record proves that the 1976 Bourgne--Azra printing added an errata list, but the item-level list was unavailable; this edition therefore makes no unsupported attribution to it. See \texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv} and \texttt{WEB\_SOURCE\_EVIDENCE.csv}.}
+
+Five records remain openly unresolved: three inherited image readings in the 1897 preliminary matter (\texttt{W01-U001}, \texttt{W01-U002}, and \texttt{W01-U003}); the materially different manuscript double-prime formula at \texttt{W08-WV001}; and the fused printer job number at \texttt{W11-U001}. No reading is supplied where the evidence does not support one. Exact missing evidence is recorded in \texttt{OPEN\_AFTER\_21\_TASKS.csv}.
+
+\chapter*{Reader contents}
+\pdfbookmark[0]{Reader contents}{reader-contents}
+\begin{itemize}
+  \item \hyperlink{source-007}{1897 title pages, imprint, portraits, and publication matter}
+  \item \hyperlink{source-024}{Émile Picard, Introduction}
+  \item \hyperlink{source-030}{Demonstration of a Theorem on Periodic Continued Fractions}
+  \item \hyperlink{source-038}{Notes on Some Points in Analysis}
+  \item \hyperlink{source-040}{Analysis of a Memoir on the Algebraic Solution of Equations}
+  \item \hyperlink{source-042}{Note on the Solution of Numerical Equations}
+  \item \hyperlink{source-044}{On the Theory of Numbers}
+  \item \hyperlink{source-054}{Letter to Auguste Chevalier}
+  \item \hyperlink{source-062}{Memoir on the Conditions for Solvability of Equations by Radicals}
+  \item \hyperlink{source-080}{Primitive Equations Solvable by Radicals (Fragment)}
+  \item \hyperlink{source-092}{Historical contents, colophon, and trailing leaves}
+\end{itemize}
+\mainmatter
+\pdfbookmark[1]{1897 publication matter}{work-W01}
+\input{tex/wrappers/W01.tex}
+\pdfbookmark[1]{Picard: Introduction}{work-W02}
+\input{tex/wrappers/W02.tex}
+\pdfbookmark[1]{Periodic continued fractions}{work-W03}
+\input{tex/wrappers/W03.tex}
+\pdfbookmark[1]{Notes on analysis}{work-W04}
+\input{tex/wrappers/W04.tex}
+\pdfbookmark[1]{Algebraic solution of equations}{work-W05}
+\input{tex/wrappers/W05.tex}
+\pdfbookmark[1]{Numerical equations}{work-W06}
+\input{tex/wrappers/W06.tex}
+\pdfbookmark[1]{Theory of numbers}{work-W07}
+\input{tex/wrappers/W07.tex}
+\pdfbookmark[1]{Letter to Auguste Chevalier}{work-W08}
+\input{tex/wrappers/W08.tex}
+\pdfbookmark[1]{Solvability by radicals}{work-W09}
+\input{tex/wrappers/W09.tex}
+\pdfbookmark[1]{Primitive equations}{work-W10}
+\input{tex/wrappers/W10.tex}
+\pdfbookmark[1]{Historical contents and colophon}{work-W11}
+\input{tex/wrappers/W11.tex}
+\end{document}

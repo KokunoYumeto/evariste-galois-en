@@ -1,0 +1,442 @@
+% GAL1897 W03 -- Évariste Galois, Proof of a Theorem on Periodic
+% Continued Fractions.
+% Assigned source: physical PDF pages 030--037 / JP2 leaves L0029--L0036,
+% printed pages 1--8. UTF-8 LaTeX fragment.
+% Primary authority: bounded 600-ppi JP2 leaves, navigated against the
+% canonical 96-page PDF. Printed errors are preserved by \GalPrintedError.
+% See PAGE_DISPOSITIONS.csv, PRINTED_ERRORS.csv, and EVIDENCE_MANIFEST.csv.
+
+\providecommand{\GalSourcePageStart}[4]{}%
+\providecommand{\GalSourcePageBoundary}[4]{\space}%
+\providecommand{\GalSourcePageBoundaryInWord}[4]{}%
+\providecommand{\GalPrintedError}[2]{#1}%
+\providecommand{\GalCopySpecificMarkImage}[4]{}%
+\providecommand{\GalPrinterSignature}[1]{}%
+\providecommand{\GalArticleEndRule}{\par\smallskip\begin{center}\rule{0.18\linewidth}{0.4pt}\end{center}}%
+\providecommand{\GalHistoricalFootnote}[1]{\footnote{#1}}%
+
+% Namespaced staircase-fraction machinery. It reproduces the left-to-right
+% descending typography of the 1897 displays without rasterizing mathematics.
+\makeatletter
+\@ifundefined{GalStrut}{\newcommand{\GalStrut}[1][16pt]{\rule{0pt}{#1}}}{}%
+\@ifundefined{GalCfrac}{\def\GalCfrac{\global\@tempdimb\z@\cfrac}}{}%
+\@ifundefined{GalHlap}{\def\GalHlap#1{{\setbox\@tempboxa\hbox{#1}%
+  \@tempdima=\wd\@tempboxa\global\advance\@tempdimb.45\@tempdima
+  \hbox to.55\@tempdima{\unhbox\@tempboxa\hss}}}}{}%
+\@ifundefined{GalCfracCorrect}{\def\GalCfracCorrect{\kern\@tempdimb\relax}}{}%
+\makeatother
+
+\GalSourcePageStart{030}{L0029}{1}{1}
+
+% ENSEG:W03:PDF030:0001
+\begin{center}
+{\Large\bfseries MATHEMATICAL\par}
+\vspace{0.8em}
+{\small\bfseries WORKS\par}
+\vspace{0.8em}
+{\LARGE\bfseries OF ÉVARISTE GALOIS.\par}
+\vspace{1.5em}
+\rule{0.70\linewidth}{0.4pt}\par
+\vspace{1.6em}
+{\large\bfseries I. — ARTICLES PUBLISHED BY GALOIS.\par}
+\vspace{1.6em}
+{\bfseries PROOF\par}
+\vspace{0.45em}
+{\scriptsize\bfseries OF A\par}
+\vspace{0.45em}
+{\bfseries THEOREM ON PERIODIC CONTINUED FRACTIONS\textsuperscript{(1)}.\par}
+\GalCopySpecificMarkImage{030}{L0029}{copy-specific non-letterpress mark beside article title}{figures/PDF030_L0029_TITLE_MARK_ENHANCED.png}%
+\vspace{0.7em}
+\rule{0.12\linewidth}{0.4pt}
+\end{center}
+
+% ENSEG:W03:PDF030:0002
+\GalHistoricalFootnote{Volume XIX of M. Gergonne's \emph{Annales de Mathématiques},
+page 294 (1828--1829). Galois was then a pupil at the Collège Louis-le-Grand.
+\textsc{(J. Liouville.)}}
+\GalPrinterSignature{E. G.}
+
+% ENSEG:W03:PDF030:0003
+It is known that if, by Lagrange's method, one expands one root of a quadratic
+equation as a continued fraction, that continued fraction will be periodic.
+The same is true of one root of an equation of arbitrary degree if that root
+is a root of a rational quadratic factor of the left-hand side of the given
+equation; in that case the equation will have at least one other root that is
+also periodic. In either case the continued fraction may be immediately
+periodic or not imme%
+\GalSourcePageBoundaryInWord{031}{L0030}{2}{2}%
+diately periodic; but in the latter case there will at least be one transformed
+equation having a root that is immediately periodic.
+
+% ENSEG:W03:PDF031:0004
+Now, when an equation has two periodic roots belonging to the same rational
+quadratic factor, and one of them is immediately periodic, there is a rather
+singular relation between these two roots which appears not to have been
+noticed before and which may be expressed by the following theorem.
+
+\medskip
+% ENSEG:W03:PDF031:0005
+\noindent\textsc{Theorem.} — \emph{If one root of an equation of arbitrary
+degree is an immediately periodic continued fraction, the equation must have
+another root, likewise periodic, obtained by dividing negative unity by the
+same periodic continued fraction written in reverse order.}
+\medskip
+
+% ENSEG:W03:PDF031:0006
+\noindent\emph{Proof.} — To fix ideas, let us take periods of only four terms,
+for the uniform course of the calculation shows that the same would hold if
+we admitted a larger number. Let one root of an equation of arbitrary degree
+be expressed as follows:
+\[
+x = a + \GalCfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{\GalStrut
+      \,d + \raisebox{-2ex}{$\ddots$\rlap{\,;}} }$}}\;$}}\;$}}\;$}}\;$}}\;$}}\GalCfracCorrect
+\]
+the quadratic equation to which this root belongs, and which consequently
+contains its conjugate, will be
+\[
+x = a + \GalCfrac{1}{
+  \,b + \GalHlap{$\cfrac{1}{
+  \,c + \GalHlap{$\cfrac{1}{
+  \,d + \GalHlap{$\cfrac{1}{\quad x \quad } \;\rlap{;}$}}\;$}}\;$}}\GalCfracCorrect
+\]
+\GalSourcePageBoundary{032}{L0031}{3}{3}%
+and from this we successively obtain
+\begin{align*}
+&a - x = - \GalCfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{\quad x \quad } \;\rlap{,}$}}\;$}}\;$}}\GalCfracCorrect \qquad
+&&\frac{1}{a-x} =
+      - b + \GalCfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{\quad x \quad } \;\rlap{,}$}}\;$}}\GalCfracCorrect
+\\[\baselineskip]
+& b + \frac{1}{a-x} =
+          - \GalCfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{\quad x \quad } \;\rlap{,}$}}\;$}}\GalCfracCorrect
+&&\GalCfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a - x \, }\;$}}\GalCfracCorrect
+=     - c + \GalCfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{\quad x \quad } \;\rlap{,}$}}\GalCfracCorrect
+\\[\baselineskip]
+&c + \GalCfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a - x \, }\;$}}\GalCfracCorrect
+=         - \GalCfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{\quad x \quad } \;\rlap{,}$}}\GalCfracCorrect
+&&\GalCfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a - x \, }\;$}}\;$}}\GalCfracCorrect
+=     -d + \frac{1}{x} \, ,
+\\[\baselineskip]
+&       d + \GalCfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a - x \, }$}}\;$}}\GalCfracCorrect
+=         - \frac{1}{x} \,;
+&&\GalCfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a - x \, }$}}\;$}}\;$}}\GalCfracCorrect
+=     -x\, ,
+\end{align*}
+that is,
+\[
+  x =     - \GalCfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a - x\, } \;\rlap{;}$}}\;$}}$}}\GalCfracCorrect
+\]
+this is therefore the quadratic equation that gives the two roots in question.
+But by repeatedly substituting for $x$ on its right-hand side that same
+right-hand side, which is indeed its value, it gives
+\[
+  x =     - \GalCfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \raisebox{-2ex}{$\ddots$\rlap{\,;}} }\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+this is therefore the other value of $x$ given by the equation; as one sees,
+it equals $-1$ divided by the first value written in reverse order.
+
+\GalSourcePageBoundary{033}{L0032}{4}{4}%
+% ENSEG:W03:PDF033:0007
+In the preceding argument we supposed that the given root was greater than
+unity; but if we had
+\[
+  x =       \GalCfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \raisebox{-2ex}{$\ddots$\rlap{\,;}} }$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+we would conclude, for one value of $\dfrac{1}{x}$,
+\[
+  \frac{1}{x} =   a + \GalCfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,d + \raisebox{-2ex}{$\ddots$\rlap{\,;}} }$}}\;$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+the other value of $\dfrac{1}{x}$ would therefore, by the preceding argument, be
+\[
+  \frac{1}{x} =   - \GalCfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \raisebox{-2ex}{$\ddots$\rlap{\,,}} }$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+whence, for the other value of $x$, we would obtain
+\[
+  x = - d + \GalCfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \raisebox{-2ex}{$\ddots$} }$}}\;$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+\GalSourcePageBoundary{034}{L0033}{5}{5}%
+or
+\[
+  x = - 1 : \GalCfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \GalHlap{$\cfrac{1}{
+      \,d + \GalHlap{$\cfrac{1}{
+      \,c + \GalHlap{$\cfrac{1}{
+      \,b + \GalHlap{$\cfrac{1}{
+      \,a + \raisebox{-2ex}{$\ddots$\rlap{\,;}}}$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+which falls exactly under our theorem.
+
+% ENSEG:W03:PDF034:0008
+Let $A$ be any immediately periodic continued fraction, and let $B$ be the
+continued fraction obtained by reversing its period. If one root of an equation
+is $x=A$, it must have another root $x=-\dfrac{1}{B}$. Now, if $A$ is positive
+and greater than unity, $-\dfrac{1}{B}$ will be negative and lie between $0$
+and $-1$; conversely, if $A$ is negative and lies between $0$ and $-1$,
+$-\dfrac{1}{B}$ will be positive and greater than unity. Thus, when one root
+of a quadratic equation is an immediately periodic continued fraction greater
+than unity, the other must lie between $0$ and $-1$; conversely, if one lies
+between $0$ and $-1$, the other must be positive and greater than unity.
+
+% ENSEG:W03:PDF034:0009
+Conversely, one can prove that if one of the two roots of a quadratic equation
+is positive and greater than unity while the other lies between $0$ and $-1$,
+then those roots can be expressed as immediately periodic continued fractions.
+Indeed, continue to let $A$ be any positive immediately periodic continued
+fraction greater than unity, and let $B$ be the immediately periodic continued
+fraction obtained by reversing its period; like $A$, it too will be positive
+and greater than unity. The first root of the given equation cannot have the form
+\[
+  x = p + \frac{1}{A},
+\]
+\GalSourcePageBoundary{035}{L0034}{6}{6}%
+for then, by our theorem, the second would have to be
+\[
+  x = \GalPrintedError{a}{W03-PE001} + \frac{1}{-\dfrac{1}{B}}
+    = \GalPrintedError{a}{W03-PE001} - B ;
+\]
+now $\GalPrintedError{a}{W03-PE001}-B$ could not lie between $0$ and
+$\GalPrintedError{1}{W03-PE002}$ unless the integer part of $B$ were equal to
+$p$, in which case the first value would be immediately periodic. Nor could
+the first value of $x$ be $x=p+\dfrac{1}{q+\dfrac{1}{A}}$, for then the other
+would be
+\[
+  x = p + \frac{1}{q - B} \qquad \text{or} \qquad
+  x = p - \frac{1}{B - q};
+\]
+now, for this value to lie between $0$ and $-1$, it would first be necessary
+that $\dfrac{1}{B-q}$ equal $p$ plus a fraction. Hence $B-q$ would have to be
+less than unity, requiring $B$ to equal $q$ plus a fraction. Thus $q$ and $p$
+would have to equal, respectively, the first two terms of the period belonging
+to $B$, or the last two terms of the period belonging to $A$. Contrary to the
+hypothesis, the value $x=p+\dfrac{1}{q+\dfrac{1}{A}}$ would therefore be
+immediately periodic. An analogous argument would prove that the periods
+cannot be preceded by a larger number of terms not belonging to them.
+
+\GalCriticalNote{W03-PE001}{\textbf{Status: proved printed-letter error.}
+Conjugating $x=p+1/A$ gives $p+1/(-1/B)=p-B$; the two printed occurrences
+of $a$ are inconsistent with the established variable $p$. Source:
+PDF035/L0034. Downstream effect: the conjugation and interval argument must use
+$p-B$. The bounded post-P13 search found no explicit prior notice securely
+dated in the searched corpus. Evidence: \texttt{W03-PE001} in
+\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
+\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalCriticalNote{W03-PE002}{\textbf{Status: proved sign error.} If $B=p+r$
+with $0<r<1$, then $p-B=-r$, so $-1<p-B<0$. The printed interval “between
+$0$ and $1$” has the wrong sign; it should be between $0$ and $-1$.
+Source: PDF035/L0034. Downstream effect: the subsequent converse argument
+already requires the corrected interval $-1<p-B<0$. The bounded post-P13
+search found no explicit prior notice securely dated in the searched corpus. Evidence:
+\texttt{W03-PE002} in
+\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
+\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+
+% ENSEG:W03:PDF035:0010
+Thus, when treating a numerical equation by Lagrange's method, we may be sure
+that no periodic roots are to be expected until we encounter a transformed
+equation having at least one positive root greater than unity and another
+lying between $0$ and $-1$. If the root being pursued is indeed periodic,
+its period will begin no later than at this transformed equation.
+
+% ENSEG:W03:PDF035:0011
+If one root of a quadratic equation is not only immediately periodic but also
+symmetric---that is, if terms equally distant from the ends of the period are
+equal---then $B=A$; consequently the two roots
+\GalSourcePageBoundary{036}{L0035}{7}{7}%
+will be $A$ and $-\dfrac{1}{A}$, and the equation will therefore be
+\[
+Ax^{2} - (A^{2}-1)x - A = 0.
+\]
+Conversely, every quadratic equation of the form
+\[
+ax^{2} - bx - a = 0
+\]
+has roots that are both immediately periodic and symmetric. Indeed, substituting
+in turn infinity and $-1$ for $x$ gives positive results, whereas substituting
+$x=1$ and $x=0$ gives negative results. We first see that the equation has one
+positive root greater than unity and one negative root between $0$ and $-1$,
+and hence that these roots are immediately periodic. Moreover, the equation
+does not change when $x$ is replaced by $-\dfrac{1}{x}$. Thus, if $A$ is one
+of its roots, the other is $-\dfrac{1}{A}$, so in this case $B=A$.
+
+% ENSEG:W03:PDF036:0012
+Let us apply these general results to the quadratic equation
+\[
+3x^{2} - 16x + 18 = 0;
+\]
+we first find that it has a positive root between $3$ and $4$. Setting
+\[
+x = 3 + \frac{1}{y},
+\]
+we obtain the transformed equation
+\[
+3y^{2} - 2y - 3 = 0,
+\]
+whose form tells us that the values of $y$ are both immediately periodic and
+symmetric. Indeed, setting successively
+\[
+y = 1 + \frac{1}{z}, \qquad
+z = 2 + \frac{1}{t}, \qquad
+t = 1 + \frac{1}{u},
+\]
+we obtain the transformed equations
+\[
+2z^{2} - 4z - 3 = 0, \qquad
+3t^{2} - 4t - 2 = 0, \qquad
+3u^{2} - 2u - 3 = 0.
+\]
+The identity of the equations in $u$ and $y$ proves that the positive value
+\GalSourcePageBoundary{037}{L0036}{8}{8}%
+of $y$ is
+\[
+  y =   1 + \GalCfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \raisebox{-2ex}{$\ddots$\rlap{\,;}} }$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+its negative value will therefore be
+\[
+  y =     - \GalCfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \raisebox{-2ex}{$\ddots$\rlap{\,;}} }$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+the two values of $x$ will therefore be
+\[
+\begin{aligned}
+  x &= 3 + \GalCfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \raisebox{-2ex}{$\ddots$\rlap{\,,}} }$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\qquad
+  x &= \GalPrintedError{3 - \GalCfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \raisebox{-2ex}{$\ddots$\rlap{\,,}} }$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect}{W03-PE003}
+\end{aligned}
+\]
+the latter of which, by the familiar formula
+\[
+  p - \frac{1}{q}
+= p - 1 + \GalCfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{q-1}\, ,$}}
+\GalCfracCorrect
+\]
+becomes
+\[
+  x =   1 + \GalCfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,1 + \GalHlap{$\cfrac{1}{
+      \,2 + \GalHlap{$\cfrac{1}{
+      \,1 + \raisebox{-2ex}{$\ddots$\rlap{\ .}} }$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}
+\GalCfracCorrect
+\]
+\GalCriticalNote{W03-PE003}{\textbf{Status: proved formula error.} The second
+root is $3-A$, not the printed staircase expression $3-1/A$. Direct
+substitution gives zero residual for $3-A$, whereas the printed value is not
+a root of $3x^{2}-16x+18=0$. Source: PDF037/L0036. Downstream effect: the
+terminal continued fraction is consistent with the repaired root $3-A$; the
+printed intermediate display is not. The bounded post-P13 search found no
+explicit prior notice securely dated in the searched corpus. Evidence:
+\texttt{W03-PE003} in
+\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
+\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalArticleEndRule

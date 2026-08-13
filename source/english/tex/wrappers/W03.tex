@@ -1,0 +1,17 @@
+% W03 wrapper: continued fractions.
+\clearpage
+\newgeometry{inner=20mm,outer=26mm,top=15mm,bottom=17mm,marginparwidth=18mm,marginparsep=3mm}
+\begingroup
+\fontsize{9.25}{11.0}\selectfont
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}}
+\renewcommand{\GalSourcePageBoundary}[4]{\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalSourcePageBoundaryInWord}[4]{-\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalHistoricalFootnote}[1]{\footnotetext[1]{#1}}
+\renewcommand{\GalPrinterSignature}[1]{\begingroup\renewcommand{\thefootnote}{}\footnotetext{\centering\textsc{#1}}\endgroup}
+\renewcommand{\GalCopySpecificMarkImage}[4]{\marginpar{\centering\includegraphics[width=0.82\marginparwidth]{#4}}}
+\renewcommand{\GalArticleEndRule}{\par\vspace{0.8em}\begin{center}\rule{0.18\linewidth}{0.5pt}\end{center}}
+\input{tex/works/GAL1897_W03_CONTINUED_FRACTIONS.tex}
+\par\clearpage
+\endgroup
+\restoregeometry

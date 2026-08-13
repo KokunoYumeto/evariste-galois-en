@@ -1,0 +1,211 @@
+{
+  "$schema": "../qa/galois_english_pdf_visual_inspection.schema.json",
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths and private task identifier replaced; private schema-valid source retained unchanged.",
+    "source_bytes": 5014,
+    "source_name": "READER_VISUAL_INSPECTION_POST_P13.json",
+    "source_sha256": "6386639B1DD6C32DAA827702CB1AAEF2F40D2098DCA4A2332074A9672F0D8B7B"
+  },
+  "attestation": "I visually inspected every page of the exact 85-page PDF identified above through ten original-detail contact sheets and inspected representative dense critical-note pages at full resolution. This record is based on actual rendered-page viewing, not merely pixel metrics. No release-blocking visual defect was found.",
+  "coverage": {
+    "contact_sheets_reviewed": [
+      "contact_001_009.png",
+      "contact_010_018.png",
+      "contact_019_027.png",
+      "contact_028_036.png",
+      "contact_037_045.png",
+      "contact_046_054.png",
+      "contact_055_063.png",
+      "contact_064_072.png",
+      "contact_073_081.png",
+      "contact_082_085.png"
+    ],
+    "full_resolution_pages_reviewed": [
+      3,
+      29,
+      71,
+      73,
+      82
+    ],
+    "reviewed_pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85
+    ]
+  },
+  "criteria": [
+    {
+      "id": "clipping-and-cropped-content",
+      "notes": "All 85 rendered pages were viewed on original-detail contact sheets; representative dense pages were also viewed full resolution. No text, mathematics, images, notes, or source markers are clipped.",
+      "status": "PASS"
+    },
+    {
+      "id": "overlap-and-collisions",
+      "notes": "No overlapping body text, displays, footnotes, source anchors, page numbers, images, or critical-note boxes were observed.",
+      "status": "PASS"
+    },
+    {
+      "id": "broken-or-missing-glyphs",
+      "notes": "Accented names, mathematical symbols, continued fractions, subscripts, superscripts, and monospaced evidence identifiers render legibly without missing-glyph boxes.",
+      "status": "PASS"
+    },
+    {
+      "id": "mathematical-legibility",
+      "notes": "Displayed mathematics and dense formula sequences remain readable, including the continued-fraction staircase and W09-W10 group-theoretic formulas.",
+      "status": "PASS"
+    },
+    {
+      "id": "image-rule-and-seam-defects",
+      "notes": "Portraits, ornaments, printer mark, section rules, component seams, and critical-box continuations render consistently; no unintended seam or raster defect was observed.",
+      "status": "PASS"
+    },
+    {
+      "id": "unexpected-blank-or-black-pages",
+      "notes": "Pages 42, 80, 83, 84, and 85 are the five declared blank-topology pages. No other blank page and no black or dark-surprise page was observed.",
+      "status": "PASS"
+    },
+    {
+      "id": "typography-spacing-and-hierarchy",
+      "notes": "The historical translation remains visually primary. Concise blue GPT Critical Note boxes are adjacent to relevant passages, visually distinct, consistently styled, and do not obscure the reading order.",
+      "status": "PASS"
+    },
+    {
+      "id": "headers-footers-and-page-numbering",
+      "notes": "Source-coordinate labels, front-matter roman numerals, historical page numbers, and terminal topology are consistent and unobstructed.",
+      "status": "PASS"
+    }
+  ],
+  "inspection_kind": "actual-rendered-page-model-visual-inspection",
+  "inspection_status": "COMPLETE",
+  "overall_result": "PASS",
+  "page_count": 85,
+  "page_findings": [
+    {
+      "observations": [
+        "Post-P13 closure page fits cleanly; three overview notes are readable and visually subordinate to the explanatory heading."
+      ],
+      "page": 3,
+      "status": "PASS"
+    },
+    {
+      "observations": [
+        "The W05 degree-16 counterexample note is adjacent to the affected claim, fully readable, and leaves the historical translation visually primary."
+      ],
+      "page": 29,
+      "status": "PASS"
+    },
+    {
+      "observations": [
+        "Four stacked W10 proof, typographical, and witness notes remain legible with clean borders and adequate separation."
+      ],
+      "page": 71,
+      "status": "PASS"
+    },
+    {
+      "observations": [
+        "The dense W10 coordinate-repair sequence retains readable mathematics and stable note hierarchy without clipping or collisions."
+      ],
+      "page": 73,
+      "status": "PASS"
+    },
+    {
+      "observations": [
+        "The unresolved printer-number note and terminal-topology note are readable; the tiny source image remains visible and is not silently interpreted."
+      ],
+      "page": 82,
+      "status": "PASS"
+    }
+  ],
+  "pdf": "reader/00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
+  "pdf_sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3",
+  "render_report": "evidence/READER_MECHANICAL_RENDER_QA_POST_P13.json",
+  "render_report_sha256": "339CC55060078E35A80B22B8DE89C7265E7117D75F841709FC2EC530B50DA5BF",
+  "reviewer": {
+    "completed_at_utc": "2026-08-13T22:27:12Z",
+    "model_id": "OpenAI GPT-5.6 Sol Ultra",
+    "session_or_task_id": "private-task-id-omitted"
+  },
+  "schema_version": 1
+}

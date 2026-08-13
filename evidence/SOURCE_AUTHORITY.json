@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "family_mode": "fixed_english_translation_of_fixed_work_with_maintainable_critical_apparatus",
+  "declared_object_scope": "Complete modern-English translation of the substantive contents of the 1897 Gauthier-Villars Oeuvres mathematiques, physical source-PDF pages 001-096 / leaves L0000-L0095, with figures and blank-page topology accounted for and with visibly separate GPT critical notes",
+  "language": {
+    "name": "English",
+    "bcp47": "en",
+    "iso639_3": "eng"
+  },
+  "publication_identity": {
+    "english_concept_doi": "10.5281/zenodo.21924301",
+    "english_exact_version_doi": "10.5281/zenodo.21924302",
+    "version": "2026-08-14 en-r1",
+    "resource_type_general": "Book"
+  },
+  "source_language_publication": {
+    "title": "Evariste Galois — Oeuvres mathematiques (1897): transcription diplomatique et supplement critique GPT",
+    "language": "fr",
+    "concept_doi": "10.5281/zenodo.21923856",
+    "exact_version_doi": "10.5281/zenodo.21923857",
+    "english_relation_to_source": "IsTranslationOf",
+    "source_relation_to_english": "HasTranslation",
+    "zenodo_fallback_from_english": "isDerivedFrom",
+    "zenodo_fallback_from_source": "isSourceOf"
+  },
+  "original_source": {
+    "title": "Oeuvres mathematiques d'Evariste Galois",
+    "edition": "Paris: Gauthier-Villars et fils, 1897; published under the auspices of the Societe mathematique de France, with an Introduction by Emile Picard",
+    "durable_identifier": "https://archive.org/details/uvresmathmatiqu00frangoog",
+    "catalogue_identifiers": {
+      "internet_archive": "uvresmathmatiqu00frangoog",
+      "open_library": "OL6975080M",
+      "lccn": "06034399",
+      "oclc": "823403"
+    }
+  },
+  "frozen_source_artifacts": [
+    {
+      "identifier": "10.5281/zenodo.21923857",
+      "file": "00_GALOIS_1897_FR_CURRENT_LINKED_READER.pdf",
+      "bytes": 3859917,
+      "sha256": "F62D37396E04C2FC04680125E8600206FD82FA82ACE9689FF439BF30E786895A",
+      "role": "published and independently verified French source-language reader"
+    },
+    {
+      "path": "source/french_diplomatic/GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf",
+      "bytes": 3510046,
+      "sha256": "8E6071A2E4A0D38CC89232553CE0CC0314C7EF4BD0A084240C41D60B0AEBBFC5",
+      "role": "audited 78-page French diplomatic PDF used as the line-and-page translation authority"
+    },
+    {
+      "file": "galois_1897_oeuvres_ia_600ppi_jp2.zip",
+      "bytes": 64578674,
+      "sha256": "00F76B2C04AF1846938E74410FA2A8B5B5AFD124E9AF96851BB3C253B00BF67A",
+      "role": "primary image authority for the 1897 printed edition; retained in private/source custody rather than represented as project-owned material"
+    },
+    {
+      "file": "galois_manuscripts_umich_600ppi_tif.zip",
+      "bytes": 3548479,
+      "sha256": "989F929E24C192173AA60001599B7600817EBB79696167CAAAE8AC795246B96B",
+      "role": "supplementary manuscript witness packet; not a complete manuscript corpus"
+    }
+  ],
+  "translation_authority": {
+    "frozen_french_tree": "source/french_diplomatic",
+    "english_tree": "source/english",
+    "component_coverage_ledger": "evidence/ENGLISH_COVERAGE.tsv",
+    "segment_alignment_ledger": "evidence/EN_FR_ALIGNMENT.tsv",
+    "critical_baseline": "source/critical_baseline",
+    "post_p13_final_evidence": "evidence/web_post_p13_return",
+    "coverage_and_topology": "W01-W11 own source PDF001-PDF096 exactly once; English substantive segments retain permanent ENSEG identifiers and source-PDF coordinates"
+  },
+  "authority_hierarchy": [
+    "600-ppi primary image masters for the 1897 witness",
+    "audited French diplomatic TeX and P13R render",
+    "published French exact release 10.5281/zenodo.21923857",
+    "critical baseline ledgers with stable identifiers",
+    "derivative PDFs as locators only",
+    "OCR as prose locator only"
+  ],
+  "rights_layers": [
+    {
+      "layer": "1897 historical work",
+      "status": "public domain"
+    },
+    {
+      "layer": "modern English translation, GPT critical apparatus, typesetting, metadata, scripts, and project evidence",
+      "status": "CC0-1.0 to the extent the Manuscript Typesetting Project owns the relevant rights"
+    },
+    {
+      "layer": "third-party scans, catalogue metadata, and witness artifacts",
+      "status": "not relicensed; retain source-specific rights and provenance"
+    }
+  ],
+  "excluded_or_unclaimed_scope": [
+    "The French GPT critical supplement is evidence and source apparatus, not historical source prose silently fused into the English main text",
+    "No claim that the University of Michigan witness packet is a complete manuscript corpus",
+    "No claim that the five records retained in OPEN_AFTER_21_TASKS.csv have been resolved",
+    "No claim that the absent 313572719-byte post-P13 cumulative ZIP or its 180 internal manifest records were independently replayed from the individual-download custody set",
+    "No claim of human translation or human-review certification"
+  ]
+}

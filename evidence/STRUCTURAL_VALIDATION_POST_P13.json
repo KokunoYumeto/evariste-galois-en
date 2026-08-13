@@ -1,0 +1,428 @@
+{
+  "schema_version": 1,
+  "root": ".",
+  "components": [
+    {
+      "component": "W01",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W01_PRELIMS.tex",
+      "english": "source/english/tex/works/GAL1897_W01_PRELIMS.tex",
+      "french_sha256": "E719D00E1C9CDC3FAFA74DC43AC00A5A1B1E559A12CE1EE5D96752E4CA4BB22F",
+      "english_sha256": "1F7C8F54BFE5CFEDD41E58C07EAF14CF8ECF1DBDC11EB7A6FC1E46FEEC87581C",
+      "page_macro_calls": 29,
+      "issue_macro_calls_french": 0,
+      "issue_macro_calls_english": 0,
+      "issue_call_delta_sha256": "9E7E058F4342E345F0C2E08B42CA710936A56C454A9138C2D6413BBAC889CAAF",
+      "math_fragments_french": 0,
+      "math_fragments_english": 0,
+      "environment_events": 10,
+      "enseg_markers": 5
+    },
+    {
+      "component": "W02",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W02_INTRODUCTION.tex",
+      "english": "source/english/tex/works/GAL1897_W02_INTRODUCTION.tex",
+      "french_sha256": "95853AB6EF7C64C02777CF3DF60E5D841D6A5EC69ED39873CB630626C53FC4E6",
+      "english_sha256": "7DB157715A94F350120FF212FF629302D23C0121D94540552D810C4FB038BF78",
+      "page_macro_calls": 8,
+      "issue_macro_calls_french": 1,
+      "issue_macro_calls_english": 1,
+      "issue_call_delta_sha256": "CE067E888E3B0EF8C46D2F915D133260A1127FAD3F3ED5FD4BE577B420AD3E9C",
+      "math_fragments_french": 2,
+      "math_fragments_english": 2,
+      "environment_events": 6,
+      "enseg_markers": 8
+    },
+    {
+      "component": "W03",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W03_CONTINUED_FRACTIONS.tex",
+      "english": "source/english/tex/works/GAL1897_W03_CONTINUED_FRACTIONS.tex",
+      "french_sha256": "AE469E4BA259B1CEF5B4A0EA73D363BF38E495C0F8A43618E8501A7B249189A2",
+      "english_sha256": "7C35A27FE5D94C371155B310ECD0B4B0F1C22A3C9A11083AFEBB3C372E1FFC02",
+      "page_macro_calls": 9,
+      "issue_macro_calls_french": 5,
+      "issue_macro_calls_english": 5,
+      "issue_call_delta_sha256": "1F537D564CB58AF5573C5A4EF9E5ADCDE306D72A860682240270D184F0F4F63B",
+      "math_fragments_french": 93,
+      "math_fragments_english": 94,
+      "environment_events": 8,
+      "enseg_markers": 12
+    },
+    {
+      "component": "W04",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W04_NOTES_ANALYSIS.tex",
+      "english": "source/english/tex/works/GAL1897_W04_NOTES_ANALYSIS.tex",
+      "french_sha256": "675D42DFF753BA21C0A494DA6B1EB2675C2848867CEBC1764CABF963117B5F02",
+      "english_sha256": "182395A9920DE2CE17D51EEF1E548F544BAC04010CB3676B371DD2325A4DBC4E",
+      "page_macro_calls": 2,
+      "issue_macro_calls_french": 1,
+      "issue_macro_calls_english": 4,
+      "issue_call_delta_sha256": "845E3CD2DB2001BCEA9246D7557CD8418A223BDA539A9D1A551A9BE838F2231F",
+      "math_fragments_french": 37,
+      "math_fragments_english": 37,
+      "environment_events": 12,
+      "enseg_markers": 7
+    },
+    {
+      "component": "W05",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+      "english": "source/english/tex/works/GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+      "french_sha256": "BE4F3B03FC0515F00878AFB50B6BF53E84FB3E5F263EB2E76EB685E53F0FA022",
+      "english_sha256": "45ADA430E5BFDEB50FF7938D5EA64E51D04949CEF078C96ECBFC0C0CDF5FD878",
+      "page_macro_calls": 2,
+      "issue_macro_calls_french": 2,
+      "issue_macro_calls_english": 2,
+      "issue_call_delta_sha256": "3E49AE23E028D6DA4B55E065AECC414CB0577D0CBAFAFAB3B6B3BF43770C9FB7",
+      "math_fragments_french": 34,
+      "math_fragments_english": 35,
+      "environment_events": 4,
+      "enseg_markers": 21
+    },
+    {
+      "component": "W06",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+      "english": "source/english/tex/works/GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+      "french_sha256": "AF88BA49AFC669C198D6D3CD3E1D2D343D034EF5F189361969B85CC8FF1E4971",
+      "english_sha256": "8616D03A46DE4FBF73C38977FB906466ABD348FAB7A8A90CAD8FF03B3FC0E13F",
+      "page_macro_calls": 2,
+      "issue_macro_calls_french": 3,
+      "issue_macro_calls_english": 3,
+      "issue_call_delta_sha256": "13C57D59A67CCE7E885DDCCCE1EF49B13F4910E4C89A3C58212CB3E6DBBEDA7D",
+      "math_fragments_french": 47,
+      "math_fragments_english": 46,
+      "environment_events": 4,
+      "enseg_markers": 27
+    },
+    {
+      "component": "W07",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W07_NUMBER_THEORY.tex",
+      "english": "source/english/tex/works/GAL1897_W07_NUMBER_THEORY.tex",
+      "french_sha256": "0FC38288E6A0762F113FB9D77C8183D59A25EC7F52104D31DABA594D2B780B80",
+      "english_sha256": "FB64F760A5AC20044FE8F5E7B25CAD4FAC61A44392F8A4EB0AB0666E54B95E0E",
+      "page_macro_calls": 11,
+      "issue_macro_calls_french": 6,
+      "issue_macro_calls_english": 6,
+      "issue_call_delta_sha256": "8AC288FE3BF1803547B99FC8FB2644C2EED3016D130888AB572D0DB4F01D5FD8",
+      "math_fragments_french": 186,
+      "math_fragments_english": 184,
+      "environment_events": 4,
+      "enseg_markers": 125
+    },
+    {
+      "component": "W08",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W08_CHEVALIER_LETTER.tex",
+      "english": "source/english/tex/works/GAL1897_W08_CHEVALIER_LETTER.tex",
+      "french_sha256": "33B366592378EFF2E95DF36989828A4DE15AD39820205C9F7233D04568A392AE",
+      "english_sha256": "B78DAD07DEA84FB132D8482D611B6C328E766468F63267F7F130E67410DAF13A",
+      "page_macro_calls": 8,
+      "issue_macro_calls_french": 3,
+      "issue_macro_calls_english": 5,
+      "issue_call_delta_sha256": "916509C107A013C0AA2F32384913997974EE0FD26E88948BF6F4442114E43120",
+      "math_fragments_french": 119,
+      "math_fragments_english": 119,
+      "environment_events": 6,
+      "enseg_markers": 125
+    },
+    {
+      "component": "W09",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W09_RADICALS_MEMOIR.tex",
+      "english": "source/english/tex/works/GAL1897_W09_RADICALS_MEMOIR.tex",
+      "french_sha256": "9D15B6CEF971EB7B36B1168444B1FC731A2FE38E45FE3DA34B687C7CDFCA8013",
+      "english_sha256": "D3C4E60986AFDCFC1ACD0051A94913953621F82859E2584FDF8A55575FA8688B",
+      "page_macro_calls": 18,
+      "issue_macro_calls_french": 16,
+      "issue_macro_calls_english": 16,
+      "issue_call_delta_sha256": "6E7245DD89215300EA0E86190839BDD3369C0D47878782ADB7EEB73277EC41FA",
+      "math_fragments_french": 193,
+      "math_fragments_english": 193,
+      "environment_events": 50,
+      "enseg_markers": 215
+    },
+    {
+      "component": "W10",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+      "english": "source/english/tex/works/GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+      "french_sha256": "7CCB259E6961F87011CDC9230059CC8560C364699435BE89E22537046ED01D6D",
+      "english_sha256": "0BEAE00F5E62F5CE2AD0451429A090CBDDC2ACDCD2662774A6E49B6855BE67F1",
+      "page_macro_calls": 12,
+      "issue_macro_calls_french": 9,
+      "issue_macro_calls_english": 12,
+      "issue_call_delta_sha256": "98697A268C331D62A35C778911B1311C22C58D95EF52F2F10BE60B0506FEDA4D",
+      "math_fragments_french": 202,
+      "math_fragments_english": 189,
+      "environment_events": 16,
+      "enseg_markers": 24
+    },
+    {
+      "component": "W11",
+      "french": "source/french_diplomatic/tex/works/GAL1897_W11_BACKMATTER.tex",
+      "english": "source/english/tex/works/GAL1897_W11_BACKMATTER.tex",
+      "french_sha256": "337F1B3279B68F67BD516563BEA5A664F6FD44765D89A8C793BD086297C47380",
+      "english_sha256": "AECB5057BF6683152ADE10A228F173026FA892C2FE7966230B6CFBFC59C59460",
+      "page_macro_calls": 5,
+      "issue_macro_calls_french": 2,
+      "issue_macro_calls_english": 2,
+      "issue_call_delta_sha256": "ACBDB874C477B7F950C8F3AE34CDACEA6971A562D5D248691D07009F634F664F",
+      "math_fragments_french": 0,
+      "math_fragments_english": 0,
+      "environment_events": 12,
+      "enseg_markers": 18
+    }
+  ],
+  "audited_dispositions": [
+    {
+      "component": "W01",
+      "kind": "page_macro_apparatus_only_delta",
+      "macro": "GalUnresolvedSourcePage",
+      "disposition": "PASS: stable unresolved ID added to embedded witness note; coordinates and payload preserved"
+    },
+    {
+      "component": "W01",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 0,
+      "issue_macro_calls_english": 0,
+      "issue_macro_counts_french": {},
+      "issue_macro_counts_english": {},
+      "delta_sha256": "9E7E058F4342E345F0C2E08B42CA710936A56C454A9138C2D6413BBAC889CAAF",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W02",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 1,
+      "issue_macro_calls_english": 1,
+      "issue_macro_counts_french": {
+        "GalPrintedError": 1
+      },
+      "issue_macro_counts_english": {
+        "GalPrintedError": 1
+      },
+      "delta_sha256": "CE067E888E3B0EF8C46D2F915D133260A1127FAD3F3ED5FD4BE577B420AD3E9C",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W03",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 5,
+      "issue_macro_calls_english": 5,
+      "issue_macro_counts_french": {
+        "GalPrintedError": 5
+      },
+      "issue_macro_counts_english": {
+        "GalPrintedError": 5
+      },
+      "delta_sha256": "1F537D564CB58AF5573C5A4EF9E5ADCDE306D72A860682240270D184F0F4F63B",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W03",
+      "kind": "hash_pinned_math_fragment_delta",
+      "first_mismatch": 36,
+      "french_count": 93,
+      "english_count": 94,
+      "delta_sha256": "1992F47FD5C1BCFB86BD4E2FE639AE57BAD3D9636961194E052D4A7ED9169826",
+      "disposition": "PASS: exact normalized delta matches its frozen pin and the independent formula-audit receipt hash matches",
+      "receipt": "evidence/fragments/FINAL_REAUDIT_W01_W04_W09_W11.md",
+      "receipt_sha256": "37C35B75E85D4D121F2A04834A6EEE3FB4AACAAA09A4ACACA7BF83991D1CF64D"
+    },
+    {
+      "component": "W04",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 1,
+      "issue_macro_calls_english": 4,
+      "issue_macro_counts_french": {
+        "GalSourceError": 1,
+        "GalSourceErrorMark": 0
+      },
+      "issue_macro_counts_english": {
+        "GalSourceError": 1,
+        "GalSourceErrorMark": 3
+      },
+      "delta_sha256": "845E3CD2DB2001BCEA9246D7557CD8418A223BDA539A9D1A551A9BE838F2231F",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W05",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 2,
+      "issue_macro_calls_english": 2,
+      "issue_macro_counts_french": {
+        "GalSourceError": 2
+      },
+      "issue_macro_counts_english": {
+        "GalSourceError": 2
+      },
+      "delta_sha256": "3E49AE23E028D6DA4B55E065AECC414CB0577D0CBAFAFAB3B6B3BF43770C9FB7",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W05",
+      "kind": "hash_pinned_math_fragment_delta",
+      "first_mismatch": 28,
+      "french_count": 34,
+      "english_count": 35,
+      "delta_sha256": "781FA0FAF7290CA14F703BBC6DC1931C0998DEA23652A2E98CD69E6D58A19711",
+      "disposition": "PASS: exact normalized delta matches its frozen pin and the independent formula-audit receipt hash matches",
+      "receipt": "evidence/fragments/AUDIT_W05_W08.md",
+      "receipt_sha256": "918CF76FE8F0A8736A3236E20015FCC82E3AF7C60686E28E77165F99F4242996"
+    },
+    {
+      "component": "W06",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 3,
+      "issue_macro_calls_english": 3,
+      "issue_macro_counts_french": {
+        "GalSourceError": 3
+      },
+      "issue_macro_counts_english": {
+        "GalSourceError": 3
+      },
+      "delta_sha256": "13C57D59A67CCE7E885DDCCCE1EF49B13F4910E4C89A3C58212CB3E6DBBEDA7D",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W06",
+      "kind": "hash_pinned_math_fragment_delta",
+      "first_mismatch": 10,
+      "french_count": 47,
+      "english_count": 46,
+      "delta_sha256": "4D01926F28B828ED52B3B9EBAA89F282F2A3E4DB699150D457B8380AE36F126F",
+      "disposition": "PASS: exact normalized delta matches its frozen pin and the independent formula-audit receipt hash matches",
+      "receipt": "evidence/fragments/AUDIT_W05_W08.md",
+      "receipt_sha256": "918CF76FE8F0A8736A3236E20015FCC82E3AF7C60686E28E77165F99F4242996"
+    },
+    {
+      "component": "W07",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 6,
+      "issue_macro_calls_english": 6,
+      "issue_macro_counts_french": {
+        "GalSourceError": 6
+      },
+      "issue_macro_counts_english": {
+        "GalSourceError": 6
+      },
+      "delta_sha256": "8AC288FE3BF1803547B99FC8FB2644C2EED3016D130888AB572D0DB4F01D5FD8",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W07",
+      "kind": "hash_pinned_math_fragment_delta",
+      "first_mismatch": 26,
+      "french_count": 186,
+      "english_count": 184,
+      "delta_sha256": "8243F87778A9D6B35D741E41803F3E0D8533F614BAF76F43E1A82AF513F08573",
+      "disposition": "PASS: exact normalized delta matches its frozen pin and the independent formula-audit receipt hash matches",
+      "receipt": "evidence/fragments/AUDIT_W05_W08.md",
+      "receipt_sha256": "918CF76FE8F0A8736A3236E20015FCC82E3AF7C60686E28E77165F99F4242996"
+    },
+    {
+      "component": "W08",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 3,
+      "issue_macro_calls_english": 5,
+      "issue_macro_counts_french": {
+        "GalPrintedError": 2,
+        "GalWitnessVariant": 1
+      },
+      "issue_macro_counts_english": {
+        "GalPrintedError": 2,
+        "GalWitnessVariant": 3
+      },
+      "delta_sha256": "916509C107A013C0AA2F32384913997974EE0FD26E88948BF6F4442114E43120",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W08",
+      "kind": "hash_pinned_math_fragment_delta",
+      "first_mismatch": 11,
+      "french_count": 119,
+      "english_count": 119,
+      "delta_sha256": "FCFE3140D51E748FE209A6854C461A5075880B4E6002B4BDF0822BC574007135",
+      "disposition": "PASS: exact normalized delta matches its frozen pin and the independent formula-audit receipt hash matches",
+      "receipt": "evidence/fragments/AUDIT_W05_W08.md",
+      "receipt_sha256": "918CF76FE8F0A8736A3236E20015FCC82E3AF7C60686E28E77165F99F4242996"
+    },
+    {
+      "component": "W09",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 16,
+      "issue_macro_calls_english": 16,
+      "issue_macro_counts_french": {
+        "GalControlDefect": 1,
+        "GalControlReading": 6,
+        "GalPrintedError": 2,
+        "GalPrintedOmission": 1,
+        "GalSourceErrorMark": 6
+      },
+      "issue_macro_counts_english": {
+        "GalControlDefect": 1,
+        "GalControlReading": 6,
+        "GalPrintedError": 2,
+        "GalPrintedOmission": 1,
+        "GalSourceErrorMark": 6
+      },
+      "delta_sha256": "6E7245DD89215300EA0E86190839BDD3369C0D47878782ADB7EEB73277EC41FA",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W09",
+      "kind": "hash_pinned_math_fragment_delta",
+      "first_mismatch": 42,
+      "french_count": 193,
+      "english_count": 193,
+      "delta_sha256": "03EB99C9E10F5AF7532756B6FFD4B816F9C9CDCAC34E03183F1485A7C9118D26",
+      "disposition": "PASS: exact normalized delta matches its frozen pin and the independent formula-audit receipt hash matches",
+      "receipt": "evidence/fragments/FINAL_REAUDIT_W01_W04_W09_W11.md",
+      "receipt_sha256": "37C35B75E85D4D121F2A04834A6EEE3FB4AACAAA09A4ACACA7BF83991D1CF64D"
+    },
+    {
+      "component": "W10",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 9,
+      "issue_macro_calls_english": 12,
+      "issue_macro_counts_french": {
+        "GalNotationAnomaly": 1,
+        "GalPrintedError": 6,
+        "GalSourceError": 2,
+        "GalWitnessVariant": 0
+      },
+      "issue_macro_counts_english": {
+        "GalNotationAnomaly": 1,
+        "GalPrintedError": 6,
+        "GalSourceError": 2,
+        "GalWitnessVariant": 3
+      },
+      "delta_sha256": "98697A268C331D62A35C778911B1311C22C58D95EF52F2F10BE60B0506FEDA4D",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    },
+    {
+      "component": "W10",
+      "kind": "hash_pinned_math_fragment_delta",
+      "first_mismatch": 32,
+      "french_count": 202,
+      "english_count": 189,
+      "delta_sha256": "4894E2B1A53B40A95816F286596283CE267CFA08225B54932EB1C86767DB4DDF",
+      "disposition": "PASS: exact normalized delta matches its frozen pin and the independent formula-audit receipt hash matches",
+      "receipt": "evidence/fragments/FINAL_REAUDIT_W01_W04_W09_W11.md",
+      "receipt_sha256": "37C35B75E85D4D121F2A04834A6EEE3FB4AACAAA09A4ACACA7BF83991D1CF64D"
+    },
+    {
+      "component": "W11",
+      "kind": "hash_pinned_issue_call_delta",
+      "issue_macro_calls_french": 2,
+      "issue_macro_calls_english": 2,
+      "issue_macro_counts_french": {
+        "GalPrintedError": 1,
+        "GalUnresolvedImageReading": 1
+      },
+      "issue_macro_counts_english": {
+        "GalPrintedError": 1,
+        "GalUnresolvedImageReading": 1
+      },
+      "delta_sha256": "ACBDB874C477B7F950C8F3AE34CDACEA6971A562D5D248691D07009F634F664F",
+      "disposition": "PASS: complete ordered normalized issue-call payload matches its frozen per-component pin"
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

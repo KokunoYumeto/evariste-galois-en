@@ -1,0 +1,19 @@
+% W07 wrapper: number theory and blank separator.
+\clearpage
+\newgeometry{inner=18mm,outer=24mm,top=13mm,bottom=14mm}
+\begingroup
+\fontsize{8.75}{10.05}\selectfont
+\renewcommand\footnotesize{\fontsize{7.15}{8.15}\selectfont}
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}}
+\renewcommand{\GalSourcePageBoundary}[4]{\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalSourceBlankPage}[4]{\par\clearpage\thispagestyle{empty}\null\clearpage}
+\renewcommand{\GalSourceError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalHistoricalFootnoteText}[2]{\begingroup\renewcommand{\thefootnote}{(#1)}\footnotetext{#2}\endgroup}
+\renewcommand{\GalHistoricalFootnote}[2]{\begingroup\renewcommand{\thefootnote}{(#1)}\footnote{#2}\endgroup}
+\renewcommand{\GalSourceImage}[5]{}
+\renewcommand{\GalArticleEndOrnament}[1]{\par\vspace{1.4em}\begin{center}\includegraphics[width=0.23\linewidth]{#1}\end{center}}
+\input{tex/works/GAL1897_W07_NUMBER_THEORY.tex}
+\par\clearpage
+\endgroup
+\restoregeometry

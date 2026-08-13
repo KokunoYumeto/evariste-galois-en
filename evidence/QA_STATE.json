@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-14T00:27:12+02:00",
+  "release": "2026-08-14 en-r1",
+  "exact_doi": "10.5281/zenodo.21924302",
+  "concept_doi": "10.5281/zenodo.21924301",
+  "translation": {
+    "components_complete": 11,
+    "components_total": 11,
+    "aligned_segments": 587,
+    "physical_source_pages_accounted": 96,
+    "coverage_result": "PASS",
+    "ledger_result": "PASS"
+  },
+  "critical_apparatus": {
+    "proved_error_records": 36,
+    "proved_errors_without_rendered_note": 0,
+    "witness_variant_records": 15,
+    "post_p13_tasks": 21,
+    "post_p13_task_dispositions": {
+      "repaired": 9,
+      "proved": 8,
+      "rejected": 2,
+      "unresolved_after_bounded_search": 2
+    },
+    "cumulative_open_records": ["W01-U001", "W01-U002", "W01-U003", "W08-WV001", "W11-U001"],
+    "remaining_deferred_research_records": 0,
+    "disclosure_result": "PASS"
+  },
+  "semantic_and_formula_audit": {
+    "result": "PASS_POST_P13_AFTER_REPAIRS",
+    "baseline_closure_receipt": "evidence/SEMANTIC_AUDIT_CLOSURE.md",
+    "post_p13_closure_receipt": "evidence/SEMANTIC_AUDIT_CLOSURE_POST_P13.md",
+    "open_high_findings": 0,
+    "open_medium_findings": 0,
+    "bounded_disclosed_open_items": 5
+  },
+  "reader": {
+    "path": "reader/00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
+    "pages": 85,
+    "bytes": 3826541,
+    "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3",
+    "two_independent_builds_byte_identical": true,
+    "source_structure_qa": "PASS",
+    "pdf_structural_qa": "PASS",
+    "mechanical_render_qa": "PASS",
+    "actual_visual_inspection": "PASS",
+    "rendered_pages_inspected": 85,
+    "full_resolution_pages_inspected": [3, 29, 71, 73, 82],
+    "intentional_blank_pages": [42, 80, 83, 84, 85],
+    "compile_warnings": 0,
+    "edge_contacts": 0,
+    "black_or_dark_surprises": 0
+  },
+  "archives": {
+    "final_release_packages": "PENDING_POST_P13_PACKAGE_BUILD",
+    "source_crc_and_duplicate_check": "PENDING_POST_P13_PACKAGE_BUILD",
+    "evidence_crc_and_duplicate_check": "PENDING_POST_P13_PACKAGE_BUILD",
+    "other_translations_crc_and_duplicate_check": "PENDING_POST_P13_PACKAGE_BUILD",
+    "byte_identical_repeat": "PENDING_POST_P13_PACKAGE_BUILD"
+  },
+  "publication": {
+    "github_repository": "PENDING",
+    "github_tag": "PENDING",
+    "zenodo_draft_id": 21924302,
+    "zenodo_state": "unsubmitted_zero_files",
+    "reciprocal_french_r2": "PENDING"
+  },
+  "human_review_required": false,
+  "local_release_closed": false,
+  "release_closed": false,
+  "next_gate": "Build and independently repeat-verify the public-safe post-P13 release packages, then publish and retrieve-verify GitHub/Zenodo and reciprocal French r2."
+}

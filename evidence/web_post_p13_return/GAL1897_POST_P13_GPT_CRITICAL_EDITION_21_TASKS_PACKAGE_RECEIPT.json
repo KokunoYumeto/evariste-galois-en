@@ -1,0 +1,12 @@
+{
+  "archive": "GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS.zip",
+  "archive_sha256": "C3D91146F5772861E614EF8C2FA42749D163274773D786051F6E9E499E417E44",
+  "archive_bytes": 313572719,
+  "payload_root": "GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS",
+  "payload_files": 182,
+  "output_manifest_records": 180,
+  "output_set_fingerprint": "0C78078E584DD96612A5BFAA3E1AA3609C96B76D334C9F8644D95E88327FB5B6",
+  "zip_crc": "PASS",
+  "deterministic_two_run_packaging": "PASS",
+  "internal_payload_hash_verification": "PASS"
+}

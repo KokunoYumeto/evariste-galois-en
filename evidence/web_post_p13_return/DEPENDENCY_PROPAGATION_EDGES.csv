@@ -1,0 +1,47 @@
+source_id,target_id_or_scope,edge_type,propagation_outcome,certificate
+W02-PE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W03-PE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W03-PE002,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W03-PE003,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W04-SE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W04-SE002,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W04-SE003,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W04-SE004,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W06-PE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W06-SE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W07-SE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W07-SE002,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W07-SE003,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W07-SE004,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W07-SE005,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W08-PE002,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W09-PE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W09-PE002,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W10-PE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W10-PE002,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W10-PE003,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W10-PE004,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W11-PE001,same printed work,local_text_or_formula,Closed locally; no later cross-work mathematical conclusion depends on the erroneous form.,certificates/POST-P13-A002.md
+W05-SE001,POST-P13-A005 / PDF051,classification_dependency,The printed finite exception lists are both replaced by the affine primitive theorem; degree 16 refutes the degree-9/25-only claim.,certificates/POST-P13-A005.md
+W05-SE002,W08-PE001,historical_mathematical_dependency,The p=11 exception announced in the footnote is made explicit by the corrected matching.,certificates/POST-P13-A006.md
+W07-SE002,PDF049 worked F_7^3 construction,hypothesis_dependency,"Worked values are nonzero, so the worked primitive-element conclusion survives.",certificates/POST-P13-A001.md
+W07-SE003,PDF050 repeated-root algorithm,algorithm_dependency,Squarefree extraction survives after adding the derivative-zero p-th-root branch.,certificates/POST-P13-A001.md
+W07-SE004,PDF050 residue-root algorithm,algorithm_dependency,Use x^p-x or separate zero.,certificates/POST-P13-A001.md
+W07-SE005,PDF050 exact-degree factor selection,algorithm_dependency,Remove proper-subfield factors by Möbius inversion.,certificates/POST-P13-A001.md
+W08-PE001,degree-11 resolvent/lowering,group_index_dependency,Corrected matching has stabilizer index 11; lowering survives.,certificates/POST-P13-A006.md
+W09-SE001,W09 Proposition I,proof_dependency,Bézout repair supplies rational recoverability of roots from V.,certificates/POST-P13-A010.md
+W09-SE001,W09 later resolvent constructions,proof_dependency,Every use of roots as rational functions of V inherits the repaired lemma.,certificates/POST-P13-A010.md
+W09-SE002,W09 Proposition III,theorem_dependency,Field-intersection theorem supplies the correct subgroup index and input to normality.,certificates/POST-P13-A011.md
+W09-SE003,W09 radical tower,normality_dependency,Normal intersection makes conjugate subgroups equal after adjoining all auxiliary roots.,certificates/POST-P13-A011.md
+W09-SE004,W09 Proposition V-VI,resolvent_dependency,Choose a nonzero Fourier coefficient; invariant p-th power and radical step survive.,certificates/POST-P13-A012.md
+W09-SE005,W09 Proposition VII,kummer_dependency,Conclusion survives only in the inherited cyclic Galois Kummer setting.,certificates/POST-P13-A013.md
+W09-SE006,"W09 Proposition VIII and final AGL(1,p) criterion",fixed_point_dependency,Insert nonidentity; two-root necessity/sufficiency survives.,certificates/POST-P13-A013.md
+W10-PE001,PDF082-087 affine coordinate argument,notation_dependency,Corrected coordinates make the maps well formed; substantive affine conclusion still requires W10-DA001/DA002 hypotheses.,certificates/W10-DA004.md
+W10-PE002,PDF082-087 affine coordinate argument,notation_dependency,Corrected coordinates make the maps well formed; substantive affine conclusion still requires W10-DA001/DA002 hypotheses.,certificates/W10-DA004.md
+W10-PE003,PDF082-087 affine coordinate argument,notation_dependency,Corrected coordinates make the maps well formed; substantive affine conclusion still requires W10-DA001/DA002 hypotheses.,certificates/W10-DA004.md
+W10-PE004,PDF082-087 affine coordinate argument,notation_dependency,Corrected coordinates make the maps well formed; substantive affine conclusion still requires W10-DA001/DA002 hypotheses.,certificates/W10-DA004.md
+W10-PE005,PDF082-087 affine coordinate argument,notation_dependency,Corrected coordinates make the maps well formed; substantive affine conclusion still requires W10-DA001/DA002 hypotheses.,certificates/W10-DA004.md
+W10-PE006,PDF088-090 support trichotomy,formula_dependency,Correct fixed-point equation matches printed discriminant; support count survives.,certificates/W10-DA004.md
+W10-SE001,PDF086 divisibility argument,identity_qualification,Nonidentity qualification closes the fixed-set dimension step.,certificates/W10-DA004.md
+W10-SE002,PDF087 affine-group order,count_dependency,Local count changes to p²-2; subgroup and total group orders survive.,certificates/W10-DA004.md
+W10-DA003,PDF089-090 final p=3 inference,blocking_counterexample,Conjugacy does not imply commutativity; the terminal equality premise and its p=3 consequence are not established.,certificates/W10-DA003.md

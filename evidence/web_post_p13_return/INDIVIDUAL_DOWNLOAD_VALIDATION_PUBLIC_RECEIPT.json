@@ -1,0 +1,197 @@
+{
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
+    "source_bytes": 6970,
+    "source_name": "INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json",
+    "source_sha256": "810E162C076465099310C105A711DDBB6E7C28DAE4420F21EFEA2251983C796A"
+  },
+  "archive_claim_from_returned_sidecar_and_package_receipt": {
+    "archive_expected_bytes": 313572719,
+    "archive_expected_sha256": "C3D91146F5772861E614EF8C2FA42749D163274773D786051F6E9E499E417E44",
+    "archive_hash_independently_verified": false,
+    "archive_name": "GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS.zip",
+    "archive_present_in_authority_folder": false,
+    "declared_output_manifest_records": 180,
+    "declared_output_set_fingerprint": "0C78078E584DD96612A5BFAA3E1AA3609C96B76D334C9F8644D95E88327FB5B6",
+    "declared_payload_files": 182,
+    "internal_180_file_payload_hash_replay_independently_performed": false,
+    "sidecar_matches_package_receipt": true,
+    "zip_crc_independently_replayed": false
+  },
+  "authority_folder_public": "private local custody; absolute authority path intentionally omitted",
+  "custody_status": "INDIVIDUAL_SET_VALIDATED_ARCHIVE_ABSENT",
+  "files": [
+    {
+      "bytes": 39579,
+      "name": "BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv",
+      "sha256": "BA71270F0C3799D7F17AE4C29D2C72F40C6D1F0AB7AE98B1780299B0DF6508A8"
+    },
+    {
+      "bytes": 41600,
+      "name": "COLD_AUDIT_CHECKS (1).json",
+      "sha256": "FABE8F75278E3AC00B0546D5DADD0BA29D53262305A23EF9D8CDE1A2BAF0E559"
+    },
+    {
+      "bytes": 41600,
+      "name": "COLD_AUDIT_CHECKS.json",
+      "sha256": "FABE8F75278E3AC00B0546D5DADD0BA29D53262305A23EF9D8CDE1A2BAF0E559"
+    },
+    {
+      "bytes": 21421,
+      "name": "CRITICAL_ERRATA_CATALOGUE.csv",
+      "sha256": "8918133BCCF7E54E446E5589BB78E49F80907B68B6634CEB3E18428E57A3DD83"
+    },
+    {
+      "bytes": 8110,
+      "name": "DEPENDENCY_PROPAGATION_EDGES.csv",
+      "sha256": "4FC28FF8D4DB61D881F7B992BEBC9D6A96B087A73ABDEED4F4340D0F39139438"
+    },
+    {
+      "bytes": 137,
+      "name": "GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS.zip.sha256",
+      "sha256": "63E4A8E650D1A9A279B6781C7EAE2FF1D0809FB2A0D69373B86E064D37F7A3C5"
+    },
+    {
+      "bytes": 61910,
+      "name": "GAL1897_GPT_CRITICAL_EDITION.md",
+      "sha256": "0E0FB61CD0E6BA1BB364692D81BFC8C006523BD2862C24CD7570AC981996F6A5"
+    },
+    {
+      "bytes": 141624,
+      "name": "GAL1897_GPT_CRITICAL_EDITION.pdf",
+      "sha256": "77A1A593551954C7DD0C9EDEB6B01A40254B83745FDB3B0F4AC8AE277497C446"
+    },
+    {
+      "bytes": 3722355,
+      "name": "GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+      "sha256": "4803361CF7724FE06050B50BF0AA85E791F4BC168BBC555FC4EB996B30A2D8D6"
+    },
+    {
+      "bytes": 544,
+      "name": "GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_PACKAGE_RECEIPT.json",
+      "sha256": "8A7644F4ADA7D2524BBD01EFCDDD361F0354DDBA46D4D13E360C561C0413AAD6"
+    },
+    {
+      "bytes": 8301,
+      "name": "MASTER_21_TASK_LEDGER.csv",
+      "sha256": "D9382212904B6549F3CBE9CEEC338710FF06F76E252E7EE9B52F1DC2D87C419B"
+    },
+    {
+      "bytes": 951,
+      "name": "OPEN_AFTER_21_TASKS.csv",
+      "sha256": "06A5F558A6161FE4984B861DA24B5B4281A6D55ED79772D89ED5EB5199DAE145"
+    },
+    {
+      "bytes": 4240,
+      "name": "RETURN_TO_CODEX(20260813-211103).md",
+      "sha256": "E6C233B900BD034A7284B6AFF6012EA63060A5E92E1095B6E8ED7FCED6E46600"
+    },
+    {
+      "bytes": 7001,
+      "name": "SEARCH_QUERY_LEDGER.csv",
+      "sha256": "94AA8FEDDEA8CA63F4DBC8E5267A2B36E051311629B47CB29BB938714475C910"
+    },
+    {
+      "bytes": 4832,
+      "name": "WEB_RESEARCH_PROVENANCE.md",
+      "sha256": "190FA5848A721B46FB0E0FC8B108D0479F77D737110970554D1768D6D2D13261"
+    },
+    {
+      "bytes": 4629,
+      "name": "WEB_SOURCE_EVIDENCE.csv",
+      "sha256": "A224755782B0E6B18A68AC414DD84EADD9A9D63692C1423E4E8748B273DA12A6"
+    }
+  ],
+  "independent_validation": {
+    "all_16_files_present_nonzero_and_readable": true,
+    "bibliographic_prior_notice_matrix": {
+      "record_type_counts": {
+        "proved_source_error": 36,
+        "witness_or_editorial_variant": 15
+      },
+      "rows": 51,
+      "unique_record_ids": 51
+    },
+    "cold_audit_json_copies": {
+      "byte_identical": true,
+      "declared_checks_passed": 242,
+      "declared_checks_total": 242,
+      "declared_status": "PASS",
+      "duplicate_check_ids": [],
+      "parsed_check_rows": 242,
+      "parsed_status_counts": {
+        "PASS": 242
+      },
+      "sha256": "FABE8F75278E3AC00B0546D5DADD0BA29D53262305A23EF9D8CDE1A2BAF0E559",
+      "unique_check_ids": 242
+    },
+    "critical_errata_catalogue": {
+      "critical_layer_state_counts": {
+        "closed": 36
+      },
+      "diplomatic_layer_mutated_counts": {
+        "no": 36
+      },
+      "rows": 36,
+      "unique_error_ids": 36
+    },
+    "dependency_propagation_edges": {
+      "rows": 46
+    },
+    "master_21_task_ledger": {
+      "all_21_task_ids_present_in_critical_markdown": true,
+      "rows": 21,
+      "status_counts": {
+        "proved": 8,
+        "rejected": 2,
+        "repaired": 9,
+        "unresolved_after_bounded_search": 2
+      },
+      "unique_task_ids": 21
+    },
+    "open_after_21_tasks": {
+      "record_ids": [
+        "W01-U001",
+        "W01-U002",
+        "W01-U003",
+        "W08-WV001",
+        "W11-U001"
+      ],
+      "rows": 5,
+      "status_counts": {
+        "carried_forward_unresolved_outside_21_task_scope": 3,
+        "unresolved_after_bounded_search": 2
+      },
+      "unique_record_ids": 5
+    },
+    "pdf_structure": {
+      "GAL1897_GPT_CRITICAL_EDITION.pdf": {
+        "encrypted": false,
+        "pages": 22
+      },
+      "GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf": {
+        "encrypted": false,
+        "pages": 100
+      }
+    },
+    "search_query_ledger": {
+      "rows": 20,
+      "unique_query_ids": 20
+    },
+    "web_source_evidence": {
+      "rows": 11,
+      "unique_evidence_ids": 11,
+      "unique_source_ids": 11
+    }
+  },
+  "limitations": [
+    "The 313,572,719-byte cumulative ZIP is absent. Its SHA-256, CRC, deterministic-packaging result, 182-payload-file count, 180-manifest-record count, and internal verification state are claims preserved in the returned sidecar and package receipt, not independently replayed by this receipt.",
+    "Without the cumulative ZIP, the 180 internal manifest records and the returned certificate/source tree cannot be independently enumerated, rehashed, or executed from this individual-download set.",
+    "The two PDFs were independently checked for file hash, page count, readability, and encryption state. This custody receipt does not repeat the separate full-page visual audit or mathematical proof audit claimed by the returned cold-audit file."
+  ],
+  "receipt_schema": "galois.post_p13.individual_download_validation.public.v1",
+  "scope": "Independent custody validation of the 16 individually downloaded post-P13 return artifacts. This receipt is not an archive-level validation.",
+  "source_file_count_excluding_this_receipt": 16,
+  "source_total_bytes": 4108834,
+  "validated_at": "2026-08-13T23:58:42+02:00"
+}

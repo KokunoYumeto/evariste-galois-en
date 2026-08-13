@@ -1,0 +1,296 @@
+{
+  "archive_checks": {
+    "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip": {
+      "casefold_collisions": 0,
+      "content_scan_findings": 0,
+      "crc_failure": null,
+      "duplicate_names": 0,
+      "encrypted_members": 0,
+      "entries": 77,
+      "member_set_sha256": "39C858A27344D6CA0851FB0A3100D34AB2B13F50E5A917A9A22B0595A72EC894",
+      "pass": true,
+      "payload_bytes": 3242288,
+      "unsafe_member_names": 0
+    },
+    "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip": {
+      "casefold_collisions": 0,
+      "content_scan_findings": 0,
+      "crc_failure": null,
+      "duplicate_names": 0,
+      "encrypted_members": 0,
+      "entries": 47,
+      "member_set_sha256": "F841E262C83C7BEE69AB395A0771FDC1CF5B2098A1EBA8FE3EB5251878FB3DE6",
+      "pass": true,
+      "payload_bytes": 4786550,
+      "unsafe_member_names": 0
+    },
+    "OTHER_TRANSLATIONS.zip": {
+      "casefold_collisions": 0,
+      "content_scan_findings": 0,
+      "crc_failure": null,
+      "duplicate_names": 0,
+      "encrypted_members": 0,
+      "entries": 8,
+      "member_set_sha256": "1E8297DB6340E40F70D120A52EA20FB23ACBC37183A4F565D1B53E873A9CA468",
+      "pass": true,
+      "payload_bytes": 293812515,
+      "unsafe_member_names": 0
+    }
+  },
+  "build_directory": "build/release-final-verified-20260814T004653894",
+  "evidence_allowlist": {
+    "archive_entries": 47,
+    "incident_or_return_logs_included": false,
+    "input_fingerprint_sha256": "F841E262C83C7BEE69AB395A0771FDC1CF5B2098A1EBA8FE3EB5251878FB3DE6",
+    "internal_durable_state_included": false,
+    "prepackage_receipt_preexisted_archive": true,
+    "public_projection_records": [
+      {
+        "local_paths_removed": true,
+        "private_source_bytes": 1088,
+        "private_source_name": "BUILD_ENVIRONMENT.json",
+        "private_source_sha256": "2F44370F06BF535F52BC72119CD4F9A41DF9D39F70334EC59B98224A83A7E4BE",
+        "public_bytes": 1403,
+        "public_member": "evidence/public_receipts/BUILD_ENVIRONMENT_PUBLIC.json",
+        "public_sha256": "CA00C91CF922541587F1FEE1A95CC02400354435D3C52F8AC848D53EA5AA88BA"
+      },
+      {
+        "local_paths_removed": true,
+        "private_source_bytes": 92449,
+        "private_source_name": "READER_STRUCTURAL_QA_POST_P13.json",
+        "private_source_sha256": "4E35C2C94AB22E92E6EE345C9DFAC4C2D6AE8AFDFCB4A338C376264EF985FC75",
+        "public_bytes": 87123,
+        "public_member": "evidence/public_receipts/READER_STRUCTURAL_QA_POST_P13_PUBLIC.json",
+        "public_sha256": "B34C812618A0350FA3344114692362334DC07F50032C91C663DB2E15AE2D8A58"
+      },
+      {
+        "local_paths_removed": true,
+        "private_source_bytes": 64267,
+        "private_source_name": "READER_MECHANICAL_RENDER_QA_POST_P13.json",
+        "private_source_sha256": "339CC55060078E35A80B22B8DE89C7265E7117D75F841709FC2EC530B50DA5BF",
+        "public_bytes": 61728,
+        "public_member": "evidence/public_receipts/READER_MECHANICAL_RENDER_QA_POST_P13_PUBLIC.json",
+        "public_sha256": "0237CABD9D5766114A8A45CE9AFC8C504CBAE36E13D4FA86D925E142CED58657"
+      },
+      {
+        "local_paths_removed": true,
+        "private_source_bytes": 5014,
+        "private_source_name": "READER_VISUAL_INSPECTION_POST_P13.json",
+        "private_source_sha256": "6386639B1DD6C32DAA827702CB1AAEF2F40D2098DCA4A2332074A9672F0D8B7B",
+        "public_bytes": 6005,
+        "public_member": "evidence/public_receipts/READER_VISUAL_INSPECTION_POST_P13_PUBLIC.json",
+        "public_sha256": "BB43512110F575A745BF9B61A7B8209897C63BF66CED585821DBA7230DE4A0C7"
+      },
+      {
+        "local_paths_removed": true,
+        "private_source_bytes": 6970,
+        "private_source_name": "INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json",
+        "private_source_sha256": "810E162C076465099310C105A711DDBB6E7C28DAE4420F21EFEA2251983C796A",
+        "public_bytes": 7272,
+        "public_member": "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_PUBLIC_RECEIPT.json",
+        "public_sha256": "6C6601AAD015A5554A705E428697FFF2AAF9639F9C6DDCFEF8BD9BC58C6C24C1"
+      }
+    ]
+  },
+  "french_public_sibling": {
+    "all_eight_frozen_pins_match": true,
+    "concept_doi": "10.5281/zenodo.21923856",
+    "exact_doi": "10.5281/zenodo.21923857",
+    "frozen_members": [
+      {
+        "bytes": 3859917,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "00_GALOIS_1897_FR_CURRENT_LINKED_READER.pdf",
+        "sha256": "F62D37396E04C2FC04680125E8600206FD82FA82ACE9689FF439BF30E786895A"
+      },
+      {
+        "bytes": 6452408,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "01_GALOIS_1897_FR_EDITABLE_SOURCES.zip",
+        "sha256": "E990DA8591F64FF01891F6ED0CC36FB9FCBFEA6B25995C19E526492D7EC066A8"
+      },
+      {
+        "bytes": 283491687,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "02_GALOIS_1897_FR_EVIDENCE_AND_PROVENANCE.zip",
+        "sha256": "A0BDEFDBD8757561286B0C43EA3597DE0B2DD90FE66B54A6CF5F9BEE92404CD9"
+      },
+      {
+        "bytes": 463,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "03_GALOIS_1897_FR_SHA256_MANIFEST.txt",
+        "sha256": "E1F334DE24DC6B9E57C1334B9FAA82470CA3D737E0A9A642C7A9CF1573971114"
+      },
+      {
+        "bytes": 3283,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": "README.md",
+        "sha256": "3A4FA666EE76E96B7679361D4FA0FB4618E5E8A97E5589E1BB0A2E5BEA672FB3"
+      },
+      {
+        "bytes": 1166,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": "LICENSE",
+        "sha256": "13627E4B86A1C77729845D2AE622491C59B5E695C1079374685CBD84C29D0FD4"
+      },
+      {
+        "bytes": 992,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": "CITATION.cff",
+        "sha256": "8799C6F69D00CA7A09994FA52F1CB5EA04FBE217B3165D1693B9F1BC7C18232D"
+      },
+      {
+        "bytes": 2599,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": ".zenodo.json",
+        "sha256": "C5D153C289E6A918CF6CDC824A4EA173E1E2772E14FAACE0CD75E51E0167037B"
+      }
+    ],
+    "nested_archive_checks": {
+      "01_GALOIS_1897_FR_EDITABLE_SOURCES.zip": {
+        "casefold_collisions": 0,
+        "content_scan_findings": 0,
+        "crc_failure": null,
+        "duplicate_names": 0,
+        "encrypted_members": 0,
+        "entries": 94,
+        "member_set_sha256": "3CD5302B26D4D20363FE4D9A79FD665F31CBE12E1BF0668F13F2D46C82C37B5D",
+        "pass": true,
+        "payload_bytes": 6813160,
+        "unsafe_member_names": 0
+      },
+      "02_GALOIS_1897_FR_EVIDENCE_AND_PROVENANCE.zip": {
+        "casefold_collisions": 0,
+        "content_scan_findings": 0,
+        "crc_failure": null,
+        "duplicate_names": 0,
+        "encrypted_members": 0,
+        "entries": 28,
+        "member_set_sha256": "36B5A1BB605ECAF82BBBBA6CDB43BBB10F9E47A54A6ABAD2F901E6289E5EC15C",
+        "pass": true,
+        "payload_bytes": 283790624,
+        "unsafe_member_names": 0
+      }
+    },
+    "result": "PASS"
+  },
+  "manifest_check": {
+    "canonical_bytes_match": true,
+    "concept_doi": "10.5281/zenodo.21924301",
+    "exact_doi": "10.5281/zenodo.21924302",
+    "payload_records": 4,
+    "result": "PASS",
+    "self_hashing": false
+  },
+  "non_destructive_policy": {
+    "existing_directories_reused": false,
+    "new_build_directory_claimed": true,
+    "new_output_directory_claimed": true,
+    "recursive_cleanup_performed": false
+  },
+  "output_directory": "reader-final-verified-20260814T004653894",
+  "public_files": [
+    {
+      "bytes": 3826541,
+      "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
+      "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+    },
+    {
+      "bytes": 2954866,
+      "name": "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
+      "sha256": "B640739E7114F3B38EC5AE39EBEBE0A12E11086C29EF4413BD667DA881886C76"
+    },
+    {
+      "bytes": 3961966,
+      "name": "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
+      "sha256": "7398B19F1FD8D2610F947D991D4449C9C8B50647A56DFF4E2DED2220FA7AD08A"
+    },
+    {
+      "bytes": 550,
+      "name": "03_GALOIS_1897_EN_SHA256_MANIFEST.txt",
+      "sha256": "0C44AF2121B2FCB9F31DA93EAEDAA32AFFDD5292DF5A76DF8639937F52173179"
+    },
+    {
+      "bytes": 293784456,
+      "name": "OTHER_TRANSLATIONS.zip",
+      "sha256": "E397EDA6C022D2754A228FE1B4FB6453245AE75B7D4B54B6BB86BEB8578D72AD"
+    }
+  ],
+  "public_safety": {
+    "credential_or_internal_workflow_members": 0,
+    "frozen_french_nested_absolute_path_scan": "NOT_CLAIMED",
+    "new_english_pattern_scan_absolute_path_findings": 0,
+    "new_english_pattern_scan_secret_findings": 0,
+    "result": "PASS",
+    "scan_scope": "All text/JSON/source payloads; best-effort printable path and secret signatures in raw PDF/image bytes; every generated ZIP member hash/CRC/name/mode validated after decompression. This is not a format-aware PDF/image metadata or rendered-content scan.",
+    "unsafe_zip_names": 0
+  },
+  "qa_gates": {
+    "actual_visual_inspection": "PASS",
+    "mechanical_render": "PASS_WITH_NO_VISUAL_CLAIM",
+    "post_p13_structure": "PASS",
+    "reader_structure": "PASS",
+    "result": "PASS",
+    "semantic_and_formula_audit": "PASS_POST_P13_AFTER_REPAIRS",
+    "visually_inspected_pages": 85
+  },
+  "reader": {
+    "bytes": 3826541,
+    "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
+    "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+  },
+  "result": "PASS",
+  "schema_version": 2,
+  "source_allowlist": {
+    "archive_entries": 77,
+    "datacite_relations_sidecar_included": true,
+    "input_fingerprint_sha256": "39C858A27344D6CA0851FB0A3100D34AB2B13F50E5A917A9A22B0595A72EC894",
+    "source_authority_sidecar_included": true
+  },
+  "two_build_byte_identity": {
+    "all_five_byte_identical": true,
+    "compared_files": 5,
+    "files": [
+      {
+        "byte_identical": true,
+        "bytes": 3826541,
+        "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
+        "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 2954866,
+        "name": "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
+        "sha256": "B640739E7114F3B38EC5AE39EBEBE0A12E11086C29EF4413BD667DA881886C76"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 3961966,
+        "name": "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
+        "sha256": "7398B19F1FD8D2610F947D991D4449C9C8B50647A56DFF4E2DED2220FA7AD08A"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 550,
+        "name": "03_GALOIS_1897_EN_SHA256_MANIFEST.txt",
+        "sha256": "0C44AF2121B2FCB9F31DA93EAEDAA32AFFDD5292DF5A76DF8639937F52173179"
+      },
+      {
+        "byte_identical": true,
+        "bytes": 293784456,
+        "name": "OTHER_TRANSLATIONS.zip",
+        "sha256": "E397EDA6C022D2754A228FE1B4FB6453245AE75B7D4B54B6BB86BEB8578D72AD"
+      }
+    ],
+    "reference_output_directory": "reader-final-baseline-20260814T004620185",
+    "status": "PASS"
+  }
+}

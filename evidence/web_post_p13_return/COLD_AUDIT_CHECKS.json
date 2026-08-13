@@ -1,0 +1,1219 @@
+{
+  "audit_date": "2026-08-13",
+  "auditor": "independent cold-audit script; does not import the production generator",
+  "status": "PASS",
+  "checks_passed": 242,
+  "checks_total": 242,
+  "checks": [
+    {
+      "check_id": "HASH_GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE.zip",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE.zip: expected 4909FB4852F2178C583CCD425451E8BD5C7B02BD2346807F79F617BB3F2E645F, observed 4909FB4852F2178C583CCD425451E8BD5C7B02BD2346807F79F617BB3F2E645F"
+    },
+    {
+      "check_id": "HASH_GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT.zip",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT.zip: expected 0FC8F88EAD4D824BCF12168A504015D42BDB4BA15092B6C364B1AFF48328D9B9, observed 0FC8F88EAD4D824BCF12168A504015D42BDB4BA15092B6C364B1AFF48328D9B9"
+    },
+    {
+      "check_id": "HASH_GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf: expected 8E6071A2E4A0D38CC89232553CE0CC0314C7EF4BD0A084240C41D60B0AEBBFC5, observed 8E6071A2E4A0D38CC89232553CE0CC0314C7EF4BD0A084240C41D60B0AEBBFC5"
+    },
+    {
+      "check_id": "OUTER_HANDOFF_RECEIPT",
+      "status": "PASS",
+      "detail": "Outer repaired handoff hash receipt matches the governing specification; the outer archive itself is not redundantly nested."
+    },
+    {
+      "check_id": "ZIP_CRC_GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE.zip: bad member None"
+    },
+    {
+      "check_id": "ZIP_CRC_GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT.zip: bad member None"
+    },
+    {
+      "check_id": "COUNT_TASKS",
+      "status": "PASS",
+      "detail": "21 task rows"
+    },
+    {
+      "check_id": "COUNT_ERRORS",
+      "status": "PASS",
+      "detail": "36 error rows"
+    },
+    {
+      "check_id": "COUNT_VARIANTS",
+      "status": "PASS",
+      "detail": "15 variant rows"
+    },
+    {
+      "check_id": "COUNT_FROZEN_UNRESOLVED",
+      "status": "PASS",
+      "detail": "4 frozen unresolved rows"
+    },
+    {
+      "check_id": "COUNT_PRIOR_NOTICE_MATRIX",
+      "status": "PASS",
+      "detail": "51 = 36 errors + 15 variants"
+    },
+    {
+      "check_id": "COUNT_PROPAGATION_EDGES",
+      "status": "PASS",
+      "detail": "46 propagation edges"
+    },
+    {
+      "check_id": "COUNT_SEARCH_QUERIES",
+      "status": "PASS",
+      "detail": "20 dated search queries"
+    },
+    {
+      "check_id": "COUNT_OPEN_RECORDS",
+      "status": "PASS",
+      "detail": "5 open records"
+    },
+    {
+      "check_id": "TASK_IDS_UNIQUE",
+      "status": "PASS",
+      "detail": "Task identifiers are unique."
+    },
+    {
+      "check_id": "TASK_STATUS_ENUM",
+      "status": "PASS",
+      "detail": "Every task uses the required four-state vocabulary."
+    },
+    {
+      "check_id": "EXACT_UNRESOLVED_TASKS",
+      "status": "PASS",
+      "detail": "Observed ['POST-P13-A008', 'W11-DA002']"
+    },
+    {
+      "check_id": "CERT_POST-P13-A001",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A001.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_POST-P13-A002",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A002.md exists and carries status proved"
+    },
+    {
+      "check_id": "CERT_POST-P13-A003",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A003.md exists and carries status proved"
+    },
+    {
+      "check_id": "CERT_POST-P13-A004",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A004.md exists and carries status proved"
+    },
+    {
+      "check_id": "CERT_POST-P13-A005",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A005.md exists and carries status rejected"
+    },
+    {
+      "check_id": "CERT_POST-P13-A006",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A006.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_POST-P13-A007",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A007.md exists and carries status proved"
+    },
+    {
+      "check_id": "CERT_POST-P13-A008",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A008.md exists and carries status unresolved_after_bounded_search"
+    },
+    {
+      "check_id": "CERT_POST-P13-A009",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A009.md exists and carries status proved"
+    },
+    {
+      "check_id": "CERT_POST-P13-A010",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A010.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_POST-P13-A011",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A011.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_POST-P13-A012",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A012.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_POST-P13-A013",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A013.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_POST-P13-A014",
+      "status": "PASS",
+      "detail": "certificates/POST-P13-A014.md exists and carries status proved"
+    },
+    {
+      "check_id": "CERT_W10-DA001",
+      "status": "PASS",
+      "detail": "certificates/W10-DA001.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_W10-DA002",
+      "status": "PASS",
+      "detail": "certificates/W10-DA002.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_W10-DA003",
+      "status": "PASS",
+      "detail": "certificates/W10-DA003.md exists and carries status rejected"
+    },
+    {
+      "check_id": "CERT_W10-DA004",
+      "status": "PASS",
+      "detail": "certificates/W10-DA004.md exists and carries status repaired"
+    },
+    {
+      "check_id": "CERT_W11-DA001",
+      "status": "PASS",
+      "detail": "certificates/W11-DA001.md exists and carries status proved"
+    },
+    {
+      "check_id": "CERT_W11-DA002",
+      "status": "PASS",
+      "detail": "certificates/W11-DA002.md exists and carries status unresolved_after_bounded_search"
+    },
+    {
+      "check_id": "CERT_W11-DA003",
+      "status": "PASS",
+      "detail": "certificates/W11-DA003.md exists and carries status proved"
+    },
+    {
+      "check_id": "ERROR_IDS_UNIQUE",
+      "status": "PASS",
+      "detail": "All 36 source-error identifiers are unique."
+    },
+    {
+      "check_id": "DIPLOMATIC_LAYER_IMMUTABLE",
+      "status": "PASS",
+      "detail": "Every error row declares no diplomatic mutation."
+    },
+    {
+      "check_id": "CRITICAL_LAYER_STAGED",
+      "status": "PASS",
+      "detail": "Every error has a nonempty separate critical-layer disposition."
+    },
+    {
+      "check_id": "ERROR_CERT_W02-PE001",
+      "status": "PASS",
+      "detail": "W02-PE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W03-PE001",
+      "status": "PASS",
+      "detail": "W03-PE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W03-PE002",
+      "status": "PASS",
+      "detail": "W03-PE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W03-PE003",
+      "status": "PASS",
+      "detail": "W03-PE003 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W04-SE001",
+      "status": "PASS",
+      "detail": "W04-SE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W04-SE002",
+      "status": "PASS",
+      "detail": "W04-SE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W04-SE003",
+      "status": "PASS",
+      "detail": "W04-SE003 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W04-SE004",
+      "status": "PASS",
+      "detail": "W04-SE004 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W05-SE001",
+      "status": "PASS",
+      "detail": "W05-SE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W05-SE002",
+      "status": "PASS",
+      "detail": "W05-SE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W06-PE001",
+      "status": "PASS",
+      "detail": "W06-PE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W06-SE001",
+      "status": "PASS",
+      "detail": "W06-SE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W07-SE001",
+      "status": "PASS",
+      "detail": "W07-SE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W07-SE002",
+      "status": "PASS",
+      "detail": "W07-SE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W07-SE003",
+      "status": "PASS",
+      "detail": "W07-SE003 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W07-SE004",
+      "status": "PASS",
+      "detail": "W07-SE004 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W07-SE005",
+      "status": "PASS",
+      "detail": "W07-SE005 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W08-PE001",
+      "status": "PASS",
+      "detail": "W08-PE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W08-PE002",
+      "status": "PASS",
+      "detail": "W08-PE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-PE001",
+      "status": "PASS",
+      "detail": "W09-PE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-PE002",
+      "status": "PASS",
+      "detail": "W09-PE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-SE001",
+      "status": "PASS",
+      "detail": "W09-SE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-SE002",
+      "status": "PASS",
+      "detail": "W09-SE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-SE003",
+      "status": "PASS",
+      "detail": "W09-SE003 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-SE004",
+      "status": "PASS",
+      "detail": "W09-SE004 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-SE005",
+      "status": "PASS",
+      "detail": "W09-SE005 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W09-SE006",
+      "status": "PASS",
+      "detail": "W09-SE006 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-PE001",
+      "status": "PASS",
+      "detail": "W10-PE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-PE002",
+      "status": "PASS",
+      "detail": "W10-PE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-PE003",
+      "status": "PASS",
+      "detail": "W10-PE003 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-PE004",
+      "status": "PASS",
+      "detail": "W10-PE004 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-PE005",
+      "status": "PASS",
+      "detail": "W10-PE005 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-PE006",
+      "status": "PASS",
+      "detail": "W10-PE006 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-SE001",
+      "status": "PASS",
+      "detail": "W10-SE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W10-SE002",
+      "status": "PASS",
+      "detail": "W10-SE002 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "ERROR_CERT_W11-PE001",
+      "status": "PASS",
+      "detail": "W11-PE001 has nonempty proof, critical repair, and source pointers; task-level files provide the full certificates."
+    },
+    {
+      "check_id": "MATRIX_RECORD_SET",
+      "status": "PASS",
+      "detail": "Prior-notice matrix covers exactly all 36 errors and 15 variants."
+    },
+    {
+      "check_id": "MATRIX_IDS_UNIQUE",
+      "status": "PASS",
+      "detail": "Prior-notice matrix identifiers are unique."
+    },
+    {
+      "check_id": "MATRIX_NO_NOVELTY_OVERCLAIM",
+      "status": "PASS",
+      "detail": "No matrix class asserts novelty from a negative search."
+    },
+    {
+      "check_id": "SEARCH_DATED",
+      "status": "PASS",
+      "detail": "All queries carry the bounded-search date."
+    },
+    {
+      "check_id": "SEARCH_SOURCE_POINTERS",
+      "status": "PASS",
+      "detail": "Every query records source IDs and exact coordinates."
+    },
+    {
+      "check_id": "EDGE_SOURCE_IDS",
+      "status": "PASS",
+      "detail": "Every dependency edge originates in a frozen error or audited task."
+    },
+    {
+      "check_id": "EDGE_CERTIFICATES",
+      "status": "PASS",
+      "detail": "Every edge resolves to a certificate."
+    },
+    {
+      "check_id": "OPEN_SET_EXACT",
+      "status": "PASS",
+      "detail": "All five open records are retained, with nothing silently dropped."
+    },
+    {
+      "check_id": "FROZEN_UNRESOLVED_SUBSET",
+      "status": "PASS",
+      "detail": "All four frozen unresolved readings are represented in the cumulative open ledger."
+    },
+    {
+      "check_id": "MATH_STATUS",
+      "status": "PASS",
+      "detail": "Mathematical program reports PASS."
+    },
+    {
+      "check_id": "MATH_COUNT",
+      "status": "PASS",
+      "detail": "Mathematical checks pass 27/27."
+    },
+    {
+      "check_id": "MATH_W03_PE003_CORRECTED_ROOT",
+      "status": "PASS",
+      "detail": "x=3-A annihilates 3x^2-16x+18 modulo 3A^2-2A-3."
+    },
+    {
+      "check_id": "MATH_W03_PE003_PRINTED_NOT_ROOT",
+      "status": "PASS",
+      "detail": "The printed x=3-1/A does not annihilate the quadratic."
+    },
+    {
+      "check_id": "MATH_W04_SE002_ONE_SIDED_LIMITS",
+      "status": "PASS",
+      "detail": "F(t)=|t|, f(t)=t has unequal one-sided difference quotients at 0."
+    },
+    {
+      "check_id": "MATH_W04_SE003_NO_SINGLE_INVERSE",
+      "status": "PASS",
+      "detail": "psi(0)=psi(1)=0 precludes a single-valued inverse on both inputs."
+    },
+    {
+      "check_id": "MATH_W06_SE001_ZERO_TOP_MONOMIAL",
+      "status": "PASS",
+      "detail": "For X=x^n the printed strict inequality fails identically."
+    },
+    {
+      "check_id": "MATH_W06_SE001_POSITIVE_LOWER_TERM",
+      "status": "PASS",
+      "detail": "A positive coefficient below degree n makes nX-xX' strictly positive for x>0."
+    },
+    {
+      "check_id": "MATH_W07_SE001_ALPHA_CUBE",
+      "status": "PASS",
+      "detail": "A root of x^2+x+1 over F2 is a nontrivial cube root of unity."
+    },
+    {
+      "check_id": "MATH_W07_SE004_ZERO_OMITTED",
+      "status": "PASS",
+      "detail": "Zero is not a root of x^(p-1)-1, but is a residue and may solve F."
+    },
+    {
+      "check_id": "MATH_W07_SE003_DERIVATIVE_ZERO",
+      "status": "PASS",
+      "detail": "The derivative of x^3-1 over F3 vanishes identically."
+    },
+    {
+      "check_id": "MATH_W07_SE005_PROPER_SUBFIELD",
+      "status": "PASS",
+      "detail": "1 in F3 is a root of x^(3^2-1)-1 but has degree 1, not exact degree 2."
+    },
+    {
+      "check_id": "MATH_A005_H_ORDER",
+      "status": "PASS",
+      "detail": "The linear complement H=<diag(A,I),diag(I,A),swap> has order 18."
+    },
+    {
+      "check_id": "MATH_A005_H_IRREDUCIBLE",
+      "status": "PASS",
+      "detail": "H has no nonzero proper invariant subspace in F2^4."
+    },
+    {
+      "check_id": "MATH_A005_NOT_SEMILINEAR_1D",
+      "status": "PASS",
+      "detail": "H cannot embed in GammaL(1,16), whose order is 4(16-1)=60, since 18 does not divide 60."
+    },
+    {
+      "check_id": "MATH_A005_AFFINE_GROUP_ORDER",
+      "status": "PASS",
+      "detail": "The resulting solvable primitive affine group has degree 16 and order 288."
+    },
+    {
+      "check_id": "MATH_W08_PSL2_11_ORDER",
+      "status": "PASS",
+      "detail": "The projective permutation image of SL2(11) has order 660."
+    },
+    {
+      "check_id": "MATH_W08_P11_MATCHING_STABILIZER",
+      "status": "PASS",
+      "detail": "The corrected six-pair matching has stabilizer order 60 and index 11 in PSL2(11)."
+    },
+    {
+      "check_id": "MATH_W09_SE002_DEGREE4_POLY",
+      "status": "PASS",
+      "detail": "(sqrt2+sqrt3)^4-10(sqrt2+sqrt3)^2+1=0 by exact expansion."
+    },
+    {
+      "check_id": "MATH_W09_SE002_INDEX_COUNTEREXAMPLE",
+      "status": "PASS",
+      "detail": "Adjoining a degree-4 element containing Q(sqrt2) reduces a C2 group with index 2, contradicting a 1-or-4 dichotomy."
+    },
+    {
+      "check_id": "MATH_W09_SE004_FOURIER_SELECTION",
+      "status": "PASS",
+      "detail": "For theta_j=1+omega^j t, R1=0 while R2=3t !=0; DFT inversion guarantees some nonzero nontrivial coefficient for a nonconstant orbit."
+    },
+    {
+      "check_id": "MATH_W09_SE005_CUBIC_COUNTEREXAMPLE",
+      "status": "PASS",
+      "detail": "x^3-2 factors over Q(cuberoot2) but does not split; the residual quadratic has negative discriminant in the real embedding."
+    },
+    {
+      "check_id": "MATH_W10_DA003_CONJUGATE",
+      "status": "PASS",
+      "detail": "T0 and T1 are conjugate by translation on P1(F7)."
+    },
+    {
+      "check_id": "MATH_W10_DA003_NOT_COMMUTING",
+      "status": "PASS",
+      "detail": "The conjugate projective substitutions T0 and T1 do not commute."
+    },
+    {
+      "check_id": "MATH_W10_PE006_DISCRIMINANT",
+      "status": "PASS",
+      "detail": "The corrected fixed-point equation has discriminant (m-s)^2+4nr, exactly the next printed expression."
+    },
+    {
+      "check_id": "MATH_SOURCE_PDF_PAGE_COUNTS",
+      "status": "PASS",
+      "detail": "Primary and secondary PDF page counts match the frozen contract."
+    },
+    {
+      "check_id": "MATH_INPUT_HASH_GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT",
+      "status": "PASS",
+      "detail": "SHA-256 matches for GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip."
+    },
+    {
+      "check_id": "MATH_INPUT_HASH_GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE",
+      "status": "PASS",
+      "detail": "SHA-256 matches for GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE.zip."
+    },
+    {
+      "check_id": "MATH_INPUT_HASH_GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT",
+      "status": "PASS",
+      "detail": "SHA-256 matches for GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT.zip."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A001",
+      "status": "PASS",
+      "detail": "POST-P13-A001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A002",
+      "status": "PASS",
+      "detail": "POST-P13-A002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A003",
+      "status": "PASS",
+      "detail": "POST-P13-A003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A004",
+      "status": "PASS",
+      "detail": "POST-P13-A004 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A005",
+      "status": "PASS",
+      "detail": "POST-P13-A005 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A006",
+      "status": "PASS",
+      "detail": "POST-P13-A006 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A007",
+      "status": "PASS",
+      "detail": "POST-P13-A007 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A008",
+      "status": "PASS",
+      "detail": "POST-P13-A008 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A009",
+      "status": "PASS",
+      "detail": "POST-P13-A009 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A010",
+      "status": "PASS",
+      "detail": "POST-P13-A010 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A011",
+      "status": "PASS",
+      "detail": "POST-P13-A011 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A012",
+      "status": "PASS",
+      "detail": "POST-P13-A012 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A013",
+      "status": "PASS",
+      "detail": "POST-P13-A013 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_POST-P13-A014",
+      "status": "PASS",
+      "detail": "POST-P13-A014 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_W10-DA001",
+      "status": "PASS",
+      "detail": "W10-DA001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_W10-DA002",
+      "status": "PASS",
+      "detail": "W10-DA002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_W10-DA003",
+      "status": "PASS",
+      "detail": "W10-DA003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_W10-DA004",
+      "status": "PASS",
+      "detail": "W10-DA004 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_W11-DA001",
+      "status": "PASS",
+      "detail": "W11-DA001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_W11-DA002",
+      "status": "PASS",
+      "detail": "W11-DA002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_TASK_W11-DA003",
+      "status": "PASS",
+      "detail": "W11-DA003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W02-PE001",
+      "status": "PASS",
+      "detail": "W02-PE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W03-PE001",
+      "status": "PASS",
+      "detail": "W03-PE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W03-PE002",
+      "status": "PASS",
+      "detail": "W03-PE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W03-PE003",
+      "status": "PASS",
+      "detail": "W03-PE003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W04-SE001",
+      "status": "PASS",
+      "detail": "W04-SE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W04-SE002",
+      "status": "PASS",
+      "detail": "W04-SE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W04-SE003",
+      "status": "PASS",
+      "detail": "W04-SE003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W04-SE004",
+      "status": "PASS",
+      "detail": "W04-SE004 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W05-SE001",
+      "status": "PASS",
+      "detail": "W05-SE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W05-SE002",
+      "status": "PASS",
+      "detail": "W05-SE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W06-PE001",
+      "status": "PASS",
+      "detail": "W06-PE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W06-SE001",
+      "status": "PASS",
+      "detail": "W06-SE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W07-SE001",
+      "status": "PASS",
+      "detail": "W07-SE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W07-SE002",
+      "status": "PASS",
+      "detail": "W07-SE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W07-SE003",
+      "status": "PASS",
+      "detail": "W07-SE003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W07-SE004",
+      "status": "PASS",
+      "detail": "W07-SE004 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W07-SE005",
+      "status": "PASS",
+      "detail": "W07-SE005 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W08-PE001",
+      "status": "PASS",
+      "detail": "W08-PE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W08-PE002",
+      "status": "PASS",
+      "detail": "W08-PE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-PE001",
+      "status": "PASS",
+      "detail": "W09-PE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-PE002",
+      "status": "PASS",
+      "detail": "W09-PE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-SE001",
+      "status": "PASS",
+      "detail": "W09-SE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-SE002",
+      "status": "PASS",
+      "detail": "W09-SE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-SE003",
+      "status": "PASS",
+      "detail": "W09-SE003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-SE004",
+      "status": "PASS",
+      "detail": "W09-SE004 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-SE005",
+      "status": "PASS",
+      "detail": "W09-SE005 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W09-SE006",
+      "status": "PASS",
+      "detail": "W09-SE006 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-PE001",
+      "status": "PASS",
+      "detail": "W10-PE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-PE002",
+      "status": "PASS",
+      "detail": "W10-PE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-PE003",
+      "status": "PASS",
+      "detail": "W10-PE003 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-PE004",
+      "status": "PASS",
+      "detail": "W10-PE004 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-PE005",
+      "status": "PASS",
+      "detail": "W10-PE005 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-PE006",
+      "status": "PASS",
+      "detail": "W10-PE006 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-SE001",
+      "status": "PASS",
+      "detail": "W10-SE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W10-SE002",
+      "status": "PASS",
+      "detail": "W10-SE002 appears in maintained critical source."
+    },
+    {
+      "check_id": "MD_ERROR_W11-PE001",
+      "status": "PASS",
+      "detail": "W11-PE001 appears in maintained critical source."
+    },
+    {
+      "check_id": "TEX_BEGIN_END",
+      "status": "PASS",
+      "detail": "LaTeX environment begin/end counts balance."
+    },
+    {
+      "check_id": "TEX_DOCUMENT_BALANCE",
+      "status": "PASS",
+      "detail": "Exactly one document environment."
+    },
+    {
+      "check_id": "TEX_NO_MISSING_GLYPHS",
+      "status": "PASS",
+      "detail": "No missing-character warnings."
+    },
+    {
+      "check_id": "TEX_NO_OVERFULL",
+      "status": "PASS",
+      "detail": "No overfull boxes."
+    },
+    {
+      "check_id": "TEX_NO_ERRORS",
+      "status": "PASS",
+      "detail": "No TeX errors."
+    },
+    {
+      "check_id": "CRITICAL_PAGES",
+      "status": "PASS",
+      "detail": "Standalone critical PDF has 22 pages."
+    },
+    {
+      "check_id": "DIPLOMATIC_PAGES",
+      "status": "PASS",
+      "detail": "Frozen diplomatic PDF has 78 pages."
+    },
+    {
+      "check_id": "ONE_CLICK_PAGES",
+      "status": "PASS",
+      "detail": "One-click reader has 100 pages."
+    },
+    {
+      "check_id": "CRITICAL_HASH",
+      "status": "PASS",
+      "detail": "Critical PDF hash matches build receipt."
+    },
+    {
+      "check_id": "ONE_CLICK_HASH",
+      "status": "PASS",
+      "detail": "One-click reader hash matches build receipt."
+    },
+    {
+      "check_id": "DETERMINISTIC_CRITICAL",
+      "status": "PASS",
+      "detail": "Independent critical builds are byte-identical."
+    },
+    {
+      "check_id": "DETERMINISTIC_READER",
+      "status": "PASS",
+      "detail": "Independent reader concatenations are byte-identical."
+    },
+    {
+      "check_id": "PREFLIGHT_CRITICAL_PDF_PREFLIGHT.json",
+      "status": "PASS",
+      "detail": "CRITICAL_PDF_PREFLIGHT.json: []"
+    },
+    {
+      "check_id": "PREFLIGHT_ONE_CLICK_READER_PREFLIGHT.json",
+      "status": "PASS",
+      "detail": "ONE_CLICK_READER_PREFLIGHT.json: []"
+    },
+    {
+      "check_id": "GS_CRITICAL_GHOSTSCRIPT_PREFLIGHT.txt",
+      "status": "PASS",
+      "detail": "CRITICAL_GHOSTSCRIPT_PREFLIGHT.txt exists; command exit status was zero."
+    },
+    {
+      "check_id": "GS_ONE_CLICK_GHOSTSCRIPT_PREFLIGHT.txt",
+      "status": "PASS",
+      "detail": "ONE_CLICK_GHOSTSCRIPT_PREFLIGHT.txt exists; command exit status was zero."
+    },
+    {
+      "check_id": "FONTS_CRITICAL_PDF_FONTS.txt",
+      "status": "PASS",
+      "detail": "7 font records, all embedded."
+    },
+    {
+      "check_id": "FONTS_ONE_CLICK_READER_FONTS.txt",
+      "status": "PASS",
+      "detail": "44 font records, all embedded."
+    },
+    {
+      "check_id": "PREFIX_78_PIXEL_IDENTICAL",
+      "status": "PASS",
+      "detail": "Frozen prefix is pixel-identical 78/78 at 100 dpi."
+    },
+    {
+      "check_id": "RENDERER_REVIEW",
+      "status": "PASS",
+      "detail": "All 22 natural page pairs pass side-by-side Poppler/PDFium review."
+    },
+    {
+      "check_id": "SOURCE_AUTHORITY_COUNT",
+      "status": "PASS",
+      "detail": "Fifteen source-authority records."
+    },
+    {
+      "check_id": "WEB_EVIDENCE_COUNT",
+      "status": "PASS",
+      "detail": "Eleven direct web/literature evidence records."
+    },
+    {
+      "check_id": "WEB_EVIDENCE_COORDINATES",
+      "status": "PASS",
+      "detail": "Every web record has URL, coordinate, and supported conclusion."
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_00_READ_FIRST_GALOIS_1897_PROJECT_md",
+      "status": "PASS",
+      "detail": "source_packet/00_READ_FIRST_GALOIS_1897_PROJECT.md"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_01_MANUAL_PROMPTS_DO_NOT_AUTO_RUN_md",
+      "status": "PASS",
+      "detail": "source_packet/01_MANUAL_PROMPTS_DO_NOT_AUTO_RUN.md"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_02_CANONICAL_1897_SCAN_ALL_96_PAGES_pdf",
+      "status": "PASS",
+      "detail": "source_packet/02_CANONICAL_1897_SCAN_ALL_96_PAGES.pdf"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_03_FRESH_SURYA_OCR_WITNESS_ALL_96_PAGES_md",
+      "status": "PASS",
+      "detail": "source_packet/03_FRESH_SURYA_OCR_WITNESS_ALL_96_PAGES.md"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_04_GALOIS_1897_PAGE_MAP_csv",
+      "status": "PASS",
+      "detail": "source_packet/04_GALOIS_1897_PAGE_MAP.csv"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_05_JP2_IMAGE_INVENTORY_SHA256_csv",
+      "status": "PASS",
+      "detail": "source_packet/05_JP2_IMAGE_INVENTORY_SHA256.csv"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_06_JP2_ARCHIVE_MAP_csv",
+      "status": "PASS",
+      "detail": "source_packet/06_JP2_ARCHIVE_MAP.csv"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_07_1846_JMPA_ORIGINAL_PUBLICATION_WITNESS_pdf",
+      "status": "PASS",
+      "detail": "source_packet/07_1846_JMPA_ORIGINAL_PUBLICATION_WITNESS.pdf"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_08_1908_MANUSCRIPTS_WITNESS_pdf",
+      "status": "PASS",
+      "detail": "source_packet/08_1908_MANUSCRIPTS_WITNESS.pdf"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_09_1908_MANUSCRIPTS_600PPI_TIFF_MASTER_zip",
+      "status": "PASS",
+      "detail": "source_packet/09_1908_MANUSCRIPTS_600PPI_TIFF_MASTER.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_10_GUTENBERG_CONTROL_ONLY_tex_txt",
+      "status": "PASS",
+      "detail": "source_packet/10_GUTENBERG_CONTROL_ONLY.tex.txt"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_11_OCR_PROVENANCE_md",
+      "status": "PASS",
+      "detail": "source_packet/11_OCR_PROVENANCE.md"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_23_PACKET_MANIFEST_SHA256_txt",
+      "status": "PASS",
+      "detail": "source_packet/23_PACKET_MANIFEST_SHA256.txt"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0000_0022_PDF001_023_PRELIMS_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0000-0022_PDF001-023_PRELIMS.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0023_0028_PDF024_029_INTRODUCTION_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0023-0028_PDF024-029_INTRODUCTION.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0029_0036_PDF030_037_CONTINUED_FRACTIONS_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0029-0036_PDF030-037_CONTINUED_FRACTIONS.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0037_0038_PDF038_039_NOTES_ANALYSIS_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0037-0038_PDF038-039_NOTES_ANALYSIS.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0039_0040_PDF040_041_ALGEBRAIC_RESOLUTION_ANALYSIS_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0039-0040_PDF040-041_ALGEBRAIC_RESOLUTION_ANALYSIS.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0041_0042_PDF042_043_NUMERICAL_EQUATIONS_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0041-0042_PDF042-043_NUMERICAL_EQUATIONS.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0043_0051_PDF044_052_NUMBER_THEORY_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0043-0051_PDF044-052_NUMBER_THEORY.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0052_PDF053_PRINT024_BLANK_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0052_PDF053_PRINT024_BLANK.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0053_0060_PDF054_061_CHEVALIER_LETTER_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0053-0060_PDF054-061_CHEVALIER_LETTER.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0061_0078_PDF062_079_RADICALS_MEMOIR_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0061-0078_PDF062-079_RADICALS_MEMOIR.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0079_0089_PDF080_090_PRIMITIVE_EQUATIONS_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0079-0089_PDF080-090_PRIMITIVE_EQUATIONS.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0090_PDF091_PRINT062_BLANK_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0090_PDF091_PRINT062_BLANK.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0091_PDF092_TABLE_OF_CONTENTS_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0091_PDF092_TABLE_OF_CONTENTS.zip"
+    },
+    {
+      "check_id": "SRC_HASH_source_packet_JP2_L0092_0095_PDF093_096_COLOPHON_TRAILING_zip",
+      "status": "PASS",
+      "detail": "source_packet/JP2_L0092-0095_PDF093-096_COLOPHON_TRAILING.zip"
+    },
+    {
+      "check_id": "SRC_HASH_frozen_diplomatic_GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD_pdf",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf"
+    },
+    {
+      "check_id": "SRC_HASH_frozen_diplomatic_GAL1897_CUMULATIVE_P00_P13R_REPAIRED_CANDIDATE_zip",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE.zip"
+    },
+    {
+      "check_id": "SRC_HASH_frozen_diplomatic_GAL1897_CUMULATIVE_P00_P13R_REPAIRED_CANDIDATE_zip_sha256",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE.zip.sha256"
+    },
+    {
+      "check_id": "SRC_HASH_frozen_diplomatic_GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT_zip",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT.zip"
+    },
+    {
+      "check_id": "SRC_HASH_frozen_diplomatic_GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT_zip_sha256",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/GAL1897_P13R_BLOCKER_REPAIR_COLD_REAUDIT.zip.sha256"
+    },
+    {
+      "check_id": "SRC_HASH_frozen_diplomatic_HASH_RECEIPT_json",
+      "status": "PASS",
+      "detail": "frozen_diplomatic/HASH_RECEIPT.json"
+    },
+    {
+      "check_id": "REQUIRED_RETURN_TO_CODEX_md",
+      "status": "PASS",
+      "detail": "RETURN_TO_CODEX.md"
+    },
+    {
+      "check_id": "REQUIRED_BUILD_INSTRUCTIONS_md",
+      "status": "PASS",
+      "detail": "BUILD_INSTRUCTIONS.md"
+    },
+    {
+      "check_id": "REQUIRED_critical_edition_GAL1897_GPT_CRITICAL_EDITION_md",
+      "status": "PASS",
+      "detail": "critical_edition/GAL1897_GPT_CRITICAL_EDITION.md"
+    },
+    {
+      "check_id": "REQUIRED_critical_edition_GAL1897_GPT_CRITICAL_EDITION_tex",
+      "status": "PASS",
+      "detail": "critical_edition/GAL1897_GPT_CRITICAL_EDITION.tex"
+    },
+    {
+      "check_id": "REQUIRED_critical_edition_GAL1897_GPT_CRITICAL_EDITION_pdf",
+      "status": "PASS",
+      "detail": "critical_edition/GAL1897_GPT_CRITICAL_EDITION.pdf"
+    },
+    {
+      "check_id": "REQUIRED_critical_edition_GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL_pdf",
+      "status": "PASS",
+      "detail": "critical_edition/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf"
+    },
+    {
+      "check_id": "REQUIRED_ledgers_MASTER_21_TASK_LEDGER_csv",
+      "status": "PASS",
+      "detail": "ledgers/MASTER_21_TASK_LEDGER.csv"
+    },
+    {
+      "check_id": "REQUIRED_ledgers_CRITICAL_ERRATA_CATALOGUE_csv",
+      "status": "PASS",
+      "detail": "ledgers/CRITICAL_ERRATA_CATALOGUE.csv"
+    },
+    {
+      "check_id": "REQUIRED_ledgers_BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX_csv",
+      "status": "PASS",
+      "detail": "ledgers/BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv"
+    },
+    {
+      "check_id": "REQUIRED_ledgers_DEPENDENCY_PROPAGATION_EDGES_csv",
+      "status": "PASS",
+      "detail": "ledgers/DEPENDENCY_PROPAGATION_EDGES.csv"
+    },
+    {
+      "check_id": "REQUIRED_ledgers_OPEN_AFTER_21_TASKS_csv",
+      "status": "PASS",
+      "detail": "ledgers/OPEN_AFTER_21_TASKS.csv"
+    },
+    {
+      "check_id": "REQUIRED_evidence_WEB_RESEARCH_PROVENANCE_md",
+      "status": "PASS",
+      "detail": "evidence/WEB_RESEARCH_PROVENANCE.md"
+    },
+    {
+      "check_id": "REQUIRED_qa_MATHEMATICAL_CHECKS_json",
+      "status": "PASS",
+      "detail": "qa/MATHEMATICAL_CHECKS.json"
+    },
+    {
+      "check_id": "REQUIRED_qa_RENDER_AND_STRUCTURAL_QA_md",
+      "status": "PASS",
+      "detail": "qa/RENDER_AND_STRUCTURAL_QA.md"
+    }
+  ]
+}

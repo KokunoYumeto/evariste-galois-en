@@ -1,0 +1,51 @@
+\GalSourcePageBoundary{083}{L0082}{54}{54}
+ainsi:
+\[
+\begin{array}{*{6}{l}}
+  a_{0,0}, & a_{0,1}, & a_{0,2}, & a_{0,3}, & \dots, & a_{0,p-1},\\
+  a_{1,0}, & a_{1,1}, & a_{1,2}, & a_{1,3}, & \dots, & a_{1,p-1},\\
+  a_{2,0}, & a_{2,1}, & a_{2,2}, & a_{2,3}, & \dots, & a_{2,p-1},\\
+  \dots,  & \dots,  & \dots,  & \dots,  & \dots, & \dotfill, \\
+  a_{p-1,0}, & a_{p-1,1}, & a_{p-1,2}, & a_{p-1,3}, & \dots, & \rlap{$a_{p-1,p-1},$}
+\end{array}
+\]
+chaque ligne horizontale et chaque ligne verticale étant un système
+de lettres conjointes.
+
+Si l'on permute entre elles les lignes horizontales, le groupe
+que l'on obtiendra, étant primitif et de degré premier, ne devra
+contenir que des substitutions de la forme
+\[
+\GalPrintedError{(a_{k_{1},k_{2}},\ a_{mk_{1}+n k_{2}})}{W10-PE003},
+\]
+les indices étant pris relativement au module~$p$.
+
+Il en sera de même pour les lignes qui ne pourront donner que
+des substitutions de la forme
+\[
+(a_{k_{1},k_{2}},\ a_{k_{1}, qk_{2}+r}).
+\]
+Donc enfin toutes les substitutions du groupe~$H$ seront de la
+forme
+\[
+\GalPrintedError{(a_{k_{2},k_{3}},\ a_{m_{1} k_{1}+n_{1}, m_{2} k_{2}+n_{2}})}{W10-PE004}.
+\]
+Si un groupe~$G$ se partage en $n$~groupes conjugués à celui que
+nous venons de décrire, toutes les substitutions du groupe~$G$ devront
+transformer les unes dans les autres les substitutions circulaires
+du groupe~$H$, qui sont toutes écrites comme il suit:
+\[
+\tag{a}
+(a_{k_{1},k_{2}},\ \dots,\ a_{k_{1}+\alpha_{1}, k_{2}+\alpha_{2}},\ \dots).
+\]
+Supposons donc que l'une des substitutions du groupe~$G$ se forme
+en remplaçant respectivement
+\begin{align*}
+k_{1} & \quad\text{par}\quad \phi_{1} (k_{1}, k_{2}),\\
+k_{2} & \quad\text{par}\quad \phi_{2} (k_{1}, k_{2}).
+\end{align*}
+Si, dans les fonctions $\phi_{1}$,~$\phi_{2}$, on substitue pour $k_{1}$~et~$k_{2}$ les valeurs
+$k_{1} + \alpha_{1}$, $k_{2} + \alpha_{2}$, il devra venir des résultats de la forme
+\[
+\phi_{1} + \beta_{1},\quad \phi_{2} + \beta_{2},
+\]

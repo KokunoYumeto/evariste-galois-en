@@ -1,0 +1,492 @@
+{
+  "completed_archive_checks": {
+    "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip": {
+      "casefold_collisions": 0,
+      "content_scan_findings": 0,
+      "crc_failure": null,
+      "duplicate_names": 0,
+      "encrypted_members": 0,
+      "entries": 77,
+      "member_set_sha256": "39C858A27344D6CA0851FB0A3100D34AB2B13F50E5A917A9A22B0595A72EC894",
+      "pass": true,
+      "payload_bytes": 3242288,
+      "unsafe_member_names": 0
+    },
+    "OTHER_TRANSLATIONS.zip": {
+      "casefold_collisions": 0,
+      "content_scan_findings": 0,
+      "crc_failure": null,
+      "duplicate_names": 0,
+      "encrypted_members": 0,
+      "entries": 8,
+      "member_set_sha256": "1E8297DB6340E40F70D120A52EA20FB23ACBC37183A4F565D1B53E873A9CA468",
+      "pass": true,
+      "payload_bytes": 293812515,
+      "unsafe_member_names": 0
+    }
+  },
+  "evidence_archive_accounting": {
+    "archive_hash_and_crc_recorded_after_creation_in_external_release_receipt": true,
+    "archive_name": "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
+    "members_excluding_this_receipt": [
+      {
+        "bytes": 2756,
+        "name": "evidence/DATACITE_RELATIONS.json",
+        "sha256": "2D30D7C911A0AA0F344659C7872187563AD811BD299743388E1C642B14489CF7"
+      },
+      {
+        "bytes": 6361,
+        "name": "evidence/ENGLISH_COVERAGE.tsv",
+        "sha256": "E1FE78A3F1592C4FA6AB775863F615AC8DDD13315693A742DCB57F992F1DDD7A"
+      },
+      {
+        "bytes": 176121,
+        "name": "evidence/EN_FR_ALIGNMENT.tsv",
+        "sha256": "1C298ED349F75F8CBE7BD42DEA1249CAFD9F6B04733DDFD1C60C2493C135C5CC"
+      },
+      {
+        "bytes": 47530,
+        "name": "evidence/GPT_CRITICAL_CALLOUTS.tsv",
+        "sha256": "4C77F3DE819A15E3811DF5F5C3BB6B666C734715DEAF60560F3A5B14CD0A9245"
+      },
+      {
+        "bytes": 1259,
+        "name": "evidence/POST_P13_INTEGRATION_SUMMARY.json",
+        "sha256": "B22AE3155521AE8670D55666396C2185792C1786A41241B74958736C0B05D9E8"
+      },
+      {
+        "bytes": 8249,
+        "name": "evidence/POST_P13_TASK_DISPOSITIONS.tsv",
+        "sha256": "116430A06F5B572A80FE16AF215047495B918BE4498CD8FF46EB54C49909553F"
+      },
+      {
+        "bytes": 4862,
+        "name": "evidence/QA_REPORT.md",
+        "sha256": "A539DDAB5B066D9BA151B1EB63A950BFBED08F9F7258C2155A64C59C7C8AC86D"
+      },
+      {
+        "bytes": 2707,
+        "name": "evidence/QA_STATE.json",
+        "sha256": "D66723460791B52A1C3753463CA16E754583117688A8A7E9E09E89B22D9F0381"
+      },
+      {
+        "bytes": 6483,
+        "name": "evidence/RELEASE_SURFACE.md",
+        "sha256": "DB11143AC225317114CC536AF2844CD8B387F340424F3C0B9C1F923373B4BC17"
+      },
+      {
+        "bytes": 13227,
+        "name": "evidence/SEMANTIC_AUDIT_CLOSURE_POST_P13.md",
+        "sha256": "1F6DB58E8E5340C13A062E522FA974EE98CF85BE8C3AF86BB2E0BD8593F79426"
+      },
+      {
+        "bytes": 4996,
+        "name": "evidence/SOURCE_AUTHORITY.json",
+        "sha256": "3DCCAD580A1E9231A18374E8C583CC34C50C316DFB3EB93B69D22657CE1161C8"
+      },
+      {
+        "bytes": 18777,
+        "name": "evidence/STRUCTURAL_VALIDATION_POST_P13.json",
+        "sha256": "DB4929F7D6071E9783EB070F7FA7B4EC0992CD2B1322AD74A7689C5CEF748FAC"
+      },
+      {
+        "bytes": 3942,
+        "name": "evidence/TRANSLATION_LEDGER_BUILD.json",
+        "sha256": "27F6EBC2F1E8EA2EC364A64DB955A0F973DA77CBDD0619D044211D4D7F7935CE"
+      },
+      {
+        "bytes": 1826,
+        "name": "evidence/UNRESOLVED_ITEMS.tsv",
+        "sha256": "431E5B0C0D6FC06E9AF3C0960E0A9BC70DE4F98F8C024C85F3FC826B40A39A4D"
+      },
+      {
+        "bytes": 90211,
+        "name": "evidence/alignment_fragments/W05_W08.tsv",
+        "sha256": "99862B1E3EFBA02B93BEFA26A4FB98F1C7DB554E0046A53C83C2CDA6CBEDDDED"
+      },
+      {
+        "bytes": 1882,
+        "name": "evidence/coverage_fragments/W05_W08.tsv",
+        "sha256": "E9C764EC96BF74DE4C74E1108FFC9675BDFABDB654232E2268613850623B088B"
+      },
+      {
+        "bytes": 9893,
+        "name": "evidence/fragments/AUDIT_W05_W08.md",
+        "sha256": "918CF76FE8F0A8736A3236E20015FCC82E3AF7C60686E28E77165F99F4242996"
+      },
+      {
+        "bytes": 9746,
+        "name": "evidence/fragments/AUDIT_W09_W11.md",
+        "sha256": "9C9304D120F376F04A4EAE3B2C3C8393E218845E78E9AB8086B36740F2C2DD64"
+      },
+      {
+        "bytes": 7955,
+        "name": "evidence/fragments/FINAL_REAUDIT_W01_W04_W09_W11.md",
+        "sha256": "37C35B75E85D4D121F2A04834A6EEE3FB4AACAAA09A4ACACA7BF83991D1CF64D"
+      },
+      {
+        "bytes": 1403,
+        "name": "evidence/public_receipts/BUILD_ENVIRONMENT_PUBLIC.json",
+        "sha256": "CA00C91CF922541587F1FEE1A95CC02400354435D3C52F8AC848D53EA5AA88BA"
+      },
+      {
+        "bytes": 61728,
+        "name": "evidence/public_receipts/READER_MECHANICAL_RENDER_QA_POST_P13_PUBLIC.json",
+        "sha256": "0237CABD9D5766114A8A45CE9AFC8C504CBAE36E13D4FA86D925E142CED58657"
+      },
+      {
+        "bytes": 87123,
+        "name": "evidence/public_receipts/READER_STRUCTURAL_QA_POST_P13_PUBLIC.json",
+        "sha256": "B34C812618A0350FA3344114692362334DC07F50032C91C663DB2E15AE2D8A58"
+      },
+      {
+        "bytes": 6005,
+        "name": "evidence/public_receipts/READER_VISUAL_INSPECTION_POST_P13_PUBLIC.json",
+        "sha256": "BB43512110F575A745BF9B61A7B8209897C63BF66CED585821DBA7230DE4A0C7"
+      },
+      {
+        "bytes": 39579,
+        "name": "evidence/web_post_p13_return/BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv",
+        "sha256": "BA71270F0C3799D7F17AE4C29D2C72F40C6D1F0AB7AE98B1780299B0DF6508A8"
+      },
+      {
+        "bytes": 41600,
+        "name": "evidence/web_post_p13_return/COLD_AUDIT_CHECKS.json",
+        "sha256": "FABE8F75278E3AC00B0546D5DADD0BA29D53262305A23EF9D8CDE1A2BAF0E559"
+      },
+      {
+        "bytes": 21421,
+        "name": "evidence/web_post_p13_return/CRITICAL_ERRATA_CATALOGUE.csv",
+        "sha256": "8918133BCCF7E54E446E5589BB78E49F80907B68B6634CEB3E18428E57A3DD83"
+      },
+      {
+        "bytes": 8110,
+        "name": "evidence/web_post_p13_return/DEPENDENCY_PROPAGATION_EDGES.csv",
+        "sha256": "4FC28FF8D4DB61D881F7B992BEBC9D6A96B087A73ABDEED4F4340D0F39139438"
+      },
+      {
+        "bytes": 137,
+        "name": "evidence/web_post_p13_return/GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS.zip.sha256",
+        "sha256": "63E4A8E650D1A9A279B6781C7EAE2FF1D0809FB2A0D69373B86E064D37F7A3C5"
+      },
+      {
+        "bytes": 61910,
+        "name": "evidence/web_post_p13_return/GAL1897_GPT_CRITICAL_EDITION.md",
+        "sha256": "0E0FB61CD0E6BA1BB364692D81BFC8C006523BD2862C24CD7570AC981996F6A5"
+      },
+      {
+        "bytes": 141624,
+        "name": "evidence/web_post_p13_return/GAL1897_GPT_CRITICAL_EDITION.pdf",
+        "sha256": "77A1A593551954C7DD0C9EDEB6B01A40254B83745FDB3B0F4AC8AE277497C446"
+      },
+      {
+        "bytes": 3722355,
+        "name": "evidence/web_post_p13_return/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+        "sha256": "4803361CF7724FE06050B50BF0AA85E791F4BC168BBC555FC4EB996B30A2D8D6"
+      },
+      {
+        "bytes": 544,
+        "name": "evidence/web_post_p13_return/GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_PACKAGE_RECEIPT.json",
+        "sha256": "8A7644F4ADA7D2524BBD01EFCDDD361F0354DDBA46D4D13E360C561C0413AAD6"
+      },
+      {
+        "bytes": 7272,
+        "name": "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_PUBLIC_RECEIPT.json",
+        "sha256": "6C6601AAD015A5554A705E428697FFF2AAF9639F9C6DDCFEF8BD9BC58C6C24C1"
+      },
+      {
+        "bytes": 8301,
+        "name": "evidence/web_post_p13_return/MASTER_21_TASK_LEDGER.csv",
+        "sha256": "D9382212904B6549F3CBE9CEEC338710FF06F76E252E7EE9B52F1DC2D87C419B"
+      },
+      {
+        "bytes": 951,
+        "name": "evidence/web_post_p13_return/OPEN_AFTER_21_TASKS.csv",
+        "sha256": "06A5F558A6161FE4984B861DA24B5B4281A6D55ED79772D89ED5EB5199DAE145"
+      },
+      {
+        "bytes": 7001,
+        "name": "evidence/web_post_p13_return/SEARCH_QUERY_LEDGER.csv",
+        "sha256": "94AA8FEDDEA8CA63F4DBC8E5267A2B36E051311629B47CB29BB938714475C910"
+      },
+      {
+        "bytes": 4832,
+        "name": "evidence/web_post_p13_return/WEB_RESEARCH_PROVENANCE.md",
+        "sha256": "190FA5848A721B46FB0E0FC8B108D0479F77D737110970554D1768D6D2D13261"
+      },
+      {
+        "bytes": 4629,
+        "name": "evidence/web_post_p13_return/WEB_SOURCE_EVIDENCE.csv",
+        "sha256": "A224755782B0E6B18A68AC414DD84EADD9A9D63692C1423E4E8748B273DA12A6"
+      },
+      {
+        "bytes": 6258,
+        "name": "source/critical_baseline/DEFERRED_AUDIT_REGISTER.csv",
+        "sha256": "BA4D3533B57BD9A9CAA662584ABD63239B1DF91828EEDB2EB4C6DA462B424F5A"
+      },
+      {
+        "bytes": 26518,
+        "name": "source/critical_baseline/ERRATA_AND_UNRESOLVED_LEDGER.csv",
+        "sha256": "E4A6C1A9CF320D408E95EBB8EAFBF16C079857C2563B92ADDD268D20DE6ECE8D"
+      },
+      {
+        "bytes": 1554,
+        "name": "source/critical_baseline/GPT_EDITION_HANDOFF.md",
+        "sha256": "1E24DBCD75ED6FF765CC7A9928B47551A6F0BB43B76B4102547B9191707F0E79"
+      },
+      {
+        "bytes": 1530,
+        "name": "source/critical_baseline/GPT_EDITION_NOTES_FROM_P00-P11.md",
+        "sha256": "C84EEADB19707CB79F4EBFA25853ED79AF571E9FDF9F7556C876722E3A03E0E8"
+      },
+      {
+        "bytes": 44139,
+        "name": "source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.csv",
+        "sha256": "048107E6D83D773FA4ACF3B980155A22EA4E49F2ECC7B6D8C43A61402FB628AD"
+      },
+      {
+        "bytes": 30091,
+        "name": "source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md",
+        "sha256": "2297AB9A1FE75CD6F9BB202DFF55314153F26C92C4F65F998EC9729D85D3D48B"
+      },
+      {
+        "bytes": 5591,
+        "name": "source/critical_baseline/WITNESS_VARIANTS.csv",
+        "sha256": "DB69DE2F7D8E9A1B4976F6C540E92566E94D481212934EBA8D33908054AB0403"
+      },
+      {
+        "bytes": 5299,
+        "name": "source/critical_baseline/WITNESS_VARIANTS.md",
+        "sha256": "73C0D9871E22F41F31954F664AC36AB19896DF0E62A696566B17835C4BABBCAC"
+      }
+    ],
+    "planned_member_count": 47,
+    "planned_member_names": [
+      "evidence/DATACITE_RELATIONS.json",
+      "evidence/ENGLISH_COVERAGE.tsv",
+      "evidence/EN_FR_ALIGNMENT.tsv",
+      "evidence/GPT_CRITICAL_CALLOUTS.tsv",
+      "evidence/POST_P13_INTEGRATION_SUMMARY.json",
+      "evidence/POST_P13_TASK_DISPOSITIONS.tsv",
+      "evidence/QA_REPORT.md",
+      "evidence/QA_STATE.json",
+      "evidence/RELEASE_SURFACE.md",
+      "evidence/SEMANTIC_AUDIT_CLOSURE_POST_P13.md",
+      "evidence/SOURCE_AUTHORITY.json",
+      "evidence/STRUCTURAL_VALIDATION_POST_P13.json",
+      "evidence/TRANSLATION_LEDGER_BUILD.json",
+      "evidence/UNRESOLVED_ITEMS.tsv",
+      "evidence/alignment_fragments/W05_W08.tsv",
+      "evidence/coverage_fragments/W05_W08.tsv",
+      "evidence/fragments/AUDIT_W05_W08.md",
+      "evidence/fragments/AUDIT_W09_W11.md",
+      "evidence/fragments/FINAL_REAUDIT_W01_W04_W09_W11.md",
+      "evidence/public_receipts/BUILD_ENVIRONMENT_PUBLIC.json",
+      "evidence/public_receipts/PREPACKAGE_VALIDATION_RECEIPT.json",
+      "evidence/public_receipts/READER_MECHANICAL_RENDER_QA_POST_P13_PUBLIC.json",
+      "evidence/public_receipts/READER_STRUCTURAL_QA_POST_P13_PUBLIC.json",
+      "evidence/public_receipts/READER_VISUAL_INSPECTION_POST_P13_PUBLIC.json",
+      "evidence/web_post_p13_return/BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv",
+      "evidence/web_post_p13_return/COLD_AUDIT_CHECKS.json",
+      "evidence/web_post_p13_return/CRITICAL_ERRATA_CATALOGUE.csv",
+      "evidence/web_post_p13_return/DEPENDENCY_PROPAGATION_EDGES.csv",
+      "evidence/web_post_p13_return/GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS.zip.sha256",
+      "evidence/web_post_p13_return/GAL1897_GPT_CRITICAL_EDITION.md",
+      "evidence/web_post_p13_return/GAL1897_GPT_CRITICAL_EDITION.pdf",
+      "evidence/web_post_p13_return/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+      "evidence/web_post_p13_return/GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_PACKAGE_RECEIPT.json",
+      "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_PUBLIC_RECEIPT.json",
+      "evidence/web_post_p13_return/MASTER_21_TASK_LEDGER.csv",
+      "evidence/web_post_p13_return/OPEN_AFTER_21_TASKS.csv",
+      "evidence/web_post_p13_return/SEARCH_QUERY_LEDGER.csv",
+      "evidence/web_post_p13_return/WEB_RESEARCH_PROVENANCE.md",
+      "evidence/web_post_p13_return/WEB_SOURCE_EVIDENCE.csv",
+      "source/critical_baseline/DEFERRED_AUDIT_REGISTER.csv",
+      "source/critical_baseline/ERRATA_AND_UNRESOLVED_LEDGER.csv",
+      "source/critical_baseline/GPT_EDITION_HANDOFF.md",
+      "source/critical_baseline/GPT_EDITION_NOTES_FROM_P00-P11.md",
+      "source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.csv",
+      "source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md",
+      "source/critical_baseline/WITNESS_VARIANTS.csv",
+      "source/critical_baseline/WITNESS_VARIANTS.md"
+    ],
+    "receipt_member_hash_omitted_to_avoid_self_reference": true
+  },
+  "evidence_input_fingerprint_sha256": "A7F04A9A3E16BCD5278252A6A6ADABDECDE2739552542C977B98071E55E67E0A",
+  "french_public_sibling": {
+    "all_eight_frozen_pins_match": true,
+    "concept_doi": "10.5281/zenodo.21923856",
+    "exact_doi": "10.5281/zenodo.21923857",
+    "frozen_members": [
+      {
+        "bytes": 3859917,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "00_GALOIS_1897_FR_CURRENT_LINKED_READER.pdf",
+        "sha256": "F62D37396E04C2FC04680125E8600206FD82FA82ACE9689FF439BF30E786895A"
+      },
+      {
+        "bytes": 6452408,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "01_GALOIS_1897_FR_EDITABLE_SOURCES.zip",
+        "sha256": "E990DA8591F64FF01891F6ED0CC36FB9FCBFEA6B25995C19E526492D7EC066A8"
+      },
+      {
+        "bytes": 283491687,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "02_GALOIS_1897_FR_EVIDENCE_AND_PROVENANCE.zip",
+        "sha256": "A0BDEFDBD8757561286B0C43EA3597DE0B2DD90FE66B54A6CF5F9BEE92404CD9"
+      },
+      {
+        "bytes": 463,
+        "frozen_pin_match": true,
+        "kind": "artifact",
+        "name": "03_GALOIS_1897_FR_SHA256_MANIFEST.txt",
+        "sha256": "E1F334DE24DC6B9E57C1334B9FAA82470CA3D737E0A9A642C7A9CF1573971114"
+      },
+      {
+        "bytes": 3283,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": "README.md",
+        "sha256": "3A4FA666EE76E96B7679361D4FA0FB4618E5E8A97E5589E1BB0A2E5BEA672FB3"
+      },
+      {
+        "bytes": 1166,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": "LICENSE",
+        "sha256": "13627E4B86A1C77729845D2AE622491C59B5E695C1079374685CBD84C29D0FD4"
+      },
+      {
+        "bytes": 992,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": "CITATION.cff",
+        "sha256": "8799C6F69D00CA7A09994FA52F1CB5EA04FBE217B3165D1693B9F1BC7C18232D"
+      },
+      {
+        "bytes": 2599,
+        "frozen_pin_match": true,
+        "kind": "metadata",
+        "name": ".zenodo.json",
+        "sha256": "C5D153C289E6A918CF6CDC824A4EA173E1E2772E14FAACE0CD75E51E0167037B"
+      }
+    ],
+    "nested_archive_checks": {
+      "01_GALOIS_1897_FR_EDITABLE_SOURCES.zip": {
+        "casefold_collisions": 0,
+        "content_scan_findings": 0,
+        "crc_failure": null,
+        "duplicate_names": 0,
+        "encrypted_members": 0,
+        "entries": 94,
+        "member_set_sha256": "3CD5302B26D4D20363FE4D9A79FD665F31CBE12E1BF0668F13F2D46C82C37B5D",
+        "pass": true,
+        "payload_bytes": 6813160,
+        "unsafe_member_names": 0
+      },
+      "02_GALOIS_1897_FR_EVIDENCE_AND_PROVENANCE.zip": {
+        "casefold_collisions": 0,
+        "content_scan_findings": 0,
+        "crc_failure": null,
+        "duplicate_names": 0,
+        "encrypted_members": 0,
+        "entries": 28,
+        "member_set_sha256": "36B5A1BB605ECAF82BBBBA6CDB43BBB10F9E47A54A6ABAD2F901E6289E5EC15C",
+        "pass": true,
+        "payload_bytes": 283790624,
+        "unsafe_member_names": 0
+      }
+    },
+    "result": "PASS"
+  },
+  "other_translations_archive": {
+    "bytes": 293784456,
+    "name": "OTHER_TRANSLATIONS.zip",
+    "sha256": "E397EDA6C022D2754A228FE1B4FB6453245AE75B7D4B54B6BB86BEB8578D72AD"
+  },
+  "public_projection_records": [
+    {
+      "local_paths_removed": true,
+      "private_source_bytes": 1088,
+      "private_source_name": "BUILD_ENVIRONMENT.json",
+      "private_source_sha256": "2F44370F06BF535F52BC72119CD4F9A41DF9D39F70334EC59B98224A83A7E4BE",
+      "public_bytes": 1403,
+      "public_member": "evidence/public_receipts/BUILD_ENVIRONMENT_PUBLIC.json",
+      "public_sha256": "CA00C91CF922541587F1FEE1A95CC02400354435D3C52F8AC848D53EA5AA88BA"
+    },
+    {
+      "local_paths_removed": true,
+      "private_source_bytes": 92449,
+      "private_source_name": "READER_STRUCTURAL_QA_POST_P13.json",
+      "private_source_sha256": "4E35C2C94AB22E92E6EE345C9DFAC4C2D6AE8AFDFCB4A338C376264EF985FC75",
+      "public_bytes": 87123,
+      "public_member": "evidence/public_receipts/READER_STRUCTURAL_QA_POST_P13_PUBLIC.json",
+      "public_sha256": "B34C812618A0350FA3344114692362334DC07F50032C91C663DB2E15AE2D8A58"
+    },
+    {
+      "local_paths_removed": true,
+      "private_source_bytes": 64267,
+      "private_source_name": "READER_MECHANICAL_RENDER_QA_POST_P13.json",
+      "private_source_sha256": "339CC55060078E35A80B22B8DE89C7265E7117D75F841709FC2EC530B50DA5BF",
+      "public_bytes": 61728,
+      "public_member": "evidence/public_receipts/READER_MECHANICAL_RENDER_QA_POST_P13_PUBLIC.json",
+      "public_sha256": "0237CABD9D5766114A8A45CE9AFC8C504CBAE36E13D4FA86D925E142CED58657"
+    },
+    {
+      "local_paths_removed": true,
+      "private_source_bytes": 5014,
+      "private_source_name": "READER_VISUAL_INSPECTION_POST_P13.json",
+      "private_source_sha256": "6386639B1DD6C32DAA827702CB1AAEF2F40D2098DCA4A2332074A9672F0D8B7B",
+      "public_bytes": 6005,
+      "public_member": "evidence/public_receipts/READER_VISUAL_INSPECTION_POST_P13_PUBLIC.json",
+      "public_sha256": "BB43512110F575A745BF9B61A7B8209897C63BF66CED585821DBA7230DE4A0C7"
+    },
+    {
+      "local_paths_removed": true,
+      "private_source_bytes": 6970,
+      "private_source_name": "INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json",
+      "private_source_sha256": "810E162C076465099310C105A711DDBB6E7C28DAE4420F21EFEA2251983C796A",
+      "public_bytes": 7272,
+      "public_member": "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_PUBLIC_RECEIPT.json",
+      "public_sha256": "6C6601AAD015A5554A705E428697FFF2AAF9639F9C6DDCFEF8BD9BC58C6C24C1"
+    }
+  ],
+  "public_safety": {
+    "frozen_french_nested_absolute_path_scan": "NOT_CLAIMED",
+    "internal_workflow_members": 0,
+    "new_english_payload_absolute_path_findings": 0,
+    "opaque_or_frozen_binary_payloads_hash_validated": 9,
+    "pattern_scanned_payloads_before_packaging": 123,
+    "result": "PASS",
+    "scan_scope": "All text/JSON/source payloads; printable path and secret signatures in PDFs/images; ZIP members inspected after decompression. Frozen French nested archives are hash-pinned and secret-scanned, with their pre-published absolute-path content treated as immutable.",
+    "secret_findings": 0
+  },
+  "qa_gates": {
+    "actual_visual_inspection": "PASS",
+    "mechanical_render": "PASS_WITH_NO_VISUAL_CLAIM",
+    "post_p13_structure": "PASS",
+    "reader_structure": "PASS",
+    "result": "PASS",
+    "semantic_and_formula_audit": "PASS_POST_P13_AFTER_REPAIRS",
+    "visually_inspected_pages": 85
+  },
+  "reader": {
+    "bytes": 3826541,
+    "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
+    "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+  },
+  "receipt_created_before_evidence_zip": true,
+  "receipt_role": "deterministic pre-package public evidence validation",
+  "result": "PASS",
+  "schema_version": 1,
+  "source_archive": {
+    "bytes": 2954866,
+    "name": "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
+    "sha256": "B640739E7114F3B38EC5AE39EBEBE0A12E11086C29EF4413BD667DA881886C76"
+  },
+  "source_input_fingerprint_sha256": "39C858A27344D6CA0851FB0A3100D34AB2B13F50E5A917A9A22B0595A72EC894"
+}

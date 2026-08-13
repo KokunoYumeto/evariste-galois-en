@@ -1,0 +1,154 @@
+% GAL1897_W05 — English translation of physical PDF pages 040–041.
+% Primary authority: the frozen 1897 French diplomatic transcription from
+% JP2 leaves L0039–L0040, navigated against the 96-page 1897 PDF.
+% Definite source-level mathematical errors are translated without silent repair
+% and identified in adjacent critical notes from the frozen critical baseline.
+
+\providecommand{\GalSourcePageStart}[4]{}%
+\providecommand{\GalSourcePageBoundary}[4]{\space}%
+\providecommand{\GalSourceError}[2]{#1}%
+\providecommand{\GalHistoricalFootnote}[1]{\footnote{#1}}%
+\providecommand{\GalArticleEndRule}{\par\smallskip\begin{center}\rule{0.18\linewidth}{0.4pt}\end{center}}%
+\providecommand{\GalOrdinal}[1]{#1\textsuperscript{o}}%
+
+\GalSourcePageStart{040}{L0039}{11}{11}
+
+% ENSEG:W05:PDF040:0001
+\begin{center}
+{\Large\bfseries ANALYSIS\par}
+\vspace{0.2em}
+{\scriptsize\bfseries OF A\par}
+\vspace{0.2em}
+{\normalsize\bfseries MEMOIR ON THE ALGEBRAIC SOLUTION OF EQUATIONS\textsuperscript{(*)}.\par}
+\vspace{0.75em}
+\rule{0.12\linewidth}{0.4pt}
+\end{center}
+
+% ENSEG:W05:PDF040:0002
+\GalHistoricalFootnote{M.~Férussac's \emph{Bulletin des Sciences mathématiques}, vol.~XIII, p.~271
+(1830, April issue). \textsc{(J. Liouville.)}}
+
+% ENSEG:W05:PDF040:0003
+Equations are called nonprimitive when, being, for example, of
+degree $mn$, they decompose into $m$ factors of degree $n$ by means
+of a single equation of degree $m$. These are M.~Gauss's equations.
+Primitive equations are those that admit no such simplification. With
+regard to primitive equations, I have obtained the following results:
+
+\medskip
+% ENSEG:W05:PDF040:0004
+\noindent\GalOrdinal{1} For an equation of prime degree to be solvable by
+radicals, it is necessary and sufficient that, once any two of its roots
+are known, the others can be deduced rationally from them.
+
+\smallskip
+% ENSEG:W05:PDF040:0005
+\noindent\GalOrdinal{2} For a primitive equation of degree $m$ to be solvable
+by radicals, it is necessary that $m=p^{\nu}$, where $p$ is a prime number.
+
+\smallskip
+% ENSEG:W05:PDF040:0006
+\noindent\GalOrdinal{3} \GalSourceError{Apart from the cases mentioned below, for a
+primitive equation of degree $p^{\nu}$ to be solvable by radicals, it is
+necessary that, once any two of its roots are known, the others can be
+deduced rationally from them.}{W05-SE001: the printed exception condition is too restrictive; preserve the wording and consult the separate degree-8 affine-semilinear counterexample certificate.}
+
+% ENSEG:W05:PDF040:0007
+\GalCriticalNote{W05-SE001}{\textbf{Status: proved source error; bounded prior-notice search closed with no explicit notice found.}
+The finite exception list is not a complete modern classification. A certified
+counterexample has degree $16$: on $V=\mathbf F_2^4$, an irreducible solvable
+complement $(C_3\times C_3)\rtimes C_2$ of order $18$ gives a primitive affine
+group of order $288$. It is not one-dimensional semilinear, since
+$18\nmid|\Gamma L(1,16)|=60$. The correct general framework is that a finite
+solvable primitive group is affine, with regular elementary-abelian socle and
+faithful irreducible point stabilizer; one-dimensional semilinearity is an
+additional condition. The historical sentence remains unchanged, and the
+downstream degree-$9$/$25$-only claim is rejected in \texttt{POST-P13-A005}.
+Evidence: W05-SE001 and POST-P13-A005 in the post-P13 catalogue and mathematical
+checks; \texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+
+\medskip
+% ENSEG:W05:PDF040:0008
+The following very special cases escape the preceding rule:
+
+\smallskip
+% ENSEG:W05:PDF040:0009
+\noindent\GalOrdinal{1} The case $m=p^{\nu}=9$, $=25$;
+
+\smallskip
+% ENSEG:W05:PDF040:0010
+\noindent\GalOrdinal{2} The case $m=p^{\nu}=4$, and generally the case in which,
+with $a^{\alpha}$ a divisor of $\dfrac{p^{\nu}-1}{p-1}$, $a$ is prime and one has
+% ENSEG:W05:PDF040:0011
+\[
+\frac{p^{\nu}-1}{a^{\alpha}(p-1)}\,\nu
+  =p\quad(\mathrm{mod.}\ a^{\alpha}).
+\]
+% ENSEG:W05:PDF040:0012
+These cases nevertheless depart very little from the general rule.
+
+% ENSEG:W05:PDF040:0013
+When $m=9$, $=25$, the equation must be of the type of those that
+determine the trisection and quintisection of elliptic functions.
+
+\GalSourcePageBoundary{041}{L0040}{12}{12}
+
+% ENSEG:W05:PDF041:0014
+In the second case it will always be necessary that, once two of the
+roots are known, the others can be deduced from them, at least by means
+of as many radicals of degree $p$ as there are divisors $a^{\alpha}$ of
+$\dfrac{p^{\nu}-1}{p-1}$ that satisfy
+% ENSEG:W05:PDF041:0015
+\[
+\frac{p^{\nu}-1}{a^{\alpha}(p-1)}\,\nu
+  =p\quad(\mathrm{mod.}\ a^{\alpha}),\qquad a\text{ prime}.
+\]
+
+% ENSEG:W05:PDF041:0016
+All these propositions were deduced from the theory of permutations.
+
+% ENSEG:W05:PDF041:0017
+Here are further results that follow from my theory.
+
+\medskip
+% ENSEG:W05:PDF041:0018
+\noindent\GalOrdinal{1} Let $k$ be the modulus of an elliptic function and $p$ a
+given prime number $>3$. For the equation of degree $p+1$ that gives the
+various moduli of the functions transformed with respect to the number
+$p$ to be solvable by radicals, \emph{one of two things is necessary}:
+either one of the roots must be known rationally, or all the roots must
+be rational functions of one another. It is of course understood that
+only particular values of the modulus $k$ are at issue here. It is clear
+that this does not hold in general. This rule does not hold for $p=5$.
+
+\medskip
+% ENSEG:W05:PDF041:0019
+\noindent\GalOrdinal{2} It is remarkable that the general modular equation of
+the sixth degree corresponding to the number $5$ can be reduced to one
+of the fifth degree of which it is the reduced equation.
+\GalSourceError{By contrast, in higher degrees the modular equations cannot
+be reduced in degree}{W05-SE002: the printed impossibility is false for p=7 and p=11, as the 1897 Liouville footnote itself records; preserve the wording and consult the separate group-theoretic certificate}\textsuperscript{(*)}.
+
+% ENSEG:W05:PDF041:0020
+\GalCriticalNote{W05-SE002}{\textbf{Status: proved source error with an explicit
+1846 editorial notice.}
+The main text asserts a universal impossibility in higher degrees, but the
+following Liouville note records reductions for $p=7$ and $p=11$ as well as
+$p=5$. Exact subgroup calculations independently verify the $p=7$ and $p=11$
+exceptions. The erroneous sentence and its historical correction remain
+separate. For $p=11$, the repaired six-pair matching has stabilizer order $60$
+and index $11$ in $PSL(2,11)$; see W08-PE001. Downstream statements may use the
+corrected list only as explicitly labelled critical reconstruction. Liouville's printed 1846 footnote is the
+earliest secure notice recorded by the post-P13 search. Evidence:
+\texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W05-SE002, its cited group-theoretic
+certificate, and \texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+
+% ENSEG:W05:PDF041:0021
+\GalHistoricalFootnote{This assertion is not entirely accurate, as Galois himself warns
+in his Letter to M.~Auguste Chevalier, which appears below. Speaking generally
+of the article reproduced here, he says: ``The condition I gave in the
+\emph{Bulletin de Férussac} for solvability by radicals is too restrictive;
+there are few exceptions, but there are some.'' As for modular equations in
+particular, he declares that the reduction from degree $p+1$ to degree $p$ is
+possible not only for $p=5$, but also for $p=7$ and $p=11$; he nevertheless
+maintains its impossibility for $p>11$. \textsc{(J. Liouville.)}\GalArticleEndRule}

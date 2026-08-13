@@ -1,0 +1,25 @@
+{
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
+    "source_bytes": 1088,
+    "source_name": "BUILD_ENVIRONMENT.json",
+    "source_sha256": "2F44370F06BF535F52BC72119CD4F9A41DF9D39F70334EC59B98224A83A7E4BE"
+  },
+  "build_command": "latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error -outdir=<unique-new-directory> GAL1897_EN_MODERN_READER.tex",
+  "captured_at": "2026-08-14T00:20:00+02:00",
+  "latexmk": "4.88 (John Collins, 9 March 2026)",
+  "operating_system": "Microsoft Windows 11 Pro 10.0.26200 build 26200 x64",
+  "pdftex": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)",
+  "pillow_ledger_environment": "12.2.0",
+  "pillow_render_environment": "12.3.0",
+  "poppler_pdffonts": "24.04.0 (MiKTeX binary used for font QA)",
+  "poppler_pdfinfo": "24.04.0 (MiKTeX binary used for release QA)",
+  "poppler_pdftoppm": "24.04.0 (MiKTeX binary used for release render)",
+  "pypdf_ledger_environment": "6.12.2",
+  "pypdf_render_environment": "6.10.0",
+  "python_ledger_and_structure": "CPython 3.13.9; [local-path-omitted]",
+  "python_render_and_pdf_introspection": "CPython 3.12.13; bundled Codex primary runtime",
+  "render_resolution_dpi": 120,
+  "safety": "Build and release directories are newly named and never recursively cleaned or overwritten.",
+  "schema_version": 1
+}

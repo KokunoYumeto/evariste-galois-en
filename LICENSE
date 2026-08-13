@@ -1,0 +1,40 @@
+RIGHTS, PUBLIC-DOMAIN, AND CC0 NOTICE
+=====================================
+
+Historical source work
+----------------------
+Évariste Galois, Oeuvres mathematiques (Paris: Gauthier-Villars et fils,
+1897), including the historical editorial matter and Emile Picard's
+Introduction, is public-domain source material. Public-domain status is a
+rights status, not a new license granted by this repository.
+
+The source scans, catalogue records, manuscript witnesses, and other third-
+party artifacts are identified separately in SOURCE_AUTHORITY.json and the
+release provenance archive. This repository does not claim ownership of those
+materials and does not alter whatever rights or use conditions apply to them.
+
+Modern English translation and project contributions
+----------------------------------------------------
+To the extent the Manuscript Typesetting Project owns copyright or related
+rights in the modern English translation, critical apparatus, modern
+typesetting, metadata, build scripts, alignment and coverage records, and QA
+evidence produced for this edition, it dedicates those contributions to the
+public domain under Creative Commons CC0 1.0 Universal.
+
+CC0 summary and legal code:
+https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+The translation and critical work were generated and checked with the model
+roles disclosed in README.md and CITATION.cff. Those model names are production
+attribution; they are not a claim that a model is a natural-person author,
+translator, or rightsholder.
+
+Limits
+------
+This dedication applies only to rights the project can lawfully waive. It does
+not reassign historical authorship, extinguish moral rights where they cannot
+be waived, or relicense third-party scans, catalogue metadata, fonts, software
+dependencies, or witness material. Each bundled artifact retains the rights
+status recorded in its own provenance entry.
+

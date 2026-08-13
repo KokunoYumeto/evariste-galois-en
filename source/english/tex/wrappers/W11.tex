@@ -1,0 +1,15 @@
+% W11 wrapper: historical table of contents, colophon, and trailing leaves.
+\clearpage
+\newgeometry{inner=20mm,outer=18mm,top=18mm,bottom=20mm}
+\begingroup
+\fontsize{10}{12}\selectfont
+\setlength{\parindent}{0pt}
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}}
+\renewcommand{\GalSourcePageBoundary}[4]{\clearpage\GalSourceAnchor{#1}{#2}}
+\renewcommand{\GalSourceBlankPage}[4]{\clearpage\thispagestyle{empty}\null\clearpage}
+\renewcommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalUnresolvedImageReading}[4]{\includegraphics[width=0.38in]{#4}}
+\input{tex/works/GAL1897_W11_BACKMATTER.tex}
+\par
+\endgroup
+\restoregeometry
