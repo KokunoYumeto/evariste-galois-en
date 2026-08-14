@@ -1,0 +1,14 @@
+{
+  "annotated_predecessor": {
+    "exact_doi": "10.5281/zenodo.21926209",
+    "preserved": true,
+    "reader_sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
+  },
+  "concept_doi": "10.5281/zenodo.21924301",
+  "exact_doi": "10.5281/zenodo.21935485",
+  "publication_date": "2026-08-14",
+  "result": "PASS",
+  "schema_version": 1,
+  "tag": "v2026.08.14-en-r3",
+  "version": "2026-08-14 en-r3"
+}

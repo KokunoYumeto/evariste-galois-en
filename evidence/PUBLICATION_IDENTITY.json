@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "title": "Évariste Galois — Mathematical Works (1897): Source-Faithful English Translation and GPT-Annotated Edition",
+  "record_id": 21935485,
+  "exact_doi": "10.5281/zenodo.21935485",
+  "concept_record_id": 21924301,
+  "concept_doi": "10.5281/zenodo.21924301",
+  "predecessor_record_id": 21926209,
+  "predecessor_exact_doi": "10.5281/zenodo.21926209",
+  "version": "2026-08-14 en-r3",
+  "tag": "v2026.08.14-en-r3",
+  "publication_date": "2026-08-14",
+  "language": "eng",
+  "repository": "https://github.com/KokunoYumeto/evariste-galois-en",
+  "french_concept_doi": "10.5281/zenodo.21923856",
+  "global_project_doi": "10.5281/zenodo.20393488",
+  "same_record_reader_files": [
+    "00_GALOIS_1897_EN_SOURCE_FAITHFUL_READER.pdf",
+    "01_GALOIS_1897_EN_GPT_ANNOTATED_READER.pdf"
+  ],
+  "public_files": [
+    "00_GALOIS_1897_EN_SOURCE_FAITHFUL_READER.pdf",
+    "01_GALOIS_1897_EN_GPT_ANNOTATED_READER.pdf",
+    "02_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
+    "03_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
+    "04_GALOIS_1897_EN_SHA256_MANIFEST.txt",
+    "OTHER_TRANSLATIONS.zip"
+  ]
+}

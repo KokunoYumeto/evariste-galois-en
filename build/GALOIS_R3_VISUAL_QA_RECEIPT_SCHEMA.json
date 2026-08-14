@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/KokunoYumeto/evariste-galois-en/schema/GALOIS_R3_VISUAL_QA_RECEIPT_SCHEMA.json",
+  "title": "Galois English R3 exact-reader all-page visual QA receipt",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "receipt_role",
+    "reader_role",
+    "exact_doi",
+    "concept_doi",
+    "pdf_sha256",
+    "page_count",
+    "inspected_pages",
+    "all_pages_visually_inspected",
+    "visual_result",
+    "blocking_findings"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "receipt_role": {"const": "Galois English R3 all-page visual QA"},
+    "reader_role": {
+      "enum": [
+        "source-faithful English reader",
+        "GPT-annotated English reader"
+      ]
+    },
+    "exact_doi": {"type": "string", "pattern": "^10[.]5281/zenodo[.][0-9]+$"},
+    "concept_doi": {"const": "10.5281/zenodo.21924301"},
+    "pdf_sha256": {"type": "string", "pattern": "^[0-9A-F]{64}$"},
+    "page_count": {"type": "integer", "minimum": 1},
+    "inspected_pages": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "integer", "minimum": 1}
+    },
+    "all_pages_visually_inspected": {"const": true},
+    "visual_result": {"const": "PASS"},
+    "blocking_findings": {"const": []}
+  },
+  "additionalProperties": true
+}

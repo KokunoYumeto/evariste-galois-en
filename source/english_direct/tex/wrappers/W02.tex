@@ -1,0 +1,16 @@
+% W02 wrapper: Picard Introduction.
+\clearpage
+\newgeometry{inner=22mm,outer=27mm,top=18mm,bottom=19mm,marginparwidth=15mm,marginparsep=3mm}
+\begingroup
+\fontsize{10.2}{12.15}\selectfont
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}}
+\renewcommand{\GalSourcePageBoundary}[4]{\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalSourcePageBoundaryInWord}[4]{-\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalCopySpecificMarks}[4]{}
+\renewcommand{\GalCopySpecificMarkImage}[4]{}
+\renewcommand{\GalSourceDerivedOrnament}[1]{\includegraphics[width=0.16\textwidth,keepaspectratio]{#1}}
+\input{../english/tex/works/GAL1897_W02_INTRODUCTION.tex}
+\par\clearpage
+\endgroup
+\restoregeometry

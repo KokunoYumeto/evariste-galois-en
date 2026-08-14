@@ -1,315 +1,1359 @@
 {
-  "archive_checks": {
-    "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip": {
-      "casefold_collisions": 0,
-      "content_scan_findings": 0,
-      "crc_failure": null,
-      "duplicate_names": 0,
-      "encrypted_members": 0,
-      "entries": 78,
-      "member_set_sha256": "CB9239B012CE5CA9273766BDA4203C9050927AA06E2749915A0C54411CA24295",
-      "pass": true,
-      "payload_bytes": 3255411,
-      "unsafe_member_names": 0
+  "annotated_reader": {
+    "all_page_qa_binding": {
+      "all_pages_visually_inspected": true,
+      "exact_page_count_bound": true,
+      "exact_pdf_hash_bound": true,
+      "reader": {
+        "blank_pages": [
+          41,
+          79,
+          82,
+          83,
+          84
+        ],
+        "bytes": 3734236,
+        "critical_destination_list_sha256": "8BE333B27443E8CD834DA99E3D5638FA5276B784E1C28C0EEF086C5FE310F7DB",
+        "critical_destinations": 65,
+        "doi_universes": {
+          "pdftotext": [
+            "10.5281/zenodo.21923856",
+            "10.5281/zenodo.21924301",
+            "10.5281/zenodo.21935485"
+          ],
+          "pypdf": [
+            "10.5281/zenodo.21923856",
+            "10.5281/zenodo.21924301",
+            "10.5281/zenodo.21935485"
+          ]
+        },
+        "encrypted": false,
+        "exact_doi": "10.5281/zenodo.21935485",
+        "name": "GAL1897_EN_MODERN_READER.pdf",
+        "pages": 84,
+        "pdf_title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes",
+        "result": "PASS",
+        "sha256": "BC20BFF9ECFDB694F572F6738C0E120EC39BABE490F5FB5D7BD5EC9DF596335E",
+        "source_destination_list_sha256": "05C2D4D506CC9E706E8A74E66DD2C0301838A5DEA071760E8DBCBFD04FF750DF",
+        "source_destinations": 73,
+        "two_text_extractors_confirm_identity": true,
+        "uniform_media_box_points": [
+          510.236,
+          737.008
+        ],
+        "work_bookmarks": [
+          "1897 publication matter",
+          "Picard: Introduction",
+          "Periodic continued fractions",
+          "Notes on analysis",
+          "Algebraic solution of equations",
+          "Numerical equations",
+          "Theory of numbers",
+          "Letter to Auguste Chevalier",
+          "Solvability by radicals",
+          "Primitive equations",
+          "Historical contents and colophon"
+        ],
+        "work_destinations": 11
+      },
+      "reader_role": "GPT-annotated English reader",
+      "result": "PASS",
+      "schema_version": 1,
+      "source_qa_receipt": {
+        "bytes": 1107,
+        "name": "R3_ANNOTATED_EXACT_ALL_PAGE_VISUAL_QA.json",
+        "sha256": "24CA23A5DFBDD24A12926CF07D57C7D29C57E291ADF58004788C6A53AF070123"
+      },
+      "validated_claim": {
+        "all_pages_visually_inspected": true,
+        "blocking_findings": [],
+        "concept_doi": "10.5281/zenodo.21924301",
+        "exact_doi": "10.5281/zenodo.21935485",
+        "inspected_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84
+        ],
+        "page_count": 84,
+        "pdf_sha256": "BC20BFF9ECFDB694F572F6738C0E120EC39BABE490F5FB5D7BD5EC9DF596335E",
+        "reader_role": "GPT-annotated English reader",
+        "receipt_role": "Galois English R3 all-page visual QA",
+        "schema_version": 1,
+        "visual_result": "PASS"
+      }
     },
-    "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip": {
-      "casefold_collisions": 0,
-      "content_scan_findings": 0,
-      "crc_failure": null,
-      "duplicate_names": 0,
-      "encrypted_members": 0,
-      "entries": 120,
-      "member_set_sha256": "E53FB6AAD03D3EA86002A029861C4F2FB58396F7924C8032E2487BBC1BD826FA",
-      "pass": true,
-      "payload_bytes": 25693971,
-      "unsafe_member_names": 0
+    "compile": {
+      "console_sha256": "7C6CF18575A18D32D8F45890B0A94572718719BF3F6D75E487C443989F83042C",
+      "fls_sha256": "E96646D9167657AEA495F57575CFC8F2C1878C24925E615B3D03ACF2D490BF81",
+      "log_sha256": "5D473CEF7B45EDC254DB8ACA20A9581EB85C4FBF28ECE66ACEF06D7B059B9916",
+      "master": "GAL1897_EN_MODERN_READER.tex",
+      "pdf": {
+        "bytes": 3734236,
+        "sha256": "BC20BFF9ECFDB694F572F6738C0E120EC39BABE490F5FB5D7BD5EC9DF596335E"
+      },
+      "result": "PASS",
+      "warnings": 0
     },
-    "OTHER_TRANSLATIONS.zip": {
-      "casefold_collisions": 0,
-      "content_scan_findings": 0,
-      "crc_failure": null,
-      "duplicate_names": 0,
-      "encrypted_members": 0,
-      "entries": 8,
-      "member_set_sha256": "1E8297DB6340E40F70D120A52EA20FB23ACBC37183A4F565D1B53E873A9CA468",
-      "pass": true,
-      "payload_bytes": 293812515,
-      "unsafe_member_names": 0
+    "compiled_input_graph": {
+      "all_work_inputs_resolve_to_frozen_annotated_authority": true,
+      "authority_work_set_sha256": "6145DE449829EFF1F770A056FC1B9AE3E887D03C08486A568DFE66E87ED16263",
+      "reader_master": "GAL1897_EN_MODERN_READER.tex",
+      "reader_mode": "annotated",
+      "recorder_name": "GAL1897_EN_MODERN_READER.fls",
+      "records": [
+        {
+          "bytes": 6667,
+          "input_records": 3,
+          "name": "GAL1897_W01_PRELIMS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "98A369FC4A174705CC33257A80F123D2546D65ECC2F669448A5F5C2470EADC76"
+        },
+        {
+          "bytes": 11078,
+          "input_records": 3,
+          "name": "GAL1897_W02_INTRODUCTION.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "D33A63A491CAE9AE27C5534F1C002E179CFE51695688255AAA5188A1DAD03906"
+        },
+        {
+          "bytes": 16753,
+          "input_records": 3,
+          "name": "GAL1897_W03_CONTINUED_FRACTIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "59E7BB641FF5A393C95EC93322BA6D31753146D43AA5F0643F29BE5B6853C2C2"
+        },
+        {
+          "bytes": 5908,
+          "input_records": 3,
+          "name": "GAL1897_W04_NOTES_ANALYSIS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "1A8227CB6577422A80073F3B89128F5C98CF3A7F51F232F8C72179A6BB1DAA9A"
+        },
+        {
+          "bytes": 6879,
+          "input_records": 3,
+          "name": "GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "4D43B8A4FF25AE8FFDBB2AA5AAF17D7FA1973624EB800C39DB09B7A7F75C731B"
+        },
+        {
+          "bytes": 5817,
+          "input_records": 3,
+          "name": "GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "2B7F9E534731EE028CEB1FC9EF0EB8C103CAB93C397EEE9E31DBC37BD2AEBF3D"
+        },
+        {
+          "bytes": 22546,
+          "input_records": 3,
+          "name": "GAL1897_W07_NUMBER_THEORY.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "821C099EFF66CE008E426F213847463F01E05E0A719A96F5FB691BBC884FA74F"
+        },
+        {
+          "bytes": 20171,
+          "input_records": 3,
+          "name": "GAL1897_W08_CHEVALIER_LETTER.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "DB2D4BA2E8BBD76EC8CF9D1D1F9133C93E2DC6D24C26730352B51BC837778283"
+        },
+        {
+          "bytes": 45069,
+          "input_records": 3,
+          "name": "GAL1897_W09_RADICALS_MEMOIR.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "DD7A52FC25C5FF28E2D6DF6BA26C53974320900F793F2BDD2D4084D0414EAD2E"
+        },
+        {
+          "bytes": 27038,
+          "input_records": 3,
+          "name": "GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "81BC36F3CEF960EEBD3A497939D713FE78159F6D025CA5270B61B88A1A2E8A79"
+        },
+        {
+          "bytes": 5072,
+          "input_records": 3,
+          "name": "GAL1897_W11_BACKMATTER.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "A119B2FB6F17C1253BD4A86458AD5A5642654CFA2DFCE4E6888742217A7D24B8"
+        }
+      ],
+      "result": "PASS",
+      "work_files": 11
+    },
+    "structure": {
+      "blank_pages": [
+        41,
+        79,
+        82,
+        83,
+        84
+      ],
+      "bytes": 3734236,
+      "critical_destination_list_sha256": "8BE333B27443E8CD834DA99E3D5638FA5276B784E1C28C0EEF086C5FE310F7DB",
+      "critical_destinations": 65,
+      "doi_universes": {
+        "pdftotext": [
+          "10.5281/zenodo.21923856",
+          "10.5281/zenodo.21924301",
+          "10.5281/zenodo.21935485"
+        ],
+        "pypdf": [
+          "10.5281/zenodo.21923856",
+          "10.5281/zenodo.21924301",
+          "10.5281/zenodo.21935485"
+        ]
+      },
+      "encrypted": false,
+      "exact_doi": "10.5281/zenodo.21935485",
+      "name": "GAL1897_EN_MODERN_READER.pdf",
+      "pages": 84,
+      "pdf_title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes",
+      "result": "PASS",
+      "sha256": "BC20BFF9ECFDB694F572F6738C0E120EC39BABE490F5FB5D7BD5EC9DF596335E",
+      "source_destination_list_sha256": "05C2D4D506CC9E706E8A74E66DD2C0301838A5DEA071760E8DBCBFD04FF750DF",
+      "source_destinations": 73,
+      "two_text_extractors_confirm_identity": true,
+      "uniform_media_box_points": [
+        510.236,
+        737.008
+      ],
+      "work_bookmarks": [
+        "1897 publication matter",
+        "Picard: Introduction",
+        "Periodic continued fractions",
+        "Notes on analysis",
+        "Algebraic solution of equations",
+        "Numerical equations",
+        "Theory of numbers",
+        "Letter to Auguste Chevalier",
+        "Solvability by radicals",
+        "Primitive equations",
+        "Historical contents and colophon"
+      ],
+      "work_destinations": 11
     }
   },
-  "build_directory": "build/en-r2-release-verified-20260814T024700000",
-  "evidence_allowlist": {
-    "archive_entries": 120,
-    "incident_or_return_logs_included": false,
-    "input_fingerprint_sha256": "E53FB6AAD03D3EA86002A029861C4F2FB58396F7924C8032E2487BBC1BD826FA",
-    "internal_durable_state_included": false,
-    "prepackage_receipt_preexisted_archive": true,
-    "public_projection_records": [
-      {
-        "local_paths_removed": true,
-        "private_source_bytes": 1088,
-        "private_source_name": "BUILD_ENVIRONMENT.json",
-        "private_source_sha256": "2F44370F06BF535F52BC72119CD4F9A41DF9D39F70334EC59B98224A83A7E4BE",
-        "public_bytes": 1403,
-        "public_member": "evidence/public_receipts/BUILD_ENVIRONMENT_PUBLIC.json",
-        "public_sha256": "CA00C91CF922541587F1FEE1A95CC02400354435D3C52F8AC848D53EA5AA88BA"
-      },
-      {
-        "local_paths_removed": true,
-        "private_source_bytes": 96386,
-        "private_source_name": "READER_STRUCTURAL_QA_POST_P13.json",
-        "private_source_sha256": "BD6C174F8E2DA015AA01E948CAE305C2A3A697E5B094B26BA71324B0B4F3F729",
-        "public_bytes": 90992,
-        "public_member": "evidence/public_receipts/READER_STRUCTURAL_QA_POST_P13_PUBLIC.json",
-        "public_sha256": "7C65E387FF9FB4F593DED82F0BC1CD0A12F2D795BF66AAA0E0AB12DDEE513DEB"
-      },
-      {
-        "local_paths_removed": true,
-        "private_source_bytes": 63690,
-        "private_source_name": "READER_MECHANICAL_RENDER_QA_POST_P13.json",
-        "private_source_sha256": "0B4D693A6F4E05404F33DE3A5F6B6AA9720FA7DE8B4AB84168C9E01731CCE13C",
-        "public_bytes": 61104,
-        "public_member": "evidence/public_receipts/READER_MECHANICAL_RENDER_QA_POST_P13_PUBLIC.json",
-        "public_sha256": "D1AA07A22B22F52A5A7D28727D4CED25A791A404E3A575C0FAD609320E194A4C"
-      },
-      {
-        "local_paths_removed": true,
-        "private_source_bytes": 5435,
-        "private_source_name": "READER_VISUAL_INSPECTION_POST_P13.json",
-        "private_source_sha256": "8E35EC441D8E417DE96D625DE88F6804500D542C1969F64EE1767D3BB1C81992",
-        "public_bytes": 6498,
-        "public_member": "evidence/public_receipts/READER_VISUAL_INSPECTION_POST_P13_PUBLIC.json",
-        "public_sha256": "A2061958E8D83CA86C6586D7792D123CB2D98BC4B9BB7941C29784797AF3EA02"
-      },
-      {
-        "local_paths_removed": true,
-        "private_source_bytes": 62120,
-        "private_source_name": "COLD_AUDIT_CHECKS.json",
-        "private_source_sha256": "7AFC8CCE3062C855E932A5F3B4FCC116206539A1FDCD31280DC3A5869BB9B64A",
-        "public_bytes": 62453,
-        "public_member": "evidence/web_r2_authority/qa/COLD_AUDIT_CHECKS_PUBLIC.json",
-        "public_sha256": "B82DAFEC745E093A354EC0F71B7A1A08A3735A3ED8B144253AFF29E2B58CF505"
-      },
-      {
-        "local_paths_removed": true,
-        "private_source_bytes": 294,
-        "private_source_name": "PDF_PREFLIGHT_CRITICAL.json",
-        "private_source_sha256": "E0CA758CC11092BB7FF439C6074254AA17416124EA14AB64B27FBAC81456E4A0",
-        "public_bytes": 630,
-        "public_member": "evidence/web_r2_authority/qa/PDF_PREFLIGHT_CRITICAL_PUBLIC.json",
-        "public_sha256": "09392E592B9F5398DCE88546D38FDC5BDF883B93CF3A15DF48E5750A40D01EAE"
-      },
-      {
-        "local_paths_removed": true,
-        "private_source_bytes": 320,
-        "private_source_name": "PDF_PREFLIGHT_READER.json",
-        "private_source_sha256": "5BA1FE3EBB0CFC7D610662BDE39BAB536FAF7C76291B48F2609F3191BE617BC1",
-        "public_bytes": 654,
-        "public_member": "evidence/web_r2_authority/qa/PDF_PREFLIGHT_READER_PUBLIC.json",
-        "public_sha256": "B4D6A0752A8AD4DA12021B7FCBEBC842D88F997F348CA27F78BA126F57C219FF"
-      }
-    ]
+  "archives": {
+    "02_GALOIS_1897_EN_EDITABLE_SOURCES.zip": {
+      "absolute_path_findings": 0,
+      "casefold_collisions": 0,
+      "crc": "PASS",
+      "duplicates": 0,
+      "encrypted_members": 0,
+      "entries": 68,
+      "member_list_sha256": "FAE3341203B5E54B05BC189A0CED37768A99FAE941D45D778334F9751C5F16B2",
+      "payload_bytes": 5933237,
+      "result": "PASS",
+      "secret_findings": 0,
+      "symlinks": 0,
+      "unsafe_paths": 0
+    },
+    "03_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip": {
+      "absolute_path_findings": 0,
+      "casefold_collisions": 0,
+      "crc": "PASS",
+      "duplicates": 0,
+      "encrypted_members": 0,
+      "entries": 130,
+      "member_list_sha256": "AAB2DC22CC8226A551CF62BF39F04E8D4A038640D7557D4191FE1D79212CDF99",
+      "payload_bytes": 25729476,
+      "result": "PASS",
+      "secret_findings": 0,
+      "symlinks": 0,
+      "unsafe_paths": 0
+    },
+    "OTHER_TRANSLATIONS.zip": {
+      "absolute_path_findings": 0,
+      "casefold_collisions": 0,
+      "crc": "PASS",
+      "duplicates": 0,
+      "encrypted_members": 0,
+      "entries": 5,
+      "member_list_sha256": "008260F1BE34AA9AB30DFFEE98E21988404BDF6847644A376F0119F0EDE15A82",
+      "payload_bytes": 644099381,
+      "result": "PASS",
+      "secret_findings": 0,
+      "symlinks": 0,
+      "unsafe_paths": 0
+    }
   },
-  "french_public_sibling": {
-    "all_eight_frozen_pins_match": true,
-    "concept_doi": "10.5281/zenodo.21923856",
-    "exact_doi": "10.5281/zenodo.21923857",
-    "frozen_members": [
-      {
-        "bytes": 3859917,
-        "frozen_pin_match": true,
-        "kind": "artifact",
-        "name": "00_GALOIS_1897_FR_CURRENT_LINKED_READER.pdf",
-        "sha256": "F62D37396E04C2FC04680125E8600206FD82FA82ACE9689FF439BF30E786895A"
+  "baseline_receipt_gate": {
+    "baseline_build_directory": "r3-release-baseline-21935485-20260814T161700000",
+    "publication_authoritative": false,
+    "receipt": {
+      "bytes": 44532,
+      "name": "R3_RELEASE_BUILD_RECEIPT.json",
+      "sha256": "A7F55DC580A7629F136270C5E563D97A7619E070F79E45C4973E0767F80A2A79"
+    },
+    "result": "PASS"
+  },
+  "direct_reader": {
+    "all_page_qa_binding": {
+      "all_pages_visually_inspected": true,
+      "exact_page_count_bound": true,
+      "exact_pdf_hash_bound": true,
+      "reader": {
+        "blank_pages": [
+          38,
+          76,
+          79,
+          80,
+          81
+        ],
+        "bytes": 3571044,
+        "critical_destinations": 0,
+        "doi_universes": {
+          "pdftotext": [
+            "10.5281/zenodo.21923856",
+            "10.5281/zenodo.21924301",
+            "10.5281/zenodo.21935485"
+          ],
+          "pypdf": [
+            "10.5281/zenodo.21923856",
+            "10.5281/zenodo.21924301",
+            "10.5281/zenodo.21935485"
+          ]
+        },
+        "encrypted": false,
+        "exact_doi_checked": "10.5281/zenodo.21935485",
+        "name": "GAL1897_EN_SOURCE_FAITHFUL_READER.pdf",
+        "pages": 81,
+        "pdf_title": "Évariste Galois — Mathematical Works (1897): Source-Faithful English Translation",
+        "rendered_modern_apparatus_scans": [
+          {
+            "characters": 92519,
+            "extractor": "pypdf",
+            "findings": [],
+            "result": "PASS"
+          },
+          {
+            "characters": 143490,
+            "extractor": "pdftotext-layout",
+            "findings": [],
+            "result": "PASS"
+          }
+        ],
+        "result": "PASS",
+        "sha256": "47956B8326C3490E5BBE2468F212A92D3844D03EF405CAA0866B18FDACCA4E8A",
+        "source_destination_list_sha256": "05C2D4D506CC9E706E8A74E66DD2C0301838A5DEA071760E8DBCBFD04FF750DF",
+        "source_destinations": 73,
+        "uniform_media_box_points": [
+          510.236,
+          737.008
+        ],
+        "work_bookmarks": [
+          "1897 publication matter",
+          "Picard: Introduction",
+          "Periodic continued fractions",
+          "Notes on analysis",
+          "Algebraic solution of equations",
+          "Numerical equations",
+          "Theory of numbers",
+          "Letter to Auguste Chevalier",
+          "Solvability by radicals",
+          "Primitive equations",
+          "Historical contents and colophon"
+        ],
+        "work_destinations": 11
       },
-      {
-        "bytes": 6452408,
-        "frozen_pin_match": true,
-        "kind": "artifact",
-        "name": "01_GALOIS_1897_FR_EDITABLE_SOURCES.zip",
-        "sha256": "E990DA8591F64FF01891F6ED0CC36FB9FCBFEA6B25995C19E526492D7EC066A8"
+      "reader_role": "source-faithful English reader",
+      "result": "PASS",
+      "schema_version": 1,
+      "source_qa_receipt": {
+        "bytes": 1085,
+        "name": "R3_DIRECT_EXACT_ALL_PAGE_VISUAL_QA.json",
+        "sha256": "8A2AB2A9F5E8C0F088BA708D9D7BDFC802E7C0B71702426B4EF0202154F00744"
       },
-      {
-        "bytes": 283491687,
-        "frozen_pin_match": true,
-        "kind": "artifact",
-        "name": "02_GALOIS_1897_FR_EVIDENCE_AND_PROVENANCE.zip",
-        "sha256": "A0BDEFDBD8757561286B0C43EA3597DE0B2DD90FE66B54A6CF5F9BEE92404CD9"
-      },
-      {
-        "bytes": 463,
-        "frozen_pin_match": true,
-        "kind": "artifact",
-        "name": "03_GALOIS_1897_FR_SHA256_MANIFEST.txt",
-        "sha256": "E1F334DE24DC6B9E57C1334B9FAA82470CA3D737E0A9A642C7A9CF1573971114"
-      },
-      {
-        "bytes": 3283,
-        "frozen_pin_match": true,
-        "kind": "metadata",
-        "name": "README.md",
-        "sha256": "3A4FA666EE76E96B7679361D4FA0FB4618E5E8A97E5589E1BB0A2E5BEA672FB3"
-      },
-      {
-        "bytes": 1166,
-        "frozen_pin_match": true,
-        "kind": "metadata",
-        "name": "LICENSE",
-        "sha256": "13627E4B86A1C77729845D2AE622491C59B5E695C1079374685CBD84C29D0FD4"
-      },
-      {
-        "bytes": 992,
-        "frozen_pin_match": true,
-        "kind": "metadata",
-        "name": "CITATION.cff",
-        "sha256": "8799C6F69D00CA7A09994FA52F1CB5EA04FBE217B3165D1693B9F1BC7C18232D"
-      },
-      {
-        "bytes": 2599,
-        "frozen_pin_match": true,
-        "kind": "metadata",
-        "name": ".zenodo.json",
-        "sha256": "C5D153C289E6A918CF6CDC824A4EA173E1E2772E14FAACE0CD75E51E0167037B"
+      "validated_claim": {
+        "all_pages_visually_inspected": true,
+        "blocking_findings": [],
+        "concept_doi": "10.5281/zenodo.21924301",
+        "exact_doi": "10.5281/zenodo.21935485",
+        "inspected_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "page_count": 81,
+        "pdf_sha256": "47956B8326C3490E5BBE2468F212A92D3844D03EF405CAA0866B18FDACCA4E8A",
+        "reader_role": "source-faithful English reader",
+        "receipt_role": "Galois English R3 all-page visual QA",
+        "schema_version": 1,
+        "visual_result": "PASS"
       }
+    },
+    "compile": {
+      "console_sha256": "0E6213504A735E51C56251E77AEB993624CC2984E7D4A578B20AEF383970D672",
+      "fls_sha256": "01AE41C9A2699E45A8D80B50FCBF020B83B975F0F4F1458ABAA98AEF1428ED0E",
+      "log_sha256": "42728238E1C2CF83CC6B75C27196132D7F577778F2891A5213AA5DB38F6CE90F",
+      "master": "GAL1897_EN_SOURCE_FAITHFUL_READER.tex",
+      "pdf": {
+        "bytes": 3571044,
+        "sha256": "47956B8326C3490E5BBE2468F212A92D3844D03EF405CAA0866B18FDACCA4E8A"
+      },
+      "result": "PASS",
+      "warnings": 0
+    },
+    "projection": {
+      "aligned_segments": 587,
+      "annotated_master_sha256": "4F025272EDB5E1AB9C4951270890C9B8D6C750A9BE0D191046FB3CBA8069F352",
+      "annotated_wrapper_input_policy": {
+        "component_to_work": {
+          "W01": "GAL1897_W01_PRELIMS.tex",
+          "W02": "GAL1897_W02_INTRODUCTION.tex",
+          "W03": "GAL1897_W03_CONTINUED_FRACTIONS.tex",
+          "W04": "GAL1897_W04_NOTES_ANALYSIS.tex",
+          "W05": "GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+          "W06": "GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+          "W07": "GAL1897_W07_NUMBER_THEORY.tex",
+          "W08": "GAL1897_W08_CHEVALIER_LETTER.tex",
+          "W09": "GAL1897_W09_RADICALS_MEMOIR.tex",
+          "W10": "GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+          "W11": "GAL1897_W11_BACKMATTER.tex"
+        },
+        "result": "PASS",
+        "work_inputs": 11,
+        "wrappers": 11
+      },
+      "compiled_input_graph": {
+        "all_work_inputs_resolve_to_frozen_annotated_authority": true,
+        "authority_work_set_sha256": "6145DE449829EFF1F770A056FC1B9AE3E887D03C08486A568DFE66E87ED16263",
+        "reader_master": "GAL1897_EN_SOURCE_FAITHFUL_READER.tex",
+        "reader_mode": "direct",
+        "recorder_name": "GAL1897_EN_SOURCE_FAITHFUL_READER.fls",
+        "records": [
+          {
+            "bytes": 6667,
+            "input_records": 3,
+            "name": "GAL1897_W01_PRELIMS.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "98A369FC4A174705CC33257A80F123D2546D65ECC2F669448A5F5C2470EADC76"
+          },
+          {
+            "bytes": 11078,
+            "input_records": 3,
+            "name": "GAL1897_W02_INTRODUCTION.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "D33A63A491CAE9AE27C5534F1C002E179CFE51695688255AAA5188A1DAD03906"
+          },
+          {
+            "bytes": 16753,
+            "input_records": 3,
+            "name": "GAL1897_W03_CONTINUED_FRACTIONS.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "59E7BB641FF5A393C95EC93322BA6D31753146D43AA5F0643F29BE5B6853C2C2"
+          },
+          {
+            "bytes": 5908,
+            "input_records": 3,
+            "name": "GAL1897_W04_NOTES_ANALYSIS.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "1A8227CB6577422A80073F3B89128F5C98CF3A7F51F232F8C72179A6BB1DAA9A"
+          },
+          {
+            "bytes": 6879,
+            "input_records": 3,
+            "name": "GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "4D43B8A4FF25AE8FFDBB2AA5AAF17D7FA1973624EB800C39DB09B7A7F75C731B"
+          },
+          {
+            "bytes": 5817,
+            "input_records": 3,
+            "name": "GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "2B7F9E534731EE028CEB1FC9EF0EB8C103CAB93C397EEE9E31DBC37BD2AEBF3D"
+          },
+          {
+            "bytes": 22546,
+            "input_records": 3,
+            "name": "GAL1897_W07_NUMBER_THEORY.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "821C099EFF66CE008E426F213847463F01E05E0A719A96F5FB691BBC884FA74F"
+          },
+          {
+            "bytes": 20171,
+            "input_records": 3,
+            "name": "GAL1897_W08_CHEVALIER_LETTER.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "DB2D4BA2E8BBD76EC8CF9D1D1F9133C93E2DC6D24C26730352B51BC837778283"
+          },
+          {
+            "bytes": 45069,
+            "input_records": 3,
+            "name": "GAL1897_W09_RADICALS_MEMOIR.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "DD7A52FC25C5FF28E2D6DF6BA26C53974320900F793F2BDD2D4084D0414EAD2E"
+          },
+          {
+            "bytes": 27038,
+            "input_records": 3,
+            "name": "GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "81BC36F3CEF960EEBD3A497939D713FE78159F6D025CA5270B61B88A1A2E8A79"
+          },
+          {
+            "bytes": 5072,
+            "input_records": 3,
+            "name": "GAL1897_W11_BACKMATTER.tex",
+            "resolved_to_frozen_annotated_authority": true,
+            "sha256": "A119B2FB6F17C1253BD4A86458AD5A5642654CFA2DFCE4E6888742217A7D24B8"
+          }
+        ],
+        "result": "PASS",
+        "work_files": 11
+      },
+      "component_order": [
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08",
+        "W09",
+        "W10",
+        "W11"
+      ],
+      "components": 11,
+      "direct_master_erasure_policy": {
+        "copy_mark_image_empty": true,
+        "copy_marks_empty": true,
+        "critical_box_definition_absent": true,
+        "critical_marker_empty": true,
+        "critical_note_empty": true,
+        "editorial_reference_empty": true,
+        "invisible_source_anchor": true,
+        "printed_error_first_arg": true,
+        "printed_omission_empty": true,
+        "proof_gap_mark_empty": true,
+        "source_error_first_arg": true,
+        "source_error_mark_empty": true,
+        "tcolorbox_package_absent": true,
+        "visible_source_label_absent": true,
+        "witness_note_empty": true,
+        "witness_variant_first_arg": true
+      },
+      "direct_master_sha256": "AB86E83FEB4F6C2D53DE769AC0F7D7B80EF1CA2DD36FF2346D40B672757A4A91",
+      "direct_wrapper_erasure_policy": {
+        "hard_coded_dagger_or_double_dagger": 0,
+        "required_erasure_overrides": 7,
+        "result": "PASS",
+        "work_input_modes": {
+          "W01": "shared_annotated_corpus",
+          "W02": "shared_annotated_corpus",
+          "W03": "shared_annotated_corpus",
+          "W04": "shared_annotated_corpus",
+          "W05": "shared_annotated_corpus",
+          "W06": "shared_annotated_corpus",
+          "W07": "shared_annotated_corpus",
+          "W08": "shared_annotated_corpus",
+          "W09": "shared_annotated_corpus",
+          "W10": "shared_annotated_corpus",
+          "W11": "shared_annotated_corpus"
+        },
+        "work_inputs": 11,
+        "wrappers": 11
+      },
+      "frozen_authority": {
+        "annotated_master_pin": {
+          "name": "GAL1897_EN_MODERN_READER.tex",
+          "normalization": "exact DOI line restored to frozen annotated predecessor",
+          "normalized_bytes": 9992,
+          "normalized_sha256": "7D883A35E4AD67BE99B5367F55CEC239E58B613DA683121FC675E930ABA9597A",
+          "result": "PASS"
+        },
+        "bytes": 4620,
+        "figure_set_sha256": "01CD0FF47FC431433F2CCC0F5BCB45C3EDF3D2A4268DA9BE2950C7AC47B48A75",
+        "name": "GALOIS_R3_FROZEN_AUTHORITY.json",
+        "result": "PASS",
+        "sha256": "65B0C6C1C55B3667DF18A90549238B4AE4C0E339C3D9B710A02A1B0645D03E56",
+        "work_set_sha256": "6145DE449829EFF1F770A056FC1B9AE3E887D03C08486A568DFE66E87ED16263"
+      },
+      "historical_apparatus_preserved": {
+        "GalHistoricalFootnote": 8,
+        "GalHistoricalFootnoteMark": 3,
+        "GalHistoricalFootnoteText": 5,
+        "GalHistoricalNote": 6
+      },
+      "inactive_direct_work_snapshots": [],
+      "modern_apparatus_calls_retained_in_shared_source_but_rendered_empty": {
+        "GalCriticalNote": 62,
+        "GalPrintedError": 17,
+        "GalPrintedOmission": 1,
+        "GalSourceError": 14,
+        "GalSourceErrorMark": 9,
+        "GalWitnessNote": 3,
+        "GalWitnessVariant": 6
+      },
+      "pdf": {
+        "blank_pages": [
+          38,
+          76,
+          79,
+          80,
+          81
+        ],
+        "bytes": 3571044,
+        "critical_destinations": 0,
+        "doi_universes": {
+          "pdftotext": [
+            "10.5281/zenodo.21923856",
+            "10.5281/zenodo.21924301",
+            "10.5281/zenodo.21935485"
+          ],
+          "pypdf": [
+            "10.5281/zenodo.21923856",
+            "10.5281/zenodo.21924301",
+            "10.5281/zenodo.21935485"
+          ]
+        },
+        "encrypted": false,
+        "exact_doi_checked": "10.5281/zenodo.21935485",
+        "name": "GAL1897_EN_SOURCE_FAITHFUL_READER.pdf",
+        "pages": 81,
+        "pdf_title": "Évariste Galois — Mathematical Works (1897): Source-Faithful English Translation",
+        "rendered_modern_apparatus_scans": [
+          {
+            "characters": 92519,
+            "extractor": "pypdf",
+            "findings": [],
+            "result": "PASS"
+          },
+          {
+            "characters": 143490,
+            "extractor": "pdftotext-layout",
+            "findings": [],
+            "result": "PASS"
+          }
+        ],
+        "result": "PASS",
+        "sha256": "47956B8326C3490E5BBE2468F212A92D3844D03EF405CAA0866B18FDACCA4E8A",
+        "source_destination_list_sha256": "05C2D4D506CC9E706E8A74E66DD2C0301838A5DEA071760E8DBCBFD04FF750DF",
+        "source_destinations": 73,
+        "uniform_media_box_points": [
+          510.236,
+          737.008
+        ],
+        "work_bookmarks": [
+          "1897 publication matter",
+          "Picard: Introduction",
+          "Periodic continued fractions",
+          "Notes on analysis",
+          "Algebraic solution of equations",
+          "Numerical equations",
+          "Theory of numbers",
+          "Letter to Auguste Chevalier",
+          "Solvability by radicals",
+          "Primitive equations",
+          "Historical contents and colophon"
+        ],
+        "work_destinations": 11
+      },
+      "receipt_role": "Galois English source-faithful projection validation",
+      "result": "PASS",
+      "schema_version": 1,
+      "segment_list_sha256": "C5C1512ED3F66D58AF52487B945FF54D1C2F9B70253B81F73FAA29AE4B9C3021",
+      "source_era_figure_hash_equality": [
+        {
+          "bytes": 154195,
+          "name": "PDF007_L0006_PUBLISHER_DEVICE.png",
+          "sha256": "FE50B83DA716AC0DA5B71DA7CCE6E47625B0F47F77F37EEF938265F2CEFCEA87"
+        },
+        {
+          "bytes": 1728195,
+          "name": "PDF019_L0018_PORTRAIT_PLATE.png",
+          "sha256": "FE8BB4469906CB3EE1794755F2EE37A17C31A3B60103089829DED0F13AFF3F5C"
+        },
+        {
+          "bytes": 883006,
+          "name": "PDF021_L0020_PORTRAIT_PLATE_DEGRADED.png",
+          "sha256": "0204C0DB99031FFEB11E70613AE56B1795FCB4C737B971398F7BF5D69B81368D"
+        },
+        {
+          "bytes": 7194,
+          "name": "PDF024_L0023_MARGIN_X_ENHANCED.png",
+          "sha256": "8945E3B362011B2C2F15DE051E8D4F078951E3DB01FB9E647C05C8FFF70FA2C9"
+        },
+        {
+          "bytes": 430,
+          "name": "PDF029_L0028_END_ORNAMENT_ENHANCED.png",
+          "sha256": "7F9358D8A010F4583801CFA0EAA081A28C0065EDD13E682079428A0F8FB7C755"
+        },
+        {
+          "bytes": 6617,
+          "name": "PDF030_L0029_TITLE_MARK_ENHANCED.png",
+          "sha256": "139A6086FDB5AFC6C9EFAD48952DB2FD2E1F3131F50B1F3FDDE2179650C1ADFF"
+        },
+        {
+          "bytes": 2709,
+          "name": "PDF052_L0051_TERMINAL_ORNAMENT_ENHANCED.png",
+          "sha256": "D5736F3989C18A5CC3EE0C0429270DE55B9A2B1FE7B339F9E2DC8F00BB3C2FA4"
+        },
+        {
+          "bytes": 10295,
+          "name": "PDF052_L0051_TERMINAL_ORNAMENT_RAW.png",
+          "sha256": "82E397A4DAADB96BA006C621CB02028C6FD5310C40AA1BB3C8285E3F700B93F3"
+        },
+        {
+          "bytes": 932,
+          "name": "PDF093_L0092_PRINTER_JOB_NUMBER_ENHANCED.png",
+          "sha256": "AC42B6C47848AE48D10D87CD7B8928CC46B0751A2FC486B4FC9DFD476D0D2E9D"
+        }
+      ],
+      "work_body_hash_equality": [
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 6667,
+          "component": "W01",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W01_PRELIMS.tex",
+          "sha256": "98A369FC4A174705CC33257A80F123D2546D65ECC2F669448A5F5C2470EADC76"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 11078,
+          "component": "W02",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W02_INTRODUCTION.tex",
+          "sha256": "D33A63A491CAE9AE27C5534F1C002E179CFE51695688255AAA5188A1DAD03906"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 16753,
+          "component": "W03",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W03_CONTINUED_FRACTIONS.tex",
+          "sha256": "59E7BB641FF5A393C95EC93322BA6D31753146D43AA5F0643F29BE5B6853C2C2"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 5908,
+          "component": "W04",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W04_NOTES_ANALYSIS.tex",
+          "sha256": "1A8227CB6577422A80073F3B89128F5C98CF3A7F51F232F8C72179A6BB1DAA9A"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 6879,
+          "component": "W05",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+          "sha256": "4D43B8A4FF25AE8FFDBB2AA5AAF17D7FA1973624EB800C39DB09B7A7F75C731B"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 5817,
+          "component": "W06",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+          "sha256": "2B7F9E534731EE028CEB1FC9EF0EB8C103CAB93C397EEE9E31DBC37BD2AEBF3D"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 22546,
+          "component": "W07",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W07_NUMBER_THEORY.tex",
+          "sha256": "821C099EFF66CE008E426F213847463F01E05E0A719A96F5FB691BBC884FA74F"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 20171,
+          "component": "W08",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W08_CHEVALIER_LETTER.tex",
+          "sha256": "DB2D4BA2E8BBD76EC8CF9D1D1F9133C93E2DC6D24C26730352B51BC837778283"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 45069,
+          "component": "W09",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W09_RADICALS_MEMOIR.tex",
+          "sha256": "DD7A52FC25C5FF28E2D6DF6BA26C53974320900F793F2BDD2D4084D0414EAD2E"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 27038,
+          "component": "W10",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+          "sha256": "81BC36F3CEF960EEBD3A497939D713FE78159F6D025CA5270B61B88A1A2E8A79"
+        },
+        {
+          "active_direct_input": "shared annotated corpus",
+          "bytes": 5072,
+          "component": "W11",
+          "inactive_snapshot_present_and_identical": null,
+          "name": "GAL1897_W11_BACKMATTER.tex",
+          "sha256": "A119B2FB6F17C1253BD4A86458AD5A5642654CFA2DFCE4E6888742217A7D24B8"
+        }
+      ]
+    }
+  },
+  "exact_public_inventory": [
+    "00_GALOIS_1897_EN_SOURCE_FAITHFUL_READER.pdf",
+    "01_GALOIS_1897_EN_GPT_ANNOTATED_READER.pdf",
+    "02_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
+    "03_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
+    "04_GALOIS_1897_EN_SHA256_MANIFEST.txt",
+    "OTHER_TRANSLATIONS.zip"
+  ],
+  "french_sibling": {
+    "concept_doi": "10.5281/zenodo.21923856",
+    "exact_doi": "10.5281/zenodo.21925876",
+    "frozen_authority_sha256": "65B0C6C1C55B3667DF18A90549238B4AE4C0E339C3D9B710A02A1B0645D03E56",
+    "manifest_payload_order": [
+      "00_GALOIS_1897_FR_CURRENT_LINKED_READER.pdf",
+      "01_GALOIS_1897_FR_EDITABLE_SOURCES.zip",
+      "02_GALOIS_1897_FR_EVIDENCE_AND_PROVENANCE.zip",
+      "OTHER_TRANSLATIONS.zip"
     ],
-    "nested_archive_checks": {
+    "nested_archives_absolute_path_scan": "PASS",
+    "nested_archives_crc_name_symlink_secret_checked": true,
+    "public_members": {
+      "00_GALOIS_1897_FR_CURRENT_LINKED_READER.pdf": {
+        "bytes": 3854787,
+        "sha256": "D89BAC7D8D69FDE394519517D6F8D62B24674791E5A998CCF34388C6F253359C"
+      },
       "01_GALOIS_1897_FR_EDITABLE_SOURCES.zip": {
-        "casefold_collisions": 0,
-        "content_scan_findings": 0,
-        "crc_failure": null,
-        "duplicate_names": 0,
-        "encrypted_members": 0,
-        "entries": 94,
-        "member_set_sha256": "3CD5302B26D4D20363FE4D9A79FD665F31CBE12E1BF0668F13F2D46C82C37B5D",
-        "pass": true,
-        "payload_bytes": 6813160,
-        "unsafe_member_names": 0
+        "bytes": 19290719,
+        "sha256": "3575A988462B8A26D9E8F994D35D45200B4E3EA6A601C68301DDCF1A1F258A2D"
       },
       "02_GALOIS_1897_FR_EVIDENCE_AND_PROVENANCE.zip": {
-        "casefold_collisions": 0,
-        "content_scan_findings": 0,
-        "crc_failure": null,
-        "duplicate_names": 0,
-        "encrypted_members": 0,
-        "entries": 28,
-        "member_set_sha256": "36B5A1BB605ECAF82BBBBA6CDB43BBB10F9E47A54A6ABAD2F901E6289E5EC15C",
-        "pass": true,
-        "payload_bytes": 283790624,
-        "unsafe_member_names": 0
+        "bytes": 296419927,
+        "sha256": "9782E30A373FEA1E376B1668230C36742A4FC5F3493F63919957FB8AA69D4334"
+      },
+      "03_GALOIS_1897_FR_SHA256_MANIFEST.txt": {
+        "bytes": 562,
+        "sha256": "995B9FBC5BDDDE19217B492A678E01C61764F579F36E3CE48DE5171AD722B4E2"
+      },
+      "OTHER_TRANSLATIONS.zip": {
+        "bytes": 324533386,
+        "sha256": "0A7D55F58B7C241F2EE1DDD3B259EA9D293083E4923A79790E6B0E4D54C8AB5F"
       }
     },
     "result": "PASS"
   },
-  "manifest_check": {
-    "canonical_bytes_match": true,
+  "identity": {
+    "annotated_predecessor_exact_doi": "10.5281/zenodo.21926209",
     "concept_doi": "10.5281/zenodo.21924301",
-    "exact_doi": "10.5281/zenodo.21926209",
-    "payload_records": 4,
+    "exact_doi": "10.5281/zenodo.21935485",
+    "publication_date": "2026-08-14",
+    "tag": "v2026.08.14-en-r3",
+    "version": "2026-08-14 en-r3"
+  },
+  "manifest": {
+    "canonical_header": true,
+    "payload_rows": 5,
     "result": "PASS",
     "self_hashing": false
   },
   "non_destructive_policy": {
-    "existing_directories_reused": false,
-    "new_build_directory_claimed": true,
-    "new_output_directory_claimed": true,
-    "recursive_cleanup_performed": false
+    "credential_access": false,
+    "fresh_build_directory": true,
+    "fresh_output_directory": true,
+    "git_or_remote_mutation": false,
+    "recursive_cleanup": false
   },
-  "output_directory": "reader-r2-final-verified-20260814T024700000",
-  "public_files": [
-    {
-      "bytes": 3734236,
-      "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-      "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
-    },
-    {
-      "bytes": 2958034,
-      "name": "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
-      "sha256": "0575FE98EE8C8C3BB450C3FF1D433A5C98E7A6A4A7FD9CEA70552072CE878F0C"
-    },
-    {
+  "predecessor_evidence": {
+    "archive": {
       "bytes": 24174693,
-      "name": "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
       "sha256": "A16FA574C3F713894A1E53EE77C79A3BE662DB569CF572A748379FC05AA0F031"
     },
+    "archive_check": {
+      "absolute_path_findings": 0,
+      "casefold_collisions": 0,
+      "crc": "PASS",
+      "duplicates": 0,
+      "encrypted_members": 0,
+      "entries": 120,
+      "member_list_sha256": "E53FB6AAD03D3EA86002A029861C4F2FB58396F7924C8032E2487BBC1BD826FA",
+      "payload_bytes": 25693971,
+      "result": "PASS",
+      "secret_findings": 0,
+      "symlinks": 0,
+      "unsafe_paths": 0
+    },
+    "exact_predecessor_doi": "10.5281/zenodo.21926209",
+    "result": "PASS"
+  },
+  "public_files": [
     {
-      "bytes": 551,
-      "name": "03_GALOIS_1897_EN_SHA256_MANIFEST.txt",
-      "sha256": "60EF5DF9C2C8EC89BF8AF33B5B1393F6F76A34B160355381C8190E547453F610"
+      "bytes": 3571044,
+      "name": "00_GALOIS_1897_EN_SOURCE_FAITHFUL_READER.pdf",
+      "sha256": "47956B8326C3490E5BBE2468F212A92D3844D03EF405CAA0866B18FDACCA4E8A"
     },
     {
-      "bytes": 293784456,
+      "bytes": 3734236,
+      "name": "01_GALOIS_1897_EN_GPT_ANNOTATED_READER.pdf",
+      "sha256": "BC20BFF9ECFDB694F572F6738C0E120EC39BABE490F5FB5D7BD5EC9DF596335E"
+    },
+    {
+      "bytes": 5705209,
+      "name": "02_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
+      "sha256": "A7A2A8D78F28E5E21579EE4E0B0C4831E157B29FB32DE64DDB0CD835A3DC3FBD"
+    },
+    {
+      "bytes": 24191501,
+      "name": "03_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
+      "sha256": "2C7F909455A0A61476F100B6319627C4A3E16A1F9C75F1FE4610AC0CC70DB774"
+    },
+    {
+      "bytes": 670,
+      "name": "04_GALOIS_1897_EN_SHA256_MANIFEST.txt",
+      "sha256": "9470070AAD09B66512F5C364462EAFE9071B35A73752311CD7930404F0323FF7"
+    },
+    {
+      "bytes": 644013928,
       "name": "OTHER_TRANSLATIONS.zip",
-      "sha256": "E397EDA6C022D2754A228FE1B4FB6453245AE75B7D4B54B6BB86BEB8578D72AD"
+      "sha256": "09D4D6746E106BEC9A9D178953108C95DFE1BA96CEDD9C06C3FD1D1E1A96CE30"
     }
   ],
-  "public_safety": {
-    "credential_or_internal_workflow_members": 0,
-    "frozen_french_nested_absolute_path_scan": "NOT_CLAIMED",
-    "new_english_pattern_scan_absolute_path_findings": 0,
-    "new_english_pattern_scan_secret_findings": 0,
-    "result": "PASS",
-    "scan_scope": "All text/JSON/source payloads; best-effort printable path and secret signatures in raw PDF/image bytes; every generated ZIP member hash/CRC/name/mode validated after decompression. This is not a format-aware PDF/image metadata or rendered-content scan.",
-    "unsafe_zip_names": 0
+  "publication_authoritative": true,
+  "publication_output_directory": "reader-r3-two-reader-verified-20260814T162000000",
+  "quarantined_candidate_directory": "comparison-candidate",
+  "rendered_metadata": {
+    "directory_name": "metadata-21935485-20260814T160500000",
+    "exact_doi": "10.5281/zenodo.21935485",
+    "files": [
+      {
+        "bytes": 5759,
+        "name": ".zenodo.json",
+        "sha256": "93AAA5D0FD4463A298758C83F158B1817AB9578FB265BC18CD58B30435FFCAA6"
+      },
+      {
+        "bytes": 1270,
+        "name": "CITATION.cff",
+        "sha256": "6C99B9CE5F08E3C08478249699591D1408D0EC178BF5046119832322F5C92D11"
+      },
+      {
+        "bytes": 2968,
+        "name": "DATACITE_RELATIONS.json",
+        "sha256": "F542BE9E2860DA74C9CD8A8E6EA0AB48EF8B710FEA3881AF05C6EBAFD9E08180"
+      },
+      {
+        "bytes": 1115,
+        "name": "PUBLICATION_IDENTITY.json",
+        "sha256": "ED8C4E9E1D3A8528B9E628BBDDE54247A47CA4565765097CCD203EB3D5B83B31"
+      },
+      {
+        "bytes": 5087,
+        "name": "README.md",
+        "sha256": "555CC0E563EDE582C26D68976EDB4493E44C8C3C5ED3297EB604F2B22F333FB3"
+      },
+      {
+        "bytes": 2774,
+        "name": "RELEASE_SURFACE.md",
+        "sha256": "C0B25160E8CFCE858A9ADA99DD5CA918216A07EC95A9EB1D0E21E43D6F327EE6"
+      },
+      {
+        "bytes": 2035,
+        "name": "RIGHTS_AND_LICENSING.md",
+        "sha256": "DAE714727B3746A8423D0631451939E81F4F564C5EE6ACF0E82B669D677B4B28"
+      }
+    ],
+    "record_id": 21935485,
+    "render_receipt_sha256": "5D2A46D4851CEFE9417515242EAB4D4162FC96D4BC35AC7E5A1947013E7DA486",
+    "result": "PASS"
   },
-  "qa_gates": {
-    "actual_visual_inspection": "PASS",
-    "mechanical_render": "PASS_WITH_NO_VISUAL_CLAIM",
-    "post_p13_structure": "PASS",
-    "r2_authority": "PASS_164_OF_164_WITH_DANGLING_POINTER_DISCLOSED",
-    "reader_structure": "PASS",
+  "reservation_identity": {
+    "bytes": 1486,
+    "concept_doi": "10.5281/zenodo.21924301",
+    "exact_doi": "10.5281/zenodo.21935485",
+    "name": "ZENODO_R3_RESERVED_IDENTITY_20260814T162000000.json",
+    "record_id": 21935485,
     "result": "PASS",
-    "semantic_and_formula_audit": "PASS_R2_AFTER_DEEP_REPLAY_AND_READER_HUMANIZATION",
-    "visually_inspected_pages": 84
-  },
-  "reader": {
-    "bytes": 3734236,
-    "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-    "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
+    "sha256": "3842882BE52F876DEFA9EA2F3D798FBA958138F87456555B67DBD22FE6A054E1"
   },
   "result": "PASS",
-  "schema_version": 2,
-  "source_allowlist": {
-    "archive_entries": 78,
-    "datacite_relations_sidecar_included": true,
-    "input_fingerprint_sha256": "CB9239B012CE5CA9273766BDA4203C9050927AA06E2749915A0C54411CA24295",
-    "source_authority_sidecar_included": true
+  "same_corpus_compiled_input_graph_proof": {
+    "all_eleven_resolved_authority_hashes_identical": true,
+    "annotated": {
+      "all_work_inputs_resolve_to_frozen_annotated_authority": true,
+      "authority_work_set_sha256": "6145DE449829EFF1F770A056FC1B9AE3E887D03C08486A568DFE66E87ED16263",
+      "reader_master": "GAL1897_EN_MODERN_READER.tex",
+      "reader_mode": "annotated",
+      "recorder_name": "GAL1897_EN_MODERN_READER.fls",
+      "records": [
+        {
+          "bytes": 6667,
+          "input_records": 3,
+          "name": "GAL1897_W01_PRELIMS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "98A369FC4A174705CC33257A80F123D2546D65ECC2F669448A5F5C2470EADC76"
+        },
+        {
+          "bytes": 11078,
+          "input_records": 3,
+          "name": "GAL1897_W02_INTRODUCTION.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "D33A63A491CAE9AE27C5534F1C002E179CFE51695688255AAA5188A1DAD03906"
+        },
+        {
+          "bytes": 16753,
+          "input_records": 3,
+          "name": "GAL1897_W03_CONTINUED_FRACTIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "59E7BB641FF5A393C95EC93322BA6D31753146D43AA5F0643F29BE5B6853C2C2"
+        },
+        {
+          "bytes": 5908,
+          "input_records": 3,
+          "name": "GAL1897_W04_NOTES_ANALYSIS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "1A8227CB6577422A80073F3B89128F5C98CF3A7F51F232F8C72179A6BB1DAA9A"
+        },
+        {
+          "bytes": 6879,
+          "input_records": 3,
+          "name": "GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "4D43B8A4FF25AE8FFDBB2AA5AAF17D7FA1973624EB800C39DB09B7A7F75C731B"
+        },
+        {
+          "bytes": 5817,
+          "input_records": 3,
+          "name": "GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "2B7F9E534731EE028CEB1FC9EF0EB8C103CAB93C397EEE9E31DBC37BD2AEBF3D"
+        },
+        {
+          "bytes": 22546,
+          "input_records": 3,
+          "name": "GAL1897_W07_NUMBER_THEORY.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "821C099EFF66CE008E426F213847463F01E05E0A719A96F5FB691BBC884FA74F"
+        },
+        {
+          "bytes": 20171,
+          "input_records": 3,
+          "name": "GAL1897_W08_CHEVALIER_LETTER.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "DB2D4BA2E8BBD76EC8CF9D1D1F9133C93E2DC6D24C26730352B51BC837778283"
+        },
+        {
+          "bytes": 45069,
+          "input_records": 3,
+          "name": "GAL1897_W09_RADICALS_MEMOIR.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "DD7A52FC25C5FF28E2D6DF6BA26C53974320900F793F2BDD2D4084D0414EAD2E"
+        },
+        {
+          "bytes": 27038,
+          "input_records": 3,
+          "name": "GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "81BC36F3CEF960EEBD3A497939D713FE78159F6D025CA5270B61B88A1A2E8A79"
+        },
+        {
+          "bytes": 5072,
+          "input_records": 3,
+          "name": "GAL1897_W11_BACKMATTER.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "A119B2FB6F17C1253BD4A86458AD5A5642654CFA2DFCE4E6888742217A7D24B8"
+        }
+      ],
+      "result": "PASS",
+      "work_files": 11
+    },
+    "authority_work_set_sha256": "6145DE449829EFF1F770A056FC1B9AE3E887D03C08486A568DFE66E87ED16263",
+    "direct": {
+      "all_work_inputs_resolve_to_frozen_annotated_authority": true,
+      "authority_work_set_sha256": "6145DE449829EFF1F770A056FC1B9AE3E887D03C08486A568DFE66E87ED16263",
+      "reader_master": "GAL1897_EN_SOURCE_FAITHFUL_READER.tex",
+      "reader_mode": "direct",
+      "recorder_name": "GAL1897_EN_SOURCE_FAITHFUL_READER.fls",
+      "records": [
+        {
+          "bytes": 6667,
+          "input_records": 3,
+          "name": "GAL1897_W01_PRELIMS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "98A369FC4A174705CC33257A80F123D2546D65ECC2F669448A5F5C2470EADC76"
+        },
+        {
+          "bytes": 11078,
+          "input_records": 3,
+          "name": "GAL1897_W02_INTRODUCTION.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "D33A63A491CAE9AE27C5534F1C002E179CFE51695688255AAA5188A1DAD03906"
+        },
+        {
+          "bytes": 16753,
+          "input_records": 3,
+          "name": "GAL1897_W03_CONTINUED_FRACTIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "59E7BB641FF5A393C95EC93322BA6D31753146D43AA5F0643F29BE5B6853C2C2"
+        },
+        {
+          "bytes": 5908,
+          "input_records": 3,
+          "name": "GAL1897_W04_NOTES_ANALYSIS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "1A8227CB6577422A80073F3B89128F5C98CF3A7F51F232F8C72179A6BB1DAA9A"
+        },
+        {
+          "bytes": 6879,
+          "input_records": 3,
+          "name": "GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "4D43B8A4FF25AE8FFDBB2AA5AAF17D7FA1973624EB800C39DB09B7A7F75C731B"
+        },
+        {
+          "bytes": 5817,
+          "input_records": 3,
+          "name": "GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "2B7F9E534731EE028CEB1FC9EF0EB8C103CAB93C397EEE9E31DBC37BD2AEBF3D"
+        },
+        {
+          "bytes": 22546,
+          "input_records": 3,
+          "name": "GAL1897_W07_NUMBER_THEORY.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "821C099EFF66CE008E426F213847463F01E05E0A719A96F5FB691BBC884FA74F"
+        },
+        {
+          "bytes": 20171,
+          "input_records": 3,
+          "name": "GAL1897_W08_CHEVALIER_LETTER.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "DB2D4BA2E8BBD76EC8CF9D1D1F9133C93E2DC6D24C26730352B51BC837778283"
+        },
+        {
+          "bytes": 45069,
+          "input_records": 3,
+          "name": "GAL1897_W09_RADICALS_MEMOIR.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "DD7A52FC25C5FF28E2D6DF6BA26C53974320900F793F2BDD2D4084D0414EAD2E"
+        },
+        {
+          "bytes": 27038,
+          "input_records": 3,
+          "name": "GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "81BC36F3CEF960EEBD3A497939D713FE78159F6D025CA5270B61B88A1A2E8A79"
+        },
+        {
+          "bytes": 5072,
+          "input_records": 3,
+          "name": "GAL1897_W11_BACKMATTER.tex",
+          "resolved_to_frozen_annotated_authority": true,
+          "sha256": "A119B2FB6F17C1253BD4A86458AD5A5642654CFA2DFCE4E6888742217A7D24B8"
+        }
+      ],
+      "result": "PASS",
+      "work_files": 11
+    },
+    "result": "PASS"
   },
+  "schema_version": 1,
   "two_build_byte_identity": {
-    "all_five_byte_identical": true,
-    "compared_files": 5,
+    "all_six_byte_identical": true,
     "files": [
       {
         "byte_identical": true,
+        "bytes": 3571044,
+        "name": "00_GALOIS_1897_EN_SOURCE_FAITHFUL_READER.pdf",
+        "sha256": "47956B8326C3490E5BBE2468F212A92D3844D03EF405CAA0866B18FDACCA4E8A"
+      },
+      {
+        "byte_identical": true,
         "bytes": 3734236,
-        "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-        "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
+        "name": "01_GALOIS_1897_EN_GPT_ANNOTATED_READER.pdf",
+        "sha256": "BC20BFF9ECFDB694F572F6738C0E120EC39BABE490F5FB5D7BD5EC9DF596335E"
       },
       {
         "byte_identical": true,
-        "bytes": 2958034,
-        "name": "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
-        "sha256": "0575FE98EE8C8C3BB450C3FF1D433A5C98E7A6A4A7FD9CEA70552072CE878F0C"
+        "bytes": 5705209,
+        "name": "02_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
+        "sha256": "A7A2A8D78F28E5E21579EE4E0B0C4831E157B29FB32DE64DDB0CD835A3DC3FBD"
       },
       {
         "byte_identical": true,
-        "bytes": 24174693,
-        "name": "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
-        "sha256": "A16FA574C3F713894A1E53EE77C79A3BE662DB569CF572A748379FC05AA0F031"
+        "bytes": 24191501,
+        "name": "03_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
+        "sha256": "2C7F909455A0A61476F100B6319627C4A3E16A1F9C75F1FE4610AC0CC70DB774"
       },
       {
         "byte_identical": true,
-        "bytes": 551,
-        "name": "03_GALOIS_1897_EN_SHA256_MANIFEST.txt",
-        "sha256": "60EF5DF9C2C8EC89BF8AF33B5B1393F6F76A34B160355381C8190E547453F610"
+        "bytes": 670,
+        "name": "04_GALOIS_1897_EN_SHA256_MANIFEST.txt",
+        "sha256": "9470070AAD09B66512F5C364462EAFE9071B35A73752311CD7930404F0323FF7"
       },
       {
         "byte_identical": true,
-        "bytes": 293784456,
+        "bytes": 644013928,
         "name": "OTHER_TRANSLATIONS.zip",
-        "sha256": "E397EDA6C022D2754A228FE1B4FB6453245AE75B7D4B54B6BB86BEB8578D72AD"
+        "sha256": "09D4D6746E106BEC9A9D178953108C95DFE1BA96CEDD9C06C3FD1D1E1A96CE30"
       }
     ],
-    "reference_output_directory": "reader-r2-final-baseline-20260814T024500000",
-    "status": "PASS"
+    "reference_output_directory": "comparison-baseline",
+    "result": "PASS"
   }
 }

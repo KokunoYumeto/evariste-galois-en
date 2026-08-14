@@ -1,0 +1,14 @@
+% W04 wrapper: notes on analysis.
+\clearpage
+\newgeometry{inner=20mm,outer=26mm,top=15mm,bottom=17mm}
+\begingroup
+\fontsize{9.25}{11.0}\selectfont
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}}
+\renewcommand{\GalSourcePageBoundary}[4]{\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalSourceError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalHistoricalFootnote}[1]{\begingroup\renewcommand{\thefootnote}{(*)}\footnotetext{#1}\endgroup}
+\renewcommand{\GalArticleEndRule}{\par\vspace{0.8em}\begin{center}\rule{0.18\linewidth}{0.5pt}\end{center}}
+\input{../english/tex/works/GAL1897_W04_NOTES_ANALYSIS.tex}
+\par\clearpage
+\endgroup
+\restoregeometry

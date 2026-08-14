@@ -1,0 +1,18 @@
+% W08 wrapper: letter to Auguste Chevalier.
+\clearpage
+\newgeometry{inner=18mm,outer=24mm,top=13mm,bottom=14mm}
+\begingroup
+\fontsize{8.72}{10.00}\selectfont
+\renewcommand\footnotesize{\fontsize{7.0}{8.0}\selectfont}
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}}
+\renewcommand{\GalSourcePageBoundary}[4]{\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalSourceError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalWitnessVariant}[2]{#1}
+\renewcommand{\GalHistoricalFootnoteText}[2]{\begingroup\renewcommand{\thefootnote}{(#1)}\GalHistoricalFootnoteTextBody{#2}\endgroup}
+\renewcommand{\GalHistoricalFootnote}[2]{\begingroup\renewcommand{\thefootnote}{(#1)}\GalHistoricalFootnoteBody{#2}\endgroup}
+\renewcommand{\GalArticleEndRule}{\par\vspace{1.25em}\begin{center}\rule{0.18\linewidth}{0.4pt}\end{center}}
+\input{../english/tex/works/GAL1897_W08_CHEVALIER_LETTER.tex}
+\par\clearpage
+\endgroup
+\restoregeometry

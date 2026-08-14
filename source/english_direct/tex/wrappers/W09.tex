@@ -1,0 +1,22 @@
+% W09 wrapper: memoir on solvability by radicals.
+\clearpage
+\newgeometry{inner=15mm,outer=15mm,top=15mm,bottom=14mm}
+\begingroup
+\fontsize{8.15}{9.25}\selectfont
+\renewcommand{\arraystretch}{1.03}
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}}
+\renewcommand{\GalSourcePageBoundary}[4]{\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalPrintedOmission}[1]{\GalCriticalMarker}
+\renewcommand{\GalSourceError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalWitnessVariant}[2]{#1}
+\renewcommand{\GalControlReading}[2]{#1}
+\renewcommand{\GalSourceErrorMark}[1]{\GalCriticalMarker}
+\renewcommand{\GalProofGapMark}[1]{\GalCriticalMarker}
+\renewcommand{\GalControlDefect}[2]{#1}
+\renewcommand{\GalHistoricalNote}[1]{\par\smallskip\begingroup\fontsize{6.6}{7.5}\selectfont\noindent\rule{\linewidth}{0.35pt}\par\smallskip #1\par\endgroup}
+\renewcommand{\GalArticleEndRule}{\par\vspace{1em}\begin{center}\rule{0.15\linewidth}{0.45pt}\end{center}}
+\input{../english/tex/works/GAL1897_W09_RADICALS_MEMOIR.tex}
+\par\clearpage
+\endgroup
+\restoregeometry

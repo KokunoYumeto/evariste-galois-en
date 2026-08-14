@@ -1,0 +1,146 @@
+{
+  "compiled_input_graph": {
+    "all_work_inputs_resolve_to_frozen_annotated_authority": true,
+    "authority_work_set_sha256": "6145DE449829EFF1F770A056FC1B9AE3E887D03C08486A568DFE66E87ED16263",
+    "reader_master": "GAL1897_EN_MODERN_READER.tex",
+    "reader_mode": "annotated",
+    "recorder_name": "GAL1897_EN_MODERN_READER.fls",
+    "records": [
+      {
+        "bytes": 6667,
+        "input_records": 3,
+        "name": "GAL1897_W01_PRELIMS.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "98A369FC4A174705CC33257A80F123D2546D65ECC2F669448A5F5C2470EADC76"
+      },
+      {
+        "bytes": 11078,
+        "input_records": 3,
+        "name": "GAL1897_W02_INTRODUCTION.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "D33A63A491CAE9AE27C5534F1C002E179CFE51695688255AAA5188A1DAD03906"
+      },
+      {
+        "bytes": 16753,
+        "input_records": 3,
+        "name": "GAL1897_W03_CONTINUED_FRACTIONS.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "59E7BB641FF5A393C95EC93322BA6D31753146D43AA5F0643F29BE5B6853C2C2"
+      },
+      {
+        "bytes": 5908,
+        "input_records": 3,
+        "name": "GAL1897_W04_NOTES_ANALYSIS.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "1A8227CB6577422A80073F3B89128F5C98CF3A7F51F232F8C72179A6BB1DAA9A"
+      },
+      {
+        "bytes": 6879,
+        "input_records": 3,
+        "name": "GAL1897_W05_ALGEBRAIC_RESOLUTION_ANALYSIS.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "4D43B8A4FF25AE8FFDBB2AA5AAF17D7FA1973624EB800C39DB09B7A7F75C731B"
+      },
+      {
+        "bytes": 5817,
+        "input_records": 3,
+        "name": "GAL1897_W06_NUMERICAL_EQUATIONS.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "2B7F9E534731EE028CEB1FC9EF0EB8C103CAB93C397EEE9E31DBC37BD2AEBF3D"
+      },
+      {
+        "bytes": 22546,
+        "input_records": 3,
+        "name": "GAL1897_W07_NUMBER_THEORY.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "821C099EFF66CE008E426F213847463F01E05E0A719A96F5FB691BBC884FA74F"
+      },
+      {
+        "bytes": 20171,
+        "input_records": 3,
+        "name": "GAL1897_W08_CHEVALIER_LETTER.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "DB2D4BA2E8BBD76EC8CF9D1D1F9133C93E2DC6D24C26730352B51BC837778283"
+      },
+      {
+        "bytes": 45069,
+        "input_records": 3,
+        "name": "GAL1897_W09_RADICALS_MEMOIR.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "DD7A52FC25C5FF28E2D6DF6BA26C53974320900F793F2BDD2D4084D0414EAD2E"
+      },
+      {
+        "bytes": 27038,
+        "input_records": 3,
+        "name": "GAL1897_W10_PRIMITIVE_EQUATIONS.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "81BC36F3CEF960EEBD3A497939D713FE78159F6D025CA5270B61B88A1A2E8A79"
+      },
+      {
+        "bytes": 5072,
+        "input_records": 3,
+        "name": "GAL1897_W11_BACKMATTER.tex",
+        "resolved_to_frozen_annotated_authority": true,
+        "sha256": "A119B2FB6F17C1253BD4A86458AD5A5642654CFA2DFCE4E6888742217A7D24B8"
+      }
+    ],
+    "result": "PASS",
+    "work_files": 11
+  },
+  "reader": {
+    "blank_pages": [
+      41,
+      79,
+      82,
+      83,
+      84
+    ],
+    "bytes": 3734236,
+    "critical_destination_list_sha256": "8BE333B27443E8CD834DA99E3D5638FA5276B784E1C28C0EEF086C5FE310F7DB",
+    "critical_destinations": 65,
+    "doi_universes": {
+      "pdftotext": [
+        "10.5281/zenodo.21923856",
+        "10.5281/zenodo.21924301",
+        "10.5281/zenodo.21935485"
+      ],
+      "pypdf": [
+        "10.5281/zenodo.21923856",
+        "10.5281/zenodo.21924301",
+        "10.5281/zenodo.21935485"
+      ]
+    },
+    "encrypted": false,
+    "exact_doi": "10.5281/zenodo.21935485",
+    "name": "GAL1897_EN_MODERN_READER.pdf",
+    "pages": 84,
+    "pdf_title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes",
+    "result": "PASS",
+    "sha256": "BC20BFF9ECFDB694F572F6738C0E120EC39BABE490F5FB5D7BD5EC9DF596335E",
+    "source_destination_list_sha256": "05C2D4D506CC9E706E8A74E66DD2C0301838A5DEA071760E8DBCBFD04FF750DF",
+    "source_destinations": 73,
+    "two_text_extractors_confirm_identity": true,
+    "uniform_media_box_points": [
+      510.236,
+      737.008
+    ],
+    "work_bookmarks": [
+      "1897 publication matter",
+      "Picard: Introduction",
+      "Periodic continued fractions",
+      "Notes on analysis",
+      "Algebraic solution of equations",
+      "Numerical equations",
+      "Theory of numbers",
+      "Letter to Auguste Chevalier",
+      "Solvability by radicals",
+      "Primitive equations",
+      "Historical contents and colophon"
+    ],
+    "work_destinations": 11
+  },
+  "reader_role": "GPT-annotated English reader",
+  "result": "PASS",
+  "same_frozen_work_authority_as_direct": true,
+  "schema_version": 1
+}

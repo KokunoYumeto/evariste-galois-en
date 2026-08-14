@@ -1,63 +1,55 @@
-# English R2 release surface
+# English two-reader release surface
 
-## Zenodo files
+## Identity
 
-The record exposes exactly five top-level files, with the English-native artifacts first and the sibling-language bundle last:
-
-| Order | Filename | Content |
-|---:|---|---|
-| 00 | `00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf` | Linked and bookmarked complete English reader. |
-| 01 | `01_GALOIS_1897_EN_EDITABLE_SOURCES.zip` | Reproducible English LaTeX, figures, public metadata, source authority, relation sidecar, and build instructions. |
-| 02 | `02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip` | Coverage, alignment, editorial evidence, semantic and formula audits, build receipts, PDF QA, and provenance. |
-| 03 | `03_GALOIS_1897_EN_SHA256_MANIFEST.txt` | Exact DOI header and byte/SHA-256 rows for 00, 01, 02, and `OTHER_TRANSLATIONS.zip`. |
-| last | `OTHER_TRANSLATIONS.zip` | Complete current French public release under a single DOI-labelled directory. |
-
-`CURRENT` indicates the newest verified version in this maintained English DOI family; it is not a claim that future corrections are impossible.
-
-## Public identity
-
-| Field | Exact value |
+| Field | Value |
 |---|---|
-| Record title | `Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes / Œuvres mathématiques (1897) : lecteur anglais moderne avec notes éditoriales` |
-| DataCite general type | `Book` |
-| Zenodo type | `upload_type=publication`; `publication_type=book` |
-| Version | `2026-08-14 en-r2` |
+| Title | Évariste Galois — Mathematical Works (1897): Source-Faithful English Translation and GPT-Annotated Edition |
+| Stable concept DOI | `10.5281/zenodo.21924301` |
+| Exact version DOI | `10.5281/zenodo.21935485` |
+| Zenodo record | `https://zenodo.org/records/21935485` |
+| Version | `2026-08-14 en-r3` |
+| Git tag | `v2026.08.14-en-r3` |
 | Publication date | `2026-08-14` |
-| Language | BCP 47 `en`; Zenodo `eng` |
-| English concept DOI | `10.5281/zenodo.21924301` |
-| Exact English release DOI | `10.5281/zenodo.21926209` |
-| French source concept DOI | `10.5281/zenodo.21923856` |
-| Frozen French exact release included | `10.5281/zenodo.21923857` |
-| Global project | `10.5281/zenodo.20393488` |
 | Repository | `https://github.com/KokunoYumeto/evariste-galois-en` |
-| Release tag | `v2026.08.14-en-r2` |
-| Zenodo record | `https://zenodo.org/records/21926209` |
-| Reader preview | `https://zenodo.org/records/21926209/preview/00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf` |
-| Reader download | `https://zenodo.org/records/21926209/files/00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf?download=1` |
-| Direct GitHub reader | `https://raw.githubusercontent.com/KokunoYumeto/evariste-galois-en/main/reader/00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf` |
-| Zenodo license | `cc-zero` |
-| CFF/SPDX license | `CC0-1.0` |
+| French concept DOI | `10.5281/zenodo.21923856` |
+| Global project DOI | `10.5281/zenodo.20393488` |
+| Preserved predecessor | `10.5281/zenodo.21926209` |
 
-## Roles
+The two reader PDFs are files in this single exact English version. They share one DOI and one version history.
 
-| Role | Identity |
-|---|---|
-| Historical author | Évariste Galois |
-| Historical Introduction | Émile Picard |
-| Maintainer and editorial identity | Manuscript Typesetting Project |
-| Post-P13 web research and mathematical certificates | OpenAI GPT-5.6 Sol, Pro mode |
-| Modern-English translation, integration, release engineering, and QA | OpenAI GPT-5.6 Sol, Ultra mode |
+## Exact public file set
 
-No human translator or unverified affiliation is asserted.
+| Order | Filename | Role |
+|---:|---|---|
+| 00 | `00_GALOIS_1897_EN_SOURCE_FAITHFUL_READER.pdf` | One-click direct translation without modern GPT annotations. |
+| 01 | `01_GALOIS_1897_EN_GPT_ANNOTATED_READER.pdf` | One-click modern reader with human-readable GPT critical annotations. |
+| 02 | `02_GALOIS_1897_EN_EDITABLE_SOURCES.zip` | Both reader sources, shared translated corpus, figures, metadata, and reproducible build inputs. |
+| 03 | `03_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip` | Source authority, alignment, apparatus evidence, semantic and mathematical QA, render inspection, and provenance. |
+| 04 | `04_GALOIS_1897_EN_SHA256_MANIFEST.txt` | Exact DOI/concept headers and hashes for the other five public payloads. |
+| 05 | `OTHER_TRANSLATIONS.zip` | Current complete public French release as a convenience sibling bundle. |
 
-## Verified local reader
+## Manifest contract
 
-- 84 pages; 3,734,236 bytes; SHA-256 `2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5`.
-- 11 components; 587 aligned segments; 96 physical source pages.
-- 36 source-error records; 15 witness/editorial variants.
-- 21 research tasks: 10 repaired, 9 proved, 2 rejected, 0 unresolved.
-- Three inherited preliminary-image questions remain open outside the 21-task set.
-- 12 ordered bookmarks, 14 valid link annotations, and five intentional blank-topology pages: 41, 79, 82, 83, and 84.
-- Structural PDF QA, mechanical rendering, and actual all-page visual inspection pass.
+The manifest begins with these three lines:
 
-Archive hashes and repeat-build closure are supplied by the final release receipt and `03_GALOIS_1897_EN_SHA256_MANIFEST.txt`. No human approval is required.
+```text
+Exact DOI: 10.5281/zenodo.21935485
+Concept DOI: 10.5281/zenodo.21924301
+SHA256  BYTES  FILENAME
+```
+
+It then contains five rows, in order: source-faithful reader, annotated reader, sources ZIP, evidence ZIP, and `OTHER_TRANSLATIONS.zip`. The manifest does not hash itself.
+
+## Relations
+
+- Canonical DataCite: English concept `IsTranslationOf` French concept.
+- Canonical reciprocal: French concept `HasTranslation` English concept.
+- Zenodo fallback on English: `isDerivedFrom` French concept.
+- Project membership: English concept `IsPartOf` global project.
+- Repository: English record `isSupplementedBy` the GitHub repository.
+- Exact version/concept and predecessor/successor relations: supplied by Zenodo's version lineage.
+
+## Rights
+
+The record is open access but mixed-rights and therefore uses Zenodo `other-open`, not an unconditional license over every archived byte. `RIGHTS_AND_LICENSING.md` gives the per-file rules; third-party evidence and the French sibling package are not relicensed by the English release.

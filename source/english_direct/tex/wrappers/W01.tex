@@ -1,0 +1,15 @@
+% W01 wrapper: preliminary matter.
+\clearpage
+\newgeometry{inner=22mm,outer=18mm,top=18mm,bottom=20mm,marginparwidth=15mm,marginparsep=3mm}
+\begingroup
+\fontsize{12}{14}\selectfont
+\renewcommand{\GalSourcePageBegin}[2]{\clearpage\GalSourceAnchor{#1}{#2}}
+\renewcommand{\GalSourcePageEnd}{\par}
+\renewcommand{\GalExcludedSourcePage}[4]{}
+\renewcommand{\GalBlankTopologyPage}[4]{}
+\renewcommand{\GalWitnessNote}[3]{}
+\renewcommand{\GalUnresolvedSourcePage}[4]{#4}
+\input{../english/tex/works/GAL1897_W01_PRELIMS.tex}
+\par\clearpage
+\endgroup
+\restoregeometry

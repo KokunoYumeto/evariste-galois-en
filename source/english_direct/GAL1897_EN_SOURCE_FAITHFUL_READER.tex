@@ -1,6 +1,6 @@
-% GAL1897 modern-English reader -- independent translation layer.
-% The audited French diplomatic source remains immutable in ../french_diplomatic.
-% Historical claims are translated faithfully; repairs appear only in editorial notes.
+% GAL1897 source-faithful English reader -- direct translation layer.
+% The audited French diplomatic source and annotated English edition remain immutable.
+% Historical claims are translated faithfully; modern annotations are not rendered here.
 \documentclass[11pt,oneside,openany]{book}
 \pdfinfoomitdate=1
 \pdfsuppressptexinfo=15
@@ -15,17 +15,13 @@
 \usepackage{xcolor}
 \usepackage[hyperfootnotes=false]{hyperref}
 \usepackage{bookmark}
-\usepackage[most]{tcolorbox}
 \usepackage[paperwidth=180mm,paperheight=260mm,left=22mm,right=22mm,top=18mm,bottom=20mm,marginparwidth=15mm,marginparsep=3mm]{geometry}
 \setlength{\parindent}{1.2em}
 \setlength{\parskip}{0pt}
 \setlength{\emergencystretch}{2em}
 \allowdisplaybreaks[0]
 \pagestyle{plain}
-\hypersetup{pdftitle={Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes},pdfauthor={Évariste Galois; Manuscript Typesetting Project},pdfsubject={Modern-English translation aligned to the audited 1897 French diplomatic transcription},pdfkeywords={Évariste Galois, English translation, Galois theory, critical edition},colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!55!black}
-\definecolor{GalCriticalBlue}{RGB}{35,74,112}
-\definecolor{GalCriticalBack}{RGB}{241,247,252}
-\newtcolorbox{GalCriticalBox}[1]{enhanced,breakable,colback=GalCriticalBack,colframe=GalCriticalBlue,boxrule=0pt,leftrule=1.1pt,sharp corners,left=3mm,right=2.5mm,top=1.5mm,bottom=1.5mm,title={#1},fonttitle=\bfseries\small,coltitle=GalCriticalBlue,colbacktitle=GalCriticalBack,titlerule=0pt,before skip=0.8em,after skip=0.8em}
+\hypersetup{pdftitle={Évariste Galois — Mathematical Works (1897): Source-Faithful English Translation},pdfauthor={Évariste Galois; Manuscript Typesetting Project},pdfsubject={Direct English translation aligned to the audited 1897 French diplomatic transcription},pdfkeywords={Évariste Galois, English translation, Galois theory, source-faithful edition},colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!55!black}
 
 % Translation defaults. Source anchors preserve alignment without historical page breaks.
 % The source marker already identifies the exact PDF/leaf coordinate.  The
@@ -33,28 +29,28 @@
 % independently overprinted in the narrow outer margin, where it would collide
 % with the source marker in the dense W09--W10 layouts.
 \providecommand{\GalVisibleFolio}[1]{}
-\providecommand{\GalSourceAnchor}[2]{\hypertarget{source-#1}{}\leavevmode\vadjust{\smash{\hbox to 0pt{\hskip\dimexpr\linewidth-2mm\relax\vbox{\hsize=10mm\raggedright\tiny Source PDF #1\\#2}\hss}}}}
-\providecommand{\GalCriticalMarker}{\textsuperscript{\color{GalCriticalBlue}\ensuremath{\dagger}}}
-\providecommand{\GalEditorialReference}[1]{\par\smallskip{\color{black!55}\scriptsize\itshape Editorial reference: \nolinkurl{#1}\par}}
-\providecommand{\GalCriticalNote}[3]{\hypertarget{critical-#1}{}\if\relax\detokenize{#2}\relax\else\begin{GalCriticalBox}{#2}#3\GalEditorialReference{#1}\end{GalCriticalBox}\fi}
+\providecommand{\GalSourceAnchor}[2]{\hypertarget{source-#1}{}}
+\providecommand{\GalCriticalMarker}{}
+\providecommand{\GalEditorialReference}[1]{}
+\providecommand{\GalCriticalNote}[3]{}
 \providecommand{\GalExcludedSourcePage}[4]{}
 \providecommand{\GalBlankTopologyPage}[4]{}
 \providecommand{\GalSourcePageBegin}[2]{\GalSourceAnchor{#1}{#2}}
 \providecommand{\GalSourcePageEnd}{\par}
-\providecommand{\GalWitnessNote}[3]{\par\smallskip\begingroup\footnotesize\noindent\textbf{#2.} #3\GalEditorialReference{#1}\endgroup\smallskip}
+\providecommand{\GalWitnessNote}[3]{}
 \providecommand{\GalUnresolvedSourcePage}[4]{#4}
 \providecommand{\GalSourcePageStart}[4]{\GalSourceAnchor{#1}{#2}}
 \providecommand{\GalSourcePageBoundary}[4]{\par\GalSourceAnchor{#1}{#2}\noindent}
 \providecommand{\GalSourcePageBoundaryInWord}[4]{-\par\GalSourceAnchor{#1}{#2}\noindent}
 \providecommand{\GalSourceBlankPage}[4]{\par\smallskip\noindent\textit{[Blank page in the 1897 witness: source PDF #1.]}\par\smallskip}
-\providecommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
-\providecommand{\GalPrintedOmission}[1]{\GalCriticalMarker}
-\providecommand{\GalSourceError}[2]{#1\GalCriticalMarker}
-\providecommand{\GalWitnessVariant}[2]{#1\textsuperscript{\color{GalCriticalBlue}\ensuremath{\ddagger}}}
+\providecommand{\GalPrintedError}[2]{#1}
+\providecommand{\GalPrintedOmission}[1]{}
+\providecommand{\GalSourceError}[2]{#1}
+\providecommand{\GalWitnessVariant}[2]{#1}
 \providecommand{\GalControlReading}[2]{#1}
 \providecommand{\GalControlDefect}[2]{#1}
-\providecommand{\GalSourceErrorMark}[1]{\GalCriticalMarker}
-\providecommand{\GalProofGapMark}[1]{\GalCriticalMarker}
+\providecommand{\GalSourceErrorMark}[1]{}
+\providecommand{\GalProofGapMark}[1]{}
 \providecommand{\GalNotationAnomaly}[2]{#1}
 \providecommand{\GalCopySpecificMarks}[4]{}
 \providecommand{\GalCopySpecificMarkImage}[4]{}
@@ -81,34 +77,22 @@
 \vspace{1.5em}
 {\LARGE Mathematical Works (1897)\par}
 \vspace{0.7em}
-{\Large Modern English Reader with Editorial Notes\par}
+  {\Large Source-Faithful English Translation\par}
 \vfill
 {\large Manuscript Typesetting Project\par}
 \vspace{1em}
 {\small English concept DOI: \href{https://doi.org/10.5281/zenodo.21924301}{10.5281/zenodo.21924301}\par}
-  {\small Exact release DOI: \href{https://doi.org/10.5281/zenodo.21935485}{10.5281/zenodo.21935485}\par}
+{\small Exact release DOI: \href{https://doi.org/10.5281/zenodo.21935485}{10.5281/zenodo.21935485}\par}
 {\small French original concept DOI: \href{https://doi.org/10.5281/zenodo.21923856}{10.5281/zenodo.21923856}\par}
 \vspace{2em}
-  {\footnotesize Modern-English translation with critical commentary, witness comparison, and mathematical verification.\par}
+  {\footnotesize Direct English translation of the audited 1897 French edition, preserving historical claims and source-era notes without modern critical annotations.\par}
 \end{titlepage}
 \clearpage
 \frontmatter
-\chapter*{Editorial method and scope}
-This reader translates the complete substantive content of the audited French diplomatic transcription of the 1897 Gauthier--Villars edition. The main English text follows the printed historical claim, including claims later shown to be defective. A dagger marks a passage that needs attention; a nearby editorial note explains the corrected reading, the necessary qualification, or the relevant witness history. No correction is silently substituted into Galois's or the historical editors' text.
+\chapter*{Translation and source}
+This reader presents a direct English translation of the complete substantive content of the audited French diplomatic transcription of the 1897 Gauthier--Villars edition. It follows the printed historical claims and retains the source-era editorial notes and footnotes. Claims later shown to be defective are not silently corrected here.
 
-Source-page markers map the translation to the fixed French witness. The aligned French transcription and the edition's detailed research archive accompany the release.
-
-\chapter*{About the editorial research}
-The notes in this reader distinguish three kinds of intervention: corrections to the printed text, mathematical qualifications or counterexamples, and differences among historical witnesses. Each note begins with the point a reader needs to know; compact reference labels at the end connect it to the fuller evidence archive.
-
-The edition was checked against the 1897 printing, earlier publications where available, Tannery's 1908 collation, later critical scholarship, and independent mathematical calculations. Every identified source error has either a supported correction, a clearly stated qualification, or a counterexample showing why the printed claim cannot stand. The historical French and its faithful English translation remain unchanged.
-
-Three questions in the preliminary images remain open: a faint portrait signature cannot be read securely, the relation between the two portrait scans cannot yet be established, and the publisher-device ribbon is too indistinct for a character-by-character transcription. These features remain visible in the reproduced images and are left unguessed.
-
-\GalCriticalNote{POST-P13-A001}{}{}
-\GalCriticalNote{POST-P13-A002}{}{}
-\GalCriticalNote{POST-P13-A003}{}{}
-\par\smallskip{\color{black!55}\scriptsize\itshape Editorial references: \nolinkurl{POST-P13-A001}; \nolinkurl{POST-P13-A002}; \nolinkurl{POST-P13-A003}.\par}
+Modern correction notes, witness commentary, marker symbols, and internal apparatus codes are intentionally omitted. The companion annotated English edition in the same DOI release supplies that additional context for readers who want it. Invisible source destinations preserve alignment with the fixed French witness without interrupting the reading page.
 
 \chapter*{Reader contents}
 \pdfbookmark[0]{Reader contents}{reader-contents}

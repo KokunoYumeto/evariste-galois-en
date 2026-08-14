@@ -1,0 +1,19 @@
+% W10 wrapper: primitive-equations fragment and blank separator.
+\clearpage
+\newgeometry{inner=14mm,outer=14mm,top=13mm,bottom=13mm}
+\begingroup
+\fontsize{8.05}{9.10}\selectfont
+\renewcommand{\arraystretch}{1.00}
+\renewcommand{\GalSourcePageStart}[4]{\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}}
+\renewcommand{\GalSourcePageBoundary}[4]{\par\clearpage\GalSourceAnchor{#1}{#2}\GalVisibleFolio{#4}\noindent}
+\renewcommand{\GalSourceBlankPage}[4]{\par\clearpage\thispagestyle{empty}\null\clearpage}
+\renewcommand{\GalPrintedError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalSourceError}[2]{#1\GalCriticalMarker}
+\renewcommand{\GalWitnessVariant}[2]{#1}
+\renewcommand{\GalNotationAnomaly}[2]{#1}
+\renewcommand{\GalHistoricalFootnoteMark}[1]{\textsuperscript{(#1)}}
+\renewcommand{\GalHistoricalFootnoteText}[2]{\begingroup\renewcommand{\thefootnote}{(#1)}\GalHistoricalFootnoteTextBody{#2}\endgroup}
+\input{../english/tex/works/GAL1897_W10_PRIMITIVE_EQUATIONS.tex}
+\par\clearpage
+\endgroup
+\restoregeometry
