@@ -1,0 +1,9 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+EILZOX+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes      4  0
+PTPTSI+STIX-Regular-Identity-H       CID Type 0C       Identity-H       yes yes yes      6  0
+DWMCZR+LatinModernMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     34  0
+KXZHDA+STIX-Bold-Identity-H          CID Type 0C       Identity-H       yes yes yes     48  0
+HIHPWO+DejaVuSansMono                CID TrueType      Identity-H       yes yes yes     50  0
+CCAIMZ+STIX-Italic-Identity-H        CID Type 0C       Identity-H       yes yes yes     82  0
+UJSQUQ+STIX-BoldItalic-Identity-H    CID Type 0C       Identity-H       yes yes yes     84  0

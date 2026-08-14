@@ -8,8 +8,8 @@
 \providecommand{\GalBlankTopologyPage}[4]{}%
 \providecommand{\GalSourcePageBegin}[2]{\clearpage\thispagestyle{empty}}%
 \providecommand{\GalSourcePageEnd}{\par}%
-\providecommand{\GalWitnessNote}[1]{%
-  \par\begingroup\footnotesize\itshape\noindent [Witness note: #1]\par\endgroup}%
+\providecommand{\GalWitnessNote}[3]{%
+  \par\smallskip\begingroup\footnotesize\noindent\textbf{#2.} #3\GalEditorialReference{#1}\endgroup\smallskip}%
 \providecommand{\GalUnresolvedSourcePage}[4]{#4}%
 
 % PDF 001 / L0000 -- modern Google platform notice; intentionally not typeset.
@@ -55,7 +55,7 @@
 {\Large\bfseries 1897\par}
 {\small\bfseries (All rights reserved.)\par}
 \end{center}
-  \GalWitnessNote{\textbf{W01-U003 --- unresolved reading.} Two non-print manuscript strokes appear beneath ``GALOIS'' in the 1897 image. The publisher-device ribbon legend is retained graphically and is not expanded into uncertain text.}
+  \GalWitnessNote{W01-U003}{Marks beneath the title remain unread}{Two handwritten strokes appear beneath ``GALOIS'' in the 1897 image. The publisher's device is reproduced as an image, and its ribbon legend is not expanded into uncertain text.}
 \GalSourcePageEnd
 
 % PDF 008--011 / L0007--L0010 -- inspected blank topology.
@@ -110,7 +110,7 @@
 \vspace{1.0em}
 {\Large E. GALOIS\par}
 \end{center}
-\GalWitnessNote{\textbf{W01-U001 --- unresolved reading.} The lower-right plate imprint reads ``Imp. Ch. Wittmann''. The faint lower-left plate signature is unresolved and is preserved only in the primary-image crop.}
+\GalWitnessNote{W01-U001}{The portrait signature is too faint to read}{The lower-right plate imprint reads ``Imp. Ch. Wittmann.'' The faint signature at lower left cannot be read securely and is therefore preserved only in the reproduced image.}
 \GalSourcePageEnd
 
 % PDF 020 / L0019 -- inspected blank topology.
@@ -126,7 +126,7 @@
   \vspace{1.0em}
   {\Large E. GALOIS\par}
   \end{center}
-  \GalWitnessNote{\textbf{W01-U002 --- unresolved topology.} This is a distinct physical scan page with the same printed caption and a severely degraded portrait field. Its relation to PDF 019 (second historical impression, duplicate plate, or digitization duplication) is not adjudicated; it must not be silently collapsed.}
+  \GalWitnessNote{W01-U002}{A second portrait image cannot yet be identified}{This separate scan page repeats the printed caption but contains a severely degraded portrait. The evidence does not show whether it is a second historical impression, a duplicate plate, or a duplication introduced during digitization, so it is preserved as a distinct page.}
   \GalSourcePageEnd
 }
 

@@ -1,0 +1,16 @@
+{
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
+    "source_bytes": 294,
+    "source_name": "PDF_PREFLIGHT_CRITICAL.json",
+    "source_sha256": "E0CA758CC11092BB7FF439C6074254AA17416124EA14AB64B27FBAC81456E4A0"
+  },
+  "encrypted": false,
+  "likely_scanned": false,
+  "ok_open": true,
+  "pages": 24,
+  "path": "/mnt/data/_gptcrit_stage/GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2/critical_edition/GAL1897_GPT_CRITICAL_EDITION.pdf",
+  "pdffonts_excerpt": null,
+  "warnings": [],
+  "xfa_present": false
+}

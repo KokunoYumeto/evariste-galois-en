@@ -1,0 +1,46 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+FTXDMG+LMRoman12-Bold                Type 1            Custom           yes yes yes      7  0
+SSBONG+LMRoman9-Bold                 Type 1            Custom           yes yes yes     13  0
+BRFATH+LMRoman8-Bold                 Type 1            Custom           yes yes yes     18  0
+PLSXFL+LMRoman8-Italic               Type 1            Custom           yes yes yes     23  0
+PBWIET+LMRoman10-Bold                Type 1            Custom           yes yes yes     35  0
+RIWSNJ+LMRoman12-Regular             Type 1            Custom           yes yes yes     43  0
+UKBPII+LMRoman10-Regular             Type 1            Custom           yes yes yes     56  0
+RCWMRL+LMRoman10-Italic              Type 1            Custom           yes yes yes     61  0
+MDBCYR+LMRoman9-Regular              Type 1            Custom           yes yes yes     70  0
+BXWBRP+LMMathItalic10-Regular        Type 1            Custom           yes yes yes     84  0
+UKBPII+LMRoman10-Regular             Type 1            Custom           yes yes yes     90  0
+PQKHYR+LMRomanCaps10-Regular         Type 1            Custom           yes yes yes     97  0
+PCALLR+LMRoman7-Bold                 Type 1            Custom           yes yes yes    106  0
+BLUDAT+LMRoman6-Bold                 Type 1            Custom           yes yes yes    111  0
+HMMVPT+LMRoman8-Regular              Type 1            Custom           yes yes yes    116  0
+KPPMUU+LMRoman9-Italic               Type 1            Custom           yes yes yes    125  0
+UKGAFY+LMMathItalic9-Regular         Type 1            Custom           yes yes yes    130  0
+MDBCYR+LMRoman9-Regular              Type 1            Custom           yes yes yes    135  0
+YZSMIV+LMMathSymbols9-Regular        Type 1            Custom           yes yes yes    141  0
+AJLIPC+LMRoman6-Regular              Type 1            Custom           yes yes yes    159  0
+PMQMSB+LMMathExtension10-Regular     Type 1            Custom           yes yes yes    173  0
+AJLIPC+LMRoman6-Regular              Type 1            Custom           yes yes yes    182  0
+GEAXKG+LMMathItalic6-Regular         Type 1            Custom           yes yes yes    185  0
+EICZFZ+LMMathItalic8-Regular         Type 1            Custom           yes yes yes    193  0
+HMMVPT+LMRoman8-Regular              Type 1            Custom           yes yes yes    198  0
+WLGWNK+LMMathItalic5-Regular         Type 1            Custom           yes yes yes    204  0
+MPNMLY+LMMathSymbols6-Regular        Type 1            Custom           yes yes yes    212  0
+GQZJTM+LMRoman7-Regular              Type 1            Custom           yes yes yes    220  0
+EYJFKZ+LMRoman7-Italic               Type 1            Custom           yes yes yes    225  0
+GQUQRE+LMRoman5-Regular              Type 1            Custom           yes yes yes    236  0
+NOOPCP+LMMathSymbols5-Regular        Type 1            Custom           yes yes yes    241  0
+KDIPQH+LMMathItalic7-Regular         Type 1            Custom           yes yes yes    246  0
+GQZJTM+LMRoman7-Regular              Type 1            Custom           yes yes yes    251  0
+PPBGDM+LMMathSymbols7-Regular        Type 1            Custom           yes yes yes    254  0
+GQUQRE+LMRoman5-Regular              Type 1            Custom           yes yes yes    308  0
+MAOLBF+LMMathSymbols8-Regular        Type 1            Custom           yes yes yes    317  0
+LQXVVN+LMRoman5-Bold                 Type 1            Custom           yes yes yes    370  0
+EILZOX+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    427  0
+PTPTSI+STIX-Regular-Identity-H       CID Type 0C       Identity-H       yes yes yes    434  0
+DWMCZR+LatinModernMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes    444  0
+KXZHDA+STIX-Bold-Identity-H          CID Type 0C       Identity-H       yes yes yes    454  0
+HIHPWO+DejaVuSansMono                CID TrueType      Identity-H       yes yes yes    461  0
+CCAIMZ+STIX-Italic-Identity-H        CID Type 0C       Identity-H       yes yes yes    497  0
+UJSQUQ+STIX-BoldItalic-Identity-H    CID Type 0C       Identity-H       yes yes yes    504  0

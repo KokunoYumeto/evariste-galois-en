@@ -4,7 +4,7 @@
   "resource_type_general": "Book",
   "identifiers": {
     "english_concept": "10.5281/zenodo.21924301",
-    "english_exact_version": "10.5281/zenodo.21924302",
+    "english_exact_version": "10.5281/zenodo.21926209",
     "french_concept": "10.5281/zenodo.21923856",
     "french_exact_source_version": "10.5281/zenodo.21923857",
     "global_collection": "10.5281/zenodo.20393488",
@@ -64,25 +64,17 @@
         "reason": "living source, build, QA, and release implementation"
       }
     ],
-    "reciprocal_metadata_updates_after_english_publication": [
-      {
-        "record": "french_concept",
-        "relation": "isSourceOf",
-        "target": "english_concept"
-      },
-      {
-        "record": "global_collection",
-        "relation": "hasPart",
-        "target": "english_concept"
-      }
-    ],
-    "version_lineage": "Zenodo supplies the exact-version/concept relationship; do not add a competing language-to-language version relation"
+    "french_reciprocal_relation": {
+      "from": "french_concept",
+      "relation": "isSourceOf",
+      "to": "english_concept"
+    },
+    "version_lineage": "Zenodo supplies the exact-version/concept relationship; no cross-language version relation is added"
   },
   "prohibited_misrepresentations": [
     "Do not use IsPartOf to mean IsTranslationOf",
     "Do not describe English as a version of French",
-    "Do not describe the convenience OTHER_TRANSLATIONS.zip as making the English record multilingual",
+    "Do not describe OTHER_TRANSLATIONS.zip as changing this record's English identity",
     "Do not reverse IsTranslationOf and HasTranslation"
   ]
 }
-

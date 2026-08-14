@@ -1,0 +1,10 @@
+{
+  "artifact_role": "immutable diplomatic PDF prefix",
+  "filename": "GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf",
+  "pages": 78,
+  "sha256": "8E6071A2E4A0D38CC89232553CE0CC0314C7EF4BD0A084240C41D60B0AEBBFC5",
+  "governing_repaired_handoff": "component_archives/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip",
+  "governing_repaired_handoff_sha256": "05C2247E2127BF816B838DA668EB9EF05AC6981D09862FB819470D79DFE3E74B",
+  "active_repaired_candidate_sha256": "4909FB4852F2178C583CCD425451E8BD5C7B02BD2346807F79F617BB3F2E645F",
+  "mutation_policy": "immutable; R2 changes only the separately labelled critical appendix"
+}

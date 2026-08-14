@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "distribution_type": "logical_two_part_split",
+  "size_limit_bytes": 200000000,
+  "original_full_archive": {
+    "filename": "GAL1897_GPT_CRITICAL_EDITION_R2_FULL.zip",
+    "size_bytes": 313664805,
+    "sha256": "5824445BAB2245F4E4FCEF93688AB4750089097F64FE797A37F1D5354D9528F8"
+  },
+  "replaced_nested_wrapper": {
+    "outer_member": "GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2/component_archives/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip",
+    "size_bytes": 209556731,
+    "sha256": "05C2247E2127BF816B838DA668EB9EF05AC6981D09862FB819470D79DFE3E74B",
+    "replacement_directory": "GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2/component_archives/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT_EXPANDED/",
+    "inner_file_count": 20
+  },
+  "preserved_outer_file_count_excluding_wrapper": 144,
+  "distributed_source_file_count": 164,
+  "part_01_source_file_count": 2,
+  "part_02_source_file_count": 162,
+  "content_hashes_computed_directly_from_source_members": true,
+  "instructions": "Extract both ZIPs into the same destination directory."
+}

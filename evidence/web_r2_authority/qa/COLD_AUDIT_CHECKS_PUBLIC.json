@@ -1,0 +1,1981 @@
+{
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
+    "source_bytes": 62120,
+    "source_name": "COLD_AUDIT_CHECKS.json",
+    "source_sha256": "7AFC8CCE3062C855E932A5F3B4FCC116206539A1FDCD31280DC3A5869BB9B64A"
+  },
+  "artifact": "GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2",
+  "checks": [
+    {
+      "category": "tree",
+      "check_id": "TREE-001",
+      "description": "Required payload exists: README.md",
+      "detail": "README.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-002",
+      "description": "Required payload exists: RETURN_TO_CODEX.md",
+      "detail": "RETURN_TO_CODEX.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-003",
+      "description": "Required payload exists: BLOCKERS.md",
+      "detail": "BLOCKERS.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-004",
+      "description": "Required payload exists: component_archives/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip",
+      "detail": "component_archives/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-005",
+      "description": "Required payload exists: frozen_diplomatic/GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf",
+      "detail": "frozen_diplomatic/GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-006",
+      "description": "Required payload exists: critical_edition/GAL1897_GPT_CRITICAL_EDITION.md",
+      "detail": "critical_edition/GAL1897_GPT_CRITICAL_EDITION.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-007",
+      "description": "Required payload exists: critical_edition/GAL1897_GPT_CRITICAL_EDITION.tex",
+      "detail": "critical_edition/GAL1897_GPT_CRITICAL_EDITION.tex",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-008",
+      "description": "Required payload exists: critical_edition/GAL1897_GPT_CRITICAL_EDITION.pdf",
+      "detail": "critical_edition/GAL1897_GPT_CRITICAL_EDITION.pdf",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-009",
+      "description": "Required payload exists: critical_edition/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+      "detail": "critical_edition/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-010",
+      "description": "Required payload exists: ledgers/MASTER_21_TASK_LEDGER.csv",
+      "detail": "ledgers/MASTER_21_TASK_LEDGER.csv",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-011",
+      "description": "Required payload exists: ledgers/CRITICAL_ERRATA_CATALOGUE.csv",
+      "detail": "ledgers/CRITICAL_ERRATA_CATALOGUE.csv",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-012",
+      "description": "Required payload exists: ledgers/BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv",
+      "detail": "ledgers/BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-013",
+      "description": "Required payload exists: ledgers/DEPENDENCY_PROPAGATION_EDGES.csv",
+      "detail": "ledgers/DEPENDENCY_PROPAGATION_EDGES.csv",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-014",
+      "description": "Required payload exists: ledgers/SEARCH_QUERY_LEDGER.csv",
+      "detail": "ledgers/SEARCH_QUERY_LEDGER.csv",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-015",
+      "description": "Required payload exists: ledgers/OPEN_AFTER_21_TASKS.csv",
+      "detail": "ledgers/OPEN_AFTER_21_TASKS.csv",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-016",
+      "description": "Required payload exists: ledgers/RESOLVED_AFTER_R2_DEEP_REPLAY.csv",
+      "detail": "ledgers/RESOLVED_AFTER_R2_DEEP_REPLAY.csv",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-017",
+      "description": "Required payload exists: qa/MATHEMATICAL_CHECKS.json",
+      "detail": "qa/MATHEMATICAL_CHECKS.json",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-018",
+      "description": "Required payload exists: qa/PDF_PIXEL_REPLAY.json",
+      "detail": "qa/PDF_PIXEL_REPLAY.json",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-019",
+      "description": "Required payload exists: qa/RENDERER_PARITY_SUMMARY.json",
+      "detail": "qa/RENDERER_PARITY_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "category": "tree",
+      "check_id": "TREE-020",
+      "description": "Required payload exists: qa/DETERMINISTIC_BUILD_RECEIPT.json",
+      "detail": "qa/DETERMINISTIC_BUILD_RECEIPT.json",
+      "status": "PASS"
+    },
+    {
+      "category": "immutability",
+      "check_id": "IMM-001",
+      "description": "P13R cumulative handoff hash is unchanged",
+      "detail": "05C2247E2127BF816B838DA668EB9EF05AC6981D09862FB819470D79DFE3E74B",
+      "status": "PASS"
+    },
+    {
+      "category": "immutability",
+      "check_id": "IMM-002",
+      "description": "P13R handoff sidecar contains governing hash",
+      "detail": "05C2247E2127BF816B838DA668EB9EF05AC6981D09862FB819470D79DFE3E74B *GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip",
+      "status": "PASS"
+    },
+    {
+      "category": "immutability",
+      "check_id": "IMM-003",
+      "description": "ZIP CRC succeeds: GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "immutability",
+      "check_id": "IMM-004",
+      "description": "Frozen diplomatic PDF hash is unchanged",
+      "detail": "8E6071A2E4A0D38CC89232553CE0CC0314C7EF4BD0A084240C41D60B0AEBBFC5",
+      "status": "PASS"
+    },
+    {
+      "category": "immutability",
+      "check_id": "IMM-005",
+      "description": "Frozen diplomatic PDF has 78 pages",
+      "detail": 78,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-000",
+      "description": "Original packet contains 36 files including manifest",
+      "detail": 36,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-001",
+      "description": "Packet manifest contains 35 payload hashes",
+      "detail": 35,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-001",
+      "description": "Packet payload hash matches: _page_0_Picture_0.jpeg",
+      "detail": "747FD85C826FF0D0786ADB237D516045B4333A19DB1561BF0D3F30BCB809F7AC",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-002",
+      "description": "Packet payload hash matches: _page_1_Picture_1.jpeg",
+      "detail": "2F07E185771760EE57F69CFE4E86FF8C81BEAA68DD9CB920D588A391E2A6EF23",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-003",
+      "description": "Packet payload hash matches: _page_12_Picture_1.jpeg",
+      "detail": "E6C1509EA4A0C8168BEC4CFC594484243A1DF9766A0375B1D93CA08959AC8791",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-004",
+      "description": "Packet payload hash matches: _page_18_Picture_0.jpeg",
+      "detail": "666EAA1F26EE7A2D885DCAE021304F511B6ECF7A6A15D45BBE9F05D69AE7C28F",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-005",
+      "description": "Packet payload hash matches: _page_20_Picture_0.jpeg",
+      "detail": "08C3411F5241B8FA31D974B1C3AB06A174A277AE6BF9D400B77FD49BA1FEEA6E",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-006",
+      "description": "Packet payload hash matches: _page_22_Picture_1.jpeg",
+      "detail": "765E36004FDFEC3F5299F9819B394B0C16B7EA9D82FB5E3AFFEC65B5A2E49F55",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-007",
+      "description": "Packet payload hash matches: _page_22_Picture_2.jpeg",
+      "detail": "B210839AC897E195EC1FA9DE5AE48FE1AC05459F549A346AAB9F4473A595C1DE",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-008",
+      "description": "Packet payload hash matches: _page_33_Figure_2.jpeg",
+      "detail": "C5A7A3989A2823A42E91ABE84994F105A398FEDAECEB97B65C3F14C2A1E7BD12",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-009",
+      "description": "Packet payload hash matches: _page_6_Picture_8.jpeg",
+      "detail": "9736CB1233D203F256B47D1B6CB4458270225716AAD2450020B608FD263DA716",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-010",
+      "description": "Packet payload hash matches: 00_READ_FIRST_GALOIS_1897_PROJECT.md",
+      "detail": "1F9322CB25D14548AE929E5AB17132FFF51D292E5D278EA0CADC5C43DFC90EA2",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-011",
+      "description": "Packet payload hash matches: 01_MANUAL_PROMPTS_DO_NOT_AUTO_RUN.md",
+      "detail": "1C8E3D0E4FCF7AC0610BCF4379C0F4C8BAA0CBA3119E2A11487929589BB1C50D",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-012",
+      "description": "Packet payload hash matches: 02_CANONICAL_1897_SCAN_ALL_96_PAGES.pdf",
+      "detail": "3359F336B0740BD9ACE1EF96EE272BA376874D19265C65EBFC8F71450E2906FF",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-013",
+      "description": "Packet payload hash matches: 03_FRESH_SURYA_OCR_WITNESS_ALL_96_PAGES.md",
+      "detail": "36FD615AE0464368E5AB2D586B94E0D2AE417172E85FF783ECF72BB8841A3EDF",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-014",
+      "description": "Packet payload hash matches: 04_GALOIS_1897_PAGE_MAP.csv",
+      "detail": "C8009EC2674184155340E96313901CD8E034AB93387C2BD1F5EC9DF6AC349DFE",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-015",
+      "description": "Packet payload hash matches: 05_JP2_IMAGE_INVENTORY_SHA256.csv",
+      "detail": "59EA6370A14E0F9F15227C704A707D6B1440B32735836EDFD80F2277A636EB26",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-016",
+      "description": "Packet payload hash matches: 06_JP2_ARCHIVE_MAP.csv",
+      "detail": "5D08AB38C0FAF839BD1F5185042251497B672E942F8FC469D197BB969BF5671D",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-017",
+      "description": "Packet payload hash matches: 07_1846_JMPA_ORIGINAL_PUBLICATION_WITNESS.pdf",
+      "detail": "F351B61639757ABEBB5C0F98937822C22E40CCDF60762DA130708AE26BA60319",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-018",
+      "description": "Packet payload hash matches: 08_1908_MANUSCRIPTS_WITNESS.pdf",
+      "detail": "E1227D7B0882BDDC8B219CB2B98DAA6B7B7EE3720D1AB268656B9803CB5C4FAB",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-019",
+      "description": "Packet payload hash matches: 09_1908_MANUSCRIPTS_600PPI_TIFF_MASTER.zip",
+      "detail": "989F929E24C192173AA60001599B7600817EBB79696167CAAAE8AC795246B96B",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-020",
+      "description": "Packet payload hash matches: 10_GUTENBERG_CONTROL_ONLY.tex.txt",
+      "detail": "D0E6B8DCFEFF735CC90BBD7A2456786ABF75A605273765FA178EF9ABB18C4541",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-021",
+      "description": "Packet payload hash matches: 11_OCR_PROVENANCE.md",
+      "detail": "B09532890EBA3CDFBE9F429193412F92AF626F07371C1CC5D0DCA7E551D56BAB",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-022",
+      "description": "Packet payload hash matches: JP2_L0000-0022_PDF001-023_PRELIMS.zip",
+      "detail": "FEDFEE480ACC4B5EB62E390FAA43BCBEDFDF229B6A701C4EB86D7BC71F6B8255",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-023",
+      "description": "Packet payload hash matches: JP2_L0023-0028_PDF024-029_INTRODUCTION.zip",
+      "detail": "D37A7398D9A3D7270858DA55A2C382086E72A608DFC64694A165E8716BE750A5",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-024",
+      "description": "Packet payload hash matches: JP2_L0029-0036_PDF030-037_CONTINUED_FRACTIONS.zip",
+      "detail": "FC5FAF7B291C24EED251EDDEBCCF9770E8F3FA7273421D01C5B55CAF76B5BE55",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-025",
+      "description": "Packet payload hash matches: JP2_L0037-0038_PDF038-039_NOTES_ANALYSIS.zip",
+      "detail": "A2540EE41685E369FEF1B8DD54F44E5BD1AB608E632810571DE3646BFC190874",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-026",
+      "description": "Packet payload hash matches: JP2_L0039-0040_PDF040-041_ALGEBRAIC_RESOLUTION_ANALYSIS.zip",
+      "detail": "5E0D3BF80A0D692A15D8B21C6894CD8CFC04E6BA382519B1290A6D31289EB1C1",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-027",
+      "description": "Packet payload hash matches: JP2_L0041-0042_PDF042-043_NUMERICAL_EQUATIONS.zip",
+      "detail": "F386839A8A7DB70903B6020758124253F924B8E5CC8C13C234EE80D0E94FC418",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-028",
+      "description": "Packet payload hash matches: JP2_L0043-0051_PDF044-052_NUMBER_THEORY.zip",
+      "detail": "F39308861FE509EB9C78002B171D8CAA60B6BBB554CE883E8F2DE565EE653108",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-029",
+      "description": "Packet payload hash matches: JP2_L0052_PDF053_PRINT024_BLANK.zip",
+      "detail": "E5EF464CFA599C042B52BBEE4306F6D201957A75E2B870713381655FE30514B1",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-030",
+      "description": "Packet payload hash matches: JP2_L0053-0060_PDF054-061_CHEVALIER_LETTER.zip",
+      "detail": "3680C8937F9EDD1EB9D9D34E0BC387BD8437279C83A8EE21FC402758A2BD0123",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-031",
+      "description": "Packet payload hash matches: JP2_L0061-0078_PDF062-079_RADICALS_MEMOIR.zip",
+      "detail": "58B94049C4E5D326B0691A78012BC0091894800AB3A468A8039C49B31396E158",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-032",
+      "description": "Packet payload hash matches: JP2_L0079-0089_PDF080-090_PRIMITIVE_EQUATIONS.zip",
+      "detail": "533E49FF3DB3EAA2ECAD5CD6BED95F5CE4FB70AEB13A135758FF0A382FBD1A35",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-033",
+      "description": "Packet payload hash matches: JP2_L0090_PDF091_PRINT062_BLANK.zip",
+      "detail": "432A2CDC5CA76E9311FFEFF6145451CF701482D9BEC7EFF961ECD322898058FC",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-034",
+      "description": "Packet payload hash matches: JP2_L0091_PDF092_TABLE_OF_CONTENTS.zip",
+      "detail": "D241F0CACB968E5E0DF08EC0F305E60464848F0ECD3574F3D13850C4CA1DBE06",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-HASH-035",
+      "description": "Packet payload hash matches: JP2_L0092-0095_PDF093-096_COLOPHON_TRAILING.zip",
+      "detail": "9905904E334E0038937AAA54CE73DF2E78C20B28301DE66298676FCC5ED4FABE",
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-001",
+      "description": "ZIP CRC succeeds: 09_1908_MANUSCRIPTS_600PPI_TIFF_MASTER.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-002",
+      "description": "ZIP CRC succeeds: JP2_L0000-0022_PDF001-023_PRELIMS.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-003",
+      "description": "ZIP CRC succeeds: JP2_L0023-0028_PDF024-029_INTRODUCTION.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-004",
+      "description": "ZIP CRC succeeds: JP2_L0029-0036_PDF030-037_CONTINUED_FRACTIONS.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-005",
+      "description": "ZIP CRC succeeds: JP2_L0037-0038_PDF038-039_NOTES_ANALYSIS.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-006",
+      "description": "ZIP CRC succeeds: JP2_L0039-0040_PDF040-041_ALGEBRAIC_RESOLUTION_ANALYSIS.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-007",
+      "description": "ZIP CRC succeeds: JP2_L0041-0042_PDF042-043_NUMERICAL_EQUATIONS.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-008",
+      "description": "ZIP CRC succeeds: JP2_L0043-0051_PDF044-052_NUMBER_THEORY.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-009",
+      "description": "ZIP CRC succeeds: JP2_L0052_PDF053_PRINT024_BLANK.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-010",
+      "description": "ZIP CRC succeeds: JP2_L0053-0060_PDF054-061_CHEVALIER_LETTER.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-011",
+      "description": "ZIP CRC succeeds: JP2_L0061-0078_PDF062-079_RADICALS_MEMOIR.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-012",
+      "description": "ZIP CRC succeeds: JP2_L0079-0089_PDF080-090_PRIMITIVE_EQUATIONS.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-013",
+      "description": "ZIP CRC succeeds: JP2_L0090_PDF091_PRINT062_BLANK.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-014",
+      "description": "ZIP CRC succeeds: JP2_L0091_PDF092_TABLE_OF_CONTENTS.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "source_packet",
+      "check_id": "SRC-ZIP-015",
+      "description": "ZIP CRC succeeds: JP2_L0092-0095_PDF093-096_COLOPHON_TRAILING.zip",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "mapping",
+      "check_id": "MAP-001",
+      "description": "Page map has exactly 96 rows",
+      "detail": 96,
+      "status": "PASS"
+    },
+    {
+      "category": "mapping",
+      "check_id": "MAP-002",
+      "description": "Physical pages are exactly 1-96",
+      "detail": [
+        1,
+        96,
+        96
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "mapping",
+      "check_id": "MAP-003",
+      "description": "JP2 leaves are exactly L0000-L0095",
+      "detail": [
+        "L0000",
+        "L0095",
+        96
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "mapping",
+      "check_id": "MAP-004",
+      "description": "JP2 inventory has 96 unique leaves",
+      "detail": 96,
+      "status": "PASS"
+    },
+    {
+      "category": "mapping",
+      "check_id": "MAP-005",
+      "description": "JP2 archive map has 14 bounded archives",
+      "detail": 14,
+      "status": "PASS"
+    },
+    {
+      "category": "mapping",
+      "check_id": "MAP-006",
+      "description": "JP2 archive image counts sum to 96",
+      "detail": 96,
+      "status": "PASS"
+    },
+    {
+      "category": "authority",
+      "check_id": "AUTH-001",
+      "description": "Source-authority manifest has 36 rows",
+      "detail": 36,
+      "status": "PASS"
+    },
+    {
+      "category": "authority",
+      "check_id": "AUTH-002",
+      "description": "Every inventoried source is accessible",
+      "detail": [
+        "yes"
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "authority",
+      "check_id": "AUTH-003",
+      "description": "Authority classes are restricted to primary/secondary/control",
+      "detail": [
+        "control_or_governance",
+        "primary",
+        "secondary"
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-000",
+      "description": "Master ledger contains exactly 21 unique task IDs",
+      "detail": [
+        "POST-P13-A001",
+        "POST-P13-A002",
+        "POST-P13-A003",
+        "POST-P13-A004",
+        "POST-P13-A005",
+        "POST-P13-A006",
+        "POST-P13-A007",
+        "POST-P13-A008",
+        "POST-P13-A009",
+        "POST-P13-A010",
+        "POST-P13-A011",
+        "POST-P13-A012",
+        "POST-P13-A013",
+        "POST-P13-A014",
+        "W10-DA001",
+        "W10-DA002",
+        "W10-DA003",
+        "W10-DA004",
+        "W11-DA001",
+        "W11-DA002",
+        "W11-DA003"
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-001",
+      "description": "Disposition count is 10 repaired, 9 proved, 2 rejected",
+      "detail": {
+        "proved": 9,
+        "rejected": 2,
+        "repaired": 10
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-002",
+      "description": "No 21-task row remains unresolved",
+      "detail": [],
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-001",
+      "description": "POST-P13-A001 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-001",
+      "description": "POST-P13-A001 certificate exists and states status repaired",
+      "detail": "certificates/POST-P13-A001.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-002",
+      "description": "POST-P13-A002 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-002",
+      "description": "POST-P13-A002 certificate exists and states status proved",
+      "detail": "certificates/POST-P13-A002.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-003",
+      "description": "POST-P13-A003 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-003",
+      "description": "POST-P13-A003 certificate exists and states status proved",
+      "detail": "certificates/POST-P13-A003.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-004",
+      "description": "POST-P13-A004 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-004",
+      "description": "POST-P13-A004 certificate exists and states status proved",
+      "detail": "certificates/POST-P13-A004.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-005",
+      "description": "POST-P13-A005 has frozen R2 status rejected",
+      "detail": "rejected",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-005",
+      "description": "POST-P13-A005 certificate exists and states status rejected",
+      "detail": "certificates/POST-P13-A005.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-006",
+      "description": "POST-P13-A006 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-006",
+      "description": "POST-P13-A006 certificate exists and states status repaired",
+      "detail": "certificates/POST-P13-A006.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-007",
+      "description": "POST-P13-A007 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-007",
+      "description": "POST-P13-A007 certificate exists and states status proved",
+      "detail": "certificates/POST-P13-A007.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-008",
+      "description": "POST-P13-A008 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-008",
+      "description": "POST-P13-A008 certificate exists and states status repaired",
+      "detail": "certificates/POST-P13-A008.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-009",
+      "description": "POST-P13-A009 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-009",
+      "description": "POST-P13-A009 certificate exists and states status proved",
+      "detail": "certificates/POST-P13-A009.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-010",
+      "description": "POST-P13-A010 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-010",
+      "description": "POST-P13-A010 certificate exists and states status repaired",
+      "detail": "certificates/POST-P13-A010.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-011",
+      "description": "POST-P13-A011 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-011",
+      "description": "POST-P13-A011 certificate exists and states status repaired",
+      "detail": "certificates/POST-P13-A011.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-012",
+      "description": "POST-P13-A012 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-012",
+      "description": "POST-P13-A012 certificate exists and states status repaired",
+      "detail": "certificates/POST-P13-A012.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-013",
+      "description": "POST-P13-A013 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-013",
+      "description": "POST-P13-A013 certificate exists and states status repaired",
+      "detail": "certificates/POST-P13-A013.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-014",
+      "description": "POST-P13-A014 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-014",
+      "description": "POST-P13-A014 certificate exists and states status proved",
+      "detail": "certificates/POST-P13-A014.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-015",
+      "description": "W10-DA001 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-015",
+      "description": "W10-DA001 certificate exists and states status repaired",
+      "detail": "certificates/W10-DA001.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-016",
+      "description": "W10-DA002 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-016",
+      "description": "W10-DA002 certificate exists and states status repaired",
+      "detail": "certificates/W10-DA002.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-017",
+      "description": "W10-DA003 has frozen R2 status rejected",
+      "detail": "rejected",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-017",
+      "description": "W10-DA003 certificate exists and states status rejected",
+      "detail": "certificates/W10-DA003.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-018",
+      "description": "W10-DA004 has frozen R2 status repaired",
+      "detail": "repaired",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-018",
+      "description": "W10-DA004 certificate exists and states status repaired",
+      "detail": "certificates/W10-DA004.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-019",
+      "description": "W11-DA001 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-019",
+      "description": "W11-DA001 certificate exists and states status proved",
+      "detail": "certificates/W11-DA001.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-020",
+      "description": "W11-DA002 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-020",
+      "description": "W11-DA002 certificate exists and states status proved",
+      "detail": "certificates/W11-DA002.md",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-STATUS-021",
+      "description": "W11-DA003 has frozen R2 status proved",
+      "detail": "proved",
+      "status": "PASS"
+    },
+    {
+      "category": "tasks",
+      "check_id": "TASK-CERT-021",
+      "description": "W11-DA003 certificate exists and states status proved",
+      "detail": "certificates/W11-DA003.md",
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-000",
+      "description": "Critical errata catalogue has 36 unique rows",
+      "detail": 36,
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-001",
+      "description": "W02-PE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "typographical_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-002",
+      "description": "W03-PE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "formula_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-003",
+      "description": "W03-PE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "sign_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-004",
+      "description": "W03-PE003 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "formula_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-005",
+      "description": "W04-SE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_hypothesis_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-006",
+      "description": "W04-SE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "printed_claim_rejected_counterexample",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-007",
+      "description": "W04-SE003 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_hypothesis_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-008",
+      "description": "W04-SE004 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_hypothesis_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-009",
+      "description": "W05-SE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "printed_classification_rejected_counterexample",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-010",
+      "description": "W05-SE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "printed_claim_rejected_source_internal_correction",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-011",
+      "description": "W06-PE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "coherent_formula_reconstruction_proved_nonunique",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-012",
+      "description": "W06-SE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_hypothesis_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-013",
+      "description": "W07-SE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "printed_example_rejected",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-014",
+      "description": "W07-SE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_hypothesis_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-015",
+      "description": "W07-SE003 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "algorithm_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-016",
+      "description": "W07-SE004 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "formula_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-017",
+      "description": "W07-SE005 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "formula_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-018",
+      "description": "W08-PE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "witness_supported_formula_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-019",
+      "description": "W08-PE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "witness_supported_lexical_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-020",
+      "description": "W09-PE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "witness_supported_lexical_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-021",
+      "description": "W09-PE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "typographical_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-022",
+      "description": "W09-SE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "proof_gap_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-023",
+      "description": "W09-SE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "theorem_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-024",
+      "description": "W09-SE003 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "proof_gap_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-025",
+      "description": "W09-SE004 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "proof_gap_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-026",
+      "description": "W09-SE005 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_hypothesis_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-027",
+      "description": "W09-SE006 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_qualifier_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-028",
+      "description": "W10-PE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "witness_supported_index_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-029",
+      "description": "W10-PE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "witness_supported_index_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-030",
+      "description": "W10-PE003 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "witness_supported_index_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-031",
+      "description": "W10-PE004 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "context_forced_index_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-032",
+      "description": "W10-PE005 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "witness_supported_formula_repair",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-033",
+      "description": "W10-PE006 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "formula_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-034",
+      "description": "W10-SE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "missing_qualifier_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-035",
+      "description": "W10-SE002 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "count_repaired",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "errata",
+      "check_id": "ERR-036",
+      "description": "W11-PE001 is closed only in the critical layer",
+      "detail": {
+        "adjudication": "page_reference_repair_proved",
+        "diplomatic_layer_mutated": "no"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-001",
+      "description": "Dependency/propagation ledger has 48 edges",
+      "detail": 48,
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-002",
+      "description": "Every propagation edge has source, target, outcome, and certificate",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-003",
+      "description": "Prior-notice matrix has 52 rows",
+      "detail": 52,
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-004",
+      "description": "Prior-notice matrix includes all 36 errata IDs",
+      "detail": [],
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-005",
+      "description": "Search ledger has 22 dated query rows",
+      "detail": 22,
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-006",
+      "description": "Only three inherited W01 records remain open",
+      "detail": [
+        "W01-U001",
+        "W01-U002",
+        "W01-U003"
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-007",
+      "description": "R2 resolution ledger closes exactly W08-WV001 and W11-U001",
+      "detail": [
+        {
+          "decisive_evidence": "1908 600 ppi TIFF page 0012; DLMF 19.7.1; Beppo Levi 1927; algebraic verification",
+          "diplomatic_layer_mutated": "false",
+          "r2_status": "repaired",
+          "record_id": "W08-WV001",
+          "resolved_reading_or_theorem": "Tannery formula reads E′F″−E″F′=(π/2)√−1 and is equivalent to the printed Legendre relation under the certified period normalization.",
+          "task_id": "POST-P13-A008"
+        },
+        {
+          "decisive_evidence": "ETH Rar 4575 PDF page 79 image plus official OCR; canonical JP2 consistency check",
+          "diplomatic_layer_mutated": "false",
+          "r2_status": "proved",
+          "record_id": "W11-U001",
+          "resolved_reading_or_theorem": "Printer job number 24572 (five digits).",
+          "task_id": "W11-DA002"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "ledgers",
+      "check_id": "LEDGER-008",
+      "description": "R2 witness-variant adjudication ledger is present",
+      "detail": 1,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-A008-001",
+      "description": "Tannery first manuscript glyph is adjudicated as E",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-A008-002",
+      "description": "Correct determinant formula is recorded",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-A008-003",
+      "description": "Equivalence proof includes explicit period normalization",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-A008-004",
+      "description": "Admissibility of second-kind period vector is justified",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-A008-005",
+      "description": "Tannery formula evidence figure exists",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-W11-001",
+      "description": "Printer number is recorded as five-digit 24572",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-W11-002",
+      "description": "ETH comparison figure exists",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-W11-003",
+      "description": "ETH Rar 4575 PDF hash matches receipt",
+      "detail": "30313C4A4C8966E548FD065A3FE220B0F36984617CD0FF3C210CD7971007F732",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-W11-004",
+      "description": "ETH OCR hash matches receipt",
+      "detail": "5BD69EE3B9758EE50C7E04C123D60148500C4BFF918F02B85EAB0EE32FDE1BD0",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-W11-005",
+      "description": "ETH OCR contains printer number 24572",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-W11-006",
+      "description": "ETH PDF has page-level comparison coverage",
+      "detail": 83,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "R2-W11-007",
+      "description": "Independent ETH table-of-contents render is included",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-000",
+      "description": "Source-replay hash manifest has 17 entries",
+      "detail": 17,
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-001",
+      "description": "Source-replay hash matches: evidence/source_replay/CANONICAL_1897_JOB_NUMBER_CROP.png",
+      "detail": "D356CE613176EC763D067C82EC4461AC4A1986BC0367C8AB0D82DBC9032F9C6E",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-002",
+      "description": "Source-replay hash matches: evidence/source_replay/ETH_1897_COLOPHON_ENHANCED.png",
+      "detail": "B99687C15057D3C3DA0381D6F88CC3B133DA6A89E1A92D1E3FC68049E5CAE1A1",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-003",
+      "description": "Source-replay hash matches: evidence/source_replay/ETH_1897_JOB_NUMBER_ENHANCED.png",
+      "detail": "59F150F519BF7A3EB3F83F797E0280FC1D9762A4420912C0327EDA5697D6B30B",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-004",
+      "description": "Source-replay hash matches: evidence/source_replay/ETH_1897_JOB_NUMBER_RAW.png",
+      "detail": "E50DE1CEE7E79CA7B1E3283E95AE4DD448D0545650A37C5879A16DB7D330CB54",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-005",
+      "description": "Source-replay hash matches: evidence/source_replay/ETH_1897_TABLE_OF_CONTENTS.png",
+      "detail": "82C578F3A7F05A086A932EAB21A6A7425442443EA603BCCF6739BE0126F83716",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-006",
+      "description": "Source-replay hash matches: evidence/source_replay/ETH_Rar4575_Galois1897.pdf",
+      "detail": "30313C4A4C8966E548FD065A3FE220B0F36984617CD0FF3C210CD7971007F732",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-007",
+      "description": "Source-replay hash matches: evidence/source_replay/ETH_Rar4575_Galois1897_OCR.txt",
+      "detail": "5BD69EE3B9758EE50C7E04C123D60148500C4BFF918F02B85EAB0EE32FDE1BD0",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-008",
+      "description": "Source-replay hash matches: evidence/source_replay/TANNERY_1908_FORMULAS_600PPI.png",
+      "detail": "FD481A2847D01665E4D340EB105C5D0AE6B9F8E6DDD7E99C361AD993A5FF16F2",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-009",
+      "description": "Source-replay hash matches: evidence/source_replay/TANNERY_1908_PAGE12_CONTEXT.png",
+      "detail": "1CD7D46140DE9ECA1074BB5B1FE6576A7A63D6D6F488805300FFB2E75A88822D",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-010",
+      "description": "Source-replay hash matches: evidence/source_replay/TANNERY_1908_PDF012_RENDER.png",
+      "detail": "F785C60E130522BD38DC2AA881DE89236C37CA705BC619570F855C9526AF47D1",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-011",
+      "description": "Source-replay hash matches: evidence/source_replay/galois1897_L0092_PDF093.jp2",
+      "detail": "2E3B8F7E1170A8F53BEBBA6CC48A916604D5BACBB5F4933D5D6EFBA1AD4A4A13",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-012",
+      "description": "Source-replay hash matches: evidence/source_replay/tannery1908_0011.tif",
+      "detail": "8739F7BDA1C20F7A0067B0B37F7A28013C15F57A0D19E3D388F079D8011DC5CA",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-013",
+      "description": "Source-replay hash matches: evidence/source_replay/tannery1908_0012.tif",
+      "detail": "8128AAA0DA96A5112E8AACB23CF3F3516065D30F565A18753DCF0FCE9C1ED6D7",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-014",
+      "description": "Source-replay hash matches: evidence/source_replay/tannery1908_0013.tif",
+      "detail": "17AE45E229F985210A77E0ADB233D76FC851DA947C8CC9862DA7224E0898B7FE",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-015",
+      "description": "Source-replay hash matches: evidence/source_replay/w08_figs/1908_LEGENDRE_VARIANT_ENHANCED.png",
+      "detail": "7CEA879D572012FEFFAE76DDAABA2026A80347BE018CFFF0A7247EEEE36539BF",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-016",
+      "description": "Source-replay hash matches: evidence/source_replay/w08_figs/1908_LEGENDRE_VARIANT_RAW.png",
+      "detail": "AFC083ABBBBEF44FE443FE05BE1E618729113C91EC71A6A5AFE0C9821CA98D5B",
+      "status": "PASS"
+    },
+    {
+      "category": "deep_replay",
+      "check_id": "REPLAY-017",
+      "description": "Source-replay hash matches: evidence/source_replay/w11_figs/CANONICAL_JOB_NUMBER_ENHANCED.png",
+      "detail": "AC42B6C47848AE48D10D87CD7B8928CC46B0751A2FC486B4FC9DFD476D0D2E9D",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-001",
+      "description": "Mathematical checks report PASS 12/12",
+      "detail": {
+        "checks": [
+          {
+            "check_id": "A008_DETERMINANT_IDENTITY",
+            "detail": "eta1*omega2-eta2*omega1 = i(E Fc + Ec F - F Fc)",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A008_SECOND_KIND_SHIFT_INVARIANCE",
+            "detail": "determinant invariant under eta_j -> eta_j + c omega_j",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A008_RIGHT_HAND_SIDE",
+            "detail": "printed pi/2 maps to manuscript pi*i/2",
+            "status": "PASS"
+          },
+          {
+            "check_id": "W11_ETH_OCR_24572",
+            "detail": "official OCR contains 24572",
+            "status": "PASS"
+          },
+          {
+            "check_id": "W11_FIVE_DIGITS",
+            "detail": "24572 is a five-digit decimal string",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A006_PSL2_11_ORDER",
+            "detail": "|PSL(2,11)|=660",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A006_MATCHING_STABILIZER",
+            "detail": "stabilizer order=60, index=11",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A005_ORDER_18_COMPLEMENT",
+            "detail": "constructed complement order=18",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A005_IRREDUCIBLE_F2_4",
+            "detail": "every nonzero H-orbit spans F_2^4",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A005_AFFINE_GROUP_ORDER",
+            "detail": "|V semidirect H|=288",
+            "status": "PASS"
+          },
+          {
+            "check_id": "A005_NOT_GAMMAL1_16",
+            "detail": "18 does not divide |GammaL(1,16)|=60",
+            "status": "PASS"
+          },
+          {
+            "check_id": "W10_DA003_NONCOMMUTING",
+            "detail": "T0T1 and T1T0 differ at [0, 1, 2]",
+            "status": "PASS"
+          }
+        ],
+        "checks_passed": 12,
+        "checks_total": 12,
+        "generated": "2026-08-14",
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-002",
+      "description": "A008_DETERMINANT_IDENTITY",
+      "detail": "eta1*omega2-eta2*omega1 = i(E Fc + Ec F - F Fc)",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-003",
+      "description": "A008_SECOND_KIND_SHIFT_INVARIANCE",
+      "detail": "determinant invariant under eta_j -> eta_j + c omega_j",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-004",
+      "description": "A008_RIGHT_HAND_SIDE",
+      "detail": "printed pi/2 maps to manuscript pi*i/2",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-005",
+      "description": "W11_ETH_OCR_24572",
+      "detail": "official OCR contains 24572",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-006",
+      "description": "W11_FIVE_DIGITS",
+      "detail": "24572 is a five-digit decimal string",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-007",
+      "description": "A006_PSL2_11_ORDER",
+      "detail": "|PSL(2,11)|=660",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-008",
+      "description": "A006_MATCHING_STABILIZER",
+      "detail": "stabilizer order=60, index=11",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-009",
+      "description": "A005_ORDER_18_COMPLEMENT",
+      "detail": "constructed complement order=18",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-010",
+      "description": "A005_IRREDUCIBLE_F2_4",
+      "detail": "every nonzero H-orbit spans F_2^4",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-011",
+      "description": "A005_AFFINE_GROUP_ORDER",
+      "detail": "|V semidirect H|=288",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-012",
+      "description": "A005_NOT_GAMMAL1_16",
+      "detail": "18 does not divide |GammaL(1,16)|=60",
+      "status": "PASS"
+    },
+    {
+      "category": "mathematics",
+      "check_id": "MATH-013",
+      "description": "W10_DA003_NONCOMMUTING",
+      "detail": "T0T1 and T1T0 differ at [0, 1, 2]",
+      "status": "PASS"
+    },
+    {
+      "category": "build",
+      "check_id": "BUILD-001",
+      "description": "Two independent critical builds are byte-identical",
+      "detail": "BC152B109F592C159FB5267C69D01AF82B0F8152B7315D88CCC343953CDCE34E",
+      "status": "PASS"
+    },
+    {
+      "category": "build",
+      "check_id": "BUILD-002",
+      "description": "Two independent reader merges are byte-identical",
+      "detail": "38A474F0ED516EBCC5A797E0178D34E4BD3168131B6A14870DD0E50C3AB55112",
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-001",
+      "description": "Critical PDF hash agrees with build receipt",
+      "detail": "BC152B109F592C159FB5267C69D01AF82B0F8152B7315D88CCC343953CDCE34E",
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-002",
+      "description": "Reader PDF hash agrees with build receipt",
+      "detail": "38A474F0ED516EBCC5A797E0178D34E4BD3168131B6A14870DD0E50C3AB55112",
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-003",
+      "description": "Critical appendix has 24 pages",
+      "detail": 24,
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-004",
+      "description": "One-click reader has 102 pages",
+      "detail": 102,
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-005",
+      "description": "Poppler and PDFium both preserve 78/78 diplomatic prefix pages and 24/24 appendix pages",
+      "detail": [
+        [
+          "poppler",
+          78,
+          24
+        ],
+        [
+          "pdfium",
+          78,
+          24
+        ]
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-006",
+      "description": "Critical appendix passes 24-page renderer-parity bounding-box test",
+      "detail": {
+        "max_bbox_difference_px": 2,
+        "passed": 24
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-007",
+      "description": "qa/PDF_PREFLIGHT_CRITICAL.json reports openable unencrypted PDF with no warnings",
+      "detail": {
+        "encrypted": false,
+        "likely_scanned": false,
+        "ok_open": true,
+        "pages": 24,
+        "path": "/mnt/data/_gptcrit_stage/GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2/critical_edition/GAL1897_GPT_CRITICAL_EDITION.pdf",
+        "pdffonts_excerpt": null,
+        "warnings": [],
+        "xfa_present": false
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-008",
+      "description": "qa/PDF_PREFLIGHT_READER.json reports openable unencrypted PDF with no warnings",
+      "detail": {
+        "encrypted": false,
+        "likely_scanned": false,
+        "ok_open": true,
+        "pages": 102,
+        "path": "/mnt/data/_gptcrit_stage/GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2/critical_edition/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+        "pdffonts_excerpt": null,
+        "warnings": [],
+        "xfa_present": false
+      },
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-009",
+      "description": "All critical-PDF fonts are embedded",
+      "detail": [],
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-010",
+      "description": "All reader-PDF fonts are embedded",
+      "detail": [],
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-011",
+      "description": "Ghostscript preflight succeeds for critical PDF",
+      "detail": "",
+      "status": "PASS"
+    },
+    {
+      "category": "pdf",
+      "check_id": "PDF-012",
+      "description": "Ghostscript preflight succeeds for reader PDF",
+      "detail": "",
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check_id": "STRUCT-001",
+      "description": "Markdown headings are separated from preceding blocks",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check_id": "STRUCT-002",
+      "description": "Generated TeX has balanced begin/end environment counts",
+      "detail": [
+        17,
+        17
+      ],
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check_id": "STRUCT-003",
+      "description": "Active textual payload contains no illicit control characters",
+      "detail": [],
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check_id": "STRUCT-004",
+      "description": "Rendered critical PDF contains no leaked Markdown heading markers",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check_id": "STRUCT-005",
+      "description": "Rendered critical PDF states both R2 resolutions",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check_id": "STRUCT-006",
+      "description": "Active master files do not retain old 22-page/100-page artifact claims",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "provenance",
+      "check_id": "PROV-001",
+      "description": "Missing predecessor incident explicitly rejects byte-identity claim",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "provenance",
+      "check_id": "PROV-002",
+      "description": "Predecessor sidecar survives as provenance",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "category": "provenance",
+      "check_id": "PROV-003",
+      "description": "Predecessor package receipt survives as provenance",
+      "detail": null,
+      "status": "PASS"
+    }
+  ],
+  "checks_passed": 242,
+  "checks_total": 242,
+  "failures": [],
+  "generated": "2026-08-14",
+  "overall_status": "PASS"
+}

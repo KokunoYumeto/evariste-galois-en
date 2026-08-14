@@ -68,18 +68,15 @@ functions, one can obtain the two roots of the equation nearest to a
 given number $a$, one above and the other below it.
 
 % ENSEG:W06:PDF042:0010
-\GalCriticalNote{W06-PE001}{\textbf{Status: proved printed formula error;
-bounded prior-notice search closed with no explicit notice found.} The second
-displayed map is printed with numerator $X$ and denominator $x^n/Y$.
-It is not generally equivalent to $F(x)=0$ and need not lie on the side
-of $x$ opposite the first map. The full symmetric candidate
+\GalCriticalNote{W06-PE001}{The second iteration formula is not equivalent to $F(x)=0$}{The
+printed map, with numerator $X$ and denominator $x^n/Y$, is not generally
+equivalent to $F(x)=0$ and need not lie on the side of $x$ opposite the first
+map. The symmetric candidate
 $x=\psi x=\sqrt[n]{\frac{Y}{\left(\dfrac{X}{x^n}\right)}}$ is an editorial
-reconstruction, not an 1897 reading; the 1846 repetition preserves the
-printed form and is not a correcting witness. The printed formula and
-following claim remain unchanged in translation; downstream numerical use
-requires the separately labelled reconstruction. Evidence:
-\texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W06-PE001, its cited symbolic
-certificate, and \texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+reconstruction, not a reading found in the 1897 edition. The 1846 publication
+repeats the printed form, so it establishes transmission rather than a
+correction. Numerical use therefore requires the reconstruction to be stated
+explicitly.}
 
 \GalSourcePageBoundary{043}{L0042}{14}{14}
 
@@ -120,17 +117,12 @@ and for this it is enough to take as $k$ the value of the function
 $\GalSourceError{nX-xX'}{W06-SE001}$ corresponding to $x=1$.
 
 % ENSEG:W06:PDF043:0021
-\GalCriticalNote{W06-SE001}{\textbf{Status: proved missing-hypothesis error;
-bounded prior-notice search closed with no explicit notice found.} For a
-positive-term polynomial $X=\sum c_jx^j$,
-$nX-xX'=\sum_{j<n}(n-j)c_jx^j$ is nonnegative, but it is strictly
-positive only when a coefficient below degree $n$ is positive; for
-$X=x^n$ it vanishes identically and the prescribed $k$ is zero. The same
-qualification is required for $Y$. The printed strict inequalities and
-prescription are retained; downstream convergence claims require these
-nonvanishing hypotheses. Evidence: \texttt{PRINTED\_AND\_SOURCE\_ERRORS.md},
-W06-SE001, its cited exact polynomial certificate, and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalCriticalNote{W06-SE001}{Strict positivity requires a lower-degree term}{For
+a polynomial with positive terms, $X=\sum c_jx^j$, one has
+$nX-xX'=\sum_{j<n}(n-j)c_jx^j\geq0$. It is strictly positive only if some
+coefficient below degree $n$ is positive; when $X=x^n$, it vanishes identically
+and the prescribed $k$ is zero. The same qualification is required for $Y$.
+The convergence claim therefore needs these nonvanishing hypotheses.}
 
 % ENSEG:W06:PDF043:0022
 One similarly finds a number $h$ such that the function

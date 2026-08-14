@@ -1,0 +1,3 @@
+record_id,task_id,r2_status,resolved_reading_or_theorem,decisive_evidence,diplomatic_layer_mutated
+W08-WV001,POST-P13-A008,repaired,Tannery formula reads E′F″−E″F′=(π/2)√−1 and is equivalent to the printed Legendre relation under the certified period normalization.,1908 600 ppi TIFF page 0012; DLMF 19.7.1; Beppo Levi 1927; algebraic verification,false
+W11-U001,W11-DA002,proved,Printer job number 24572 (five digits).,ETH Rar 4575 PDF page 79 image plus official OCR; canonical JP2 consistency check,false

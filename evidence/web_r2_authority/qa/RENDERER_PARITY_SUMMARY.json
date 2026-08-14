@@ -1,0 +1,778 @@
+{
+  "dpi": 120,
+  "pages": 24,
+  "passed": 24,
+  "total": 24,
+  "max_bbox_difference_px": 2,
+  "overall_pass": true,
+  "pages_detail": [
+    {
+      "page": 1,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        125,
+        323,
+        868,
+        532
+      ],
+      "pdfium_content_bbox": [
+        124,
+        323,
+        869,
+        532
+      ],
+      "bbox_coordinate_differences": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "max_bbox_difference_px": 1,
+      "pass": true
+    },
+    {
+      "page": 2,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        100,
+        187,
+        893,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        100,
+        187,
+        894,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 3,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        186,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        187,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 4,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        94,
+        893,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        98,
+        94,
+        894,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 5,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        94,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        94,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 6,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        99,
+        98,
+        893,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        98,
+        894,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 7,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        99,
+        98,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        98,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 8,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        99,
+        98,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        98,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 9,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        98,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        98,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 10,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        99,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        99,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 11,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        94,
+        895,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        98,
+        94,
+        896,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 12,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        99,
+        99,
+        895,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        98,
+        99,
+        896,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 13,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        98,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        98,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 14,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        97,
+        99,
+        895,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        97,
+        99,
+        896,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 15,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        96,
+        894,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        95,
+        895,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 16,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        97,
+        96,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        97,
+        95,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 17,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        133,
+        320,
+        808,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        133,
+        319,
+        808,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 18,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        97,
+        99,
+        894,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        97,
+        99,
+        895,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 19,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        97,
+        96,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        97,
+        95,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 20,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        99,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        99,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 21,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        95,
+        895,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        98,
+        95,
+        896,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 22,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        103,
+        895,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        98,
+        103,
+        896,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 23,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        94,
+        895,
+        1369
+      ],
+      "pdfium_content_bbox": [
+        98,
+        94,
+        896,
+        1371
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    },
+    {
+      "page": 24,
+      "poppler_size": [
+        993,
+        1404
+      ],
+      "pdfium_size": [
+        993,
+        1404
+      ],
+      "size_pass": true,
+      "poppler_content_bbox": [
+        98,
+        99,
+        895,
+        1368
+      ],
+      "pdfium_content_bbox": [
+        98,
+        99,
+        896,
+        1370
+      ],
+      "bbox_coordinate_differences": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "max_bbox_difference_px": 2,
+      "pass": true
+    }
+  ]
+}

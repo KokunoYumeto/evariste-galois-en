@@ -1,0 +1,1190 @@
+ETHICS ETH-BIB
+00100002562438
+
+. . r r . ■; .' . - • . * ■
+/ÏW
+!f*K«: •xsl-VJÏs
+•"fÿ'.wVaft
+*£■/ w*>
+.1 fc.'WW
+ETMteS ETM-ÔIB
+lliilfeilIllÊÊl
+001000008KÏ223
+sfi-,».
+'T?-*
+-vvirr' .;•
+
+^ 1 - 1 MM
+
+•^ç>
+». y. .
+
+ŒUVRES
+MATHÉMATIQUES
+D’ÉVARISTE^GALOIS.
+
+Imprimerie GAUTIIIER-VILLARS ET FILS quai des Grands-Augustins, 55.
+Paris.
+
+ŒUVRES
+MATHÉMATIQUES
+D’ÉVARISTE GALOIS,
+PUBLIEES
+SOUS UES AUSPICES DE LA SOCIÉTÉ MATHÉMATIQUE DE FRANCE,
+AVEC UNE INTRODUCTION
+PAR
+M. Émile PICARD,
+MEMBRE DE L’INSTITUT.
+PARIS,
+GAUTH1EII-VILLARS ET FILS, IMPRIMEURS-LIBRAIRES
+1)U BUREAU DES LONGITUDES, DE L’ÉCOLE POLYTECHNIQUE, Quai des Grands-Augustins, 55 .
+1897
+(Tous droits réserves.)
+
+INTRODUCTION.
+Les Œuvres de Galois ont, comme on sait, été publiées en 1846 par Liouville, dans le Journal de Mathématiques. Il était regrettable que l’on ne pût posséder à part les Œuvres du grand géomètre ; aussi la Société mathématique a-t-elle décidé de faire réimprimer les Mémoires de Galois. Cette édition est conforme à la précédente ; on a seulement supprimé l’avertissement placé par Liouville au début de la publication.
+Un travail, qui paraît définitif, sur la vie de Galois vient d’être publié par M. Paul Dupuy, dans les Annales de l’Ecole Normale supérieure (1896). Comme documents antérieurs relatifs à la vie de Galois, il faut citer la Notice nécrologique que lui consacra son ami Auguste Chevalier, dans la Revue encyclopédique (septembre 1882), et un article paru dans le Magasin pittoresque, en 1848. Eva- riste Galois est né à Bourg-la-Reine, près de Paris, le 20 octobre 1811; il quitta la maison paternelle en 1823, pour entrer en quatrième au collège Louis-le-Grand. Dès l’âge de quinze ans, ses dispositions extraordinaires pour les Sciences mathématiques commencent à se manifester ; les livres élémentaires d’Algèbre ne le satisfont pas, et c’est dans les Ouvrages classiques de Lagrange qu’il fait son éducation algébrique. Il semble qu’à dix-sept ans Galois avait déjà obtenu des résultats de la plus haute importance concernant la théorie des équations algébriques. On ne peut faire que
+
+VI
+des conjectures sur la marche de ses idées, les deux Mémoires qu’il présenta à l’Académie des Sciences ayant été perdus ; une chose toutefois est certaine : il était, au commencement de i83o, en possession de ses principes généraux, comme le montre l’analyse d’un Mémoire sur la résolution algébrique des équations dans le Bulletin de Férussac, où sont énoncés une série de résultats qui ne sont manifestement que des applications d’une théorie générale. Ce court article est le plus important qui ait été publié par Galois lui-même, le Mémoire fondamental sur l’Algèbre retrouvé dans ses papiers n’ayant été imprimé qu’en 1846.
+On trouvera, dans l’article de M. Dupuy, des renseignements d’un grand intérêt sur la vie de Galois. Il est peu probable que de nouveaux documents viennent désormais s’ajouter à ceux que nous possédons maintenant. Après deux échecs à l’Ecole Polytechnique, Galois entra à l’Ecole Normale en 1829 et fut obligé de la quitter l’année suivante. Dans la dernière année de sa vie, il se donna tout entier à la politique, passa plusieurs mois sous les verrous de Sainte- Pélagie et, blessé mortellement en duel, mourut le 3i mai i 832 . En présence d’une vie si courte et si tourmentée, l’admiration redouble pour le génie prodigieux qui a laissé dans la Science une trace aussi profonde ; les exemples de productions précoces ne sont pas rares chez les grands géomètres, mais celui de Galois est remarquable entre tous. Il semble, hélas ! que le malheureux jeune homme ait tristement payé la rançon de son génie. A mesure que se déve- veloppent ses brillantes facultés mathématiques, on voit s’assombrir son caractère, autrefois gai et ouvert, et le sentiment de son immense supériorité développe chez lui un orgueil excessif. Ce fut la cause des déceptions qui eurent tant d’influence sur sa carrière, et dont la première fut son échec à l’École Polytechnique. Son examen dans cette
+
+VII
+École a laissé des souvenirs ; sans aller aussi loin que le veut la légende, disons seulement que Galois refusa de répondre à une question, qu’il jugeait ridicule, sur la théorie arithmétique des logarithmes. On ne peut douter aussi qu’il ne se soit pas prêté à fournir sur ses travaux les explications que lui demandaient les mathématiciens avec qui.il s’est trouvé en relations, explications que rendait nécessaires la rédaction rapide de ses Mémoires ; aussi comprend-on facilement que son mérite n’ait pas été reconnu de ses contemporains. Ce n’est pas sans peine que Liouville réussit à saisir l’enchaînement des idées de Galois, et il fallut encore de nombreux commentateurs pour combler les lacunes qui subsistaient dans plus d’une démonstration, et amener les théories du grand géomètre au degré de simplicité qu’elles sont susceptibles de revêtir aujourd’hui.
+La théorie des équations doit à Lagrange, Gauss et Abel des progrès considérables, mais aucun d’eux n’arriva à mettre en évidence l’élément fondamental dont dépendent toutes les propriétés de l’équation ; cette gloire était réservée à Galois, qui montra qu’à chaque équation algébrique correspond un groupe de substitutions dans lequel se reflètent les caractères essentiels de l’équation. En Algèbre, la théorie des groupes avait fait auparavant l’objet de nombreuses recherches dues, pour la plupart, à Cauchy, qui avait introduit déjà certains éléments de classification ; les études de Galois sur la Théorie des équations lui montrèrent l’importance de la notion de sous-groupe invariant d’un groupe donné, et il fut ainsi conduit à partager les groupes en groupes simples et groupes composés, distinction fondamentale qui dépasse de beaucoup, en réalité, le domaine de l’Algèbre et s’étend au concept de groupes d’opérations dans son acception la plus étendue.
+Les théories générales, pour prendre dans la Science un
+
+VIII
+droit de cité définitif, ont le plus souvent besoin de s’illustrer par des applications particulières. Dans plusieurs domaines, celles-ci ne sont pas toujours faciles à trouver, et l’on pourrait citer, dans les Mathématiques modernes, plus d’une théorie confinée, si j’ose le dire, dans sa trop grande généralité; au point de vue artistique, qui joue un rôle capital dans les Mathématiques pures, rien n’est plus satisfaisant que le développement de ces grandes théories, cependant de bons esprits regrettent cette tendance, qui a peut-être ses dangers. On ne peut, pour Galois, émettre un pareil regret; la résolution algébrique des équations lui a fourni, dès le début, un champ particulier d’applications où le suivirent depuis de nombreux géomètres, parmi lesquels il faut citer au premier rang M. Camille Jordan.
+Les travaux de Galois, sur les équations algébriques, ont rendu son nom célèbre, mais il semble qu’il avait fait, en Analyse, des découvertes au moins aussi importantes. Dans sa lettre à Auguste Chevalier, écrite la veille de sa mort, et qui est une sorte de testament scientifique, Galois parle d’un Mémoire qu’on pourrait composer avec ses recherches sur les intégrales. Nous ne connaissons de ces recherches que ce qu’il en dit dans cette lettre ; plusieurs points restent obscurs dans quelques énoncés de Galois, mais on peut cependant se faire une idée précise de quelques-uns des résultats auxquels il était arrivé dans la théorie des intégrales de fonctions algébriques. On acquiert ainsi la conviction qu’il était en possession des résultats les plus essentiels sur les intégrales abé- liennes que Riemann devait obtenir vingt-cinq ans plus tard. Nous ne voyons pas sans étonnement Galois parler des périodes d’une intégrale abélienne relative à une fonction algébrique quelconque ; pour les intégrales hyperelliptiques, nous n’avons aucune difficulté à comprendre ce qu’il entend par période, mais il en est autrement dans le cas général, et
+
+IX
+l’on est presque tenté de supposer que Galois avait tout au moins pressenti certaines notions sur les fonctions d’une variable complexe, qui ne devaient être développées que plusieurs années après sa mort. Les énoncés sont précis ; l’illustre auteur fait la classification en trois espèces des intégrales abéliennes, et affirme que, si n désigne le nombre des intégrales de première espèce linéairement indépendantes, les périodes seront en nombre 2 n. Le théorème relatif à l’inversion du paramètre et de l’argument dans les intégrales de troisième espèce est nettement indiqué, ainsi que les relations entre les périodes des intégrales abéliennes; Galois parle aussi d’une généralisation de l’équation classique de Legendre, où figurent les périodes des intégrales elliptiques, généralisation qui l’avait probablement conduit aux importantes relations découvertes depuis par Weierstrass et par M. Fuchs. Nous en avons dit assez pour montrer l’étendue des découvertes de Galois en Analyse ; si quelques années de plus lui avaient été données pour développer ses idées dans cette direction, il aurait été le glorieux continuateur d’Abel et aurait édifié, dans ses parties essentielles, la théorie des fonctions algébriques d’une variable telle que nous la connaissons aujourd’hui. Les méditations de Galois portèrent encore plus loin ; il termine sa lettre en parlant de l’application à l’Analyse transcendante de la théorie de l’ambiguïté. On devine à peu près ce qu’il entend par là, et sur ce terrain qui, comme il le dit, est immense, il reste encore aujourd’hui bien des découvertes à faire.
+Ce n’est pas sans émotion que l’on achève la lecture du testament scientifique de ce jeune homme de vingt ans, écrit la veille du jour où il devait disparaître dans une obscure querelle. Sa mort fut pour la Science une perte immense ; l’influence de Galois, s’il eût vécu, aurait grandement mo-
+
+X
+difié l’orientation des recherches mathématiques dans notre pays. Je ne me risquerai pas à des comparaisons périlleuses : Galois a sans doute des égaux parmi les grands mathématiciens de ce siècle; aucun ne le surpasse par l’originalité et la profondeur de ses conceptions.
+Émile Picard,
+Président de la Société mathématique de France.
+
+ŒUVRES
+MATHÉMATIQUES
+D’ÉVARISTE GALOIS.
+I. - ARTICLES PUBLIÉS PAR GALOIS.
+DÉMONSTRATION
+D’ON
+THÉORÈME SÜR LES FRACTIONS CONTINUES PÉRIODIQUES (>)•
+On sait que si, par la méthode de Lagrange, on développe en fraction continue une des racines d’une équation du second degré, cette fraction continue sera périodique, et qu’il en sera encore de même de l’une des racines d’une équation de degré quelconque, si celle racine est racine d’un facteur rationnel du second degré du premier membre de la proposée, auquel cas celle équation aura, tout au moins, une autre racine qui sera également périodique. Dans i’un et dans l’autre cas, la fraction continue pourra d’ailleurs être immédiatement périodique ou ne l’être pas immé-
+(') Tome XIX des Annales de Mathématiques de M. Gergonne, page ag 4 (1828-1829). Galois était alors élève au collège Louis-Ic-Grand. (J. Liouville.) E. G. 1
+
+— 2 —
+dialement ; mais, lorsque cette dernière circonstance aura lieu, il y aura du moins une des transformées dont une des racines sera immédiatement périodique.
+Or, lorsqu’une équation a deux racines périodiques répondant à un même facteur rationnel du second degré, et que l’une d’elles est immédiatement périodique, il existe entre ces deux racines une relation assez singulière qui paraît n’avoir pas encore été remarquée, et qui peut être exprimée par le théorème suivant :
+Théorème. — Si une des racines d’une équation de degré quelconque est une fraction continue immédiatement périodique, cette équation aura nécessairement une autre racine également périodique que Von obtiendra en divisant l’unité négative par cette même fraction continue périodique, écrite . dans un ordre inverse.
+Démonstration. — Pour fixer les idées, ne prenons que des périodes de quatre termes ; car la marche uniforme du calcul prouve qu’il en serait de même si nous en admettions un plus grand nombre. Soit une des racines d’une équation de degré quelconque exprimée comme il suit :
+cl-\-
+l’équation du second degré, à laquelle appartiendra celte racine, et qui contiendra conséquemment sa corrélative, sera
+T
+I
+c H--
+X
+
+- 3 —
+or, on tire de là successivement
+a — x ——
+■= — b-
+C H-
+a — x i
+c ^-
+6 +-
+cl H- -
+Ô-i-
+C -r-
+l
+5 ’
+d- h-
+-h
+a -
+- X
+I
+I
+h y
+I
+—— ^ i — ,
+c’est-à-dirc
+d-h-
+c’est donc toujours là l’équation du second degré qui donne les deux racines dont il s’agit; mais, en mettant continuellement pour x, dans son second membre, ce même second membre, qui en est, en effet, la valeur, elle donne
+d -+- -
+c +
+b +
+c’est donc là l’autre valeur de x, donnée par celte équation, valeur qui, comme l’on voit, est égale à —i divisé par la première écrite dans un ordre inverse.
+
+— 4
+Dans ce qui précède, nous avons supposé que la racine proposée était plus grande que l’unité; mais, si l’on avait
+a ■+-
+b 4-
+on
+en conclurait, pour une des valeurs de - ,
+l T
+- = a H-
+X ,
+a -î-
+d^~
+l’autre valeur de — serait donc, par ce qui précède,
+t
+x
+d + -
+d’où l’on conclurait, pour l’autre valeur de x,
+7 T
+x =— d H-
+b -i~
+b
+
+- 5 -
+ou
+i
+x = — i : ---
+d \ - 1 - -
+i
+C H-
+b h-
+ci —!—
+0 -1 -
+b H----
+Ci -h #
+* • J
+ce qui rentre exactement dans notre théorème.
+Soit A une fraction continue immédiatement périodique quelconque, et soit B la fraction continue qu’on en déduit en renversant la période; on voit que, si l’une des racines d’une équation
+est x = A, elle aura nécessairement une autre racine x = — or, si A est un nombre positif plus grand que l’unité, — sera négatif et compris entre o et — i ; et, à l’inverse, si A est un nombre négatif compris entre o et — i, — L sera un nombre positif plus grand que l’unité. Ainsi, lorsque l’une des racines d’une équation du second degré est une fraction continue immédiatement périodique, plus grande que l’unité, l’autre est nécessairement comprise entre o et — s ; et réciproquement, si l’une d’elles est comprise entre o et —i, l’autre sera nécessairement positive et plus grande que l’unité.
+On peut prouver que, réciproquement, si l’une des deux racines d’une équation du second degré est positive et plus grande que l’unité, et que l’autre soit comprise entre o et —i, ces racines seront exprimables en fractions continues immédiatement périodiques. En effet, soit toujours A une fraction continue immédiatement périodique quelconque, positive et plus grande que l’unité, et B la fraction continue immédiatement périodique qu’on en déduit, en renversant la période, laquelle sera aussi, comme elle, positive et plus grande que l’unité. La première des racines de la proposée ne pourra être de la forme
+*=P + i’
+
+car alors, en vertu de notre théorème, la seconde devrait être
+x —
+i
+B
+a — B ;
+or a — B ne saurait être compris entre o et i qu’autant que la partie entière de B serait égale à p, auquel cas la première valeur serait immédiatement périodique. On ne pourrait avoir davantage,
+pour la première valeur de x ^ x — p -\ --—; car alors l'autre
+serait
+B 0U X =
+or, pour que cette valeur fût comprise entre o et —i, il faudrait d’abord que ^ ' fût égal à p , plus une fraction. Il faudrait
+donc que B — q fût plus petit que l’unité, ce qui exigerait que B fût égal à q , plus une fraction ; d’où l’on voit que q et p devraient être respectivement égaux aux deux premiers termes de la période qui répond à B, ou aux deux derniers de la période qui répond à A ;
+de sorte que, contrairement à l’hypothèse, la valeur x = p
+serait immédiatement périodique. On prouverait, par un raisonnement analogue, que les périodes ne sauraient être précédées d’un plus grand nombre de termes n’en faisant pas partie.
+Lors donc que l’on traitera une équation numérique par la méthode de Lagrange, on sera sûr qu’il n’y a point de racines périodiques à espérer tant qu’on ne rencontrera pas une transformée ayant au moins une racine positive plus grande que l’unité, et une autre comprise entre o et — i ; et si, en effet, la racine que l'on poursuit doit être périodique, ce sera tout au plus à cette transformée que les périodes commenceront.
+Si l’une des racines d'une équation du second degré est non seulement immédiatement périodique, mais encore symétrique, c’est-à-dire si les termes de la période sont égaux à égale distance des extrêmes, on aura B = A; de sorte que ces deux racines
+
+— 7 —
+seront A et — l’équation sera donc
+A a ? 2 — (A 2 — 1)2; — A = o.
+Réciproquement, toute équation du second degré de la forme
+ax- — bx — a = o
+aura ses racines à la fois immédiatement périodiques et symétriques. En effet, en mettant tour à tour pour x l’infini et — 1 , on obtient des résultats positifs, tandis qu’en faisant x = 1 et x = o, on obtient des résultats négatifs; d’où l’on voit d’abord que cette équation a une racine positive plus grande que l’unité et une racine négative comprise entre o et — 1 , et qu’ainsi ces racines sont immédiatement périodiques ; de plus, celte équation ne change
+pas en y changeant x en — l ~; d’où il suit que, si A est une de ses racines, l’autre sera — ^ , et qu’ainsi, dans ce cas, B = A. Appliquons ces généralités à l’équation du second degré
+3x- — 16 a? -t- 18 = o;
+on lui trouve d’abord une racine positive comprise entre 3 et 4; en posant
+X — 3 -h — >
+y
+on obtient la transformée
+3 y 2 — 27-3 = 0 ,
+dont la forme nous apprend que les valeurs de y sont à la fois immédiatement périodiques et symétriques; en effet, en posant tour à tour
+I [ T
+y = 1 H —1 z — %+-i i = H- >
+J z t u
+on obtient les transformées
+2 s 2 — \z — 3 = 0 , 3 t 1 — 4 1 — 2 = 0 , 3a 2 —iu — 3 = o.
+L’identité entre les équations en u et en y prouve que la valeur
+
+positive de y est
+— 8 -
+y =
+i
+2 H-
+f -h
+I
+1
+1
+l
+I
+2 H- -
+I -4-
+sa valeur négative sera donc
+t
+y = -
+, _|-
+2 +
+<>
+les deux valeurs de x seront donc
+x — 3 H- x = 3 -
+2-f-
+£
+dont la dernière, en vertu de la formule connue
+i i
+p -= p — i -i-
+(7
+J- T _l_ -
+devient
+q - 1
+£
+ï
+3
+I H-
+2 -+-
+I
+[ -t-
+
+— 9 -
+S?
+i>
+Ÿ
+*
+NOTES
+SUR
+QUELQUES POINTS D’ANALYSE (‘)-
+I. — Démonstration d’un théorème d’Analyse.
+Théorème. — Soient Y x et ix deux fonctions quelconques données; on aura, quels que soient x et h ,
+F (x -h h) — Fa? f (a? -+- h) — fa?
+o étant une fonction déterminée, et k une quantité intermédiaire entre x et x -f- h.
+Démonstration. — Posons, en effet,
+F ( a? -t- A ) — F a? __ f(a?H-/()— fa? ’
+on en déduira
+F(a? -+- h) — Pf(a? -+- A) = Fa?— Pfa?;
+d’où l’on voit que la fonction Yx — Pfa? ne change pas quand on y change x en x + A; d’ou il suit qu’à moins qu’elle ne reste constante entre ces limiLes, ce qui ne pourrait avoir lieu que dans des cas particuliers, cette fonction aura, entre x et x + A, un ou plusieurs maxima et minima. Soit k la valeur de x répondant à l’un d’eux; on aura évidemment k — ^(P), étant une fonction déterminée; donc on doit avoir aussi P = 'f(k), a étant une autre fonction également déterminée ; ce qui démontre le théorème.
+De là on peut conclure, comme corollaire, que la quantité
+lim.
+F ( x -T- A ) — F x f(a? + A) — fa?
+? 0 )>
+pour h — o, est nécessairement une fonction de x, ce qui démontre, a priori, l’existence des fonctions dérivées.
+(') Annales de Mathématiques de M. Gergonne, tome XXI, page 182 (i83o- j83i). C’est par suite d’une faute d’impression qu’on y lit : Galais , élève à l’Ecole normale, au lieu de Galois. (J. Liouville.)
+
+— 10 -
+§ II. — Rayon de courbure des courbes de l’espace.
+Le rayon de courbure d’une courbe en l’un quelconque de ses
+points M est la perpendiculaire abaissée de ce point sur l’intersection du plan normal au point M avec le plan normal consécutif, comme il est aisé de s’en assurer par des considérations géométriques.
+Cela posé, soit (a?, y, z ) un point de la courbe; on sait que le plan normal en ce point aura pour équation
++ (Y-^)
+(N)
+X, Y, Z étant les symboles des coordonnées courantes. L’intersection de ce plan normal avec le plan normal consécutif sera donnée par le système de cette équation et de la suivante
+attendu que
+dx \ 2
+Or, il est aisé de voir que le plan (T) est perpendiculaire au plan (N), car on a
+donc la perpendiculaire abaissée du point (x,y, z ) sur l’intersection des deux plans (N) et(I) n’est autre chose que la perpendiculaire abaissée du même point sur le plan (1). Le rayon de courbure est donc la perpendiculaire abaissée du point (%,y, s) sur le plan (I). Celte considération donne, très simplement, les théorèmes connus sur les rayons de courbure des courbes dans l’espace.
+
+£
+— 11 —
+ANALYSE
+d’un
+MÉMOIRE SUR LA RÉSOLUTION ALGÉBRIQUE DES ÉQUATIONS (>)•
+0
+/
+On appelle équations non primitives les équations qui, étant, par exemple, du degré nm, se décomposent en m facteurs du degré n, au moyen d’une seule équation du degré m. Ce sont les équations de M. Gauss. Les équations primitives sont celles qui ne jouissent pas d’une pareille simplification. Je suis, à l’égard des équations primitives, parvenu aux résultats suivants :
+i° Pour qu’une équation de degré premier soit résoluble par radicaux, il faut et il suffit que, deux quelconques de ses racines étant connues, les autres s’en déduisent rationnellement.
+2° Pour qu’une équation primitive du degré m soit résoluble par radicaux, il faut que m = /> v , p étant un nombre premier.
+3 ° A part les cas mentionnés ci-dessous, pour qu’une équation primitive du degré p ' 1 soit résoluble par radicaux, il faut que, deux quelconques de ses racines étant connues, les autres s’en déduisent rationnellement.
+A la règle précédente échappent les cas très particuliers qui suivent :
+i° Le cas de m = p y = g, = 25 ;
+2° Le cas de m — p v = 4 et généralement celui où, a a étant un
+, rjV — I
+diviseur de-^--> on aurait a premier, et
+p v — i
+——, -r '> = p
+a*(p — i) 1
+(mod. a a ).
+Ces cas s’écartent toutefois fort peu de la règle générale.
+Quand m = 9, = 25 , l’équation devra être du genre de celles qui déterminent la trisection et la quinlisection des fonctions elliptiques.
+(') Bulletin des Sciences mathématiques de M. Férussac, t. XIII, p. 27 (année x83o, cahier d’avril). (J. Liouville.)
+
+Dans le second cas, il faudra toujours que, deux des racines étant connues, les autres s’en déduisent, du moins au moyen d’un nombre de radicaux, du degré/>, égal au nombre des diviseurs a“
+de-^j-qui sont tels que
+—^- y/ = p (mod. a 2 ), a premier.
+Toutes ces propositions ont été déduites de la théorie des permutations.
+Voici d’autres résultats qui découlent de ma théorie. i° Soit k le module d’une fonction elliptique, p un nombre premier donné >> 3; pour que l’équation du degré p + i, qui donne les divers modules des fonctions transformées relativement au nombre p, soit résoluble par radicaux, il faut de deux choses l’une : ou bien qu’une des racines soit rationnellement connue, ou bien que toutes soient des fonctions rationnelles les unes des autres. Il ne s’agit ici, bien entendu, que des valeurs particulières du module k. Il est évident que la chose n’a pas lieu en général. Cette règle n’a pas lieu pour p = 5.
+a ü II est remarquable que l’équation modulaire générale du sixième degré, correspondant au nombre 5, peut s’abaisser à une du cinquième degré dont elle est la réduite. Au contraire, pour des degrés supérieurs, les équations modulaires ne peuvent s’abaisser ( ( ).
+(') Celte assertion n’est pas tout à fait exacte, comme Galois en avertit lui- même dans sa Lettre à M. Auguste Chevalier, qu’on trouve plus bas. Il dit en général, au sujet de l’articleque nous reproduisons ici : « La condition que j’ai indiquée dans le Bulletin de Férussac, pour la solubilité par radicaux, est trop restreinte; il y a peu d’exceptions, mais il y en a. » Quant aux équations modulaires en particulier, il déclare l’abaissement du degré p + i au degré p possible, non seulement pour p — 5 , mais encore pour p = 7 et p = 11; mais il en maintient l’impossibilité pour /> > 11. (J. Liouville.)
+
+13 -
+NOTE
+SUR LA
+RÉSOLUTION DES ÉQUATIONS NUMÉRIQUES (')•
+M. Legendre a le premier remarqué que, lorsqu’une équation algébrique était mise sous la forme
+<3X — X,
+où 'sx est une fonction de x qui croît constamment en même temps que x , il était facile de trouver la racine de cette équation immédiatement plus petite qu’un nombre donné a, si cpa < a, et la racine immédiatement plus grande que «, si tpa > a.
+Pour le démontrer, on construit la courbe y = fx et la droite y = x. Soit prise une abscisse = «, et supposons, pour fixer les idées, ç>a>a, je dis qu’il sera aisé d’obtenir la racine immédiatement supérieure à a. En effet, les racines de l’équation yx = x ne sont que les abscisses des points d’intersection de la droite et de la courbe, et il est clair que l’on s’approchera du point le plus voisin d’intersection en substituant à l’abscisse a l’abscisse ep a. On aura une valeur plus approchée encore en prenant ocp a, puis œçicpa, et ainsi de suite.
+Soit ¥ x — o une équation donnée du degré n, et F x = X — Y, X et Y n’ayant que des termes positifs. Legendre met successivement l’équation sous ces deux formes :
+les deux fonctions ox et tyx sont toujours, comme on voit, l’une plus grande, l’autre plus petite que x. Ainsi, à l’aide de ces deux fonctions, on pourra avoir les deux racines de l’équation les plus approchées d’un nombre donné a , l’une en plus et l’autre en moins.
+(') Bulletin des Sciences mathématiques de M. Fcrussac, t. XIII, p. (année i83o, cahier de juin). (J. Liouville.)
+
+- 14 -
+Mais celte méthode a l’inconvénient d’exiger, à chaque opération, l’extraction d’une racine n lime . Voici deux formes plus commodes. Cherchons un nombre k tel que la fonction
+Fa;
+croisse avec x , quand x^> i. (Il suffit, en effet, de savoir trouver les racines d’une équation qui sont plus grandes que l’unité.) Nous aurons, pour la condition proposée,
+,X-Y d -
+iCds ^
+i -i-;-> o, ou bien
+dx
+or on a identiquement
+nX -— x %' > o,
+il suffit donc de poser
+nX — x%' kx n ^~~ ^ ‘
+nX — xX’ ai Y — xY\ kx n+i 1 kx l ‘+ l ^ 0 ’
+n\ — a?Y' > o :
+pour x > i,
+et il suffit, pour cela, de prendre pour k la valeur de la fonction /ïX •— xXJ, relative à x = i.
+On trouvera de même un nombre h tel que la fonction
+Fx
+hx a
+croîtra avec x, quand x sera )> i, en changeant Y en X.
+Ainsi, l’équation donnée pourra se mettre sous l’une des formes
+Fr F x
+x = x -+-
+kx n
+x = x —
+hx n ’
+qui sont toutes deux rationnelles et donnent pour la résolution une méthode facile.
+
+- 15 -
+SUR
+LA THÉORIE DES NOMBRES (•).
+Quand on convient de regarder comme milles toutes les quantités qui, dans les calculs algébriques, se trouvent multipliées par un nombre premier donné p, et qu'on cherche, clans cette convention, les solutions d’une équation algébrique ¥x — o, ce que M. Gauss désigne par la notation Fæ = o, on n’a coutume de considérer que les solutions entières de ces sortes de questions. Ayant été conduit par des recherches particulières à considérer les solutions incommensurables, je suis parvenu à quelques résultats que je crois nouveaux.
+Soit une pareille équation ou congruence, = o, et/» le module. Supposons d’abord, pour plus de simplicité, que la congruence en question n’admetle aucun facteur commensurable, c’est-à-dire qu’on ne puisse pas trouver trois fonctions c px, 6x, -/x telles que
+epx.^x — F x -t- p .y x.
+Dans ce cas, la congruence n’admettra donc aucune racine entière, ni même aucune racine incommensurable de degré inférieur. Il faut donc regarder les racines de cette congruence comme des espèces de symboles imaginaires, puisqu’elles ne satisfont pas aux questions des nombres entiers, symboles dont l’emploi, dans le calcul, sera souvent aussi utile que celui de l’imaginaire \j — i dans l’analyse ordinaire.
+C’est la classification de ces imaginaires, et. leur réduction au plus petit nombre possible, qui va nous occuper.
+Appelons i l’une des racines de la congruence Fr = o, que nous supposerons du degré v.
+Considérons l’expression générale
+(A) a -+- n, i -t- cz 2 fi H- . . . -t- <? v _ , t v_1 ,
+O Bulletin des Sciences mathématiques de M. Férussac, t. XIII, p. 428 (année i 83 o, cahier de juin); avec ta note suivante : « Ce Mémoire fait partie des recherches de M. Galois sur la théorie des permutations et des équations algébriques.» ( J. Liouville.)
+
+- 16 -
+où a, a ,, « 2 1 ■ • ■ , représentent des nombres entiers. En donnant à ces nombres toutes les valeurs, l’expression (A) en acquiert /A, qui jouissent, ainsi que je vais le faire voir, des mêmes propriétés que les nombres naturels dans la théorie des résidus des puissances.
+Ne prenons des expressions (A) que les /j v — i valeurs où ci, ( 7 ,, «2, « v _i ne sont pas toutes milles : soit a l’une de ces
+expressions.
+Si l’on élève successivement a aux puissances 2 e , 3 e , ..., on aura une suite de quantités de même forme [parce que toute fonction de i peut se réduire au (v — i) ième degré]. Donc on devra avoir a" = i, n étant un certain nombre; soit n le plus petit nombre qui soit tel que l’on ait a" = i. On aura un ensemble de n expressions, toutes différentes entre elles,
+[, %, a 2 , a 3 , . . ., a' 1-1 .
+Multiplions ces n quantités par une autre expression ë de la même forme. Nous obtiendrons encore un nouveau groupe de quantités toutes différentes des premières et différentes entre elles. Si les quantités (A) ne sont pas épuisées, on multipliera encore les puissances de a par une nouvelle expression y, et ainsi de suite. On voit donc que le nombre n divisera nécessairement le nombre total des quantités (A). Ce nombre étant p ' 1 — i, on voit que n divise p ' 1 — i. De là suit encore que l’on aura
+a p '- 1 =i, ou bien a p v = a.
+Ensuite on prouvera, comme dans la théorie des nombres, qu’il y a des racines primitives a pour lesquelles on ait précisément /j v — i — n, et qui reproduisent par conséquent, par l’élévation aux puissances, toute la suite des autres racines.
+Et l’une quelconque de ces racines primitives ne dépendra que d’une congruence du degré v, congruence irréductible , sans quoi l’équation en i ne le serait pas non plus, parce que les racines de la congruence en i sont toutes des puissances de la racine primitive.
+On voit ici cette conséquence remarquable que toutes les quantités algébriques qui peuvent se présenter dans la théorie sont racines d’équations de la forme
+xp' = x.
+
+Cette proposition, énoncée algébriquement, est celle-ci : Etant donnés une fonction Fx et un nombre premier p, on peut poser
+fx. Fa? = xi p — x -h pox,
+fx et étant des fonctions entières, toutes les fois que la congruence F# = o (mod. p) sera irréductible.
+Si l’on veut avoir toutes les racines d’une pareille congruence au moyen d’une seule, il suffiL d’observer que l’on a généralement
+(Fa?)/>" = F(xi’ n )
+et que, par conséquent, l’une des racines étant x , les autres seront
+XP, XP 2 XP' t ~' (*)•
+Il s’agit maintenant de faire voir que, réciproquement à ce que nous venons de dire, les racines de l’équation ou de la congruence xP~‘ — x dépendront toutes cl’une seule congruence du degré v.
+Soit en effet i une racine d’une congruence irréductible et telle que toutes les racines de la congruence xP‘— x soient fonctions rationnelles de i (Il est clair qu’ici, comme dans les équations ordinaires, cette propriété a lieu) ( 2 ).
+(') De ce que les racines de la congruence irréductible de degré v
+V x = o
+sont exprimées par la suite
+x, xi’, xi’ 2 , .. ., xi’' , ~',
+on aurait tort de conclure que ces racines soient toujours des quantités exprimables par radicaux. Voici un exemple du contraire :
+La congruence irréductible
+a; ! + ai + i = o (mod 2 ) '
+donne
+— 1 H- \J— 3 x = ----,
+qui se réduit à '
+- ( mod 2 ), o
+formule qui n’apprend rien.
+O) La proposition générale dont il s’agit ici peut s’énoncer ainsi : Étant donnée une équation algébrique, on pourra trouver une fonction rationnelle 6 de toutes ses racines, de telle sorte que, réciproquement, chacune des racines s’exprime rationnellement en 0. Ce théorème était connu d’Abel, ainsi qu’on peut le voir par la première Partie du Mémoire que ce célèbre géomètre a laissé sur les fonctions elliptiques.
+E. G. " 2
+
+Il est d’abord évident que le degré p de la congruence en i ne saurait être plus petit que v, sans quoi la congruence
+( V ) XP V ~' — 1 = 0
+aurait toutes ses racines communes avec la congruence
+XP't- - ' — 1 = 0,
+ce qui est absurde, puisque la congruence (v) n’a pas de racines égales, comme on le voit en prenant la dérivée du premier membre. Je dis maintenant que p ne peut non plus être > v.
+En effet, s’il en était ainsi, toutes les racines de la congruence
+XP^ = X
+devraient dépendre rationnellement de celles de la congruence
+xp~‘ = x.
+Mais il est aisé de voir que, si l’on a
+ù’ v = i ,
+toute fonction rationnelle h = fi donnera encore
+(fi)P' = /(f> v ) = fi, d’où hP* = h.
+Donc toutes les racines de la congruence xp v ' = x lui seraient communes avec l’équation xP'=x, ce qui est absurde.
+Nous savons donc enfin que toutes les racines de l’équation ou congruence x?' = x dépendent nécessairement d’une seule congruence irréductible de degré v.
+Maintenant, pour avoir celte congruence irréductible d’où dépendent les racines de la congruence xP~‘— x , la méthode la plus générale sera de délivrer d’abord celle congruence de tous les facteurs communs qu’elle pourrait avoir avec des congruences de degré inférieur et de la forme
+xp 11 = x.
+On obtiendra ainsi une congruence qui devra se partager en congruences irréductibles de degré v. Et, comme on sait exprimer toutes les racines de chacune de ces congruences irréductibles au
+
+- 19 -
+moyen d’une seule, il sera aisé de les obtenir toutes par la méthode de M. Gauss.
+Le plus souvent, cependant, il sera aisé de trouver parle tâtonnement une congruence irréductible d’un degré donné v, et l’on doit en déduire toutes les autres.
+Soient, pour exemple, p = 7, v — 3 . Cherchons les racines de la congruence
+(1) = x (mod 7).
+J’observe que la congruence
+(a) i's= 2 (mod 7)
+étant irréductible, et du degré 3 , toutes les racines de la congruence (1) dépendent rationnellement de celles de la congruence (2), en sorte que toutes les racines de (1) sont de la forme
+( 3 ) a -+- a L i -t- i 1 ou bien a -f- a l \/o. -t- a 2 VI.
+Il faut maintenant trouver une racine primitive, c’est-à-dire une forme de l’expression ( 3 ) qui, élevée à toutes les puissances, donne toutes les racines de la congruence
+a? 73_I = i, savoir a? 2 '- 33 - 11 ! = 1 (mod 7),
+et nous n’avons besoin pour cela que d’avoir une racine primitive de chaque congruence
+X % — 1, X 3 '= I, X ls = I.
+La racine primitive de la première est — 1 ; celles de x 3! — 1= o sont données par les équations
+x 3 =2, x 3 — 4 ,
+en sorte que i est une racine primitive de x 3 *= 1.
+Il ne reste qu’à trouver une racine de x' 9 — ï = o, ou plutôt de
+x ,s — t
+et essayons pour cela si l’on ne peut pas satisfaire à la question
+
+— 20 —
+en posant simplement x ~ a + «, i, an lieu de a + t + a 2 i z ', nous devrons avoir
+(a -+ a, j ) 19 = i,
+ce qui, en développant par la formule de Newton, et réduisant les puissances de a, de a, et de i, par les formules
+a m{p— 1 ) = , J as »i(/)-n = i i {3 — 2)
+se réduit à
+3 [a — a’* a f +(a s a] -+- as 2 as J ) «*] = i,
+d’où, en séparant,
+3 a — 3a i a}=i, a 3 af -+- a 2 af = o.
+Ces deux dernières équations sont satisfaites en posanta = a, = i. Donc
+est une racine primitive de x' 3 = i. Nous avons trouvé plus haut, pour racines primitives de x 2 = i et de x 3 '= i, les valeurs — i et i; il ne reste plus qu’à multiplier entre elles les trois quantités
+— i, i, — i ■+ i,
+et le produit i — t 2 sera une racine primitive de la congruence
+x''~ l — i.
+Donc ici l’expression i — i- jouit de la propriété que, en l’élevant à toutes les puissances, on obtiendra r j 3 — i expressions différentes et de la forme
+a + 0(1 + «2 i 1 -
+Si nous voulons avoir la congruence de moindre degré d’où dépend notre racine primitive, il faut éliminer i entre les deux équations
+i 3 = 2, a = i — t' 2 .
+On obtient ainsi
+a 3 — a -i- 2 = o.
+Il sera convenable de prendre pour base des imaginaires et de représenter par i la racine de cette équation, en sorte que
+(i) o,
+r
+4
+
+— 21 —
+et l’on aura toutes les imaginaires de la forme
+Cl H— Cl\ i H—
+en élevant i à toutes les puissances et réduisant par l’équation (i).
+Le principal avantage de la nouvelle théorie que nous venons d’exposer est de ramener les congruences à la propriété (si utile dans les équations ordinaires), d’admettre précisément autant de racines qu’il y a d’unités dans l’ordre de leur degré.
+La méthode pour avoir toutes ces racines sera très simple. Premièrement, on pourra toujours préparer la congruence donnée Fx = o de manière qu’elle n’ait plus de racines égales, ou, en d’autres termes, qu’elle n’ait plus de facteur commun avec F'x = o, et le moyen de le faire est évidemment le même que pour les équations ordinaires.
+Ensuite, pour avoir les solutions entières, il suffira, ainsi que M. Libri paraît en avoir fait le premier la remarque, de chercher le plus grand facteur commun àFœ = oetà xP~ ' = i.
+Si maintenant on veut avoir les solutions imaginaires du second degré, on cherchera le plus grand facteur commun à Fæ = o et à æp ,_i = i, et, en général, les solutions de l’ordre v seront données par le plus grand commun diviseur à Fx=o et à xP''~' = i.
+C’est surtout dans la théorie des permutations, où l’on a sans cesse besoin de varier la forme des indices, que la considération des racines imaginaires des congruences paraît indispensable. Elle donne un moyen simple et facile de reconnaître dans quel cas une équation primitive est soluble par radicaux, comme je vais essayer d’en donner en deux mots une idée.
+Soit une équation algébrique fx~ o, de degré p v ; supposons que les p v racines soient désignées par X/,, en donnant à l’indice k les p v valeurs déterminées par la congruence kP‘— /r(mod p).
+Prenonsune fonction quelconque rationnelle Y des y? v racines x^. Transformons cette fonction en substituant partout à l’indice k l’indice (a/r + b)P r , a, b, r étant des constantes arbitraires satisfaisant aux conditions de aP''~'= i, &P’=6(mod p) et de /■ entier.
+En donnant aux constantes a, b, r toutes les valeurs dont elles sont susceptibles, on obtiendra en tout p v (p y —i)v manières de
+
+permuter les racines entre elles par des substitutions de la forme [x k , x {a i s+ bf r \, et la fonction V admettra en général par ces substitutions /> v (/? v —i)v formes différentes.
+Admettons maintenant que l’équation proposée fx = o soit telle que toute fonction des racines, invariable par les p v (p v — i)v permutations que nous venons de construire, ait pour cela même une valeur numérique rationnelle.
+On remarque que, dans ces circonstances, l’équation fx = o sera soluble par radicaux, et, pour parvenir à cette conséquence, il suffit d’observer que la valeur substituée à k, dans chaque indice, peut, se mettre sous les trois formes
+(ak + by r =\a(k + bi)y=a'kP r -+- b" = a’(k -+- b')i> r .
+Les personnes habituées à la théorie des équations le verront sans peine.
+Cette remarque aurait peu d’importance si je n’étais parvenu à démontrer que, réciproquement, une équation primitive ne saurait être soluble par radicaux, à moins de satisfaire aux conditions que je viens d’énoncer. (J’excepte les équations du neuvième et du vingt-cinquième degré.)
+Ainsi, pour chaque nombre de la forme p v , on pourra former un groupe de permutations tel, que toute fonction des racines invariable par ces permutations devra admettre une valeur rationnelle quand l’équation de degré p' 1 sera primitive et soluble par radicaux.
+D’ailleurs, il n’y a que les équations d’un pareil degré /> v qui soient à la fois primitives et solubles par radicaux.
+Le théorème général que je viens d’énoncer précise et développe les conditions que j’avais données dans le Bulletin du mois d’avril. Il indique le moyen de former une fonction des racines dont la valeur sera rationnelle, toutes les fois que l’équation primitive de degré p v sera soluble par radicaux, et mène, par conséquent, aux caractères de résolubilité de ces équations, par des calculs sinon praticables, du moins qui sont possibles en théorie.
+Il est à remarquer que, dans le cas où v = i, les diverses valeurs de k ne sont autre chose que la suite des nombres entiers. Les
+
+substitutions de la forme (a;*, x a k + b) seront au nombre de
+La fonction qui, dans le cas des équations solubles par radicaux, doit avoir une valeur rationnelle, dépendra, en général, d’une équation de degré 1.2. 3 ■ ■■{p — 2), à laquelle il faudra, par conséquent, appliquer la méthode des racines rationnelles.
+
+II. - ŒUVRES POSTHUMES.
+?
+LETTRE A AUGUSTE CHEVALIER (*).
+Mon cher ami,
+J’ai fait en Analyse plusieurs choses nouvelles.
+Les unes concernent la théorie des équations; les autres, les fonctions intégrales.
+Dans la théorie des équations, j’ai recherché dans quels cas les équations étaient résolubles par des radicaux, ce qui m’a donné occasion d’approfondir cette théorie et de décrire toutes les trans- formations possibles sur une équation, lors même qu’elle n’est pas soluble par radicaux.
+On pourra faire avec tout cela trois Mémoires.
+Le premier est écrit, et, malgré ce qu’en a dit Poisson, je le maintiens, avec les corrections que j’y ai faites.
+Le second contient des applications assez curieuses de la théorie des équations. Voici le résumé des choses les plus importantes :
+i u D’ap rès les propositions II et III du premier Mémoire, on voit une grande différence eDtre adjoindre à une équation une des racines d’une équation auxiliaire ou les adjoindre toutes.
+Dans les deux cas, le groupe de l’équation se partage par l’ad- t jonction en groupes tels, que l’on passe de l’un à l’autre par une
+même substitution; mais la condition que ces groupes aient les mêmes substitutions n’a lieu certainement que dans le second cas. Cela s’appelle la décomposition propre.
+En d’autres termes, quand un groupe G en contient un autre H,
+(') Écrite la veille de la mort de l’auteur. (Insérée en i83-2 dans la Revue encyclopédique , numéro de septembre, page 568.) ( J. Liouville.)
+
+- 26 -
+le groupe G peut se partager en groupes, que l’on obtient chacun en opérant sur les permutations de H une même substitution; en sorte que
+G = H + HS + HS' + ....
+Et aussi il peut se diviser en groupes qui ont tous les mêmes substitutions, en sorte que
+G = H + TH + T'H+. ...
+Ces deux genres de décompositions ne coïncident pas ordinairement. Quand ils coïncident, la décomposition est dite propre.
+Il est aisé de voir que, quand le groupe d’une équation n’est susceptible d’aucune décomposition propre, on aura beau transformer cette équation, les groupes des équations transformées auront toujours le même nombre de permutations.
+Au contraire, quand le groupe d’une équation est susceptible d’une décomposition propre, en sorte qu’il se partage en M groupes de N permutations, on pourra résoudre l’équation donnée au moyen de deux équations : l’une aura un groupe de M permutations, l’autre un de N permutations.
+Lors donc qu’on aura épuisé sur le groupe d’une équation tout ce qu’il y a de décompositions propres possibles sur ce groupe, on arrivera à des groupes qu’on pourra transformer, mais dont les permutations seront toujours en même nombre.
+Si ces groupes ont chacun un nombre premier de permutations, l’équation sera soluble par radicaux; sinon, non.
+Le plus petit nombre de permutations que puisse avoir un groupe indécomposable, quand ce nombre n’est pas premier, est 5.4-3.
+2 0 Les décompositions les plus simples sont celles qui ont lieu par la méthode de M. Gauss.
+Comme ces décompositions sont évidentes, même dans la forme actuelle du groupe de l’équation, il est inutile de s’arrêter longtemps sur cet objet.
+Quelles décompositions sont praticables sur une équation qui ne se simplifie pas par la méthode de M. Gauss?
+J’ai appelé primitives les équations qui ne peuvent se simplifier par la méthode de M. Gauss; non que ces équations soient
+f
+«4
+
+— 27 —
+&
+*
+réellement indécomposables, puisqu’elles peuvent même se résoudre par radicaux.
+Comme lemme à la théorie des équations primitives solubles par radicaux, j’ai mis en juin i83o, dans le Bulletin de Férussac, une analyse sur les imaginaires de la théorie des nombres.
+On trouvera ci-jointe ( 1 ) la démonstration des théorèmes suivants :
+i° Pour qu’une équation primitive soit soluble par radicaux, elle doit être du degré p'*, p étant premier.
+2 ° Toutes les permutations d’une pareille équation sont de la forme
+| ak+bl^-cm^-...+h,a'k+b r M c'm+...-*-h',a"k-i- .>
+A’, l, m, , . . étant v indices, qui, prenant chacun p valeurs, indiquent toutes les racines. Les indices sont pris suivantle module />; c’est-à-dire que la racine sera la même quand on ajoutera à l’un des indices un multiple de p.
+Le groupe qu’on obtient en opérant toutes les substitutions de cette forme linéaire contient, en tout,
+/ |V (/ ,V — i)(/> v — P)- ■ ■(/ )V — P'~ l ) permutations.
+H s’en faut que, dans cette généralité, les équations qui lui répondent soient solubles par radicaux.
+La condition que j’ai indiquée dans le Bulletin de Férussac pour que l’équation soit soluble par radicaux est trop restreinte; il y a peu d’exceptions, mais il y en a.
+La dernière application de la théorie des équations est relative aux équations modulaires des fonctions elliptiques.
+On sait que le groupe de l’équation qui a pour racines les sinus de l’amplitude des p 2 — i divisions d’une période est celui-ci :
+ïïak-\-bl)Ck-¥dl\
+par conséquent Téquation modulaire correspondante aura pour groupe
+Wkj) ^ak-Fbli l ck-hdl
+( 1 ) Galois parle des manuscrits, jusqu’ici inédits, que nous publions.
+(J. Liouville.)
+
+dans laquelle j peut avoir les p + i valeurs
+co, o, i, 2, ...,/> — i.
+Ainsi, en convenant que k peut être infini, on peut écrire simplement
+^ ki &ak-¥b‘ ck -+• cl
+En donnant à a, b, c, d toutes les valeurs, on obtient ( p -H i) p(p — i) permutations.
+Or ce groupe se décompose proprement en deux groupes, dont les substitutions sont
+K ht ttgk-bh i ck-\-d
+ad — bc étant un résidu quadratique de p.
+Le groupe ainsi simplifié est de
+(y + i) P —— permutations.
+Mais il est aisé de voir qu’il n’est plus décomposable proprement, à moins que p = 2, ou p = 3 .
+Ainsi, de quelle manière que l’on transforme l’équation, son groupe aura toujours le même nombre de permutations.
+Mais il est curieux de savoir si le degré peut s’abaisser.
+Et d’abord il ne peut s’abaisser plus bas que p, puisqu’une équation de degré moindre que p ne peut avoir p pour facteur dans le nombre des permutations de son groupe.
+Voyons donc si l’équation de degré p + 1, dont les racines x/, s’indiquent en donnant à k toutes les valeurs, y compris l’infini, et dont le groupe a pour substitutions
+•^k j k Cgk-bh i ck -+- d
+ad — bc étant un carré, peut s’abaisser au degré p.
+Or il faut pour cela que le groupe se décompose (improprement, s’entend) en p groupes de (p + 1) permutations
+chacun.
+
+— 29 -
+*
+Soient o et oo deux lettres conjointes dans l’un de ces groupes. Les substitutions qui ne font pas changer o et oo de place seront de la forme
+Donc si M est la lettre conjointe de i, la lettre conjointe de m- sera m 2 M. Quand M est un carré, on aura donc M 2 =i. Mais celte simplification ne peut avoir lieu que pour p — 5 .
+Pour p = 7 on trouve un groupe de (p + Q ——- permutations, où
+co, I, 2 , 4
+ont respectivement pour lettres conjointes
+o, 3, 6, 5.
+Ce groupe a ses substitutions de la forme
+3? /,■ —
+a -, -
+k — c
+b étant la lettre conjointe de c, et a une lettre qui est résidu ou non résidu en même temps que c.
+Pour p~ ii, les mêmes substitutions auront lieu avec les mêmes notations,
+co, i, 3, 5, 5, y
+ayant respectivement pour conjointes
+o, 2, 6, 8, io, 7.
+Ainsi, pour le cas de />= 5 , 7, 11, l’équation modulaire s’abaisse au degré p.
+En toute rigueur, cette équation n’est pas possible dans les cas plus élevés.
+Le troisième Mémoire concerne les intégrales.
+On sait qu’une somme de termes d’une même fonction elliptique se réduit toujours à un seul terme, plus des quantités algébriques ou logarithmiques.
+11 n’y a pas d’autres fonctions pour lesquelles cette propriété ait lieu.
+Mais des propriétés absolument semblables y suppléent dans toutes les intégrales de fondions algébriques.
+
+— 30
+On traite à la fois toutes les intégrales dont la différentielle est une fonction de la variable et d’une même fonction irrationnelle de la variable, que cette irrationnelle soit ou ne soit pas un radical, qu’elle s’exprime ou ne s’exprime pas par des radicaux.
+On trouve que le nombre des périodes distinctes de l’intégrale la plus générale relative à une irrationnelle donnée est toujours un nombre pair.
+Soit 2 n ce nombre, on aura le théorème suivant :
+Une somme quelconque de termes se réduit à n termes, plus des quantités algébriques et logarithmiques.
+Les fonctions de première espèce sont celles pour lesquelles la partie algébrique et logarithmique est nulle.
+Il y en a n distinctes.
+Les fonctions de seconde espèce sont celles pour lesquelles la partie complémentaire est purement algébrique.
+Il y en a n distinctes.
+On peut supposer que les différentielles des autres fonctions ne soient jamais infinies qu’une fois pour x = a , et, de plus, que leur partie complémentaire se réduise à un seul logarithme, logP, Pétant une quantité algébrique. En désignant par U(x,a) ces fonctions, on aura le théorème
+tl (x,a) — n(a, x) =
+<pa et ifx étant des fonctions de première et de seconde espèce.
+On en déduit, en appelant II (a) et les périodes de H(x, a) et <lx relatives à une même révolution de x,
+II(a) = Sij; X if a.
+Ainsi les périodes des fonctions de troisième espèce s’expriment toujours en fonction de première et de seconde espèce.
+On peut en déduire aussi des théorèmes analogues au théorème de Legendre
+FE'4- EF' — FF' = ^ •
+La réduction des fonctions de troisième espèce à des intégrales définies, qui est la plus belle découverte de M. Jacobi, n’est pas praticable, hors le cas des fonctions elliptiques.
+La multiplication des fonctions intégrales par un nombre entier
+
+- 31 -
+est toujours possible, comme l’addition, au moyen d’une équation de degré n dont les racines sont les valeurs à substituer dans l’intégrale pour avoir les termes réduits.
+L’équation qui donne la division des périodes en p parties égales est du degré p ïn — i. Son groupe a en tout
+(/> 2re — \)(p ïn — p ).. .(p 2n — p-' 1 - 1 ) permutations.
+L’équation qui donne la division d’une somme de n termes en p parties égales est du degré p- n . Elle est soluble par radicaux.
+De la transformation. — On peut d’abord, en suivant des raisonnements analogues à ceux qu’Abel a consignés dans son dernier Mémoire, démontrer que si, dans une même relation entre des intégrales, on a les deux fonctions
+X)dx, f'P(y,Y)dy,
+la dernière intégrale ayant in périodes, il sera permis de supposer que y et Y s’expriment moyennant une seule équation de degré n en fonction de x et de X.
+D’après cela on peut supposer que les transformations aient lieu constamment entre deux intégrales seulement, puisqu’on aura évidemment, en prenant une fonction quelconque rationnelle de y et de Y,
+2//(y, Y) dy = / F (x, X) dx -+- une quant, alg. et log.
+Il y aurait sur cette équation des réductions évidentes dans le cas où les intégrales de l’un et de l’autre membre n’auraient pas toutes deux le même nombre de périodes.
+Ainsi nous n’avons à comparer que des intégrales qui aient toutes deux le même nombre de périodes.
+On démontrera que le plus petit degré d’irrationnalité de deux pareilles intégrales ne peut être plus grand poiir l’une que pour l’autre.
+On fera voir ensuite qu’on peut toujours transformer une intégrale donnée en une autre dans laquelle une période de la première soit divisée par le nombre premier p, et les in — i autres restent les mêmes.
+
+— sali ne restera donc à comparer que des intégrales où les périodes seront les mêmes de part et d’autre, et telles, par conséquent, que n termes de l’une s’expriment sans autre équation qu’une seule du degré n, au moyen de ceux de l’autre, et réciproquement. Ici nous ne savons rien.
+Tu sais, mon cher Auguste, que ces sujets ne sont pas les seuls que j’aie explorés. Mes principales méditations, depuis quelque temps, étaient dirigées sur l’application à l’analyse transcendante de la théorie de l’ambiguïté. Il s’agissait de voir a priori, dans une relation entre des quantités ou fonctions transcendantes, quels échanges on pouvait faire, quelles quantités on pouvait substituer aux quantités données, sans que la relation pût cesser d’avoir lieu. Cela fait reconnaître de suite l’impossibilité de beaucoup d’expressions que l’on pourrait chercher. Mais je n’ai pas le temps, et mes idées ne sont pas encore bien développées sur ce terrain, qùi est immense.
+Tu feras imprimer cette Lettre dans la Revue encyclopédique.
+Je me suis souvent hasardé dans ma vie à avancer des propositions dont je n’étais pas sûr; mais tout ce que j’ai écrit là est depuis bientôt un an dans ma tête, et il est trop de mon intérêt de ne pas me tromper pour qu’on me soupçonne d’énoncer des théorèmes dont je n’aurais pas la démonstration complète.
+Tu prieras publiquement Jacobi ou Gauss de donner leur avis, non sur la vérité, mais sur l’importance des théorèmes.
+Après cela, il y aura, j’espère, des gens qui trouveront leur profit à déchiffrer tout ce gâchis.
+Je t’embrasse avec effusion.
+E. Galois.
+Le 29 mai i 832 .
+
+MÉMOIRE
+SUR LES
+CONDITIONS DE RÉSOLUBILITÉ DES ÉQUATIONS PAR RADICAUX ( 1 ).
+Le Mémoire ci-joint ( 2 ) est extrait d’an Ouvrage que j’ai eu l’honneur de présenter à l’Académie il y a un an. Cet Ouvrage n’ayant pas été compris, les propositions qu’il renferme ayant été révoquées en doute, j’ai dû me contenter de donner, sous forme synthétique, les principes généraux et une seule application de ma théorie. Je supplie mes juges de lire du moins avec attention ce peu de pages.
+On trouvera ici une condition générale à laquelle satisfait toute équation soluble par radicaux, et qui réciproquement assure leur résolubilité. On en fait l’application seulement aux
+(') Ce Mémoire et le suivant ont été retrouvés dans les papiers de Galois et publiés pour la première fois en 1846 par Liouville, qui les avait fait précéder de la note suivante :
+« En insérant dans leur Recueil la lettre qu’on vient de lire, les éditeurs de la Revue encyclopédique annonçaient qu’ils publieraient prochainement les manuscrits laissés par Galois. Mais cette promesse n’a pas été tenue. M. Auguste Chevalier avait cependant préparé le travail. Il nous a remis et l’on trouvera dans les feuilles qui vont suivre :
+» i° Un Mémoire entier sur les conditions de résolubilité des équations par radicaux, avec l’application aux équations de degré premier;
+» 2° Un fragment d’un second Mémoire où Galois traite de la théorie générale des équations qu’il nomme primitives.
+» Nous avons conservé la plupart des notes que M. Auguste Chevalier avait jointes aux Mémoires dont nous venons de parler.. Ces notes sont toutes marquées des initiales A. Ch. Les notes non signées sont de Galois lui-même.
+» Nous compléterons ceLle publication par quelques autres morceaux extraits des papiers de Galois, et qui, sans avoir une grande importance, pourront cependant encore être lus avec intérêt par les géomètres. »
+Les extraits dont parle Liouville dans la dernière phrase de cette note n’ont jamais été publiés.
+( 2 ) J’ai jugé convenable de placer en tète de ce Mémoire la préface qu’on va lire, bien que je l’aie trouvée biffée dans le manuscrit. (A. C11.)
+E. G. 3
+
+— 34
+équations donl le degré est un nombre premier. Voici le théorème donné par notre analyse :
+Pour qu'une équation de degré premier, qui n’a pas de diviseurs commensurables, soit soluble par radicaux, il faut et il suffit que toutes les racines soient des fonctions rationnelles de deux quelconques d’entre elles.
+Les autres applications de la Lhéorie sont elles-mêmes autant de théories particulières. Elles nécessitent d’ailleurs l’emploi de la théorie des nombres, et d’un algorithme particulier : nous les réservons pour une autre occasion. Elles sont en partie relatives aux équations modulaires de la théorie des fonctions elliptiques, que nous démontrons ne pouvoir se résoudre par radicaux.
+Ce 16 janvier i83r.
+E. Galois.
+PRINCIPES.
+Je commencerai jjar établir quelques définitions et une suite de lemmes qui sont tous connus.
+Définitions. — Une équation est dite réductible quand elle admet des diviseurs rationnels; irréductible dans le cas contraire.
+11 faut ici expliquer ce qu’on doit entendre par le mot rationnel , car il se représentera souvent.
+Quand l’équation a tous ses coefficients numériques et rationnels, cela veut dire simplement que l’équation peut se décomposer en facteurs qui aient leurs coefficients numériques et rationnels.
+Mais quand les coefficients d’une équation ne seront pas tous numériques et rationnels, alors il faudra entendre par diviseur rationnel un diviseur dont les coefficients s’exprimeraient en fonction rationnelle des coefficients de la proposée.
+Il y a plus : on pourra convenir de regarder comme rationnelle touLe fonction rationnelle d’un certain nombre de quantités déterminées, supposées connues a priori. Par exemple, on pourra
+
+— 33 -
+choisir une certaine racine d’un nombre entier, et regarder comme rationnelle toute fonction rationnelle de ce radical.
+Lorsque nous conviendrons de regarder ainsi comme connues de certaines quantités, nous dirons que nous les adjoignons à l’équation qu’il s’agit de résoudre. Nous dirons que ces quantités sont adjointes à l’équation.
+Cela posé, nous appellerons rationnelle toute quantité qui s’exprimera en fonction rationnelle des coefficients de l’équation et d’un certain nombre de quantités adjointes à l’équation et convenues arbitrairement.
+Quand nous nous servirons d’équaLions auxiliaires, elles seront rationnelles, si leurs coefficients sont rationnels en notre sens.
+On voit, au surplus, que les propriétés et les difficultés d’une équation peuvent être tout à fait différentes suivant les quantités qui lui sonL adjointes. Par exemple, 1 adjonction d’une quantité peut rendre réductible une équation irréductible.
+Ainsi, quand on adjoint à l’équation
+x" — 1
+--■ = O.
+X — I
+où n est premier, une racine d’une des équations auxiliaires de M. Gauss, cette équation se décompose en facteurs et devient, par conséquent, réductible.
+Les substitutions sont le passage d’une permutation à l’autre.
+La permutation d’où l’on part pour indiquer les substitutions est toute arbitraire, quand il s’agit de fonctions ; car il n’y a aucune raison pour que, dans une fonction de plusieurs lettres, une lettre occupe un rang plutôt qu’un autre.
+Cependant, comme on ne peut guère se former l’idée d’une substitution sans se former celle d’une permutation, nous ferons, dans le langage, un emploi fréquent des permutations, et nous ne considérerons les substitutions que comme le passage d’une permutation à une autre.
+Quand nous voudrons grouper des substitutions, nous les ferons toutes provenir d’une même permutation.
+Comme il s’agit toujours de questions où la disposition primitive des lettres n’influe en rien dans les groupes que nous considérerons, on devra avoir les mêmes substitutions, quelle que soit
+
+— 36 -
+la permutation d’où l’on sera parti. Donc, si dans un pareil groupe on a les substitutions S et T, on est sûr d’avoir la substitution ST.
+Telles sont les définitions que nous avons cru devoir rappeler.
+Lemme I. — Une équation irréductible ne peut avoir aucune racine commune avec une équation rationnelle, sans la diviser.
+Car le plus grand commun diviseur entre l’équation irréductible et l’autre équation sera encore rationnel; donc, etc.
+Lemme II. — Etant donnée une équation quelconque, qui n’a pas de racines égales, dont les racines sont a, b, c, . .., on peut toujours former une fonction V clés racines, telle qu'aucune des valeurs que l’on obtient en permutant dans cette fonction les racines de toutes manières, ne soit égale à une autre.
+Par exemple, on peut prendre
+Y = Aa + B6 + Ce
+A, B, C étant des nombres entiers convenablement choisis.
+Lemme III. — La fonction Y étant choisie comme il est indiqué dans l’article précédent, elle jouira de cette propriété , cque toutes les racines de l’équation proposée s’exprimeront rationnellement en fonction de V.
+En effet, soit ou bien
+V = <p (a, b, c, cl, . ..),
+V — t?(«, b, c, d, .. .) = o.
+Multiplions entre elles toutes les équations semblables, que l’on obtient en permutant dans celles-ci toutes les lettres, la première seulement restant fixe; il viendra une expression suivante :
+[V — <p(a, b, c, d, -■•)][ V — <fO, c, b,d, . . - J] [ V — <?(«, b, d, c,
+symétrique en b, c, d, ..., laquelle pourra, par conséquent, s’écrire en fonction de a. Nous aurons donc une équation de la forme
+F(V, a) = o.
+
+Or je dis que de là on peut tirer la valeur de a. Il suffit pour cela de chercher la solution commune à cette équation et à la proposée. Cette solution est la seule commune, car on ne peut avoir, par exemple,
+F(V,*) = n,
+cette équation ayant un facteur commun avec l’équation semblable, sans quoi l’une des fonctions cp(«, . ..) serait égale à l’une des fonctions o(6,ce qui est contre l’hypolhèse.
+Il suit de là que a s’exprime en fonction rationnelle de V, et il en est de même des autres racines.
+Cette proposition ( ( ) est citée sans démonstration par Abel, dans Je Mémoire posthume sur les fonctions elliptiques.
+Lemme IV. — Supposons que l’on ait formé V équation en V, et que l’on ait pris l’un de ses facteurs irréductibles , en sorte que V soit racine cl’une équation irréductible. Soient V, V', V", . . . les racines de cette équation irréductible. Sia = f(V) est une des racines de la proposée, f(V') de même sera une racine de la proposée.
+En effet, en multipliant entre eux tous les facteurs de la forme V — o(a, b, c, . , ., d), où l’on aura opéré sur les lettres toutes les permutations possibles, on aura une équation rationnelle en V, laquelle se trouvera nécessairement divisible par l’équation en question; donc V' doit s’obtenir par l’échange des lettres dans la fonction V. Soit F(V, a) = o l’équation qu’on obtient en permutant dans Y toutes les lettres, hors la première. On aura donc F(V ; ,ù) = o, b pouvant être égal à «, mais étant certainement l’une des racines de l’équation proposée; par conséquent, de même que de la proposée et deF(V, a) = o est résulté a = /'(V), de même il résultera de la proposée et de F(V / , b) — o combinées, la suivante b = fÇV')-
+(*) Il est remarquable que de cette proposition on peut conclure que toute équation dépend d’une équation auxiliaire telle, que toutes les racines de cette nouvelle équation soient des fonctions rationnelles les unes des autres; car l’équation auxiliaire en V est dans ce cas.
+Au surplus, cette remarque est purement curieuse. En effet, une équation qui a cette propriété n’est pas, en général, plus facile à résoudre qu’une autre.
+
+— 38
+PROPOSITION I.
+Théorème. — Soit une équation donnée, dont a, b, c, ... sont les rn racines. Il y aura toujours un groupe de permutations des lettres a, b, c, ... qui jouira de la propriété suivante :
+i° Que toute fonction des racines, invariable ( ') par les substitutions de ce groupe, soit rationnellement connue;
+2° Réciproquement, que toute fonction des racines, déterminable rationnellement, soit invariable par les substitutions.
+(Dans le cas des équations algébriques, ce groupe n’est autre chose que l’ensemble des 1.2. 3 ... m permutations possibles sur les m lettres, puisque, dans ce cas, les fonctions symétriques sont seules déterminables rationnellement.)
+(Dans le cas de l’équation ^^ = o, si l’on suppose a =/•,
+b = rS, c — i' s \ . . ., g étant une racine primitive, le groupe de permutations sera simplement celui-ci :
+abccl . k,
+bcd . ka,
+cd . kab ,
+ka bc . i ;
+dans ce cas particulier, le nombre des permutations est égal au degré de l’équation, et la même chose aurait lieu dans les équations dont toutes les racines seraient des fonctions rationnelles les unes des autres.)
+Démonstration. — Quelle que soit l’équation donnée, on pourra trouver une fonction rationnelle V des racines, telle que toutes (*)
+(*) Nous appelons ici invariable non seulement une fonclion dont la forme est invariable par les substitutions des racines entre elles, mais encore celle dont la valeur numérique ne varierait pas par ces substitutions. Par exemple, si Fa? = o est une équation, Yx est une fonction des racines qui ne varie par aucune permutation.
+Quand nous disons qu’une fonction est rationnellement connue, nous voulons dire que sa valeur numérique est exprimable en fonction rationnelle des coefficients de l’équation et des quantités adjointes.
+
+39 -
+les racines soient fonctions rationnelles de Y. Cela posé, considérons l’équation irréductible dont V est racine (lemmes III et IY). Soient V, V', V", . . ., V (H_1) les racines de cette équation.
+Soient cpV, cp,V, tp 2 V, . . V les racines de la proposée.
+Ecrivons les n permutations suivantes des racines :
+iV,
+• •, f/n-1 V",
+(V)
+? Y)
+?.V,
+<?*v,
+(V')
+?v\
+<PiV\
+?.V',
+(V"),
+?V",
+?iV",
+<p 2 v\
+• • * • >
+(V(”-'0,
+"y(/l—1)
+- • ‘ * î
+je dis que ce groupe de permutations jouit de la propriété énoncée. En effet :
+i° Toute fonction F des racines, invariable par les substitutions de ce groupe, pourra être écrite ainsi : F = AV, et l’on aura
+(j,V = 6V'= <bV" = ... =
+La valeur de F pourra donc se déterminer rationnellement.
+2° Réciproquement, si une fonction F est déterminable rationnellement, et que l’on pose F = AV, on devra avoir
+t]/ V = <j* V' = t}< V" = . .. = i]i
+puisque l’équation en V n’a pas de diviseur commensurable et que V satisfait à l’équation F = V, F étant une quantité rationnelle. Donc Ja fonction F sera nécessairement invariable par les substitutions du groupe écrit ci-dessus.
+Ainsi, ce groupe jouit de la double propriété dont il s’agit dans le théorème proposé. Le théorème est donc démontré.
+Nous appellerons groupe de Véquation le groupe en question.
+Scolie I. — Il est évident que, dans le groupe de permutations dont il s’agit ici, la disposition des lettres n’est point à considérer, mais seulement les substitutions de lettres par lesquelles on passe d’une permutation à l’autre.
+Ainsi l’on peut se donner arbitrairement une première permutation, pourvu que les autres permutations s’en déduisent toujours par les mêmes substitutions de lettres. Le nouveau groupe ainsi formé jouira évidemment des mêmes propriétés que le premier,
+
+— 40 —
+puisque,, dans le théorème précédent, il ne s’agit que des substitutions que l’on peut faire dans les fonctions.
+Scolie II. — Les substitutions sont indépendantes même du nombre des racines.
+PROPOSITION II.
+Théorème ( 1 ). — Si Von adjoint à une équation donnée la racine r d’une équation auxiliaire irréductible, i 0 il arrivera de deux choses l’une : ou bien le groupe de l’équation ne sera pas changé, ou bien il se partagera en p groupes appartenant chacun à V équation proposée respectivement quand on lui adjoint chacune des racines de l’équation auxiliaire ; 2° ces groupes jouiront de la propriété remarquable , que l’on passera de l’un à Vautre en opérant dans toutes les permutations du premier une même substitution de lettres.
+i° Si, après l’adjonction de r, l’équation en Y, dont il est question plus haut, reste irréductible, il est clair que le groupe de l’équation ne sera pas changé. Si, au contraire, elle se réduit, alors l’équation en Y se décomposera en p facteurs, tous de même degré et delà forme
+/(V, r) x/(V,r';x/(V,Y)X ....
+/•, r', r", . .. étant d’autres valeurs de r. Ainsi, le groupe de l’équation proposée se décomposera aussi en groupes chacun d’un même nombre de permutations, puisque à chaque valeur de V correspond une permutation. Ces groupes seront respecti- (*)
+(*) Dans l’énoncé du théorème, après ces mois: la racine r d’une équation auxiliaire irréductible , Galois avait mis d’abord ceux-ci : de degré p premier , qu’il a effacés plus tard. De même, dans la démonstration, au lieu de r', r", ... étant d’autres valeurs de r, la rédaction primitive portait : r, rr", ... étant les diverses valeurs de r. Enfin on trouve à la marge du manuscrit la note suivante de l’auteur :
+« II y a quelque chose à compléter dans cette démonstration. Je n’ai pas le temps. »
+Cette ligne a été jetée avec une grande rapidité sur le papier; circonstance qui, jointe aux mots : « Je n’ai pas le temps », me fait penser que Galois a relu son Mémoire pour le corriger avant d’aller sur le terrain. (A. Cii.)
+
+— M —
+vement ceux de l’équation proposée, quand on lui adjoindra successivement r, r', r", ....
+a° Nous avons vu plus haut que toutes les valeurs de V étaient des fonctions rationnelles les unes des autres. D’après cela, supposons que, V étant une racine de /(Y, /') = o, F(V) en soit une autre ; il est clair que de même si Y' est une racine de fÇV, r') — o, F (V') en sera une autre ; car on aura
+/[F(V), /•] = une fonction divisible par/(V, r).
+Donc ( lemme 1)
+/[F(V'), /•'] = une fonction divisible par /(V', r').
+Cela posé, je dis que l’on obtient le groupe relatif à /■' en opérant partout dans le groupe relatif à r une même substitution de lettres.
+En effet, si l’on a, par exemple,
+t ?(j.F(V) = cp v (V), on aura encore ( lemme I),
+^F(V') = cpv(V').
+Donc, pour passer de la permutation [F(V)] à la permutation [F(V')], il faut faire la même substitution que pour passer de la permutation (V) à la permutation (V').
+Le théorème est donc démontré.
+PROPOSITION III.
+Théorème. — Si l’on adjoint à une équation toutes les racines d’une équation auxiliaire, les groupes dont il est question dans le théorème II jouiront, de plus, de cette propriété que les substitutions sont les mêmes dans chaque groupe.
+On trouvera la démonstration (').
+(') Dans le manuscrit, l’énoncé du théorème qu’on vient de lire se trouve en marge et en remplace un autre que Galois avait écrit avec sa démonstration sous le même titre : Proposition III. Voici le texte primitif : Théorème. — Si Véqua-
+
+PROPOSITION IV.
+Théorème. — Si l’on adjoint à une équation la valeur numérique d’une certaine fonction de ses racines, le groupe de l’équation s’abaissera cle manière à n’avoir plus d’autres permutations que celles par lesquelles celte fonction est invariable.
+En effet, d’après la proposition I, toute fonction connue doit être invariable par les permutations du groupe de l’équation.
+PROPOSITION V.
+Problème. — Dans quel cas une équation est-elle soluble par de simples radicaux?
+J’observerai d’abord que, pour résoudre une équation, il faut successivement abaisser son groupe jusqu’à ne contenir plus qu’une seule permutation. Car, quand une équation est résolue, une fonction quelconque de ses racines est connue, même quand elle n’est invariable par aucune permutation.
+Cela posé, cherchons à quelle condition doit satisfaire le groupe d’une équation, pour qu’il puisse s’ahaisser ainsi par l’adjonction de quantités radicales.
+Suivons la marche des opérations possibles dans cette solution, en considérant comme opérations distinctes l’extracLion de chaque racine de degré premier.
+lion en r est de la forme rv= A, et que les racines p iimc ’ de l'unité se trouvent au nombre des quantités précédemment adjointes, les p groupes dont il est question dans le Théorème II jouiront, de plus, de cette propriété que les substitutions de lettres par lesquelles on passe d'une permutation à une autre dans chaque groupe soient les mêmes pour tous les groupes. En effet, dans ce cas, il revient au même d’adjoindre à l’équation telle ou telle valeur de r. Par conséquent, ses propriétés doivent être les mêmes après l’adjonction de telle ou telle valeur. Ainsi son groupe doit être le même quant aux substitutions (Proposition I, scolie). Donc, etc.
+Tout cela est effacé avec soin; le nouvel énoncé porte la date i 832 et montre, par la manière dont il est écrit, que l’auteur était extrêmement pressé, ce qui confirme l’assertion que j’ai avancée dans la Note précédente. (A. Ch.)
+
+- 43 -
+Adjoignons à l’équation le premier radical extrait dans la solution. Il pourra arriver deux cas : ou bien, par l’adjonction de ce radical, le groupe des permutations de l’équation sera diminué ; ou bien, cette extraction de racine n’étant qu’une simple préparation, le groupe restera le même.
+Toujours sera-t-il qu’après un certain nombre fini d’extractions de racines, le groupe devra se trouver diminué, sans cpioi l’équation ne serait pas soluble.
+Si, arrivé à ce point, il y avait plusieurs manières de diminuer le groupe de l’équation proposée par une simple extraction de racine, il faudrait, pour ce que nous allons dire, considérer seulement un radical du degré le moins haut possible parmi tous les simples radicaux, qui sont tels que la connaissance de chacun d’eux diminue le groupe de l’équation.
+Soit donc p le nombre premier qui représente ce degré minimum, en sorte que par une extraction de racine de degré p, on diminue le groupe de l’équation.
+Nous pouvons toujours supposer, du moins pour ce qui est relatif au groupe de l’équation, que, parmi les quantités adjointes précédemment à l’équation, se trouve une racine p 1Dme de l’unité, a. Car, comme celle expression s’obtient par des extractions de racines de degré inférieur à p, sa connaissance n’altérera en rien le groupe de l’équation.
+Par conséquent, d’après les théorèmes II et III, le groupe de l’équation devra se décomposer en p groupes jouissant les uns par rapport aux autres de cette double propriété : i ° que l’on passe de l’un à l’autre par une seule et même substitution; 2" que tous contiennent les mêmes substitutions.
+Je dis réciproquement que, si le groupe de l’équation peut se partager en p groupes qui jouissent de cette double propriété, on pourra, par une simple extraction de racine /? lcme , et par l’adjonction de cette racine /> ic,ne , réduire le groupe de l’équation à l’un de ces groupes partiels.
+Prenons, en effet, une fonction des racines qui soit invariable pour toutes les substitutions de l’un des groupes partiels, et varie pour toute autre substitution. (Il suffit, pour cela, de choisir une fonction symétrique des diverses valeurs que prend, par toutes les
+
+permutations de l’un des groupes parliels, une fonction qui n’est invariable par aucune substitution.)
+Soit 0 cette fonction des racines.
+Opérons sur la fonction 0 une des substitutions du groupe total qui ne lui sont pas communes avec les groupes partiels. Soit 9, le résultat. Opérons sur la fonction 9, la même substitution, et soit 0 2 le résultat, et ainsi de suite.
+Comme p est un nombre premier, cette suite ne pourra s’arrêter qu’au terme ensuite l’on aura 0^=0,, 0^, =0,, et
+ainsi de suite.
+Cela posé, il est clair que la fonction
+(0 aG, 4- a 2 0 2 -+- . . .-r- a.P~ l
+sera invariable par toutes les permutations du groupe total et, par conséquent, sera actuellement connue.
+Si l’on extrait la racine p ieme de cette fonction, et qu’on l’adjoigne à l’équation, alors, par la proposition IV, le groupe de l’équation ne contiendra plus d’autres substitutions que celles des groupes partiels.
+Ainsi, pour que le groupe d’une équation puisse s’abaisser par une simple extraction de racine, la condition ci-dessus est nécessaire et suffisante.
+Adjoignons à l’équation le radical en question; nous pourrons raisonner maintenant sur le nouveau groupe comme sur le précédent, et il faudra qu’il se décompose lui-même de la manière indiquée, et ainsi de suite, jusqu’à un certain groupe qui ne contiendra plus qu’une seule permutation.
+Scolie. — Il est aisé d’observer cette marche dans la résolution connue des équations générales du quatrième degré. En effet, ces équations se résolvent au moyen d’une équation du troisième degré, qui exige elle-même l’extraction d’une racine carrée. Dans la suite naturelle des idées, c’est donc par celle racine carrée qu’il faut commencer. Or, en adjoignant à l’équation du quatrième degré cette racine carrée, le groupe de l’équation, qui contenait en tout vingt-quatre substitutions, se décompose en deux qui n’en contiennent que douze. En désignant par ci,b,c,d les racines,
+
+voici l’un de ces groupes :
+abcd,
+acdb,
+adbc,
+badc,
+cabd,
+dacb,
+cdab,
+dbac,
+bcad,
+dcba ,
+bdca,
+cbda.
+Maintenant ce groupe se partage lui-même en trois groupes, comme il est indiqué aux théorèmes II et III. Ainsi, par l’extraction d’un seul radical du troisième degré, il reste simplement le groupe
+cibcd, badc, cdab, dcba :
+ce groupe se partage de nouveau en deux groupes :
+abcd, cdab, badc, dcba.
+Ainsi, après une simple extraction de racine carrée, il restera
+abcd, badc ;
+ce qui se résoudra enfin par une simple extraction de racine carrée.
+On obtient ainsi, soit la solution de Descartes, soit celle d’Euler; car, bien qu’après la résolution de l’équation auxiliaire du troisième degré ce dernier extraye trois racines carrées, on sait qu’il suffît de deux, puisque la troisième s’en déduit rationnellement.
+Nous allons maintenant appliquer cette condition aux équations irréductibles dont le degré est premier.
+
+— 46 -
+Application aux équations irréductibles de degré premier.
+PROPOSITION VI.
+I.emme. — Une équation irréductible de degré premier ne peut devenir réductible par Vadjonction d’un radical dont l’indice serait autre que le degré même de l’équation.
+Car si r, r', >■", . . . sont les diverses valeurs du radical , et F= o l’équation proposée, il faudrait que Fa; se partageât eu facteurs
+/O, >')xf(x, r') X...,
+tous de même degré, ce qui ne se peut, à moins que f(x, r ) ne soit du premier degré en x.
+Ainsi, une équation irréductible de degré premier ne peut devenir réductible, à moins que son groupe ne se réduise à une seule permutation.
+PROPOSITION VII.
+Problème. — Quel est le groupe cl’une équation irréductible cT un degré premier n, soluble par radicaux?
+D’après la proposition précédente, le plus petit groupe possible, avant celui qui n’a qu’une seule permutation, contiendra n permutations. Or, un groupe de permutations d’un nombre premier a de lettres ne peut se réduire à n permutations, à moins que l’une de ces permutations ne se déduise de l’autre par une substitution circulaire de l’ordre n. (Voir le Mémoire de M. Cauchj, Journal de l’Ecole Polytechnique, XVII e cahier.) Ainsi, l’avant-
+dernier gro
+upe
+sera
+/
+x 0 ,
+x u
+X 2 i
+x 3 ,
+. . . , 00,1— 3)
+0C,i—2i
+x,i-\,
+x u
+^3,
+Xi,
+. . . , X «_2)
+X n -i,
+Xo,
+(G)'
+X ± ,
+&3,
+• • ♦ j
+...,
+. . . , OC,i —\,
+Xo,
+Xi.
+(
+X n -
+Ij &o,
+oc u
+* ‘ 5
+■ ■ ■ ■ ’ * ’ 5
+* ■ * î x n~k->
+• • • 1
+x n -3)
+. . . ,
+? & \ j •£'j. î
+î •OC n - t
+étant les
+racines.
+
+- 47 -
+Maintenant, le groupe qui précédera immédiatement celui-ci dans l’ordre des décompositions devra se composer d’un certain nombre de groupes ayant tous les mêmes substitutions que celui-ci. Or, j’observe que ces substitutions peuvent s’exprimer ainsi (faisons, en général, x„= x 0 , x n+i = x^ il est clair
+que chacune des substitutions du groupe (G) s’obtient en mettant partout à la place de xXk +a , c étant une constante).
+Considérons l’un quelconque des groupes semblables au groupe (G). D’après le théorème II, il devra s’obtenir en opérant partout dans ce groupe une même substitution; par exemple, en mettant partout dans le groupe (G), à la place de X/,, f étant une certaine fonction.
+Les substitutions de ces nouveaux groupes devant être les mêmes qne celles du groupe (G), on devra avoir
+y (/c + c ) —/(£)-(- c,
+C étant indépendant de k. Donc
+f(k -+■ 2 c ) = /( A-) h- 9. G,
+f(k -+- me) = /(k) -t- m G. Si c = i, k — o, on trouvera
+ou bien
+f(m) = am -i- b,
+f( k) = ak + b,
+ci et b étant des constantes.
+Donc, le groupe qui précède immédiatement le groupe (G) ne devra contenir que des substitutions lelles que
+K/cy &ak + by
+et ne contiendra pas, par conséquent, d’autre substitution circulaire que celle du groupe (G).
+
+— 48 -
+On raisonnera sur ce groupe comme sur ie précédent, et il s’ensuivra que le premier groupe dans l’ordre des décompositions, c’est-à-dire le groupe actuel de l’équation, ne peut contenir que des substitutions de la forme
+3'ak- 3 rb'
+Donc, si une équation irréductible de degré premier est soluble par radicaux, le groupe de cette équation ne saurait contenir que des substitutions de la forme
+Œ/a ^ak-A-bi
+ci et b étant des constantes.
+Réciproquement, si celte condition a lieu, je dis que l’équation sera soluble par radicaux. Considérons, en effet, les fonctions
+a 2 a ?. 2 + .. ■+ )" = X, ,
+(x 0 + ci x a -+- a ^x 2a -T-. . )" = X a ,
+(x 0 -+- XX a *-h ■ .4- O."- 1 X { , |-I)a0" =
+a étant une racine n Ame de l’unité, a une racine primitive de n.
+Il est clair que toute fonction invariable par les substitutions circulaires des quantités X|, X a , X a *, . . . sera, dans ce cas, immédiatement connue. Donc, on pourra trouver X ( , X«, X a », . . ., par la méthode de M. Gauss pour les équations binômes. Donc, etc.
+Ainsi, pour qu’une équation irréductible de degré premier soit soluble par radicaux, il faut et il suffit que toute fonction invariable par les substitutions
+VCki ftak-i-b
+soit rationnellement connue.
+Ainsi, la fonction
+(X,-X)(Xa-X)(X fl .—X) ...
+devra, quel que soit X, être connue.
+
+— 49
+Il faut donc et il suffit que l’équation qui donne cette fonction des racines admette, quel que soit X, une valeur rationnelle.
+Si l’équation proposée a tous ses coefficients rationnels, l’équation auxiliaire qui donne cette fonction les aura tous aussi, et il suffira de reconnaître si cette équation auxiliaire du degré 1.2.3 ... (n — 2 ) a ou non une racine rationnelle, ce que l’on sait faire.
+C’est là le moyen qu’il faudrait employer dans la pratique. Mais nous allons présenter le Lhéorème sous une autre forme.
+PROPOSITION VIII.
+Théorème. — Pour qu’une équation irréductible de degré premier soit soluble par radicaux, il faut et il suffit que deux quelconques des racines étant connues , les autres s’en déduisent rationnellement.
+Premièrement, il le faut, car la substitution
+& k ■; ^ak+b
+ne laissant jamais deux lettres à la même place, il est clair qu’en adjoignant deux racines à l’équation, par la proposition IV, son groupe devra se réduire à une seule permutation.
+En second lieu, cela suffit; car, dans ce cas, aucune substitution du groupe ne laissera deux lettres aux mêmes places. Par conséquent, le groupe contiendra tout au plus n(n- — 1 ) permutations. Donc, il ne contiendra qu’une seule substitution circulaire (sans quoi il y aurait au moins n 2 permutations). Donc, toute substitution du groupe, x/,, xp devra satisfaire à la condition
+/(/t + c)=/(/c)+ G.
+Donc, etc.
+Le théorème est donc démontré.
+E. G.
+
+- 50 -
+EXEMPLE DU THÉORÈME VII.
+Soit n = 5 ; le groupe sera le suivant :
+abcde
+bcdea
+cdeab
+deabc
+eabcd
+acebd
+cebda
+ebdac
+bdace
+daceb
+aedcb
+edcba
+dcbae
+cbaed
+baedc
+adbec
+dbecci
+becad
+ecadb
+cadbe
+
+- SI -
+DES ÉQUATIONS PRIMITIVES QUI SONT SOLUBLES PAR RADICAUX (>). ( Fragment.)
+Cherchons, en général, dans quel cas une équation primitive est soluble par radicaux. Or, nous pouvons de suite établir un caractère général fondé sur le degré même de ces équations. Ce caractère est celui-ci : Pour qu’une équation primitive soit résoluble par radicaux, il faut que son degré soit de la forme p' 1 , p étant premier. Et de là suivra immédiatement que, lorsqu’on aura à résoudre par radicaux une équation irréductible dont le degré admettrait des facteurs premiers inégaux, on ne pourra le faire que par la méthode de décomposition due à M. Gauss; sinon l’équation sera insoluble.
+Pour établir la propriété générale que nous venons d’énoncer relativement aux équations primitives qu’on peut résoudre par radicaux, nous pouvons supposer que l’équation que l’on veut résoudre soit primitive, mais cesse de l’être par l’adjonction d’un simple radical. En d’autres termes, nous pouvons supposer que, n étant premier, le groupe de l’équation se partage en n groupes irréductibles conjugués, mais non primitifs. Car, à moins que le degré de l’équation soit premier, un pareil groupe se présentera toujours dans la suite des décompositions.
+SoitN le degré de l’équation, et supposons qu’après une extraction de racine de degré premier «, elle devienne non primitive et se partage en Q équations primitives de degré P, au moyen d’une seule équation de degré Q.
+Si nous appelons G le groupe de l’équation, ce groupe devra se partager en n groupes conjugués non primitifs, dans lesquels les lettres se rangeront en systèmes composés de P lettres conjointes chacun. Voyons de combien de manières cela pourra se faire.
+Soit H l’un des groupes conjugués non primitifs. Il est aisé de
+(') Voir la Note i de ta page 33.
+
+52
+voir que, dans ce groupe, deux lettres quelconques prises à volonté feront partie d’un certain système de P lettres conjointes, et ne feront partie que d’un seul.
+Car, en premier lieu, s’il y avait deux lettres qui ne pussent faire partie d’un même système de P lettres conjointes, le groupe G, qui est tel que l’une quelconque de ses substitutions transforme les unes dans les autres toutes les substitutions du groupe H, serait non primitif, ce qui est contre l'hypothèse.
+En second lieu, si deux lettres faisaient partie de plusieurs systèmes différents, il s’ensuivrait que les groupes qui répondent aux divers systèmes de P letti’es conjointes ne seraient pas primitifs, ce qui est encore contre l’hypothèse.
+Cela posé, soient
+#0?
+a i,
+«2, • •
+., «p_l,
+&0?
+bu
+bu ••
+., Æp-1,
+Co,
+Cl,
+Cu . .
+•, Cp_!
+les N lettres : supposons que chaque ligne horizontale représente un système de lettres conjointes. Soient
+#o? a 0iU #0,2? « • • v #o,p—1
+P lettres conjointes toutes situées dans la jaremière colonne verticale. (Il est clair que nous pouvons faire qu’il en soit ainsi, en intervertissant l’ordre des lignes horizontales.)
+Soient, de même,
+«1,0, «1,1, «1,2, «1,3, «l,l>— 1
+P lettres conjointes toutes situées dans la seconde colonne verticale, en sorte que
+#1,0? #1,1? #1,2? #1,3? •••? #l,f’~l
+appartiennent respectivement aux mêmes lignes horizontales que
+#0,0? #0,1? #0,2? #0,3? •••? #0,P — 1J
+soient, de même, les systèmes de lettres conjointes
+# 2 , 0 ? # 2 , 1 ?
+«3,0, «3,1,
+« 2 , 2 ,
+«3,2,
+«2,3,
+«3,3,
+«2, P— 1,
+
+— o3 —
+,\ 1 '
+f
+%
+nous obtiendrons ainsi, en tout, P 2 lettres. Si le nombre total des lettres n’est pas épuisé, on prendra un troisième indice, en sorte que
+&/n,n, 3? l
+soit, en général, un système de lettres conjointes; et l’on parviendra ainsi à cette conclusion, que N = Pt 1 , p. étant un certain nombre égal à celui des indices différents dont on aura besoin. La forme générale des lettres sera
+k,, k 2 , k 3 , . . ., étant des indices qui peuvent prendre chacun les P valeurs o, 1 , 2,3, .. ., P — i.
+On voit aussi, par la manière dont nous avons procédé, que, dans le groupe H, toutes les substitutions seront de la forme
+puisque chaque indice correspond à un système de lettres conjointes.
+Si P n’est pas un nombre premier, on raisonnera sur le groupe de permutations de l’un quelconque des systèmes de lettres conjointes, comme sur le groupe G, en remplaçant chaque indice par un certain nombre de nouveaux indices, et l’on trouvera P = R“, et ainsi de suite; d’où enfin N = p' 1 , p étant un nombre premier.
+Des équations primitives de degré p-.
+Arrêtons-nous un moment pour traiter de suite les équations primitives d’un degré /? 2 , p étant premier impair. (Le cas de p — 2 a été examiné.) Si une équation du degré p 2 est soluble par radicaux, supposons-la d’abord telle, qu’elle devienne non primitive par une extraction de radical.
+Soit donc G un groupe primitif de p- lettres qui se partage en n groupes non primitifs conjugués à H.
+Les lettres devront nécessairement, dans le groupe H, se ranger
+,1
+
+i
+— U —
+ainsi :
+«0,0, «0,1» «0,2, «0,3î
+«1,0, «1,1, «1,2, «1,3,
+«2,0, «2,1, «2,2, «2,3,
+• , «0,p—1,
+-, «l,p-l,
+4
+«p—1,0, «p-J,l» «p—1,2, «p—1,3, «p—l,p—1,
+chaque ligne horizontale el chaque ligne verticale étant un système de lettres conjointes.
+Si l’on permute entre elles les lignes horizontales, le groupe que l’on obtiendra, étant primitif et de degré premier, ne devra contenir que des substitutions de la forme
+( , a k ix k 2 i ft ' nik x -'--nk‘ l ) -,
+les indices étant pris relativement au module p.
+Il en sera de même pour les lignes qui ne pourront donner que des substitutions de la forme
+Donc enfin toutes les substitutions du groupe H seront de la forme
+Si un groupe G se partage en n groupes conjugués à celui que nous venons de décrire, toutes les substitutions du groupe G devront transformer les unes dans les autres les substitutions circulaires du groupe H, qui sont toutes écrites comme il suit :
+(«) ( a k,,kv ®/c,+a,,Æ 2 +«2’ ...)•
+Supposons donc que l’une des substitutions du groupe G se forme en remplaçant respectivement
+(a)
+G par tp, (/d, k 2 ), /c 2 par !f. 2 (k 1 : k 2 ).
+Si, dans les fonctions cp,, cp 2 , on substitue pour k { et /<", les valeurs kf + a,, k 2 —1—’ a 2 , il devra venir des résultats de la forme
+
+et de là il est aisé de conclure immédiatement que les substitutions du groupe G doivent être toutes comprises dans la formule
+Or nous savons, par le n° ( ( ), que les substitutions du groupe G ne peuvent embrasser que p- —i ou p 2 — p lettres. Ce n’est point p- — p, puisque, dans ce cas, le groupe G serait non primitif. Si donc, dans le groupe G, on ne considère que les permutations où la lettre « 0 ,o> par exemple, conserve toujours la même place, on n’aura que des substitutions de l’ordre p 1 — 1 entre les p- — i aulres lettres.
+Mais rappelons-nous ici que c’est simplement pour la démonstration que nous avons supposé que le groupe primitif G se partageât en groupes conjugués non primitifs. Gomme cette condition n’est nullement nécessaire, les groupes seront souvent beaucoup plus composés.
+Il s’agit donc de reconnaître dans quel cas ces groupes pourront admettre des substitutions où p- — p lettres seulement varieraient, et cette recherche va nous retenir quelque temps.
+Soit donc G un groupe qui contienne quelque substitution de l’ordre p- — p\ je dis d’abord que toutes les substitutions de ce groupe seront linéaires, c’est-à-dire de la forme (A).
+La chose est reconnue vraie pour les substitutions de l’ordre p- —1; il suffit donc de la démontrer pour celles de l’ordre p- — p. Ne considérons donc qu’un groupe où les substitutions seraient toutes m de l’ordre p- ou de l’ordre p 2 — p. ( Voyez l’endroit cité.)
+Alors les p lettres qui, dans une substitution de l’ordre p 2 — p, ne varieront pas, devront être desleLlres conjointes.
+Supposons que ces lettres conjointes soient
+«0,0, «0,1, «0,2 j •••, «0, p —1 •
+Nous pouvons déduire toutes les substitutions où ces p lettres ne changent pas de place, nous pouvons les déduire de substitutions
+( 1 ) Ce Mémoire faisant suite à un travail de Galois que je ne possède pas, il m’est impossible d’indiquer le Mémoire cité ici et plus bas. (A. Cn.)
+
+— 56 —
+de la forme
+( «a-,,*,,
+et de substitutions de l’ordre p -— p, dont la période serait de p termes. (Voyez encore l’endroit cité.)
+Les premiers doivent nécessairement, pour que le groupe jouisse de la propriété voulue, se réduire à la forme
+d’après ce qu’on a vu pour les équations de degré p.
+Quant aux substitutions dont la période serait de p termes, comme elles sont conjuguées aux précédentes, nous pouvons supposer un groupe qui les contienne sans contenir celles-ci : donc ellesdevront transformer les substitutions circulaires (a) les unes dans les autres; donc elles seront aussi linéaires.
+Nous sommes donc arrivés à cette conclusion, que le groupe primitif de permutations de p 2 lettres doit ne contenir que des substitutions de la forme (A).
+Maintenant, prenons le groupe total que l’on obtient en opérant sur l’expression
+toutes les substitutions linéaires possibles, et cherchons quels sont les diviseurs de ce groupe qui peuvent jouir de la propriété voulue pour la résolubilité des équations.
+Quel est d’abord le nombre total des substitutions linéaires? Premièrement, il est clair que toute transformation de la forme
+^1,^2, îyi\ k\— I- ïi\k% H- et,, ni 2 k , —t— Ti 2 k-2 —I—
+ne sera pas pour cela une substitution; car il faut, dans une substitution, qu’à chaque lettre de la première permutation il ne réponde qu’une seule lettre de la seconde, et réciproquement.
+Si donc on prend une lettre quelconque cii u i t de la seconde permutation, et que l’on remonte à la lettre correspondante dans la première, on devra trouver une lettre «a,, fa où les indices k ,, k 2 seront parfaitement déterminés. 11 faut donc que, quels que soient A et 4; on ait, par les deux équations
+/?ii ki -+- n l k 1 + a, = l u m^k^ -+- /i 2 /c 2 -i- a, = 4,
+
+— 57 —
+des valeurs de k K eïk 2 finies et déterminées. Ainsi la condition pour qu’une pareille transformation soit réellement une substitution est que m x n 2 — m 2 n K ne soit ni nul ni divisible par le module />, ce qui est la même chose.
+Je dis maintenant que, bien que ce groupe à substitutions linéaires n'appartienne pas toujours, comme on le verra, à des équations solubles par radicaux, il jouira toutefois de cette propriété, que, si dans une quelconque de ses substitutions il y a « lettres de fixes, n divisera le nombre des lettres. Et, en effet, quel que soit le nombre des lettres qui restent fixes, on pourra exprimer cette circonstance par des équations linéaires qui donneront tous les indices de l’une des lettres fixes, au moyen d’un certain nombre d’entre eux. Donnant à chacun de ces indices, restés arbitraires,/» valeurs, on aura p m systèmes de valeurs, m étant un certain nombre. Dans le cas qui nous occupe, m est nécessairement < 2 et se trouve par conséquent être o ou i. Donc le nombre des substitutions ne saurait être plus grand que
+/ 2 0 2 —i)(/ 2 — p)-
+Ne considérons maintenant que les substitutions linéaires ou la lettre a 0 , 0 ne varie pas; si, dans ce cas, nous trouvons le nombre total des permutations du groupe qui contient toutes les substitutions linéaires possibles, il nous suffira de multiplier ce nombre par p-.
+Or, premièrement, en substituant p à l’indice k 2 , toutes les substitutions de la forme
+donneront en tout p — i substitutions. On en aura p 2 — p en ajoutant au terme k 2 le terme m 2 k K , ainsi qu’il suit :
+("*•') {ki,k 2 , mtki, + k 2 ).
+D’un autre côté, il est aisé de trouver un groupe linéaire de/» 2 —i permutations, tel que, dans chacune de ses substitutions, toutes les lettres, à l’exception de a 0;0 , varient. Car, en remplaçant le double indice k,, k 2 par l’indice simple k, -f- ik 2 ,
+
+- 58
+i étant une racine primitive de
+xp 2-1 — 1 = 0 (mod/>),
+il est clair que toute substitution de la forme
+-r/f2Û
+sera une substitution linéaire ; mais, dans ces substitutions, aucune lettre ne reste à la même place, et elles sont au nombre de p- — i.
+Nous avons donc un système de p 2 —i permutations tel que, dans chacune de ses substitutions, toutes les lettres varient, à l’exception de Combinant ces substitutions avec les p-—p dont il est parlé plus haut, nous aurons
+( p 2 — i) ( p 2 — p) substitutions.
+Or, nous avons vu a priori que le nombre des substitutions où o 0 ,o reste fixe ne pouvait être plus grand que ( p 2 — i) (p 2 — p). Donc il est précisément égal à (p 2 - —— p), et le groupe linéaire total aura en tout
+p 2 (p 2 — i)(p 2 — p) permutations.
+11 reste à chercher les diviseurs de ce groupe, qui peuvent jouir de la propriété d’être solubles par radicaux. Pour cela, nous allons faire une transformation qui a pour but d’abaisser autant que possible les équations générales de degré p 2 dont le groupe serait linéaire.
+Premièrement, comme les substitutions circulaires d’un pareil groupe sont telles, que toute autre substitution du groupe les Lransforme les unes dans les autres, on pourra abaisser l’équation d’un degré et considérer une équation de degré p 2 —i dont le groupe n’aurait que des substitutions de la forme
+( 6 *,
+les p 2 — i lettres étant
+Ô0.1, Ùo,2, Ù 0 ,3, • • • !
+ùi,oj b 1?1 , èi,», ,
+^2,0) 2, ù 2 ,3, • • • ,
+■ • J
+• • )
+
+59 —
+J’observe maintenant que ce groupe est non primitif, en sorte que toutes les lettres où le rapport des deux indices est le même sont des lettres conjointes. Si l’on remplace par une seule lettre chaque système de lettres conjointes, on aura un groupe dont toutes les substitutions seront de la forme
+> /n i ki -f-rc
+étant les nouveaux indices. En remplaçant ce rapport par un seul indice k , on voit que les p + i lettres seront
+b 0 , b i, b. 2 , ba, ..., b p —i, b±,
+0
+et les substitutions seront de la forme
+mk -+- n
+rk -I- s
+Cherchons combien de lettres, dans chacune de ces substitutions, restent à la même place; il faut pour cela résoudre l’équation
+( rk H- s ) k — m ( mk ■+ n ) = o,
+qui aura deux, ou une, ou aucune racine, suivant que (m — s) 2 +4 nr sera résidu quadratique, nul ou non résidu quadratique. Suivant ces trois cas, la substitution sera de l’ordre p — i, ou p, oup + î.
+On peut prendre pour type des deux premiers cas les substitutions de la forme
+(k, mk -h n),
+où la seule lettre b { ne varie pas, et de là on voit que le nombre
+<5
+total des substitutions du groupe réduit est
+(p 0 p(p *)•
+C’est après avoir ainsi réduit ce groupe que nous allons le traiter généralement. Nous chercherons d’abord dans quel cas un diviseur de ce groupe, qui contiendrait des substitutions de l’ordre p, pourrait appartenir à une équation soluble par radicaux.
+Dans ce cas, l’équation serait primitive et elle ne pourrait être
+
+- 60 -
+soluble par radicaux, à moins que l’on n’eût p + i = i n , n étant un certain nombre.
+Nous pouvons supposer que le groupe ne contienne que des substitutions de l’ordre p et de l’ordre p - 1- i. Toutes les substitutions de l’ordre p + i seront par conséquent semblables, et leur période sera de deux termes.
+Prenons donc l’expression
+mk -t- n
+j'fc §
+et voyons dans quel cas cette substitution peut avoir une période de deux termes. Il faut pour cela que la substitution inverse se confonde avec elle. La substitution inverse est
+sk -+- n
+Donc on doit avoir m — — s , et toutes les substitutions en question seront
+mk -+- n
+ou encore
+N étant un certain nombre qui est le même pour toutes les substitutions, puisque ces substitutions doivent être transformées les unes dans les autres par toutes les substitutions de l’ordre />, (/r, k -+- »i); or ces substitutions doivent, de plus, être conjuguées les unes des autres. Si donc
+m -+-
+sont deux pareilles substitutions, il faut que l’on ait
+N
+N
+m -t-
+-t- m
+m
+savoir
+(m — n)- — 2 N.
+Donc la différence entre deux valeurs de m ne peut acquérir
+
+- 61 —
+que deux valeurs différentes; donc m ne peut avoir plus de trois valeurs; donc enfin p = 3. Ainsi, c’est seulement dans ce cas que le groupe réduit pourra contenir des substitutions de l’ordre p.
+Et, en effet, la réduite sera alors du quatrième degré, et, par conséquent, soluble par radicaux.
+Nous savons par là qu’en général, parmi les substitutions de notre groupe réduit, il ne devra pas se trouver de substitutions de l’ordre p. Peut-il y en avoir de l’ordre p — 1 ? C’est ce que je vais rechercher ( 1 )•
+(’) J’ai cherché inutilement dans les papiers de Galois la continuation de ce qu’on vient de lire. (A. Ch.)
+FIN.
+
+TABLE DES MATIERES
+Pages.
+Introduction.' . i
+I. - ARTICLES PUBLIÉS PAR GALOIS.
+Démonstration d’un théorème sur les fractions continues périodiques. i
+Notes sur quelques points d’Analyse. 9
+Analyse d’un Mémoire sur la résolution algébrique des équations. 11
+Note sur la résolution des équations numériques. i3
+Sur la théorie des nombres. i5
+II. — OEUVRES POSTHUMES.
+Lettre à Auguste Chevalier. 25
+Mémoire sur les conditions de résolubilité des équations par radicaux. 33
+Des équations primitives qui sont solubles par radicaux (fragment). 5i
+Planche. — Portrait de Galois. (en frontispice).
+FIN DE LA TABLE DES MATIÈRES.
+
+Paris. — Imprimerie GAUTHIER-VILLARS ET FILS, quai des Grands-Augustin s, 55.
+///^ irp.
+24572
+
+ERNST BRAUN Buchbinder • ZURICH •
+T ,*s l
+W >*',*
+ru* :
+r^jwr, -'jÊfïTÿV
+
+***■4
+S'i '-î
+' Æ -,0

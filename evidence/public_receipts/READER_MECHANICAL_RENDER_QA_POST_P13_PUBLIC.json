@@ -1,9 +1,9 @@
 {
   "_public_projection": {
     "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
-    "source_bytes": 64267,
+    "source_bytes": 63690,
     "source_name": "READER_MECHANICAL_RENDER_QA_POST_P13.json",
-    "source_sha256": "339CC55060078E35A80B22B8DE89C7265E7117D75F841709FC2EC530B50DA5BF"
+    "source_sha256": "0B4D693A6F4E05404F33DE3A5F6B6AA9720FA7DE8B4AB84168C9E01731CCE13C"
   },
   "assertions": {
     "mechanical_blank_topology_matches_structural_report": true,
@@ -20,11 +20,11 @@
   "dark_edge_contact_pages": [],
   "mechanically_black_pages": [],
   "mechanically_blank_pages": [
-    42,
-    80,
+    41,
+    79,
+    82,
     83,
-    84,
-    85
+    84
   ],
   "metric_parameters": {
     "dark_threshold": 245,
@@ -38,15 +38,15 @@
   },
   "page_metrics": [
     {
-      "bytes": 67139,
+      "bytes": 56470,
       "content_bbox_at_threshold": [
-        105,
+        111,
         230,
-        746,
-        1136
+        739,
+        1134
       ],
-      "dark_pixel_count": 20738,
-      "dark_pixel_fraction": 0.0198282975,
+      "dark_pixel_count": 17382,
+      "dark_pixel_fraction": 0.0166195133,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -56,27 +56,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-01.png",
-      "mean": 252.3312,
+      "mean": 252.7196,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 1,
-      "sha256": "83AADCC0514A44E319477E1D1364A61F289430A6EE2F3744E2D941186DB3090F",
+      "sha256": "61D4F6DAC06BFC6F21B5C2B837B11D73B12D285561E334D159E8D0984FD09CCB",
       "size": [
         851,
         1229
       ],
-      "stddev": 21.7477
+      "stddev": 20.2657
     },
     {
-      "bytes": 89719,
+      "bytes": 70229,
       "content_bbox_at_threshold": [
         103,
         207,
         749,
         1179
       ],
-      "dark_pixel_count": 36216,
-      "dark_pixel_fraction": 0.0346273326,
+      "dark_pixel_count": 29063,
+      "dark_pixel_fraction": 0.0277881093,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -86,27 +86,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-02.png",
-      "mean": 250.1985,
+      "mean": 251.0838,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 2,
-      "sha256": "9322416D50CFA582CA79DE4A75A4D424EFE562EF627B3F151AB11AC503E56FCF",
+      "sha256": "8BCC0A723D8175430E7AA182B27BADEEA317B67BC4251E4832044751BFE1DC98",
       "size": [
         851,
         1229
       ],
-      "stddev": 29.117
+      "stddev": 26.5758
     },
     {
-      "bytes": 220077,
+      "bytes": 112940,
       "content_bbox_at_threshold": [
         103,
         207,
         749,
         1179
       ],
-      "dark_pixel_count": 139111,
-      "dark_pixel_fraction": 0.1330086941,
+      "dark_pixel_count": 46021,
+      "dark_pixel_fraction": 0.0440022221,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -116,27 +116,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-03.png",
-      "mean": 233.0406,
+      "mean": 249.093,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 3,
-      "sha256": "C1DEDE6AFE848CC53A21CB2DC18ABC0FBE736A7B22EFCE211E85CCAA82FECFC6",
+      "sha256": "6BE172B896DB4F49000ABC3D16B3411CB73AB3C17774E3AE9E021C0926749C24",
       "size": [
         851,
         1229
       ],
-      "stddev": 56.0379
+      "stddev": 31.8513
     },
     {
-      "bytes": 43397,
+      "bytes": 69295,
       "content_bbox_at_threshold": [
-        103,
-        90,
-        747,
+        104,
+        207,
+        681,
         1179
       ],
-      "dark_pixel_count": 14474,
-      "dark_pixel_fraction": 0.013839077,
+      "dark_pixel_count": 22511,
+      "dark_pixel_fraction": 0.0215235223,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -146,27 +146,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-04.png",
-      "mean": 253.1621,
+      "mean": 252.1178,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 4,
-      "sha256": "91F941D172D9F309041DA6F520C2E491217D22225A1B0BCA6C5A41ED414AEEE0",
+      "sha256": "D97ED7FED31FFCEACA90121CF3CB0DC0D8AAE4075A4121E90B973854719E470F",
       "size": [
         851,
         1229
       ],
-      "stddev": 17.8929
+      "stddev": 22.3828
     },
     {
-      "bytes": 69472,
+      "bytes": 99903,
       "content_bbox_at_threshold": [
         104,
-        207,
-        681,
-        1180
+        73,
+        825,
+        1179
       ],
-      "dark_pixel_count": 22501,
-      "dark_pixel_fraction": 0.021513961,
+      "dark_pixel_count": 43108,
+      "dark_pixel_fraction": 0.041217005,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -176,46 +176,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-05.png",
-      "mean": 252.121,
+      "mean": 248.4697,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 5,
-      "sha256": "096A18A996A1ACCC0CFF177186D0BB8E28EDC20C87141CE4E0B402555DEABDCD",
+      "sha256": "597CCFBF1F528845792A8FD990408C2C5CA900EECBA1A3D7C1B3853CBD1AFDEF",
       "size": [
         851,
         1229
       ],
-      "stddev": 22.3731
-    },
-    {
-      "bytes": 99049,
-      "content_bbox_at_threshold": [
-        104,
-        73,
-        825,
-        1179
-      ],
-      "dark_pixel_count": 42670,
-      "dark_pixel_fraction": 0.0407982185,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-06.png",
-      "mean": 248.5577,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 6,
-      "sha256": "22EC5A17665DDC8F524F3EEE4E264CE4E95AD0AC18533378527C7611DB7AAB47",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 35.5559
+      "stddev": 35.7974
     },
     {
       "bytes": 22319,
@@ -235,11 +205,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-07.png",
+      "file": "page-06.png",
       "mean": 252.4218,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 7,
+      "page": 6,
       "sha256": "FFC87352419559F78EFFE6E0ECAFA2ABD8257415DCFAC5ED0482306318A26AB1",
       "size": [
         851,
@@ -265,11 +235,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-08.png",
+      "file": "page-07.png",
       "mean": 254.1813,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 8,
+      "page": 7,
       "sha256": "97A6C30E433F60FBB5EAB811D7975C34402DA25419D9B5E0DB30ADF33A90A039",
       "size": [
         851,
@@ -278,15 +248,45 @@
       "stddev": 12.8277
     },
     {
-      "bytes": 291420,
+      "bytes": 292407,
       "content_bbox_at_threshold": [
-        104,
+        103,
         73,
         825,
         1179
       ],
-      "dark_pixel_count": 262756,
-      "dark_pixel_fraction": 0.2512298268,
+      "dark_pixel_count": 263680,
+      "dark_pixel_fraction": 0.2521132942,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-08.png",
+      "mean": 230.084,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 8,
+      "sha256": "3CA462A32FAE6D89A05B045376FCFEEE899DDBDFD1BDFD9985417B46985E4D06",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 49.5462
+    },
+    {
+      "bytes": 207732,
+      "content_bbox_at_threshold": [
+        103,
+        73,
+        824,
+        1180
+      ],
+      "dark_pixel_count": 49681,
+      "dark_pixel_fraction": 0.0475016708,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -296,46 +296,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-09.png",
-      "mean": 230.2107,
+      "mean": 248.3073,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 9,
-      "sha256": "E1F261E013917FA44C6D8BCD15A5BBA6F1AB701159009E6E67487E795E440E38",
+      "sha256": "431B6B383BB366699DF75782C3547330B3401E3C7562EA80EDF3FBE43F1AF49F",
       "size": [
         851,
         1229
       ],
-      "stddev": 49.3773
-    },
-    {
-      "bytes": 207125,
-      "content_bbox_at_threshold": [
-        104,
-        73,
-        824,
-        1180
-      ],
-      "dark_pixel_count": 48829,
-      "dark_pixel_fraction": 0.0466870451,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-10.png",
-      "mean": 248.4575,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 10,
-      "sha256": "AA1C66C23D1F5FD6EC8F54CEBDBBD5CC62B9CC5D75910C83A8F93472596C4817",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 34.4238
+      "stddev": 34.8224
     },
     {
       "bytes": 138269,
@@ -355,11 +325,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-11.png",
+      "file": "page-10.png",
       "mean": 249.2342,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 11,
+      "page": 10,
       "sha256": "1ABE757592A5EEC912C13FC6BBAA357CB7396823D0752ED1D6F797A0B2FF6E19",
       "size": [
         851,
@@ -385,11 +355,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-12.png",
+      "file": "page-11.png",
       "mean": 248.4872,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 12,
+      "page": 11,
       "sha256": "6E9E7138A705A8B41204946C1E7D4AFEBBAA77F3011F97BF1E66CDABC93C754E",
       "size": [
         851,
@@ -398,15 +368,15 @@
       "stddev": 31.8487
     },
     {
-      "bytes": 226291,
+      "bytes": 185636,
       "content_bbox_at_threshold": [
         103,
         76,
         782,
         1185
       ],
-      "dark_pixel_count": 104581,
-      "dark_pixel_fraction": 0.0999934027,
+      "dark_pixel_count": 72197,
+      "dark_pixel_fraction": 0.0690299738,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -415,17 +385,17 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-13.png",
-      "mean": 241.3643,
+      "file": "page-12.png",
+      "mean": 246.3264,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 13,
-      "sha256": "3CF8F6CB286DF19AA5FBE1A1799D51EF6CE560D65AD579C71CAAB689622D16F6",
+      "page": 12,
+      "sha256": "9B6BACEA27C28BB5C20B129B7DDDB355FD9B3E7CA0BCF976730C1E887A4CF77E",
       "size": [
         851,
         1229
       ],
-      "stddev": 44.4157
+      "stddev": 34.939
     },
     {
       "bytes": 151971,
@@ -445,11 +415,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-14.png",
+      "file": "page-13.png",
       "mean": 248.2419,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 14,
+      "page": 13,
       "sha256": "8123347E053D4F4089A8354550C30B98D61D82EE44AEF8546966E8E2C916337C",
       "size": [
         851,
@@ -475,11 +445,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-15.png",
+      "file": "page-14.png",
       "mean": 248.5914,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 15,
+      "page": 14,
       "sha256": "DB1930273ABA7FA4340C6DB57E4E562A015955AE6A29D4912EF363814F0B81A4",
       "size": [
         851,
@@ -505,11 +475,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-16.png",
+      "file": "page-15.png",
       "mean": 253.5585,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 16,
+      "page": 15,
       "sha256": "04E03D54687CC280D3DF7533FAC9090410671CAE5ED9404D7D21D3DBFD18D016",
       "size": [
         851,
@@ -535,11 +505,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-17.png",
+      "file": "page-16.png",
       "mean": 250.9957,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 17,
+      "page": 16,
       "sha256": "3F57BA4A6BB297F84F344DC2F63061E20406EB17B99987ACA6B547763739ABFE",
       "size": [
         851,
@@ -565,11 +535,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-18.png",
+      "file": "page-17.png",
       "mean": 251.2919,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 18,
+      "page": 17,
       "sha256": "B1F18D71FBAA9E41EFB78A8FE26ED4D9AAB58FB0B8DC66CA290FCEC3E6881576",
       "size": [
         851,
@@ -595,11 +565,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-19.png",
+      "file": "page-18.png",
       "mean": 252.5749,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 19,
+      "page": 18,
       "sha256": "A89D3572683AD3685181D39D3997CC25C4BE67B7B9B0EC4AFC02447E1CE3A35A",
       "size": [
         851,
@@ -625,11 +595,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-20.png",
+      "file": "page-19.png",
       "mean": 253.2467,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 20,
+      "page": 19,
       "sha256": "6E989AFA1C7DB03453DF80A002A5871625C77592B7C6A03E34BF896A61BD3956",
       "size": [
         851,
@@ -655,11 +625,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-21.png",
+      "file": "page-20.png",
       "mean": 250.8194,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 21,
+      "page": 20,
       "sha256": "61F34439380F443A33751AB63A32332A3D1AFC2DB8FA25A31319BD3C6E3C7B0F",
       "size": [
         851,
@@ -668,15 +638,15 @@
       "stddev": 25.8506
     },
     {
-      "bytes": 220573,
+      "bytes": 174049,
       "content_bbox_at_threshold": [
         93,
         61,
         787,
         1194
       ],
-      "dark_pixel_count": 113462,
-      "dark_pixel_fraction": 0.1084848247,
+      "dark_pixel_count": 61539,
+      "dark_pixel_fraction": 0.0588395025,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -685,17 +655,17 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-22.png",
-      "mean": 238.6613,
+      "file": "page-21.png",
+      "mean": 246.836,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 22,
-      "sha256": "1D4748E75C1DEB69D10F380472E6CD6BFE92FB307503D7868A9D94CCCAB5DE16",
+      "page": 21,
+      "sha256": "AAD8888E4865BB0F8ABD3406419D1666C95C281415BD37516129650B081A7F5F",
       "size": [
         851,
         1229
       ],
-      "stddev": 48.4386
+      "stddev": 32.4938
     },
     {
       "bytes": 98512,
@@ -715,11 +685,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-23.png",
+      "file": "page-22.png",
       "mean": 251.3684,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 23,
+      "page": 22,
       "sha256": "A4ECA61252D87C6897EE903547771D7326150937C99923F4D12C5E8122CB697D",
       "size": [
         851,
@@ -728,15 +698,45 @@
       "stddev": 23.8119
     },
     {
-      "bytes": 56597,
+      "bytes": 58698,
       "content_bbox_at_threshold": [
         94,
         61,
         787,
         1194
       ],
-      "dark_pixel_count": 34815,
-      "dark_pixel_fraction": 0.0332877895,
+      "dark_pixel_count": 19705,
+      "dark_pixel_fraction": 0.0188406116,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-23.png",
+      "mean": 252.0567,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 23,
+      "sha256": "F91834F847B91E54B7394CB507FDE8D279AA748CFE0E04DBAB670AF73F2ED145",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 20.951
+    },
+    {
+      "bytes": 12578,
+      "content_bbox_at_threshold": [
+        94,
+        71,
+        468,
+        1194
+      ],
+      "dark_pixel_count": 2195,
+      "dark_pixel_fraction": 0.0020987131,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -746,27 +746,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-24.png",
-      "mean": 249.5337,
+      "mean": 254.4826,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 24,
-      "sha256": "D799BF02D6323720D4E9B11F0D27A9562A7271B9E597913A7899969B3896B8DD",
+      "sha256": "D44045B1281F2F706694A869EB525410924F099DE5DAA186B004A06562F34A13",
       "size": [
         851,
         1229
       ],
-      "stddev": 30.4592
+      "stddev": 6.13
     },
     {
-      "bytes": 43354,
+      "bytes": 180409,
       "content_bbox_at_threshold": [
         94,
-        70,
-        728,
-        1194
+        58,
+        787,
+        1193
       ],
-      "dark_pixel_count": 16308,
-      "dark_pixel_fraction": 0.0155926259,
+      "dark_pixel_count": 61762,
+      "dark_pixel_fraction": 0.0590527202,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -776,27 +776,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-25.png",
-      "mean": 252.6671,
+      "mean": 246.6284,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 25,
-      "sha256": "622C3F73646D48BEC3A30057BD6CC45C4C3960D0E0D86B0E34D919E59B4D5CCB",
+      "sha256": "D91D4E08B6981902A0AC16AE4B7CE084DB70BD81A4339A2E1DE991F3F8644199",
       "size": [
         851,
         1229
       ],
-      "stddev": 17.243
+      "stddev": 33.0358
     },
     {
-      "bytes": 215249,
+      "bytes": 73768,
       "content_bbox_at_threshold": [
         94,
-        58,
-        787,
+        71,
+        712,
         1193
       ],
-      "dark_pixel_count": 107063,
-      "dark_pixel_fraction": 0.1023665261,
+      "dark_pixel_count": 24617,
+      "dark_pixel_fraction": 0.0235371396,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -806,46 +806,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-26.png",
-      "mean": 239.3661,
+      "mean": 251.065,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 26,
-      "sha256": "B2276B39F4DCB6F33C5568625AB30739B9229496FBB8BC3E178DE469936752F6",
+      "sha256": "3F73203D6F0F87865B8AA034594FF91FF45F87E1B9240EFBE88E5E716F9544C5",
       "size": [
         851,
         1229
       ],
-      "stddev": 47.8188
-    },
-    {
-      "bytes": 165672,
-      "content_bbox_at_threshold": [
-        94,
-        70,
-        728,
-        1193
-      ],
-      "dark_pixel_count": 95974,
-      "dark_pixel_fraction": 0.0917639612,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-27.png",
-      "mean": 240.2826,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 27,
-      "sha256": "D70D3927299C3A760F34DD3369A4C04C9415BC29A9FD1F6C7AF80C7F1CF02D67",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 45.2088
+      "stddev": 20.2631
     },
     {
       "bytes": 101919,
@@ -865,11 +835,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-28.png",
+      "file": "page-27.png",
       "mean": 250.7949,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 28,
+      "page": 27,
       "sha256": "D412628BAA8EE167B6C806F9F1B02E3D0FA60C2E213EC6BC9F20DDF9C2FD91F6",
       "size": [
         851,
@@ -878,15 +848,45 @@
       "stddev": 26.0026
     },
     {
-      "bytes": 206986,
+      "bytes": 176831,
       "content_bbox_at_threshold": [
         94,
         58,
         787,
         1193
       ],
-      "dark_pixel_count": 90404,
-      "dark_pixel_fraction": 0.0864382974,
+      "dark_pixel_count": 62155,
+      "dark_pixel_fraction": 0.0594284807,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-28.png",
+      "mean": 247.0758,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 28,
+      "sha256": "36CD52529ABDC8D9F3FEA4FA3663DB302520C6247A4389CADA4C9BDEE0C3AFC4",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 33.3112
+    },
+    {
+      "bytes": 181688,
+      "content_bbox_at_threshold": [
+        94,
+        58,
+        786,
+        1194
+      ],
+      "dark_pixel_count": 65376,
+      "dark_pixel_fraction": 0.0625081869,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -896,27 +896,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-29.png",
-      "mean": 242.6488,
+      "mean": 246.9029,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 29,
-      "sha256": "B478FE9D42406EA2FE9B0ED00812702A0E676CDD3B0431A467C86709DE791168",
+      "sha256": "EA9D083730623D5CF9BC750E23D8CA33D8B1A0E9BA507FE96D9059761915F535",
       "size": [
         851,
         1229
       ],
-      "stddev": 42.5776
+      "stddev": 33.1699
     },
     {
-      "bytes": 211840,
+      "bytes": 165555,
       "content_bbox_at_threshold": [
         94,
         58,
-        786,
+        787,
         1194
       ],
-      "dark_pixel_count": 93807,
-      "dark_pixel_fraction": 0.0896920198,
+      "dark_pixel_count": 59428,
+      "dark_pixel_fraction": 0.0568211045,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -926,27 +926,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-30.png",
-      "mean": 242.4196,
+      "mean": 247.2047,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 30,
-      "sha256": "10352BA239FA6C344C797CE130F23405E77A209511342EEB05AC49C417E41F52",
+      "sha256": "B78A0EB4E0FDA73DE7709B9B0825A2015AE543BA9E1EDFBE839619EA707F9833",
       "size": [
         851,
         1229
       ],
-      "stddev": 42.652
+      "stddev": 32.3422
     },
     {
-      "bytes": 190586,
+      "bytes": 121764,
       "content_bbox_at_threshold": [
         94,
         58,
         787,
         1194
       ],
-      "dark_pixel_count": 85985,
-      "dark_pixel_fraction": 0.0822131432,
+      "dark_pixel_count": 38706,
+      "dark_pixel_fraction": 0.0370081051,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -956,46 +956,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-31.png",
-      "mean": 243.0211,
+      "mean": 250.0432,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 31,
-      "sha256": "67CFAC78E4DCDCEB7F5E9CCCDF2AF6B33AAB1C6611650F79274C17E368037086",
+      "sha256": "8353BCD108F861CABD80A6E2BBD257A4656FDC3D327F8E79B4493E473D1306DD",
       "size": [
         851,
         1229
       ],
-      "stddev": 41.6758
-    },
-    {
-      "bytes": 148050,
-      "content_bbox_at_threshold": [
-        94,
-        58,
-        787,
-        1194
-      ],
-      "dark_pixel_count": 66465,
-      "dark_pixel_fraction": 0.0635494163,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-32.png",
-      "mean": 245.7035,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 32,
-      "sha256": "0DD95EE75CBEE05DE18967BFD7218ADEB59364EAE708438013E9108A57B60A26",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 37.2099
+      "stddev": 25.7737
     },
     {
       "bytes": 121963,
@@ -1015,11 +985,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-33.png",
+      "file": "page-32.png",
       "mean": 250.1156,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 33,
+      "page": 32,
       "sha256": "7E8597049BB753C4FED41F2B6CF0BD0C6D2B99AF87B9E53A7F6D61AA2D7EB6C8",
       "size": [
         851,
@@ -1045,11 +1015,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-34.png",
+      "file": "page-33.png",
       "mean": 250.0355,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 34,
+      "page": 33,
       "sha256": "BF7BBE67D4D540CE3C81D52754AE42B23553D92B4BC18BCDCCE1A609E96E2C3A",
       "size": [
         851,
@@ -1058,15 +1028,45 @@
       "stddev": 27.2374
     },
     {
-      "bytes": 167962,
+      "bytes": 153196,
       "content_bbox_at_threshold": [
         84,
         49,
         796,
         1208
       ],
-      "dark_pixel_count": 77565,
-      "dark_pixel_fraction": 0.0741624987,
+      "dark_pixel_count": 53575,
+      "dark_pixel_fraction": 0.0512248549,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-34.png",
+      "mean": 248.7687,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 34,
+      "sha256": "F332D11FF069EA54413F4935BD395CDBD6219C6202BB4291D8E2B145507144AA",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 28.3213
+    },
+    {
+      "bytes": 127872,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        797,
+        1208
+      ],
+      "dark_pixel_count": 43101,
+      "dark_pixel_fraction": 0.0412103121,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1076,46 +1076,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-35.png",
-      "mean": 245.0191,
+      "mean": 249.9668,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 35,
-      "sha256": "D2C4CE65AC442484C4B5BA24132BC368B2B2B98447845374300CDDE4109A9BB1",
+      "sha256": "9D5DFE7C6CC7ED8757CB489E6A2B48EC92C843E90473ABE2B93087E32707867C",
       "size": [
         851,
         1229
       ],
-      "stddev": 38.1407
-    },
-    {
-      "bytes": 139167,
-      "content_bbox_at_threshold": [
-        84,
-        49,
-        797,
-        1208
-      ],
-      "dark_pixel_count": 64959,
-      "dark_pixel_fraction": 0.0621094792,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-36.png",
-      "mean": 246.5183,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 36,
-      "sha256": "AE3D6898DC41ED53B4628A22931825393D4DC5AAD4AE327498533FAEF76C0169",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 35.6408
+      "stddev": 25.9124
     },
     {
       "bytes": 90940,
@@ -1135,11 +1105,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-37.png",
+      "file": "page-36.png",
       "mean": 252.007,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 37,
+      "page": 36,
       "sha256": "814C5B98078E1AA0FF61E54BB130D55790FCDF24B68B0FA60A97C2A6C6E4EBE6",
       "size": [
         851,
@@ -1148,15 +1118,45 @@
       "stddev": 21.2678
     },
     {
-      "bytes": 140154,
+      "bytes": 122546,
       "content_bbox_at_threshold": [
         84,
         49,
         796,
         1208
       ],
-      "dark_pixel_count": 63990,
-      "dark_pixel_fraction": 0.0611829858,
+      "dark_pixel_count": 40069,
+      "dark_pixel_fraction": 0.0383113152,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-37.png",
+      "mean": 250.1679,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 37,
+      "sha256": "8B19C1FD5A5A929232431FE86427AB37F48B65B172AB4B95E74D430BB96E11C2",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 24.9029
+    },
+    {
+      "bytes": 225846,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 81212,
+      "dark_pixel_fraction": 0.0776495178,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1166,27 +1166,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-38.png",
-      "mean": 246.3766,
+      "mean": 244.7221,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 38,
-      "sha256": "635898CE5E066548A60015F855B10D11527E9AEABF641B8D18C4C31C30DD4453",
+      "sha256": "FEB8C103A62581F5EA1A41A1D72358B102ABD3908FE61E5DCE7E0EFD97088500",
       "size": [
         851,
         1229
       ],
-      "stddev": 35.9398
+      "stddev": 34.6943
     },
     {
-      "bytes": 290319,
+      "bytes": 179087,
       "content_bbox_at_threshold": [
         84,
         49,
         796,
         1208
       ],
-      "dark_pixel_count": 159958,
-      "dark_pixel_fraction": 0.1529412102,
+      "dark_pixel_count": 66309,
+      "dark_pixel_fraction": 0.0634002595,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1196,46 +1196,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-39.png",
-      "mean": 232.4571,
+      "mean": 247.2371,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 39,
-      "sha256": "A3E29EAF6082E7C9DBF3CAC98BECB38E221128971CBC3928AF06F9D378E5F493",
+      "sha256": "8DE42C481F911A4A8704A63EA909F79BE373D44FACC36EE73925BF9CC825E454",
       "size": [
         851,
         1229
       ],
-      "stddev": 55.2791
-    },
-    {
-      "bytes": 192073,
-      "content_bbox_at_threshold": [
-        84,
-        49,
-        796,
-        1208
-      ],
-      "dark_pixel_count": 88794,
-      "dark_pixel_fraction": 0.0848989223,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-40.png",
-      "mean": 243.7155,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 40,
-      "sha256": "4482078537EBA363F5E0BCFCE46FBCBD3D1FFAAFD94565D7EABD82200F9D9543",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 40.3522
+      "stddev": 32.1325
     },
     {
       "bytes": 29014,
@@ -1255,11 +1225,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-41.png",
+      "file": "page-40.png",
       "mean": 254.1221,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 41,
+      "page": 40,
       "sha256": "E166474CF6D0E7DCF1D7B0D800CC417289EA90557A2B7E720C416DE70D7AB06B",
       "size": [
         851,
@@ -1280,11 +1250,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-42.png",
+      "file": "page-41.png",
       "mean": 255.0,
       "mechanically_black": false,
       "mechanically_blank": true,
-      "page": 42,
+      "page": 41,
       "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
       "size": [
         851,
@@ -1310,11 +1280,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-43.png",
+      "file": "page-42.png",
       "mean": 250.231,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 43,
+      "page": 42,
       "sha256": "12C6284BA721A5DC0761003BCC6014BC678B8414FB7FA3865FDB4DA3CE56F898",
       "size": [
         851,
@@ -1340,11 +1310,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-44.png",
+      "file": "page-43.png",
       "mean": 249.8335,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 44,
+      "page": 43,
       "sha256": "BBF483DEC470B52C4711B99419941700F6D414756C0012760CB583DA97547A57",
       "size": [
         851,
@@ -1353,15 +1323,15 @@
       "stddev": 27.839
     },
     {
-      "bytes": 191932,
+      "bytes": 172206,
       "content_bbox_at_threshold": [
         84,
         49,
         796,
         1208
       ],
-      "dark_pixel_count": 103726,
-      "dark_pixel_fraction": 0.0991759085,
+      "dark_pixel_count": 59812,
+      "dark_pixel_fraction": 0.0571882598,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1370,17 +1340,17 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-45.png",
-      "mean": 240.576,
+      "file": "page-44.png",
+      "mean": 247.5491,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 45,
-      "sha256": "3E71B1BBD9E04AA214987F2ABB1CCA2B5EC438BCA104EADA7EC2A8967EF2640F",
+      "page": 44,
+      "sha256": "F89A48E4009F4D266E43DCCEA52BCD26D7C5D7D769B77A0EFF308A1B41EBB079",
       "size": [
         851,
         1229
       ],
-      "stddev": 45.9016
+      "stddev": 30.469
     },
     {
       "bytes": 98939,
@@ -1400,11 +1370,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-46.png",
+      "file": "page-45.png",
       "mean": 251.7106,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 46,
+      "page": 45,
       "sha256": "79682E6AAD05E14DA06BA9FB9BF2BAA3AB243CFF21B8AC942F448207081D861B",
       "size": [
         851,
@@ -1413,15 +1383,45 @@
       "stddev": 22.4005
     },
     {
-      "bytes": 214830,
+      "bytes": 177096,
       "content_bbox_at_threshold": [
         84,
         49,
         796,
         1207
       ],
-      "dark_pixel_count": 108987,
-      "dark_pixel_fraction": 0.1042061271,
+      "dark_pixel_count": 59632,
+      "dark_pixel_fraction": 0.0570161558,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-46.png",
+      "mean": 247.371,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 46,
+      "sha256": "2682E05FF92D5C6139D2267892C0A68A0B3E7902FEC209B038EA88CF31F8E0B1",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 30.4298
+    },
+    {
+      "bytes": 193913,
+      "content_bbox_at_threshold": [
+        84,
+        49,
+        796,
+        1208
+      ],
+      "dark_pixel_count": 68853,
+      "dark_pixel_fraction": 0.0658326632,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1431,46 +1431,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-47.png",
-      "mean": 239.6691,
+      "mean": 246.4059,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 47,
-      "sha256": "80AC10914FCD71F079955DBE927DABD44E29BDAA22EBC3491CFCCF48DBF6F6A1",
+      "sha256": "A160B46A9A99B15668FA8F2A6AC158707279A87E0E2B72517936F5FDCCD066B0",
       "size": [
         851,
         1229
       ],
-      "stddev": 46.5975
-    },
-    {
-      "bytes": 188895,
-      "content_bbox_at_threshold": [
-        84,
-        49,
-        796,
-        1208
-      ],
-      "dark_pixel_count": 84583,
-      "dark_pixel_fraction": 0.080872644,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-48.png",
-      "mean": 243.9755,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 48,
-      "sha256": "251AD13AC4531951634CD32A9E5CA660F5F9F0CC7886511784A02A07494B95E2",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 40.2226
+      "stddev": 32.8772
     },
     {
       "bytes": 122419,
@@ -1490,11 +1460,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-49.png",
+      "file": "page-48.png",
       "mean": 250.4109,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 49,
+      "page": 48,
       "sha256": "86599244AF17640C943804D134E1E6BD8E70794838AA66DCF1720A68B4D37357",
       "size": [
         851,
@@ -1520,11 +1490,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-50.png",
+      "file": "page-49.png",
       "mean": 250.5501,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 50,
+      "page": 49,
       "sha256": "A01AA51E428DB642991F33E462F6FB28C03629769EE226725D27AF1FA42AE24A",
       "size": [
         851,
@@ -1533,15 +1503,45 @@
       "stddev": 25.9614
     },
     {
-      "bytes": 123396,
+      "bytes": 123349,
       "content_bbox_at_threshold": [
         70,
         58,
         839,
         1208
       ],
-      "dark_pixel_count": 45538,
-      "dark_pixel_fraction": 0.0435404096,
+      "dark_pixel_count": 45535,
+      "dark_pixel_fraction": 0.0435375411,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-50.png",
+      "mean": 249.7963,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 50,
+      "sha256": "19718EA2FE99CA34DD0BAB811D8BE4094AA154D9BF322C8FFD17DF10582FCB3D",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 28.3707
+    },
+    {
+      "bytes": 165901,
+      "content_bbox_at_threshold": [
+        71,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 60272,
+      "dark_pixel_fraction": 0.0576280813,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1551,46 +1551,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-51.png",
-      "mean": 249.7963,
+      "mean": 247.0438,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 51,
-      "sha256": "7259597973C79415ACFFE86DEDBF565D42AA08D8CBCDC16663AEC7DE94451163",
+      "sha256": "945E6285407A5B6448289E688C414A2526178CEA3CC413CE726BBED918D0ACFD",
       "size": [
         851,
         1229
       ],
-      "stddev": 28.3714
-    },
-    {
-      "bytes": 187395,
-      "content_bbox_at_threshold": [
-        70,
-        58,
-        839,
-        1208
-      ],
-      "dark_pixel_count": 107075,
-      "dark_pixel_fraction": 0.1023779997,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-52.png",
-      "mean": 239.6651,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 52,
-      "sha256": "A8459469EE1AE7C84A990771046EAB2E8A2A24D72B772CB381AA7F4CADC6366E",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 47.2527
+      "stddev": 31.171
     },
     {
       "bytes": 120634,
@@ -1610,11 +1580,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-53.png",
+      "file": "page-52.png",
       "mean": 249.9606,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 53,
+      "page": 52,
       "sha256": "B11947962A45E65D2784D2C251338282337E0DDC1E8FA813704636D24F2B9034",
       "size": [
         851,
@@ -1623,15 +1593,45 @@
       "stddev": 27.6447
     },
     {
-      "bytes": 142433,
+      "bytes": 124247,
+      "content_bbox_at_threshold": [
+        71,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 40515,
+      "dark_pixel_fraction": 0.0387377507,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-53.png",
+      "mean": 250.0413,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 53,
+      "sha256": "6EC298FEC858D05E643E74453A39018D301E862F274FF7759D0D8C8A5C219C96",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 25.1544
+    },
+    {
+      "bytes": 183558,
       "content_bbox_at_threshold": [
         70,
         58,
         839,
         1208
       ],
-      "dark_pixel_count": 67066,
-      "dark_pixel_fraction": 0.0641240526,
+      "dark_pixel_count": 68490,
+      "dark_pixel_fraction": 0.0654855868,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1641,27 +1641,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-54.png",
-      "mean": 245.9728,
+      "mean": 246.1817,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 54,
-      "sha256": "14B7370C68B838744172F30CEF1C9AF458671F52876D8E6358C1D5FD787C49FA",
+      "sha256": "52A2440718B416277AC8F6BFD4E963D2F1BA69708F6B73BAAF4B84E6266553AB",
       "size": [
         851,
         1229
       ],
-      "stddev": 36.5285
+      "stddev": 32.9813
     },
     {
-      "bytes": 207647,
+      "bytes": 99728,
       "content_bbox_at_threshold": [
-        70,
+        71,
         58,
         839,
         1208
       ],
-      "dark_pixel_count": 116448,
-      "dark_pixel_fraction": 0.1113398395,
+      "dark_pixel_count": 34044,
+      "dark_pixel_fraction": 0.0325506105,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1671,46 +1671,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-55.png",
-      "mean": 238.7154,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 55,
-      "sha256": "BBFE843B7E750A77BC9825E699ABC6030C47BCEDF612B0FB9529AC0025815982",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 48.1712
-    },
-    {
-      "bytes": 99848,
-      "content_bbox_at_threshold": [
-        71,
-        58,
-        839,
-        1208
-      ],
-      "dark_pixel_count": 34042,
-      "dark_pixel_fraction": 0.0325486983,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-56.png",
       "mean": 251.2307,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 56,
-      "sha256": "F5BFEB771DB124BAB05448C621E57D047666BA35DEB93571D8C54384FBA68BF8",
+      "page": 55,
+      "sha256": "7C2C28412D8AA6D6BE021773C90C2E4EF75B513E5D5B310D205759EB25A867FF",
       "size": [
         851,
         1229
       ],
-      "stddev": 23.8108
+      "stddev": 23.81
     },
     {
       "bytes": 117684,
@@ -1730,11 +1700,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-57.png",
+      "file": "page-56.png",
       "mean": 250.6379,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 57,
+      "page": 56,
       "sha256": "5986105548D54728C801A97884EDA5B6FEB92851CA11BB887BBC85A82F0438F7",
       "size": [
         851,
@@ -1743,15 +1713,45 @@
       "stddev": 25.4836
     },
     {
-      "bytes": 218847,
+      "bytes": 190516,
+      "content_bbox_at_threshold": [
+        71,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 69914,
+      "dark_pixel_fraction": 0.0668471209,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-57.png",
+      "mean": 246.0491,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 57,
+      "sha256": "D309078A1A8901650373F27DC2872372965A238A7BE56A3066373DB166226A47",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 32.8954
+    },
+    {
+      "bytes": 162811,
       "content_bbox_at_threshold": [
         70,
         58,
         839,
         1208
       ],
-      "dark_pixel_count": 120200,
-      "dark_pixel_fraction": 0.1149272526,
+      "dark_pixel_count": 55648,
+      "dark_pixel_fraction": 0.0532069197,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1761,27 +1761,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-58.png",
-      "mean": 238.3063,
+      "mean": 247.6505,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 58,
-      "sha256": "B89F858F9DAA8EBB3C8DC777607832C95C1968B4C44B46B638827B69E49995DA",
+      "sha256": "F0A85B72B57EC992DB78F49481444DE6531B351803E2C0A03026D5114F085AE3",
       "size": [
         851,
         1229
       ],
-      "stddev": 48.2763
+      "stddev": 30.0029
     },
     {
-      "bytes": 187547,
+      "bytes": 133710,
       "content_bbox_at_threshold": [
-        70,
+        71,
         58,
-        839,
+        838,
         1208
       ],
-      "dark_pixel_count": 103683,
-      "dark_pixel_fraction": 0.0991347948,
+      "dark_pixel_count": 49148,
+      "dark_pixel_fraction": 0.0469920517,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1791,46 +1791,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-59.png",
-      "mean": 240.0233,
+      "mean": 249.0453,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 59,
-      "sha256": "906C0A7F5E61D84321AE8788ABEAD2302D6C3CD94ED9576D9EE38F86F1BE64C8",
+      "sha256": "0E304AE8F4EB9C7A2A5FB118F04360C434D0F84AAF7CB8A8E05CFB0F65A9BD1A",
       "size": [
         851,
         1229
       ],
-      "stddev": 46.5803
-    },
-    {
-      "bytes": 153946,
-      "content_bbox_at_threshold": [
-        70,
-        58,
-        838,
-        1208
-      ],
-      "dark_pixel_count": 76137,
-      "dark_pixel_fraction": 0.07279714,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-60.png",
-      "mean": 244.8177,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 60,
-      "sha256": "9035ACB93355A8D400FBC184548E40AF7320BA48F3533C1D0F6FBD6F9CEFF0C4",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 38.8069
+      "stddev": 28.1239
     },
     {
       "bytes": 122389,
@@ -1850,11 +1820,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-61.png",
+      "file": "page-60.png",
       "mean": 249.8387,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 61,
+      "page": 60,
       "sha256": "59BD77852740E9680C625F5715F99207D658D1B2246C1B99046191BE412FF222",
       "size": [
         851,
@@ -1863,15 +1833,15 @@
       "stddev": 27.7966
     },
     {
-      "bytes": 202840,
+      "bytes": 168466,
       "content_bbox_at_threshold": [
-        70,
+        71,
         58,
         839,
         1208
       ],
-      "dark_pixel_count": 114336,
-      "dark_pixel_fraction": 0.1093204854,
+      "dark_pixel_count": 63064,
+      "dark_pixel_fraction": 0.0602976061,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1880,17 +1850,17 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-62.png",
-      "mean": 238.8199,
+      "file": "page-61.png",
+      "mean": 246.8014,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 62,
-      "sha256": "8C256C77A65C0642B75DBC3EBC3935DFD7A079FC69A1829A188F166BA6CF57DD",
+      "page": 61,
+      "sha256": "A86CCBD570446181C122F4BFEC4F542BE5D1F02A3949093EC187863820DD235D",
       "size": [
         851,
         1229
       ],
-      "stddev": 47.9718
+      "stddev": 31.8553
     },
     {
       "bytes": 64208,
@@ -1910,11 +1880,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-63.png",
+      "file": "page-62.png",
       "mean": 252.8031,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 63,
+      "page": 62,
       "sha256": "06C3EE5E4D85FC052827051C88FDBAF3ACBFC2967BCBC1DC0FD297AD7A0CDECE",
       "size": [
         851,
@@ -1923,15 +1893,15 @@
       "stddev": 18.3255
     },
     {
-      "bytes": 190411,
+      "bytes": 157906,
       "content_bbox_at_threshold": [
         70,
         58,
         839,
         1208
       ],
-      "dark_pixel_count": 105459,
-      "dark_pixel_fraction": 0.1008328879,
+      "dark_pixel_count": 53749,
+      "dark_pixel_fraction": 0.0513912221,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -1940,17 +1910,17 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-64.png",
-      "mean": 239.8062,
+      "file": "page-63.png",
+      "mean": 247.7188,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 64,
-      "sha256": "1C818D34519A924BA3E5A18F0AA7D407E350A27C5CD6F47D6F6A2DFDED1B9893",
+      "page": 63,
+      "sha256": "A92C594FE7F60573AD2BEDEEC29810088ABF0E8E950E8A9E5C32A28CCDCDD630",
       "size": [
         851,
         1229
       ],
-      "stddev": 46.9435
+      "stddev": 29.9107
     },
     {
       "bytes": 85026,
@@ -1970,11 +1940,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-65.png",
+      "file": "page-64.png",
       "mean": 252.0822,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 65,
+      "page": 64,
       "sha256": "44C005D3668475ADF62AB6DB236A57CE640B0E152D9B02E4EAF8CA420891314C",
       "size": [
         851,
@@ -1983,15 +1953,45 @@
       "stddev": 20.9888
     },
     {
-      "bytes": 91028,
+      "bytes": 91086,
       "content_bbox_at_threshold": [
         71,
         58,
         839,
         1208
       ],
-      "dark_pixel_count": 28065,
-      "dark_pixel_fraction": 0.0268338881,
+      "dark_pixel_count": 28066,
+      "dark_pixel_fraction": 0.0268348442,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-65.png",
+      "mean": 251.924,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 65,
+      "sha256": "3D51860182EF2197F37B9DA386A957EB4833D6FA7479CC683F18EB4C68A27B5C",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 21.4577
+    },
+    {
+      "bytes": 126996,
+      "content_bbox_at_threshold": [
+        70,
+        58,
+        839,
+        1208
+      ],
+      "dark_pixel_count": 43461,
+      "dark_pixel_fraction": 0.0415545202,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2001,46 +2001,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-66.png",
-      "mean": 251.924,
+      "mean": 249.6258,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 66,
-      "sha256": "CC6BAEC1E44E18807C697C86EE755512F1D58E1A6D0890C3582D51603091D50A",
+      "sha256": "407A576B425546B8FD8D052F8B6EFA7F0C6E51A170D7FDDA30C9761932F94B52",
       "size": [
         851,
         1229
       ],
-      "stddev": 21.4578
-    },
-    {
-      "bytes": 144764,
-      "content_bbox_at_threshold": [
-        70,
-        58,
-        839,
-        1208
-      ],
-      "dark_pixel_count": 69614,
-      "dark_pixel_fraction": 0.0665602809,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-67.png",
-      "mean": 245.5744,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 67,
-      "sha256": "4680565D6CEA11876FF1386D864A8C4DAE8526BC46A609C475981AD9500B8B7E",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 37.3078
+      "stddev": 26.6507
     },
     {
       "bytes": 29718,
@@ -2060,11 +2030,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-68.png",
+      "file": "page-67.png",
       "mean": 254.3097,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 68,
+      "page": 67,
       "sha256": "79582B5978E1D52AEDEE6FBD78100874CBD4BF0ED3499225DA514BF5D6BC62F1",
       "size": [
         851,
@@ -2090,11 +2060,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-69.png",
+      "file": "page-68.png",
       "mean": 250.4908,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 69,
+      "page": 68,
       "sha256": "07A822AD881418AD13DAD4F5B4EB1F69587ACB0DB6C5F215CCA64C63F4519DB3",
       "size": [
         851,
@@ -2103,15 +2073,45 @@
       "stddev": 26.3488
     },
     {
-      "bytes": 156877,
+      "bytes": 133017,
       "content_bbox_at_threshold": [
         66,
         52,
         843,
         1213
       ],
-      "dark_pixel_count": 93362,
-      "dark_pixel_fraction": 0.0892665404,
+      "dark_pixel_count": 45711,
+      "dark_pixel_fraction": 0.0437058207,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-69.png",
+      "mean": 248.8903,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 69,
+      "sha256": "F705333233FDE2E2F29B8F47A2BA7417F09E10FB7AC68D617BEC0C1EC7021FB2",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 26.6203
+    },
+    {
+      "bytes": 187734,
+      "content_bbox_at_threshold": [
+        65,
+        52,
+        844,
+        1213
+      ],
+      "dark_pixel_count": 65433,
+      "dark_pixel_fraction": 0.0625626865,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2121,46 +2121,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-70.png",
-      "mean": 241.287,
+      "mean": 245.6725,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 70,
-      "sha256": "022B7FBA4FE2056616D3114E9BDEE600FE291B904FC3C6488D303CD659958C00",
+      "sha256": "CD2251C9B3D185DCBCA88BF8EBDBEAAB31815FD090AD11CEA2D83FBE9FC43904",
       "size": [
         851,
         1229
       ],
-      "stddev": 45.2401
-    },
-    {
-      "bytes": 237321,
-      "content_bbox_at_threshold": [
-        65,
-        52,
-        844,
-        1213
-      ],
-      "dark_pixel_count": 163213,
-      "dark_pixel_fraction": 0.1560534249,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-71.png",
-      "mean": 230.2334,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 71,
-      "sha256": "AEE6AEECFE847AE800273471838BF38130B160D40F91C1382F6C77140897D974",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 58.2635
+      "stddev": 31.5132
     },
     {
       "bytes": 76718,
@@ -2180,11 +2150,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-72.png",
+      "file": "page-71.png",
       "mean": 252.5021,
       "mechanically_black": false,
       "mechanically_blank": false,
-      "page": 72,
+      "page": 71,
       "sha256": "6FE373A198FA7FEC688AF53DADC44233FC95F4BA5F18A322C495AE741BB49D7E",
       "size": [
         851,
@@ -2193,15 +2163,45 @@
       "stddev": 19.2323
     },
     {
-      "bytes": 259405,
+      "bytes": 202451,
       "content_bbox_at_threshold": [
         65,
         52,
         844,
         1213
       ],
-      "dark_pixel_count": 171380,
-      "dark_pixel_fraction": 0.1638621676,
+      "dark_pixel_count": 72439,
+      "dark_pixel_fraction": 0.0692613581,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-72.png",
+      "mean": 244.7954,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 72,
+      "sha256": "C01A6984D327C80B66A6CBF2F8099328B38E8CF159721D497956062F2EDEDB57",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 33.262
+    },
+    {
+      "bytes": 131113,
+      "content_bbox_at_threshold": [
+        66,
+        49,
+        843,
+        1213
+      ],
+      "dark_pixel_count": 45218,
+      "dark_pixel_fraction": 0.0432344468,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2211,27 +2211,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-73.png",
-      "mean": 229.4572,
+      "mean": 249.378,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 73,
-      "sha256": "CB1298D0039C1AA59EFC50E619453BAE3BC2A9CD6A01BD036989A9B79BA3A471",
+      "sha256": "1FD34C230219141852953A2C2F4158034A2459F6079F978EFFBBF46762D0B042",
       "size": [
         851,
         1229
       ],
-      "stddev": 59.0337
+      "stddev": 26.9663
     },
     {
-      "bytes": 138384,
+      "bytes": 167139,
       "content_bbox_at_threshold": [
         66,
-        49,
-        843,
+        52,
+        844,
         1213
       ],
-      "dark_pixel_count": 66998,
-      "dark_pixel_fraction": 0.0640590355,
+      "dark_pixel_count": 60991,
+      "dark_pixel_fraction": 0.0583155413,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2241,27 +2241,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-74.png",
-      "mean": 245.8338,
+      "mean": 246.7494,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 74,
-      "sha256": "62B72E56DF080D9F60E1B0D796D989CBD8B9FBD9F8E59258F5CBF0BE466EB70E",
+      "sha256": "3F68D065CA68A36901A3020B63B2479F02D394179AC528C82A91D0298B361999",
       "size": [
         851,
         1229
       ],
-      "stddev": 37.0621
+      "stddev": 30.7473
     },
     {
-      "bytes": 217210,
+      "bytes": 142367,
       "content_bbox_at_threshold": [
         66,
         52,
         844,
         1213
       ],
-      "dark_pixel_count": 140443,
-      "dark_pixel_fraction": 0.134282264,
+      "dark_pixel_count": 47758,
+      "dark_pixel_fraction": 0.045663026,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2271,27 +2271,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-75.png",
-      "mean": 234.4292,
+      "mean": 248.7379,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 75,
-      "sha256": "7A2CB290B250A61DBA0217763550B5CB38C43EAE23FA57BA32FCB360DA970038",
+      "sha256": "74FFCF261C156B996641FB94BB5BD0C52746C164BFD7158C038327CEBCE98E80",
       "size": [
         851,
         1229
       ],
-      "stddev": 53.7452
+      "stddev": 27.369
     },
     {
-      "bytes": 168792,
+      "bytes": 145039,
       "content_bbox_at_threshold": [
-        66,
-        52,
+        65,
+        49,
         844,
         1213
       ],
-      "dark_pixel_count": 96756,
-      "dark_pixel_fraction": 0.0925116577,
+      "dark_pixel_count": 51221,
+      "dark_pixel_fraction": 0.0489741165,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2301,27 +2301,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-76.png",
-      "mean": 240.9775,
+      "mean": 248.1938,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 76,
-      "sha256": "44ABE3C3BED6115A586DAA844000C39FA5EA409F6EABD5A226EF7B1495962F4B",
+      "sha256": "5A38163607298B5B39B155769C81F91196E6A2B0EDA71D53A9611B9B5698AC18",
       "size": [
         851,
         1229
       ],
-      "stddev": 45.3647
+      "stddev": 28.4735
     },
     {
-      "bytes": 173095,
+      "bytes": 107881,
       "content_bbox_at_threshold": [
         65,
-        49,
+        52,
         844,
         1213
       ],
-      "dark_pixel_count": 101152,
-      "dark_pixel_fraction": 0.0967148207,
+      "dark_pixel_count": 34967,
+      "dark_pixel_fraction": 0.0334331218,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2331,27 +2331,27 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-77.png",
-      "mean": 240.435,
+      "mean": 250.4562,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 77,
-      "sha256": "AFF4F4AF98AD70BEACE1F0E66FF8F05313878B85340053585F269DB8A7F7E421",
+      "sha256": "78C6C4A8730447A2B03217BCD734CD965DC3837C05B822D1B54D4FC378ADFD0D",
       "size": [
         851,
         1229
       ],
-      "stddev": 45.8105
+      "stddev": 24.2717
     },
     {
-      "bytes": 117257,
+      "bytes": 87776,
       "content_bbox_at_threshold": [
-        65,
+        66,
         52,
         844,
         1213
       ],
-      "dark_pixel_count": 57748,
-      "dark_pixel_fraction": 0.0552148002,
+      "dark_pixel_count": 32397,
+      "dark_pixel_fraction": 0.0309758586,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2361,46 +2361,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-78.png",
-      "mean": 246.77,
+      "mean": 250.5478,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 78,
-      "sha256": "D70E03025B71EEB74F140AACABF6F621BC0922E9F3E72AEA5409058D157C8587",
+      "sha256": "4D90B90B16E2CDDE9C963EA301F99F89AA358CCE675FC4C0FE2343E085D9AAD3",
       "size": [
         851,
         1229
       ],
-      "stddev": 35.5995
-    },
-    {
-      "bytes": 89978,
-      "content_bbox_at_threshold": [
-        66,
-        52,
-        844,
-        1213
-      ],
-      "dark_pixel_count": 51350,
-      "dark_pixel_fraction": 0.0490974577,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-79.png",
-      "mean": 247.4646,
-      "mechanically_black": false,
-      "mechanically_blank": false,
-      "page": 79,
-      "sha256": "A9B2DA06777F9614A171128C8C5592184060618B4AE38F1BCCD67DBC5D445424",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 34.4176
+      "stddev": 24.0099
     },
     {
       "bytes": 4846,
@@ -2415,11 +2385,11 @@
       ],
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
-      "file": "page-80.png",
+      "file": "page-79.png",
       "mean": 255.0,
       "mechanically_black": false,
       "mechanically_blank": true,
-      "page": 80,
+      "page": 79,
       "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
       "size": [
         851,
@@ -2428,15 +2398,45 @@
       "stddev": 0.0
     },
     {
-      "bytes": 134650,
+      "bytes": 115385,
       "content_bbox_at_threshold": [
         94,
         73,
         803,
         1180
       ],
-      "dark_pixel_count": 66984,
-      "dark_pixel_fraction": 0.0640456496,
+      "dark_pixel_count": 40224,
+      "dark_pixel_fraction": 0.0384595159,
+      "dark_pixels_touch_edge": false,
+      "dark_threshold": 245,
+      "dpi_metadata": [
+        119.9896,
+        119.9896
+      ],
+      "edge_dark_pixel_count": 0,
+      "edge_width_pixels": 2,
+      "file": "page-80.png",
+      "mean": 249.5697,
+      "mechanically_black": false,
+      "mechanically_blank": false,
+      "page": 80,
+      "sha256": "C8023BEE6E2E3716980891BD7D056A66F962111FA8739A19E7E2100C044A308B",
+      "size": [
+        851,
+        1229
+      ],
+      "stddev": 27.6557
+    },
+    {
+      "bytes": 94033,
+      "content_bbox_at_threshold": [
+        94,
+        73,
+        803,
+        1180
+      ],
+      "dark_pixel_count": 35389,
+      "dark_pixel_fraction": 0.0338366102,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2446,27 +2446,22 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-81.png",
-      "mean": 245.3398,
+      "mean": 249.6647,
       "mechanically_black": false,
       "mechanically_blank": false,
       "page": 81,
-      "sha256": "11B4984509E761BFEA5FFBA9030C233C1E08880133CC1523AF338D0978E05FFC",
+      "sha256": "229C1860EAD7B0534BC636DCDB4980779BAF969D1F584BC62F7BC6B1ADC5ED1C",
       "size": [
         851,
         1229
       ],
-      "stddev": 38.4256
+      "stddev": 25.3378
     },
     {
-      "bytes": 151760,
-      "content_bbox_at_threshold": [
-        94,
-        73,
-        803,
-        1180
-      ],
-      "dark_pixel_count": 94247,
-      "dark_pixel_fraction": 0.0901127186,
+      "bytes": 4846,
+      "content_bbox_at_threshold": null,
+      "dark_pixel_count": 0,
+      "dark_pixel_fraction": 0.0,
       "dark_pixels_touch_edge": false,
       "dark_threshold": 245,
       "dpi_metadata": [
@@ -2476,16 +2471,16 @@
       "edge_dark_pixel_count": 0,
       "edge_width_pixels": 2,
       "file": "page-82.png",
-      "mean": 240.6284,
+      "mean": 255.0,
       "mechanically_black": false,
-      "mechanically_blank": false,
+      "mechanically_blank": true,
       "page": 82,
-      "sha256": "E70519FC767AC3293FEECBA97CAB261EDF8E2AC605CC2537B42D2F53DA95F774",
+      "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
       "size": [
         851,
         1229
       ],
-      "stddev": 45.4425
+      "stddev": 0.0
     },
     {
       "bytes": 4846,
@@ -2536,53 +2531,29 @@
         1229
       ],
       "stddev": 0.0
-    },
-    {
-      "bytes": 4846,
-      "content_bbox_at_threshold": null,
-      "dark_pixel_count": 0,
-      "dark_pixel_fraction": 0.0,
-      "dark_pixels_touch_edge": false,
-      "dark_threshold": 245,
-      "dpi_metadata": [
-        119.9896,
-        119.9896
-      ],
-      "edge_dark_pixel_count": 0,
-      "edge_width_pixels": 2,
-      "file": "page-85.png",
-      "mean": 255.0,
-      "mechanically_black": false,
-      "mechanically_blank": true,
-      "page": 85,
-      "sha256": "876EC1C3180BBBD0ECEAFE6C19F65C5AA0753ED7C8ABCFDA0189C89929DA799B",
-      "size": [
-        851,
-        1229
-      ],
-      "stddev": 0.0
     }
   ],
-  "render_directory": "local-private-custody/postp13-render-20260814T001946031",
+  "render_directory": "local-private-custody/en-r2-render-20260814T023100",
   "result": "PASS",
   "schema_version": 2,
   "structural_report": {
     "blank_pages": [
-      42,
-      80,
+      41,
+      79,
+      82,
       83,
-      84,
-      85
+      84
     ],
-    "page_count": 85,
+    "page_count": 84,
     "path": "local-private-custody/READER_STRUCTURAL_QA_POST_P13.json",
     "pdf": "local-private-custody/GAL1897_EN_MODERN_READER.pdf",
-    "pdf_sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3",
+    "pdf_sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5",
     "result": "PASS",
-    "sha256": "4E35C2C94AB22E92E6EE345C9DFAC4C2D6AE8AFDFCB4A338C376264EF985FC75"
+    "sha256": "BD6C174F8E2DA015AA01E948CAE305C2A3A697E5B094B26BA71324B0B4F3F729"
   },
   "visual_inspection": {
     "status": "NOT_PERFORMED_BY_THIS_SCRIPT",
-    "template": "galois_english_pdf_visual_inspection.template.json"
+    "template": "local-private-custody/galois_english_pdf_visual_inspection.template.json",
+    "template_sha256": "E3917189F5F2B444C295E1C3B0A16F2F8FFCAEECDE77225E2795A24B3E138CD7"
   }
 }

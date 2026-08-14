@@ -25,10 +25,12 @@ from urllib.parse import urlparse
 from pypdf import PdfReader
 from pypdf.generic import ContentStream
 
+from validate_galois_translation_structure import EXPECTED_CRITICAL_NOTE_IDS
+
 
 EXPECTED_METADATA = {
-    "/Author": "Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol",
-    "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes",
+    "/Author": "Évariste Galois; Manuscript Typesetting Project",
+    "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes",
     "/Subject": "Modern-English translation aligned to the audited 1897 French diplomatic transcription",
     "/Creator": "LaTeX with hyperref",
     "/Keywords": "Évariste Galois, English translation, Galois theory, critical edition",
@@ -50,9 +52,19 @@ EXPECTED_OUTLINE = [
 EXPECTED_OUTLINE_DEPTHS = [0] + [1] * (len(EXPECTED_OUTLINE) - 1)
 DEFAULT_REQUIRED_DOIS = [
     "10.5281/zenodo.21924301",
-    "10.5281/zenodo.21924302",
     "10.5281/zenodo.21923856",
 ]
+READER_FORBIDDEN_PATTERNS = {
+    "old_internal_box_title": re.compile(r"(?i)\bGPT\s+Critical\s+Note\b"),
+    "status_field_label": re.compile(r"(?im)(?:^|\n)\s*Status\s*:"),
+    "evidence_field_label": re.compile(r"(?im)(?:^|\n)\s*Evidence\s*:"),
+    "machine_evidence_filename": re.compile(
+        r"(?i)\b[A-Z0-9][A-Z0-9_ -]+\.(?:csv|json|tsv)\b"
+    ),
+    "audit_count_shorthand": re.compile(
+        r"(?i)\b9\s+repaired\b|\b8\s+proved\b|\b2\s+rejected\b"
+    ),
+}
 PDFINFO_METADATA_LABELS = {
     "/Author": "Author",
     "/Title": "Title",
@@ -525,6 +537,13 @@ def main() -> int:
         default=[],
         help="additional DOI string that both extractors must recover",
     )
+    parser.add_argument(
+        "--exact-release-doi",
+        help=(
+            "exact version DOI expected in the release reader; omit only for a "
+            "local pre-reservation candidate"
+        ),
+    )
     parser.add_argument("--pdfinfo-command", default="pdfinfo")
     parser.add_argument("--pdffonts-command", default="pdffonts")
     parser.add_argument("--pdftotext-command", default="pdftotext")
@@ -579,7 +598,17 @@ def main() -> int:
     except Exception as exc:
         links = []
         link_read_error = f"{type(exc).__name__}: {exc}"
-    required_dois = unique([*DEFAULT_REQUIRED_DOIS, *args.required_doi])
+    if args.exact_release_doi and not re.fullmatch(
+        r"10\.5281/zenodo\.\d+", args.exact_release_doi
+    ):
+        parser.error("--exact-release-doi must be a Zenodo DOI such as 10.5281/zenodo.N")
+    required_dois = unique(
+        [
+            *DEFAULT_REQUIRED_DOIS,
+            *([args.exact_release_doi] if args.exact_release_doi else []),
+            *args.required_doi,
+        ]
+    )
 
     text_lengths: list[int] = []
     extracted: list[str] = []
@@ -701,6 +730,26 @@ def main() -> int:
         }
         for doi in required_dois
     }
+    critical_destinations = sorted(
+        name for name in reader.named_destinations if name.startswith("critical-")
+    )
+    expected_critical_destinations = sorted(
+        f"critical-{note_id}" for note_id in EXPECTED_CRITICAL_NOTE_IDS
+    )
+    reader_surface_findings = {
+        label: [
+            {
+                "start": match.start(),
+                "excerpt": pypdf_text[
+                    max(0, match.start() - 80) : min(len(pypdf_text), match.end() + 120)
+                ].replace("\n", " "),
+            }
+            for match in pattern.finditer(pypdf_text)
+        ]
+        for label, pattern in READER_FORBIDDEN_PATTERNS.items()
+    }
+    editorial_reference_count = pypdf_text.count("Editorial reference:")
+    editorial_references_plural_count = pypdf_text.count("Editorial references:")
     assertions = {
         "page_count_derived_and_positive": page_count > 0,
         "not_encrypted": not reader.is_encrypted,
@@ -725,6 +774,8 @@ def main() -> int:
         "outline_hierarchy_exact": [row["depth"] for row in outline]
         == EXPECTED_OUTLINE_DEPTHS,
         "outline_tree_readable": outline_read_error is None,
+        "critical_note_destinations_exact": critical_destinations
+        == expected_critical_destinations,
         "all_outline_destinations_resolve": bool(outline)
         and all(
             row["error"] is None
@@ -754,6 +805,11 @@ def main() -> int:
         "pdftotext_no_diagnostics": not pdftotext_result["stderr"].strip(),
         "pdftotext_page_count_matches_pdf": len(pdftotext_pages) == page_count,
         "pdftotext_extractable_text_nonempty": bool(pdftotext_text.strip()),
+        "reader_surface_has_no_internal_audit_jargon": not any(
+            reader_surface_findings.values()
+        ),
+        "editorial_reference_lines_present": editorial_reference_count == 65
+        and editorial_references_plural_count == 1,
         "all_required_dois_extract_with_pypdf": all(
             row["pypdf"] for row in doi_matrix.values()
         ),
@@ -802,6 +858,15 @@ def main() -> int:
         "outline": {
             "entries": outline,
             "read_error": outline_read_error,
+        },
+        "reader_surface": {
+            "critical_destinations": critical_destinations,
+            "expected_critical_destinations": expected_critical_destinations,
+            "forbidden_pattern_findings": reader_surface_findings,
+            "editorial_reference_count": editorial_reference_count,
+            "editorial_references_plural_count": editorial_references_plural_count,
+            "exact_release_doi_required": args.exact_release_doi,
+            "pre_reservation_candidate": args.exact_release_doi is None,
         },
         "links": {
             "count": len(links),

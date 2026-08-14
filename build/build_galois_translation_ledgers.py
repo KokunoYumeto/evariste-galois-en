@@ -56,8 +56,6 @@ EXPECTED_POST_P13_OPEN_IDS = {
     "W01-U001",
     "W01-U002",
     "W01-U003",
-    "W08-WV001",
-    "W11-U001",
 }
 
 
@@ -95,7 +93,9 @@ def main() -> int:
     english = root / "source" / "english" / "tex" / "works"
     baseline = root / "source" / "critical_baseline"
     evidence = root / "evidence"
-    web_return = evidence / "web_post_p13_return"
+    web_return = evidence / "web_r2_authority"
+    web_ledgers = web_return / "ledgers"
+    web_qa = web_return / "qa"
 
     evidence.mkdir(parents=True, exist_ok=True)
     alignment: list[dict[str, object]] = []
@@ -105,27 +105,48 @@ def main() -> int:
     variants = read_csv(baseline / "WITNESS_VARIANTS.csv")
     errata = read_csv(baseline / "ERRATA_AND_UNRESOLVED_LEDGER.csv")
     deferred = read_csv(baseline / "DEFERRED_AUDIT_REGISTER.csv")
-    web_tasks = read_csv(web_return / "MASTER_21_TASK_LEDGER.csv")
-    web_errata = read_csv(web_return / "CRITICAL_ERRATA_CATALOGUE.csv")
-    web_prior = read_csv(web_return / "BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv")
-    web_open = read_csv(web_return / "OPEN_AFTER_21_TASKS.csv")
-    web_receipt = json.loads(
-        (web_return / "INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json").read_text(
-            encoding="utf-8"
-        )
+    web_tasks = read_csv(web_ledgers / "MASTER_21_TASK_LEDGER.csv")
+    web_errata = read_csv(web_ledgers / "CRITICAL_ERRATA_CATALOGUE.csv")
+    web_prior = read_csv(web_ledgers / "BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv")
+    web_open = read_csv(web_ledgers / "OPEN_AFTER_21_TASKS.csv")
+    package_manifest = read_csv(web_return / "PACKAGE_MANIFEST.csv")
+    manifest_by_path = {row["path"]: row for row in package_manifest}
+    if len(package_manifest) != 142 or len(manifest_by_path) != 142:
+        raise ValueError("web R2 package manifest must contain 142 unique records")
+    retained_r2_prefixes = (
+        "certificates/",
+        "critical_edition/",
+        "evidence/",
+        "frozen_diplomatic/",
+        "ledgers/",
+        "qa/",
     )
-    receipt_files = {row["name"]: row for row in web_receipt["files"]}
-    for name, row in receipt_files.items():
-        path = web_return / name
+    retained_r2_names = {
+        "BLOCKERS.md",
+        "OUTPUT_SET_FINGERPRINT.txt",
+        "OUTPUT_SHA256.txt",
+        "PACKAGE_RECEIPT.json",
+        "README.md",
+        "SPLIT_COVERAGE_REPORT.json",
+        "SPLIT_PACKAGE_INDEX.md",
+        "SPLIT_SOURCE_CONTENT_MANIFEST.csv",
+    }
+    retained_manifest = {
+        relative: row
+        for relative, row in manifest_by_path.items()
+        if relative.startswith(retained_r2_prefixes) or relative in retained_r2_names
+    }
+    for relative, row in retained_manifest.items():
+        path = web_return / relative
         if not path.is_file():
-            raise ValueError(f"post-P13 receipt file missing from mirror: {name}")
-        if path.stat().st_size != row["bytes"] or sha256(path) != row["sha256"]:
-            raise ValueError(f"post-P13 receipt mismatch in mirror: {name}")
+            raise ValueError(f"web R2 manifest file missing from mirror: {relative}")
+        if path.stat().st_size != int(row["bytes"]) or sha256(path) != row["sha256"]:
+            raise ValueError(f"web R2 manifest mismatch in mirror: {relative}")
 
-    cold_audit = json.loads((web_return / "COLD_AUDIT_CHECKS.json").read_text(encoding="utf-8"))
+    cold_audit = json.loads((web_qa / "COLD_AUDIT_CHECKS.json").read_text(encoding="utf-8"))
     cold_checks = cold_audit.get("checks", [])
     if (
-        cold_audit.get("status") != "PASS"
+        cold_audit.get("overall_status") != "PASS"
         or cold_audit.get("checks_passed") != 242
         or cold_audit.get("checks_total") != 242
         or len(cold_checks) != 242
@@ -158,17 +179,19 @@ def main() -> int:
             f"missing={sorted(EXPECTED_POST_P13_TASK_IDS - set(web_task_by_id))}; "
             f"unexpected={sorted(set(web_task_by_id) - EXPECTED_POST_P13_TASK_IDS)}"
         )
-    if len(web_prior) != 51 or len(web_prior_by_id) != 51:
-        raise ValueError("post-P13 priority matrix must contain 51 unique records")
-    if set(web_prior_by_id) != error_ids | variant_ids:
+    expected_prior_ids = error_ids | variant_ids | {"W11-U001"}
+    if len(web_prior) != 52 or len(web_prior_by_id) != 52:
+        raise ValueError("web R2 priority matrix must contain 52 unique records")
+    if set(web_prior_by_id) != expected_prior_ids:
         raise ValueError(
-            "post-P13 priority IDs do not exactly equal the frozen error/variant universe"
+            "web R2 priority IDs do not exactly equal the frozen error/variant "
+            "universe plus resolved colophon reading W11-U001"
         )
-    if len(web_open) != 5 or len({row["record_id"] for row in web_open}) != 5:
-        raise ValueError("post-P13 cumulative open ledger must contain five unique records")
+    if len(web_open) != 3 or len({row["record_id"] for row in web_open}) != 3:
+        raise ValueError("web R2 cumulative open ledger must contain three unique records")
     if {row["record_id"] for row in web_open} != EXPECTED_POST_P13_OPEN_IDS:
         raise ValueError(
-            "post-P13 open IDs differ from the frozen five-record open universe"
+            "web R2 open IDs differ from the frozen three-record open universe"
         )
 
     rendered_notes: set[str] = set()
@@ -395,16 +418,20 @@ def main() -> int:
     task_ids_without_source_reference = sorted(
         set(web_task_by_id) - set(source_task_references)
     )
+    task_certificate_paths = {
+        row["certificate"] for row in web_tasks if row.get("certificate")
+    }
+    task_certificates_exact = (
+        len(task_certificate_paths) == 21
+        and all(path in retained_manifest for path in task_certificate_paths)
+    )
     post_p13_summary = {
         "schema_version": 1,
-        "individual_download_custody_status": web_receipt["custody_status"],
-        "individual_download_validation_receipt": "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json",
-        "cumulative_archive_present": web_receipt[
-            "archive_claim_from_returned_sidecar_and_package_receipt"
-        ]["archive_present_in_authority_folder"],
-        "archive_internal_payload_replay_performed": web_receipt[
-            "archive_claim_from_returned_sidecar_and_package_receipt"
-        ]["internal_180_file_payload_hash_replay_independently_performed"],
+        "authority": "validated merged web R2 split package",
+        "authority_manifest": "evidence/web_r2_authority/PACKAGE_MANIFEST.csv",
+        "authority_manifest_records": len(package_manifest),
+        "retained_authority_records_replayed": len(retained_manifest),
+        "authority_manifest_replay": "PASS",
         "tasks": len(web_tasks),
         "task_status_counts": status_counts,
         "closed_errata": len(web_errata),
@@ -412,6 +439,7 @@ def main() -> int:
         "cumulative_open_records": [row["record_id"] for row in web_open],
         "source_task_references": source_task_references,
         "task_ids_without_source_reference": task_ids_without_source_reference,
+        "all_21_task_certificates_present_and_hash_replayed": task_certificates_exact,
         "cold_audit_checks": {"passed": 242, "total": 242, "status": "PASS"},
     }
     (evidence / "POST_P13_INTEGRATION_SUMMARY.json").write_text(
@@ -433,10 +461,11 @@ def main() -> int:
         "post_p13_remaining_deferred_research_records": 0,
         "post_p13_task_status_counts": status_counts,
         "post_p13_input_hashes": {
-            name: row["sha256"] for name, row in sorted(receipt_files.items())
+            name: row["sha256"] for name, row in sorted(retained_manifest.items())
         },
         "post_p13_cold_audit_checks": "242/242 PASS",
         "post_p13_task_ids_without_source_reference": task_ids_without_source_reference,
+        "post_p13_task_certificates_exact": task_certificates_exact,
         "rendered_critical_note_ids": sorted(rendered_notes),
         "baseline_error_ids_without_rendered_note": sorted(error_ids - rendered_notes),
         "baseline_variant_ids_without_rendered_note": sorted(variant_ids - rendered_notes),
@@ -446,15 +475,14 @@ def main() -> int:
             and not (error_ids - rendered_notes)
             and status_counts
             == {
-                "repaired": 9,
-                "proved": 8,
+                "repaired": 10,
+                "proved": 9,
                 "rejected": 2,
-                "unresolved_after_bounded_search": 2,
             }
-            and len(web_open) == 5
+            and len(web_open) == 3
             and len(critical_rows) == 51
             and not (variant_ids - rendered_notes)
-            and not task_ids_without_source_reference
+            and task_certificates_exact
         ),
     }
     (evidence / "TRANSLATION_LEDGER_BUILD.json").write_text(

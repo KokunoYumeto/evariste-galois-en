@@ -189,16 +189,13 @@ a formula that tells us nothing.}.
 \]
 
 % ENSEG:W07:PDF046:0034
-\GalCriticalNote{W07-SE001}{\textbf{Status: proved invalid counterexample;
-bounded prior-notice search closed with no explicit notice found.} The historical
-footnote claims that $x^2+x+1=0\pmod 2$ supplies roots not expressible by
-radicals because the ordinary quadratic formula degenerates to $0/0$.
-But a root $\alpha$ satisfies $\alpha^3=1$ and is itself a nontrivial cube
-root of unity in $\mathbf F_4$. The indeterminate quotient diagnoses failure
-of that characteristic-zero formula, not non-radicality. The footnote is
-retained; downstream arguments may not use it as a counterexample. Evidence:
-\texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W07-SE001, and its cited exact
-finite-field certificate.}
+\GalCriticalNote{W07-SE001}{The quadratic example is still solvable by radicals}{The
+historical footnote treats $x^2+x+1=0\pmod 2$ as an example whose roots cannot
+be expressed by radicals because the ordinary quadratic formula becomes
+$0/0$. But a root $\alpha$ satisfies $\alpha^3=1$ and is itself a nontrivial
+cube root of unity in $\mathbf F_4$. The indeterminate quotient shows only
+that the characteristic-zero formula has failed; it does not prove
+non-radicality. The footnote is retained, but cannot serve as a counterexample.}
 
 % ENSEG:W07:PDF046:0035
 It remains to show that, conversely to what we have just said, all the
@@ -270,12 +267,11 @@ Thus all the roots of the congruence $x^{p^\mu}=x$ would be common
 to it and to the equation $x^{p^\nu}=x$, which is absurd.
 
 % ENSEG:W07:PDF047:0124
-\GalCriticalNote{POST-P13-A004}{\textbf{Status: proved; the compressed argument survives.}
-The constructed field $\mathbf F_{p^\nu}$ lies in $\mathbf F_{p^\mu}$, so
-$\nu\mid\mu$. Conversely, because $i$ is rational in the constructed quantity,
+\GalCriticalNote{POST-P13-A004}{Why the two degrees are equal}{The constructed
+field $\mathbf F_{p^\nu}$ lies in $\mathbf F_{p^\mu}$, so $\nu\mid\mu$.
+Conversely, because $i$ is rational in the constructed quantity,
 $\mathbf F_{p^\mu}$ lies in $\mathbf F_{p^\nu}$, so $\mu\mid\nu$. Hence
-$\mu=\nu$. No new source-error record is required. Evidence: the post-P13
-task ledger and the passing certificate for POST-P13-A004.}
+$\mu=\nu$, and the compressed argument is sound.}
 
 % ENSEG:W07:PDF047:0051
 We now know, therefore, that all the roots of the equation or
@@ -397,14 +393,12 @@ whence, on separating,
 \]
 
 % ENSEG:W07:PDF049:0081
-\GalCriticalNote{W07-SE002}{\textbf{Status: proved missing hypotheses;
-bounded prior-notice search closed with no explicit notice found.} The printed
-Fermat reductions require $a\ne0$ and $a_1\ne0$ modulo $p$; they fail when
-exactly one is zero. The subsequently selected pair $a=-1$, $a_1=1$ does
-satisfy the missing conditions, so that local computation survives. The
-printed formulas are retained, but downstream reuse must state the nonzero
-hypotheses. Evidence: \texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W07-SE002,
-and its cited finite-field enumeration.}
+\GalCriticalNote{W07-SE002}{The Fermat reductions require nonzero inputs}{The
+printed reductions require $a\ne0$ and $a_1\ne0$ modulo $p$; they fail when
+exactly one is zero. The pair chosen immediately afterward,
+$a=-1$, $a_1=1$, satisfies those missing conditions, so that computation
+remains valid. Any later reuse of the formulas must state the nonzero
+hypotheses.}
 
 % ENSEG:W07:PDF049:0082
 These last two equations are satisfied by setting $a=-1$, $a_1=1$.
@@ -484,15 +478,11 @@ longer has a common factor with $F'x=0$, and the means of doing this is
 evidently the same as for ordinary equations}{W07-SE003: in characteristic p the derivative can vanish identically, so derivative-gcd reduction alone does not always produce the squarefree part}.
 
 % ENSEG:W07:PDF050:0101
-\GalCriticalNote{W07-SE003}{\textbf{Status: proved incomplete method;
-bounded prior-notice search closed with no explicit notice found.} In
+\GalCriticalNote{W07-SE003}{The squarefree method misses inseparable cases}{In
 characteristic $p$, $F'$ may vanish identically. For example,
-$F=x^3-1=(x-1)^3$ over $\mathbf F_3$ has $F'=0$, and dividing by
-$\gcd(F,F')$ loses the root. A correct squarefree procedure needs a
-$p$th-root extraction branch before recursion. The historical statement
-is retained; downstream algorithms must add this inseparability branch.
-Evidence: \texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W07-SE003, and its cited
-polynomial certificate.}
+$F=x^3-1=(x-1)^3$ over $\mathbf F_3$ has $F'=0$, and division by
+$\gcd(F,F')$ loses the root. A correct squarefree procedure must first include
+a $p$th-root extraction branch and then recurse.}
 
 % ENSEG:W07:PDF050:0102
 Next, to obtain the integral solutions, it will be enough, as M.~Libri
@@ -501,14 +491,10 @@ factor of $Fx=0$ and
 \GalSourceError{$x^{p-1}=1$}{W07-SE004: this polynomial detects only nonzero residues and omits a possible root x=0}.
 
 % ENSEG:W07:PDF050:0103
-\GalCriticalNote{W07-SE004}{\textbf{Status: proved omitted case; bounded
-prior-notice search closed with no explicit notice found.} The polynomial
+\GalCriticalNote{W07-SE004}{The test omits the root zero}{The polynomial
 $x^{p-1}-1$ detects only nonzero residue classes. For $F=x$, zero is an
-integral solution but the stated gcd is $1$. To detect all residue roots,
-use $x^p-x$ or test zero separately. The printed prescription remains
-unchanged; downstream root enumeration must include the zero branch.
-Evidence: \texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W07-SE004, and its cited
-exact counterexample.}
+integral solution although the stated greatest common divisor is $1$. To find
+all residue roots, one must use $x^p-x$ or test zero separately.}
 
 % ENSEG:W07:PDF050:0104
 If one now wishes to obtain the imaginary solutions of the second
@@ -518,16 +504,12 @@ greatest common divisor of $Fx=0$ and
 \GalSourceError{$x^{p^\nu-1}=1$}{W07-SE005: this gcd contains every nonzero proper-subfield element whose degree divides nu, rather than isolating exact degree nu}.
 
 % ENSEG:W07:PDF050:0105
-\GalCriticalNote{W07-SE005}{\textbf{Status: proved overinclusive prescription;
-repair propagated and bounded prior-notice search closed.}
-The stated polynomial contains every nonzero element of each proper
-subfield whose degree divides $\nu$, and therefore does not isolate roots
-of exact degree $\nu$; for $p=3$, $\nu=2$, it already includes the
-degree-one element $1$. Exact-degree isolation must remove proper-subfield
-factors and handle zero separately. The historical gcd rule is retained;
-downstream classifications may not infer exact degree from it unchanged.
-Evidence: \texttt{PRINTED\_AND\_SOURCE\_ERRORS.md}, W07-SE005, and its cited
-exact finite-field certificate.}
+\GalCriticalNote{W07-SE005}{The polynomial does not isolate exact degree}{The
+stated polynomial contains every nonzero element of each proper subfield whose
+degree divides $\nu$. It therefore does not isolate roots of exact degree
+$\nu$; when $p=3$ and $\nu=2$, it already contains the degree-one element
+$1$. Exact-degree isolation must remove the proper-subfield factors and handle
+zero separately.}
 
 % ENSEG:W07:PDF050:0106
 It is above all in the theory of permutations, where one constantly
@@ -587,15 +569,14 @@ radicals unless it satisfies the conditions just stated. (I except
 equations of the ninth and twenty-fifth degrees.)
 
 % ENSEG:W07:PDF051:0125
-\GalCriticalNote{POST-P13-A005}{\textbf{Status: rejected; the degree-$9$/$25$-only classification is false.}
-Let $V=\mathbf F_2^4$ and let the irreducible solvable complement
+\GalCriticalNote{POST-P13-A005}{The degree-$9$ and degree-$25$ list is not exhaustive}{Let
+$V=\mathbf F_2^4$ and let the irreducible solvable complement
 $(C_3\times C_3)\rtimes C_2$ of order $18$ act on $V$. The resulting affine
 primitive group has degree $16$ and order $288$, but it is not contained in
-$\Gamma L(1,16)$ because $18\nmid60$. The correct general statement is affine:
-a finite solvable primitive group has a regular elementary-abelian socle and a
-faithful irreducible stabilizer. One-dimensional semilinearity needs an extra
-hypothesis. Evidence: the post-P13 task ledger, WEB010, and the passing
-group-order and irreducibility checks for POST-P13-A005.}
+$\Gamma L(1,16)$ because $18\nmid60$. The correct general statement is that a
+finite solvable primitive group is affine, with a regular elementary-abelian
+socle and a faithful irreducible stabilizer. One-dimensional semilinearity
+requires an extra hypothesis.}
 
 % ENSEG:W07:PDF051:0116
 Thus, for each number of the form $p^\nu$, one can form a group of

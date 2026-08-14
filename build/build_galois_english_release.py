@@ -28,7 +28,7 @@ ZIP_COMPRESSION_LEVEL = 9
 STREAM_BLOCK_SIZE = 1024 * 1024
 SCAN_OVERLAP = 4096
 
-ENGLISH_EXACT_DOI = "10.5281/zenodo.21924302"
+ENGLISH_EXACT_DOI = "10.5281/zenodo.21926209"
 ENGLISH_CONCEPT_DOI = "10.5281/zenodo.21924301"
 FRENCH_EXACT_DOI = "10.5281/zenodo.21923857"
 FRENCH_CONCEPT_DOI = "10.5281/zenodo.21923856"
@@ -83,7 +83,13 @@ SOURCE_FILE_ALLOWLIST = (
     *SOURCE_WORKS,
     *(f"tex/wrappers/W{number:02d}.tex" for number in range(1, 12)),
 )
-SOURCE_DISCOVERY_EXCLUSIONS = ("$out/", "work/", "__pycache__/")
+SOURCE_DISCOVERY_EXCLUSIONS = (
+    "$out/",
+    "work/",
+    "__pycache__/",
+    # Retained, uniquely named local QA/build trees are never source payload.
+    "qa-humanized-",
+)
 ROOT_METADATA_ALLOWLIST = (
     "README.md",
     "LICENSE",
@@ -102,6 +108,7 @@ BUILD_SCRIPT_ALLOWLIST = (
     "validate_galois_translation_structure.py",
     "qa_galois_english_reader.py",
     "qa_galois_english_render.py",
+    "validate_galois_r2_authority.py",
     "build_galois_english_release.py",
 )
 
@@ -123,6 +130,7 @@ EVIDENCE_EXACT_ALLOWLIST = (
     "evidence/POST_P13_TASK_DISPOSITIONS.tsv",
     "evidence/QA_REPORT.md",
     "evidence/QA_STATE.json",
+    "evidence/R2_AUTHORITY_VALIDATION.json",
     "evidence/RELEASE_SURFACE.md",
     "evidence/SEMANTIC_AUDIT_CLOSURE_POST_P13.md",
     "evidence/SOURCE_AUTHORITY.json",
@@ -140,24 +148,77 @@ CRITICAL_BASELINE_ALLOWLIST = (
     "source/critical_baseline/WITNESS_VARIANTS.csv",
     "source/critical_baseline/WITNESS_VARIANTS.md",
 )
-WEB_RETURN_SUBSTANTIVE_ALLOWLIST = (
-    "evidence/web_post_p13_return/BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv",
-    "evidence/web_post_p13_return/COLD_AUDIT_CHECKS.json",
-    "evidence/web_post_p13_return/CRITICAL_ERRATA_CATALOGUE.csv",
-    "evidence/web_post_p13_return/DEPENDENCY_PROPAGATION_EDGES.csv",
-    "evidence/web_post_p13_return/"
-    "GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS.zip.sha256",
-    "evidence/web_post_p13_return/GAL1897_GPT_CRITICAL_EDITION.md",
-    "evidence/web_post_p13_return/GAL1897_GPT_CRITICAL_EDITION.pdf",
-    "evidence/web_post_p13_return/"
-    "GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
-    "evidence/web_post_p13_return/"
-    "GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_PACKAGE_RECEIPT.json",
-    "evidence/web_post_p13_return/MASTER_21_TASK_LEDGER.csv",
-    "evidence/web_post_p13_return/OPEN_AFTER_21_TASKS.csv",
-    "evidence/web_post_p13_return/SEARCH_QUERY_LEDGER.csv",
-    "evidence/web_post_p13_return/WEB_RESEARCH_PROVENANCE.md",
-    "evidence/web_post_p13_return/WEB_SOURCE_EVIDENCE.csv",
+WEB_R2_SUBSTANTIVE_ALLOWLIST = (
+    "evidence/web_r2_authority/BLOCKERS.md",
+    "evidence/web_r2_authority/OUTPUT_SET_FINGERPRINT.txt",
+    "evidence/web_r2_authority/OUTPUT_SHA256.txt",
+    "evidence/web_r2_authority/PACKAGE_MANIFEST.csv",
+    "evidence/web_r2_authority/PACKAGE_RECEIPT.json",
+    "evidence/web_r2_authority/README.md",
+    "evidence/web_r2_authority/SPLIT_COVERAGE_REPORT.json",
+    "evidence/web_r2_authority/SPLIT_PACKAGE_INDEX.md",
+    "evidence/web_r2_authority/SPLIT_SOURCE_CONTENT_MANIFEST.csv",
+    *(f"evidence/web_r2_authority/certificates/POST-P13-A{number:03d}.md" for number in range(1, 15)),
+    *(f"evidence/web_r2_authority/certificates/W10-DA{number:03d}.md" for number in range(1, 5)),
+    *(f"evidence/web_r2_authority/certificates/W11-DA{number:03d}.md" for number in range(1, 4)),
+    "evidence/web_r2_authority/critical_edition/GAL1897_GPT_CRITICAL_EDITION.md",
+    "evidence/web_r2_authority/critical_edition/GAL1897_GPT_CRITICAL_EDITION.pdf",
+    "evidence/web_r2_authority/critical_edition/GAL1897_GPT_CRITICAL_EDITION.tex",
+    "evidence/web_r2_authority/critical_edition/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+    "evidence/web_r2_authority/evidence/SOURCE_AUTHORITY_MANIFEST.csv",
+    "evidence/web_r2_authority/evidence/SOURCE_RETRIEVAL_RECEIPTS.md",
+    "evidence/web_r2_authority/evidence/WEB_RESEARCH_PROVENANCE.md",
+    "evidence/web_r2_authority/evidence/WEB_SOURCE_EVIDENCE.csv",
+    "evidence/web_r2_authority/evidence/figures/POST_P13_A008_TANNERY_READING.png",
+    "evidence/web_r2_authority/evidence/figures/W11_DA002_JOB_NUMBER_COMPARISON.png",
+    "evidence/web_r2_authority/evidence/source_replay/CANONICAL_1897_JOB_NUMBER_CROP.png",
+    "evidence/web_r2_authority/evidence/source_replay/ETH_1897_COLOPHON_ENHANCED.png",
+    "evidence/web_r2_authority/evidence/source_replay/ETH_1897_JOB_NUMBER_ENHANCED.png",
+    "evidence/web_r2_authority/evidence/source_replay/ETH_1897_JOB_NUMBER_RAW.png",
+    "evidence/web_r2_authority/evidence/source_replay/ETH_1897_TABLE_OF_CONTENTS.png",
+    "evidence/web_r2_authority/evidence/source_replay/ETH_Rar4575_Galois1897.pdf",
+    "evidence/web_r2_authority/evidence/source_replay/ETH_Rar4575_Galois1897_OCR.txt",
+    "evidence/web_r2_authority/evidence/source_replay/SOURCE_REPLAY_SHA256.txt",
+    "evidence/web_r2_authority/evidence/source_replay/TANNERY_1908_FORMULAS_600PPI.png",
+    "evidence/web_r2_authority/evidence/source_replay/TANNERY_1908_PAGE12_CONTEXT.png",
+    "evidence/web_r2_authority/evidence/source_replay/TANNERY_1908_PDF012_RENDER.png",
+    "evidence/web_r2_authority/evidence/source_replay/galois1897_L0092_PDF093.jp2",
+    "evidence/web_r2_authority/evidence/source_replay/tannery1908_0011.tif",
+    "evidence/web_r2_authority/evidence/source_replay/tannery1908_0012.tif",
+    "evidence/web_r2_authority/evidence/source_replay/tannery1908_0013.tif",
+    "evidence/web_r2_authority/evidence/source_replay/w08_figs/1908_LEGENDRE_VARIANT_ENHANCED.png",
+    "evidence/web_r2_authority/evidence/source_replay/w08_figs/1908_LEGENDRE_VARIANT_RAW.png",
+    "evidence/web_r2_authority/evidence/source_replay/w11_figs/CANONICAL_JOB_NUMBER_ENHANCED.png",
+    "evidence/web_r2_authority/frozen_diplomatic/FROZEN_DIPLOMATIC_RECEIPT.json",
+    "evidence/web_r2_authority/frozen_diplomatic/GAL1897_1897_SOURCE_FAITHFUL_CANDIDATE_P13R_AUDIT_BUILD.pdf",
+    *(f"evidence/web_r2_authority/ledgers/{name}" for name in (
+        "BIBLIOGRAPHIC_PRIOR_NOTICE_MATRIX.csv",
+        "CRITICAL_ERRATA_CATALOGUE.csv",
+        "DEPENDENCY_PROPAGATION_EDGES.csv",
+        "MASTER_21_TASK_LEDGER.csv",
+        "OPEN_AFTER_21_TASKS.csv",
+        "OPEN_AFTER_21_TASKS_PRE_R2.csv",
+        "R2_WITNESS_VARIANT_ADJUDICATIONS.csv",
+        "RESOLVED_AFTER_R2_DEEP_REPLAY.csv",
+        "SEARCH_QUERY_LEDGER.csv",
+    )),
+    *(f"evidence/web_r2_authority/qa/{name}" for name in (
+        "COLD_AUDIT_REPORT.md",
+        "DETERMINISTIC_BUILD_RECEIPT.json",
+        "GHOSTSCRIPT_CRITICAL.txt",
+        "GHOSTSCRIPT_READER.txt",
+        "MATHEMATICAL_CHECKS.json",
+        "PDFFONTS_CRITICAL.txt",
+        "PDFFONTS_READER.txt",
+        "PDFIMAGES_CRITICAL.txt",
+        "PDFIMAGES_READER.txt",
+        "PDF_PIXEL_REPLAY.json",
+        "RENDERER_PARITY_SUMMARY.json",
+        "cold_audit.py",
+        "critical_contact_1.jpg",
+        "critical_contact_2.jpg",
+        "verify_math.py",
+    )),
 )
 PUBLIC_PROJECTION_SPECS = (
     (
@@ -181,10 +242,19 @@ PUBLIC_PROJECTION_SPECS = (
         "visual_receipt",
     ),
     (
-        "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json",
-        "evidence/web_post_p13_return/"
-        "INDIVIDUAL_DOWNLOAD_VALIDATION_PUBLIC_RECEIPT.json",
-        "web_receipt",
+        "evidence/web_r2_authority/qa/COLD_AUDIT_CHECKS.json",
+        "evidence/web_r2_authority/qa/COLD_AUDIT_CHECKS_PUBLIC.json",
+        "json",
+    ),
+    (
+        "evidence/web_r2_authority/qa/PDF_PREFLIGHT_CRITICAL.json",
+        "evidence/web_r2_authority/qa/PDF_PREFLIGHT_CRITICAL_PUBLIC.json",
+        "json",
+    ),
+    (
+        "evidence/web_r2_authority/qa/PDF_PREFLIGHT_READER.json",
+        "evidence/web_r2_authority/qa/PDF_PREFLIGHT_READER_PUBLIC.json",
+        "json",
     ),
 )
 PREPACKAGE_RECEIPT_ARCNAME = (
@@ -655,6 +725,7 @@ def validate_qa_receipts(root: Path) -> dict[str, object]:
     mechanical = read_object("evidence/READER_MECHANICAL_RENDER_QA_POST_P13.json")
     visual = read_object("evidence/READER_VISUAL_INSPECTION_POST_P13.json")
     qa_state = read_object("evidence/QA_STATE.json")
+    authority = read_object("evidence/R2_AUTHORITY_VALIDATION.json")
     failures: list[str] = []
     if structural.get("pass") is not True:
         failures.append("STRUCTURAL_VALIDATION_POST_P13.pass")
@@ -710,9 +781,37 @@ def validate_qa_receipts(root: Path) -> dict[str, object]:
             failures.append("QA receipt reader identity agreement")
     semantic_state = qa_state.get("semantic_and_formula_audit")
     if not isinstance(semantic_state, dict) or semantic_state.get("result") != (
-        "PASS_POST_P13_AFTER_REPAIRS"
+        "PASS_R2_AFTER_DEEP_REPLAY_AND_READER_HUMANIZATION"
     ):
         failures.append("QA_STATE.semantic_and_formula_audit")
+    authority_counts = authority.get("counts")
+    authority_assertions = authority.get("assertions")
+    dangling = authority.get("dangling_evidence_pointers")
+    if (
+        authority.get("result") != "PASS"
+        or not isinstance(authority_counts, dict)
+        or authority_counts.get("split_source_records") != 164
+        or authority_counts.get("critical_errata") != 36
+        or authority_counts.get("dependency_edges") != 48
+        or authority_counts.get("prior_notice_records") != 52
+        or authority_counts.get("search_queries") != 22
+        or authority_counts.get("open_records") != 3
+        or authority_counts.get("cold_audit_checks") != 242
+        or not isinstance(authority_assertions, dict)
+        or not all(authority_assertions.values())
+        or dangling
+        != [
+            {
+                "task_id": "POST-P13-A008",
+                "pointer": "qa/OPEN_TASK_RESOLUTION_CHECKS.json",
+            },
+            {
+                "task_id": "W11-DA002",
+                "pointer": "qa/OPEN_TASK_RESOLUTION_CHECKS.json",
+            },
+        ]
+    ):
+        failures.append("R2_AUTHORITY_VALIDATION")
     if failures:
         raise RuntimeError("Required post-P13 QA gates failed: " + ", ".join(failures))
     return {
@@ -721,7 +820,8 @@ def validate_qa_receipts(root: Path) -> dict[str, object]:
         "mechanical_render": "PASS_WITH_NO_VISUAL_CLAIM",
         "actual_visual_inspection": "PASS",
         "visually_inspected_pages": page_count,
-        "semantic_and_formula_audit": "PASS_POST_P13_AFTER_REPAIRS",
+        "semantic_and_formula_audit": "PASS_R2_AFTER_DEEP_REPLAY_AND_READER_HUMANIZATION",
+        "r2_authority": "PASS_164_OF_164_WITH_DANGLING_POINTER_DISCLOSED",
         "result": "PASS",
     }
 
@@ -1098,7 +1198,7 @@ def build_evidence_entries(root: Path, stage: Path) -> tuple[list[PreparedEntry]
         for relative in (
             *EVIDENCE_EXACT_ALLOWLIST,
             *CRITICAL_BASELINE_ALLOWLIST,
-            *WEB_RETURN_SUBSTANTIVE_ALLOWLIST,
+            *WEB_R2_SUBSTANTIVE_ALLOWLIST,
         )
     ]
     projection_records: list[dict[str, object]] = []
@@ -1350,7 +1450,7 @@ def main() -> int:
         *SOURCE_SIDECAR_ALLOWLIST,
         *EVIDENCE_EXACT_ALLOWLIST,
         *CRITICAL_BASELINE_ALLOWLIST,
-        *WEB_RETURN_SUBSTANTIVE_ALLOWLIST,
+        *WEB_R2_SUBSTANTIVE_ALLOWLIST,
         *(spec[0] for spec in PUBLIC_PROJECTION_SPECS),
     ):
         require_regular_file(root / relative, (root,))

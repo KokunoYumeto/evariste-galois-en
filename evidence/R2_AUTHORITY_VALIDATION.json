@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "role": "public-safe replay receipt for the merged web R2 authority",
+  "authority_identity": {
+    "directory_name": "GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2",
+    "package_manifest_sha256": "D383554B49A0FAF445ABA276EDD7D07C4743E556F5D78A5D562AB6E1B61164B9",
+    "split_source_manifest_sha256": "2DEBE00E7C622267F35691DCD0C6FE90B89D3B37A920DA89554AE914065DD142"
+  },
+  "counts": {
+    "split_source_records": 164,
+    "package_manifest_records": 142,
+    "critical_errata": 36,
+    "dependency_edges": 48,
+    "prior_notice_records": 52,
+    "search_queries": 22,
+    "tasks": 21,
+    "open_records": 3,
+    "cold_audit_checks": 242
+  },
+  "task_status_counts": {
+    "proved": 9,
+    "rejected": 2,
+    "repaired": 10
+  },
+  "open_record_ids": [
+    "W01-U001",
+    "W01-U002",
+    "W01-U003"
+  ],
+  "resolved_after_r2_ids": [
+    "W08-WV001",
+    "W11-U001"
+  ],
+  "split_replay_failures": [],
+  "package_manifest_replay_failures": [
+    "missing:component_archives/GAL1897_CUMULATIVE_P00-P13R_REPAIRED_CANDIDATE_AND_REAUDIT.zip"
+  ],
+  "package_manifest_replay_disposition": "Exactly one package-manifest byte stream is absent: the original 209,556,731-byte nested wrapper. The split coverage report records its exact SHA-256 and replacement by twenty byte-preserved members; all 164 distributed source records replay exactly.",
+  "dangling_evidence_pointers": [
+    {
+      "task_id": "POST-P13-A008",
+      "pointer": "qa/OPEN_TASK_RESOLUTION_CHECKS.json"
+    },
+    {
+      "task_id": "W11-DA002",
+      "pointer": "qa/OPEN_TASK_RESOLUTION_CHECKS.json"
+    }
+  ],
+  "dangling_pointer_disposition": "The two task-ledger rows name qa/OPEN_TASK_RESOLUTION_CHECKS.json, but that file is absent from the R2 package. The underlying W08 and W11 evidence, certificates, source-replay files, mathematical checks, and cold-audit checks are present and hash-verified. This receipt discloses the dangling pointer and does not claim the file exists.",
+  "assertions": {
+    "split_manifest_has_164_unique_paths": true,
+    "all_164_split_records_replayed": true,
+    "split_coverage_report_passes": true,
+    "package_manifest_has_142_unique_paths": true,
+    "package_manifest_replays_except_documented_expanded_wrapper": true,
+    "critical_errata_count_is_36": true,
+    "dependency_edge_count_is_48": true,
+    "prior_notice_count_is_52": true,
+    "search_query_count_is_22": true,
+    "task_count_and_dispositions_are_exact": true,
+    "open_set_is_exactly_three_preliminary_items": true,
+    "r2_deep_replay_resolves_exactly_w08_and_w11": true,
+    "cold_audit_is_242_of_242_pass": true,
+    "only_dangling_evidence_pointer_is_disclosed_open_task_file": true,
+    "dangling_pointer_occurs_only_on_two_resolved_tasks": true,
+    "dangling_pointer_target_is_absent": true
+  },
+  "result": "PASS"
+}

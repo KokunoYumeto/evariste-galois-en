@@ -1,0 +1,4 @@
+record_id,status,missing_evidence
+W01-U001,carried_forward_unresolved_outside_21_task_scope,A character-resolved independent image or documented portrait-plate source sufficient to read the faint lower-left signature on PDF019.
+W01-U002,carried_forward_unresolved_outside_21_task_scope,Independent provenance evidence sufficient to adjudicate the relation between the degraded PDF021 portrait and PDF019 without silently deduplicating witnesses.
+W01-U003,carried_forward_unresolved_outside_21_task_scope,A higher-fidelity device image or printer-source record sufficient to expand the publisher-device ribbon legend character by character.

@@ -1,19 +1,19 @@
 cff-version: 1.2.0
 message: "Please cite the exact English release DOI for reproducibility, or the concept DOI for the maintained English edition family."
-title: "Source and build repository for Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes"
+title: "Source and build repository for Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes"
 type: software
 authors:
   - name: "Manuscript Typesetting Project"
   - name: "OpenAI GPT-5.6 Sol (Ultra mode)"
-doi: "10.5281/zenodo.21924302"
-url: "https://doi.org/10.5281/zenodo.21924302"
+doi: "10.5281/zenodo.21926209"
+url: "https://doi.org/10.5281/zenodo.21926209"
 repository-code: "https://github.com/KokunoYumeto/evariste-galois-en"
-version: "2026-08-14 en-r1"
+version: "2026-08-14 en-r2"
 date-released: "2026-08-14"
 license: CC0-1.0
 preferred-citation:
   type: book
-  title: "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes"
+  title: "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes"
   authors:
     - family-names: "Galois"
       given-names: "Évariste"
@@ -23,7 +23,7 @@ preferred-citation:
     - name: "OpenAI GPT-5.6 Sol (Ultra mode)"
   languages:
     - "en"
-  doi: "10.5281/zenodo.21924302"
-  version: "2026-08-14 en-r1"
+  doi: "10.5281/zenodo.21926209"
+  version: "2026-08-14 en-r2"
   year: 2026
-  url: "https://doi.org/10.5281/zenodo.21924302"
+  url: "https://doi.org/10.5281/zenodo.21926209"

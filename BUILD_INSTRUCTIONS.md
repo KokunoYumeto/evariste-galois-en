@@ -123,7 +123,7 @@ Before any GitHub push or Zenodo upload, freeze and record:
 
 - final reader page count, bytes, and SHA-256;
 - final archive bytes, CRC results, duplicate/path checks, and SHA-256 values;
-- exact repository commit and tag `v2026.08.14-en-r1`;
+- exact repository commit and tag `v2026.08.14-en-r2`;
 - direct GitHub reader URL;
 - exact Zenodo preview and download URLs;
 - public retrieval/checksum receipts after publication.

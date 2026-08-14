@@ -83,7 +83,10 @@ ISSUE_DELTA_PINS = {
     "W08": "916509C107A013C0AA2F32384913997974EE0FD26E88948BF6F4442114E43120",
     "W09": "6E7245DD89215300EA0E86190839BDD3369C0D47878782ADB7EEB73277EC41FA",
     "W10": "98697A268C331D62A35C778911B1311C22C58D95EF52F2F10BE60B0506FEDA4D",
-    "W11": "ACBDB874C477B7F950C8F3AE34CDACEA6971A562D5D248691D07009F634F664F",
+    # R2 source replay resolves the five-digit printer number as 24572.  The
+    # historical crop remains unchanged; only its accessibility description
+    # changes from unresolved to the independently proved reading.
+    "W11": "FCD63CF04AD9F9B8F9FC505515B6A6145AA0FE1648708E29B5DC803D6A404E02",
 }
 
 FORMULA_RECEIPTS = {
@@ -120,6 +123,34 @@ FORMULA_RECEIPTS = {
 STABLE_ISSUE_ID = re.compile(
     r"(?:POST-P13-A\d{3}|W\d{2}-(?:PE|SE|WV|U|NA|CD)\d{3}|W1[01]-DA\d{3})"
 )
+
+# Frozen reader-apparatus identity from English r1.  R2 may rewrite headings and
+# prose, but it may not lose, duplicate, or silently rename an editorial record.
+EXPECTED_CRITICAL_NOTE_IDS = {
+    "POST-P13-A001", "POST-P13-A002", "POST-P13-A003", "POST-P13-A004",
+    "POST-P13-A005", "POST-P13-A014", "W02-PE001", "W03-PE001",
+    "W03-PE002", "W03-PE003", "W04-SE001", "W04-SE002", "W04-SE003",
+    "W04-SE004", "W05-SE001", "W05-SE002", "W06-PE001", "W06-SE001",
+    "W07-SE001", "W07-SE002", "W07-SE003", "W07-SE004", "W07-SE005",
+    "W08-PE001", "W08-PE002", "W08-WV001", "W08-WV002", "W08-WV003",
+    "W09-PE001", "W09-PE002", "W09-SE001", "W09-SE002", "W09-SE003",
+    "W09-SE004", "W09-SE005", "W09-SE006", "W09-WV001", "W09-WV002",
+    "W09-WV003", "W09-WV004", "W09-WV005", "W09-WV006", "W10-DA001",
+    "W10-DA002", "W10-DA003", "W10-DA004", "W10-NA001", "W10-PE001",
+    "W10-PE002", "W10-PE003", "W10-PE004", "W10-PE005", "W10-PE006",
+    "W10-SE001", "W10-SE002", "W10-TERM001", "W10-WV001", "W10-WV002",
+    "W10-WV003", "W10-WV004", "W10-WV005", "W10-WV006", "W11-DA003",
+    "W11-PE001", "W11-U001",
+}
+EXPECTED_WITNESS_NOTE_IDS = {"W01-U001", "W01-U002", "W01-U003"}
+INVISIBLE_REFERENCE_ONLY_IDS = {"POST-P13-A001", "POST-P13-A002", "POST-P13-A003"}
+READER_JARGON_PATTERNS = {
+    "status_label": re.compile(r"(?i)\bstatus\s*:"),
+    "evidence_label": re.compile(r"(?i)\bevidence\s*:"),
+    "internal_filename": re.compile(r"(?i)\b[A-Z0-9_ -]+\.(?:csv|json|tsv)\b"),
+    "old_box_title": re.compile(r"(?i)\bGPT\s+Critical\s+Note\b"),
+    "audit_shorthand": re.compile(r"(?i)\b9\s+repaired\b|\b8\s+proved\b|\b2\s+rejected\b"),
+}
 
 
 def strip_comments(text: str) -> str:
@@ -234,7 +265,7 @@ def remove_textual_math_args(value: str) -> str:
 def math_fragments(text: str) -> list[str]:
     # Critical notes are editorial additions and may contain new mathematics;
     # compare only the translated historical layer with the French authority.
-    clean = strip_comments(remove_macro_calls(text, "GalCriticalNote", 2))
+    clean = strip_comments(remove_macro_calls(text, "GalCriticalNote", 3))
     fragments: list[str] = []
     index = 0
     while index < len(clean):
@@ -365,19 +396,38 @@ def main() -> int:
                 # argument 4.  The English layer adds only the frozen stable ID
                 # to that note; arguments 1--3 and the source payload otherwise
                 # remain identical.  Record this audited apparatus-only delta.
-                w01_id_only = (
+                w01_witness_only = (
                     item["component"] == "W01"
                     and macro == "GalUnresolvedSourcePage"
                     and len(left) == len(right) == 1
                     and left[0][:3] == right[0][:3]
-                    and right[0][3].replace("\\textbf{W01-U002---unresolvedtopology.}", "") == left[0][3]
+                    and normalize_tex(
+                        remove_macro_calls(page_fr[macro][0][3], "GalWitnessNote", 1)
+                    )
+                    == normalize_tex(
+                        remove_macro_calls(page_en[macro][0][3], "GalWitnessNote", 3)
+                    )
+                    and macro_calls(
+                        page_en[macro][0][3], {"GalWitnessNote"}
+                    )["GalWitnessNote"]
+                    == [[
+                        "W01-U002",
+                        "A second portrait image cannot yet be identified",
+                        (
+                            "This separate scan page repeats the printed caption but "
+                            "contains a severely degraded portrait. The evidence does "
+                            "not show whether it is a second historical impression, a "
+                            "duplicate plate, or a duplication introduced during "
+                            "digitization, so it is preserved as a distinct page."
+                        ),
+                    ]]
                 )
-                if w01_id_only:
+                if w01_witness_only:
                     audited_dispositions.append({
                         "component": "W01",
                         "kind": "page_macro_apparatus_only_delta",
                         "macro": macro,
-                        "disposition": "PASS: stable unresolved ID added to embedded witness note; coordinates and payload preserved",
+                        "disposition": "PASS: human-facing witness note replaces the source-language note; stable ID, coordinates, and non-note payload are preserved",
                     })
                 else:
                     errors.append({
@@ -540,11 +590,120 @@ def main() -> int:
             ),
         })
 
+    main_path = root / "source" / "english" / "GAL1897_EN_MODERN_READER.tex"
+    reader_paths = [main_path, *sorted(english_dir.glob("GAL1897_W*.tex"))]
+    reader_text = "\n".join(path.read_text(encoding="utf-8") for path in reader_paths)
+    reader_calls = macro_calls(reader_text, {"GalCriticalNote", "GalWitnessNote"})
+    critical_calls = reader_calls["GalCriticalNote"]
+    witness_calls = reader_calls["GalWitnessNote"]
+    critical_ids = [call[0] for call in critical_calls if len(call) == 3]
+    witness_ids = [call[0] for call in witness_calls if len(call) == 3]
+
+    malformed_critical = [call for call in critical_calls if len(call) != 3]
+    malformed_witness = [call for call in witness_calls if len(call) != 3]
+    if malformed_critical:
+        errors.append({
+            "kind": "critical_note_interface_mismatch",
+            "expected_arguments": 3,
+            "calls": malformed_critical,
+        })
+    if malformed_witness:
+        errors.append({
+            "kind": "witness_note_interface_mismatch",
+            "expected_arguments": 3,
+            "calls": malformed_witness,
+        })
+
+    critical_counter = Counter(critical_ids)
+    witness_counter = Counter(witness_ids)
+    if set(critical_ids) != EXPECTED_CRITICAL_NOTE_IDS or any(
+        count != 1 for count in critical_counter.values()
+    ):
+        errors.append({
+            "kind": "critical_note_identity_mismatch",
+            "missing": sorted(EXPECTED_CRITICAL_NOTE_IDS - set(critical_ids)),
+            "unexpected": sorted(set(critical_ids) - EXPECTED_CRITICAL_NOTE_IDS),
+            "duplicates": sorted(
+                note_id for note_id, count in critical_counter.items() if count != 1
+            ),
+        })
+    if set(witness_ids) != EXPECTED_WITNESS_NOTE_IDS or any(
+        count != 1 for count in witness_counter.values()
+    ):
+        errors.append({
+            "kind": "witness_note_identity_mismatch",
+            "missing": sorted(EXPECTED_WITNESS_NOTE_IDS - set(witness_ids)),
+            "unexpected": sorted(set(witness_ids) - EXPECTED_WITNESS_NOTE_IDS),
+            "duplicates": sorted(
+                note_id for note_id, count in witness_counter.items() if count != 1
+            ),
+        })
+
+    visible_note_violations: list[dict[str, object]] = []
+    for call in [*critical_calls, *witness_calls]:
+        if len(call) != 3:
+            continue
+        note_id, heading, body = call
+        if note_id in INVISIBLE_REFERENCE_ONLY_IDS:
+            if heading.strip() or body.strip():
+                visible_note_violations.append({
+                    "id": note_id,
+                    "reason": "reference-only anchor unexpectedly has visible content",
+                })
+            continue
+        if not heading.strip() or not body.strip():
+            visible_note_violations.append({
+                "id": note_id,
+                "reason": "reader-facing heading and body must both be nonempty",
+            })
+        if STABLE_ISSUE_ID.search(heading) or note_id in heading:
+            visible_note_violations.append({
+                "id": note_id,
+                "reason": "stable ID leaked into reader-facing heading",
+            })
+        for label, pattern in READER_JARGON_PATTERNS.items():
+            if pattern.search(heading) or pattern.search(body):
+                visible_note_violations.append({
+                    "id": note_id,
+                    "reason": label,
+                })
+    if visible_note_violations:
+        errors.append({
+            "kind": "reader_facing_apparatus_ux_violation",
+            "violations": visible_note_violations,
+        })
+
+    main_text = main_path.read_text(encoding="utf-8")
+    editorial_reference_is_small = bool(
+        re.search(
+            r"\\providecommand\{\\GalEditorialReference\}\[1\]"
+            r"\{[^\n]*\\scriptsize\\itshape",
+            main_text,
+        )
+    )
+    if not editorial_reference_is_small:
+        errors.append({
+            "kind": "editorial_reference_not_unobtrusive",
+            "required": "GalEditorialReference must render in scriptsize italic text",
+        })
+
+    reader_surface = {
+        "critical_note_interface": "three arguments: stable ID, descriptive heading, human-facing body",
+        "critical_note_count": len(critical_calls),
+        "critical_note_ids_exact": set(critical_ids) == EXPECTED_CRITICAL_NOTE_IDS,
+        "witness_note_count": len(witness_calls),
+        "witness_note_ids_exact": set(witness_ids) == EXPECTED_WITNESS_NOTE_IDS,
+        "reference_only_anchor_ids": sorted(INVISIBLE_REFERENCE_ONLY_IDS),
+        "reader_facing_violations": visible_note_violations,
+        "editorial_reference_is_small": editorial_reference_is_small,
+    }
+
     report = {
         "schema_version": 1,
         "root": ".",
         "components": components,
         "audited_dispositions": audited_dispositions,
+        "reader_surface": reader_surface,
         "errors": errors,
         "pass": not errors,
     }

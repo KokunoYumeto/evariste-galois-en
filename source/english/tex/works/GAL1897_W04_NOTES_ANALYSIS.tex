@@ -68,53 +68,30 @@ From this we may conclude, as a corollary, that the quantity
 for $h=0$, is necessarily a function of $x$, which
 \GalSourceError{proves, \emph{a priori}, the existence of derived functions.}{W04-SE002}
 
-\GalCriticalNote{W04-SE001}{\textbf{Status: proved missing domain hypothesis.}
-The quotient is not defined unless $f(x+h)\ne f(x)$. For example, if $f$ is
-identically zero, the denominator vanishes for every $x,h$. The universal
-printed wording is retained above. Source: PDF038/L0037. Downstream effect:
-imposing $f(x+h)\ne f(x)$ repairs only the quotient's domain and does not
-repair the later extremum, inverse-function, or derivative-existence steps.
-The bounded post-P13 search found no explicit prior notice securely dated in
-the searched corpus. Evidence:
-\texttt{W04-SE001} in
-\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalCriticalNote{W04-SE001}{The quotient needs a nonzero denominator}{The
+quotient is defined only when $f(x+h)\ne f(x)$. If $f$ is identically zero,
+for example, the denominator vanishes for every $x$ and $h$. Adding this
+condition repairs the domain of the quotient, but not the later steps involving
+an extremum, an inverse function, or the existence of a derivative.}
 
-\GalCriticalNote{W04-SE004}{\textbf{Status: proved missing regularity
-hypothesis.} A discontinuous function can take equal endpoint values, be
-nonconstant, and attain no relevant interior extremum. Continuity on the
-closed interval, or another hypothesis ensuring attainment, is required.
-Source: PDF038/L0037. Downstream effect: continuity or another attainment
-hypothesis repairs only the extremum step; the later inverse inference and
-corollary remain independently defective. The bounded post-P13 search found no
-explicit prior notice securely dated in the searched corpus. Evidence:
-\texttt{W04-SE004} in
-\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalCriticalNote{W04-SE004}{The extremum step requires regularity}{A
+discontinuous function can take equal endpoint values, be nonconstant, and
+still attain no relevant interior extremum. Continuity on the closed interval,
+or another condition that guarantees attainment, is required. Even with that
+repair, the later inverse inference and corollary need separate justification.}
 
-\GalCriticalNote{W04-SE003}{\textbf{Status: proved invalid inference.} From
+\GalCriticalNote{W04-SE003}{The inverse step requires injectivity}{From
 $k=\psi(P)$ one cannot infer a single-valued $P=\varphi(k)$ unless $\psi$ is
-injective or an inverse branch is specified. A noninjective $\psi$ with
-$\psi(0)=\psi(1)=0$ gives an immediate counterexample. Source: PDF038/L0037.
-Downstream effect: injectivity or a specified inverse branch repairs only
-$k=\psi(P)\Rightarrow P=\varphi(k)$ and does not establish the theorem under
-the other missing hypotheses. The bounded post-P13 search found no explicit
-prior notice securely dated in the searched corpus. Evidence:
-\texttt{W04-SE003} in
-\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+injective or an inverse branch has been specified. A noninjective $\psi$ with
+$\psi(0)=\psi(1)=0$ is an immediate counterexample. This added condition
+repairs only the inverse step, not the theorem's other missing hypotheses.}
 
-\GalCriticalNote{W04-SE002}{\textbf{Status: proved false universal claim.}
-For $F(t)=|t|$, $f(t)=t$, and $x=0$, the quotient is $|h|/h$: its right-hand
-limit is $1$ and its left-hand limit is $-1$. No local wording correction
-repairs the claim; a reconstructed theorem would need explicit hypotheses.
-Source: PDF038/L0037. Downstream effect: the stated corollary cannot establish
-universal existence of derivatives; a reconstructed result requires explicit
-domain and regularity hypotheses. The bounded post-P13 search found no explicit
-prior notice securely dated in the searched corpus. Evidence:
-\texttt{W04-SE002} in
-\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalCriticalNote{W04-SE002}{The claimed limit need not exist}{Take
+$F(t)=|t|$, $f(t)=t$, and $x=0$. The quotient becomes $|h|/h$, whose
+right-hand limit is $1$ and left-hand limit is $-1$. No local change of wording
+can make the printed universal claim true; a valid theorem needs explicit
+domain and regularity hypotheses, and the stated corollary does not establish
+the universal existence of derivatives.}
 
 \GalSourcePageBoundary{039}{L0038}{10}{10}
 

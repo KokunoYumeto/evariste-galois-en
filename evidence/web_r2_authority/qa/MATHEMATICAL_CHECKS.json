@@ -1,0 +1,68 @@
+{
+  "generated": "2026-08-14",
+  "status": "PASS",
+  "checks_passed": 12,
+  "checks_total": 12,
+  "checks": [
+    {
+      "check_id": "A008_DETERMINANT_IDENTITY",
+      "status": "PASS",
+      "detail": "eta1*omega2-eta2*omega1 = i(E Fc + Ec F - F Fc)"
+    },
+    {
+      "check_id": "A008_SECOND_KIND_SHIFT_INVARIANCE",
+      "status": "PASS",
+      "detail": "determinant invariant under eta_j -> eta_j + c omega_j"
+    },
+    {
+      "check_id": "A008_RIGHT_HAND_SIDE",
+      "status": "PASS",
+      "detail": "printed pi/2 maps to manuscript pi*i/2"
+    },
+    {
+      "check_id": "W11_ETH_OCR_24572",
+      "status": "PASS",
+      "detail": "official OCR contains 24572"
+    },
+    {
+      "check_id": "W11_FIVE_DIGITS",
+      "status": "PASS",
+      "detail": "24572 is a five-digit decimal string"
+    },
+    {
+      "check_id": "A006_PSL2_11_ORDER",
+      "status": "PASS",
+      "detail": "|PSL(2,11)|=660"
+    },
+    {
+      "check_id": "A006_MATCHING_STABILIZER",
+      "status": "PASS",
+      "detail": "stabilizer order=60, index=11"
+    },
+    {
+      "check_id": "A005_ORDER_18_COMPLEMENT",
+      "status": "PASS",
+      "detail": "constructed complement order=18"
+    },
+    {
+      "check_id": "A005_IRREDUCIBLE_F2_4",
+      "status": "PASS",
+      "detail": "every nonzero H-orbit spans F_2^4"
+    },
+    {
+      "check_id": "A005_AFFINE_GROUP_ORDER",
+      "status": "PASS",
+      "detail": "|V semidirect H|=288"
+    },
+    {
+      "check_id": "A005_NOT_GAMMAL1_16",
+      "status": "PASS",
+      "detail": "18 does not divide |GammaL(1,16)|=60"
+    },
+    {
+      "check_id": "W10_DA003_NONCOMMUTING",
+      "status": "PASS",
+      "detail": "T0T1 and T1T0 differ at [0, 1, 2]"
+    }
+  ]
+}

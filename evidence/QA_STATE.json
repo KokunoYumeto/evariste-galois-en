@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-14T00:27:12+02:00",
-  "release": "2026-08-14 en-r1",
-  "exact_doi": "10.5281/zenodo.21924302",
+  "updated_at": "2026-08-14T02:43:00+02:00",
+  "release": "2026-08-14 en-r2",
+  "exact_doi": "10.5281/zenodo.21926209",
   "concept_doi": "10.5281/zenodo.21924301",
   "translation": {
     "components_complete": 11,
@@ -18,56 +18,79 @@
     "witness_variant_records": 15,
     "post_p13_tasks": 21,
     "post_p13_task_dispositions": {
-      "repaired": 9,
-      "proved": 8,
+      "repaired": 10,
+      "proved": 9,
       "rejected": 2,
-      "unresolved_after_bounded_search": 2
+      "unresolved_after_bounded_search": 0
     },
-    "cumulative_open_records": ["W01-U001", "W01-U002", "W01-U003", "W08-WV001", "W11-U001"],
+    "cumulative_open_records": [
+      "W01-U001",
+      "W01-U002",
+      "W01-U003"
+    ],
     "remaining_deferred_research_records": 0,
     "disclosure_result": "PASS"
   },
   "semantic_and_formula_audit": {
-    "result": "PASS_POST_P13_AFTER_REPAIRS",
+    "result": "PASS_R2_AFTER_DEEP_REPLAY_AND_READER_HUMANIZATION",
     "baseline_closure_receipt": "evidence/SEMANTIC_AUDIT_CLOSURE.md",
-    "post_p13_closure_receipt": "evidence/SEMANTIC_AUDIT_CLOSURE_POST_P13.md",
+    "r2_closure_receipt": "evidence/SEMANTIC_AUDIT_CLOSURE_POST_P13.md",
+    "r2_authority_receipt": "evidence/R2_AUTHORITY_VALIDATION.json",
     "open_high_findings": 0,
     "open_medium_findings": 0,
-    "bounded_disclosed_open_items": 5
+    "bounded_disclosed_open_items": 3,
+    "dangling_received_pointer_disclosed": true
   },
   "reader": {
     "path": "reader/00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-    "pages": 85,
-    "bytes": 3826541,
-    "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3",
+    "pages": 84,
+    "bytes": 3734236,
+    "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5",
     "two_independent_builds_byte_identical": true,
     "source_structure_qa": "PASS",
     "pdf_structural_qa": "PASS",
     "mechanical_render_qa": "PASS",
     "actual_visual_inspection": "PASS",
-    "rendered_pages_inspected": 85,
-    "full_resolution_pages_inspected": [3, 29, 71, 73, 82],
-    "intentional_blank_pages": [42, 80, 83, 84, 85],
+    "rendered_pages_inspected": 84,
+    "full_resolution_pages_inspected": [
+      1,
+      3,
+      17,
+      21,
+      34,
+      43,
+      51,
+      66,
+      77,
+      81
+    ],
+    "intentional_blank_pages": [
+      41,
+      79,
+      82,
+      83,
+      84
+    ],
     "compile_warnings": 0,
     "edge_contacts": 0,
     "black_or_dark_surprises": 0
   },
   "archives": {
-    "final_release_packages": "PENDING_POST_P13_PACKAGE_BUILD",
-    "source_crc_and_duplicate_check": "PENDING_POST_P13_PACKAGE_BUILD",
-    "evidence_crc_and_duplicate_check": "PENDING_POST_P13_PACKAGE_BUILD",
-    "other_translations_crc_and_duplicate_check": "PENDING_POST_P13_PACKAGE_BUILD",
-    "byte_identical_repeat": "PENDING_POST_P13_PACKAGE_BUILD"
+    "final_release_packages": "PASS",
+    "source_crc_and_duplicate_check": "PASS",
+    "evidence_crc_and_duplicate_check": "PASS",
+    "other_translations_crc_and_duplicate_check": "PASS",
+    "byte_identical_repeat": "PASS"
   },
   "publication": {
-    "github_repository": "PENDING",
-    "github_tag": "PENDING",
-    "zenodo_draft_id": 21924302,
-    "zenodo_state": "unsubmitted_zero_files",
+    "github_repository": "PENDING_R2_UPDATE",
+    "github_tag": "v2026.08.14-en-r2",
+    "zenodo_draft_id": 21926209,
+    "zenodo_state": "unsubmitted_with_inherited_r1_files",
     "reciprocal_french_r2": "PENDING"
   },
   "human_review_required": false,
-  "local_release_closed": false,
+  "local_release_closed": true,
   "release_closed": false,
-  "next_gate": "Build and independently repeat-verify the public-safe post-P13 release packages, then publish and retrieve-verify GitHub/Zenodo and reciprocal French r2."
+  "next_gate": "Publish and retrieve-verify English R2 on GitHub and Zenodo, then build and publish reciprocal French R2."
 }

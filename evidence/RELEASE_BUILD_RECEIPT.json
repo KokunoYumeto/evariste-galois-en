@@ -6,10 +6,10 @@
       "crc_failure": null,
       "duplicate_names": 0,
       "encrypted_members": 0,
-      "entries": 77,
-      "member_set_sha256": "39C858A27344D6CA0851FB0A3100D34AB2B13F50E5A917A9A22B0595A72EC894",
+      "entries": 78,
+      "member_set_sha256": "CB9239B012CE5CA9273766BDA4203C9050927AA06E2749915A0C54411CA24295",
       "pass": true,
-      "payload_bytes": 3242288,
+      "payload_bytes": 3255411,
       "unsafe_member_names": 0
     },
     "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip": {
@@ -18,10 +18,10 @@
       "crc_failure": null,
       "duplicate_names": 0,
       "encrypted_members": 0,
-      "entries": 47,
-      "member_set_sha256": "F841E262C83C7BEE69AB395A0771FDC1CF5B2098A1EBA8FE3EB5251878FB3DE6",
+      "entries": 120,
+      "member_set_sha256": "E53FB6AAD03D3EA86002A029861C4F2FB58396F7924C8032E2487BBC1BD826FA",
       "pass": true,
-      "payload_bytes": 4786550,
+      "payload_bytes": 25693971,
       "unsafe_member_names": 0
     },
     "OTHER_TRANSLATIONS.zip": {
@@ -37,11 +37,11 @@
       "unsafe_member_names": 0
     }
   },
-  "build_directory": "build/release-final-verified-20260814T004653894",
+  "build_directory": "build/en-r2-release-verified-20260814T024700000",
   "evidence_allowlist": {
-    "archive_entries": 47,
+    "archive_entries": 120,
     "incident_or_return_logs_included": false,
-    "input_fingerprint_sha256": "F841E262C83C7BEE69AB395A0771FDC1CF5B2098A1EBA8FE3EB5251878FB3DE6",
+    "input_fingerprint_sha256": "E53FB6AAD03D3EA86002A029861C4F2FB58396F7924C8032E2487BBC1BD826FA",
     "internal_durable_state_included": false,
     "prepackage_receipt_preexisted_archive": true,
     "public_projection_records": [
@@ -56,39 +56,57 @@
       },
       {
         "local_paths_removed": true,
-        "private_source_bytes": 92449,
+        "private_source_bytes": 96386,
         "private_source_name": "READER_STRUCTURAL_QA_POST_P13.json",
-        "private_source_sha256": "4E35C2C94AB22E92E6EE345C9DFAC4C2D6AE8AFDFCB4A338C376264EF985FC75",
-        "public_bytes": 87123,
+        "private_source_sha256": "BD6C174F8E2DA015AA01E948CAE305C2A3A697E5B094B26BA71324B0B4F3F729",
+        "public_bytes": 90992,
         "public_member": "evidence/public_receipts/READER_STRUCTURAL_QA_POST_P13_PUBLIC.json",
-        "public_sha256": "B34C812618A0350FA3344114692362334DC07F50032C91C663DB2E15AE2D8A58"
+        "public_sha256": "7C65E387FF9FB4F593DED82F0BC1CD0A12F2D795BF66AAA0E0AB12DDEE513DEB"
       },
       {
         "local_paths_removed": true,
-        "private_source_bytes": 64267,
+        "private_source_bytes": 63690,
         "private_source_name": "READER_MECHANICAL_RENDER_QA_POST_P13.json",
-        "private_source_sha256": "339CC55060078E35A80B22B8DE89C7265E7117D75F841709FC2EC530B50DA5BF",
-        "public_bytes": 61728,
+        "private_source_sha256": "0B4D693A6F4E05404F33DE3A5F6B6AA9720FA7DE8B4AB84168C9E01731CCE13C",
+        "public_bytes": 61104,
         "public_member": "evidence/public_receipts/READER_MECHANICAL_RENDER_QA_POST_P13_PUBLIC.json",
-        "public_sha256": "0237CABD9D5766114A8A45CE9AFC8C504CBAE36E13D4FA86D925E142CED58657"
+        "public_sha256": "D1AA07A22B22F52A5A7D28727D4CED25A791A404E3A575C0FAD609320E194A4C"
       },
       {
         "local_paths_removed": true,
-        "private_source_bytes": 5014,
+        "private_source_bytes": 5435,
         "private_source_name": "READER_VISUAL_INSPECTION_POST_P13.json",
-        "private_source_sha256": "6386639B1DD6C32DAA827702CB1AAEF2F40D2098DCA4A2332074A9672F0D8B7B",
-        "public_bytes": 6005,
+        "private_source_sha256": "8E35EC441D8E417DE96D625DE88F6804500D542C1969F64EE1767D3BB1C81992",
+        "public_bytes": 6498,
         "public_member": "evidence/public_receipts/READER_VISUAL_INSPECTION_POST_P13_PUBLIC.json",
-        "public_sha256": "BB43512110F575A745BF9B61A7B8209897C63BF66CED585821DBA7230DE4A0C7"
+        "public_sha256": "A2061958E8D83CA86C6586D7792D123CB2D98BC4B9BB7941C29784797AF3EA02"
       },
       {
         "local_paths_removed": true,
-        "private_source_bytes": 6970,
-        "private_source_name": "INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json",
-        "private_source_sha256": "810E162C076465099310C105A711DDBB6E7C28DAE4420F21EFEA2251983C796A",
-        "public_bytes": 7272,
-        "public_member": "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_PUBLIC_RECEIPT.json",
-        "public_sha256": "6C6601AAD015A5554A705E428697FFF2AAF9639F9C6DDCFEF8BD9BC58C6C24C1"
+        "private_source_bytes": 62120,
+        "private_source_name": "COLD_AUDIT_CHECKS.json",
+        "private_source_sha256": "7AFC8CCE3062C855E932A5F3B4FCC116206539A1FDCD31280DC3A5869BB9B64A",
+        "public_bytes": 62453,
+        "public_member": "evidence/web_r2_authority/qa/COLD_AUDIT_CHECKS_PUBLIC.json",
+        "public_sha256": "B82DAFEC745E093A354EC0F71B7A1A08A3735A3ED8B144253AFF29E2B58CF505"
+      },
+      {
+        "local_paths_removed": true,
+        "private_source_bytes": 294,
+        "private_source_name": "PDF_PREFLIGHT_CRITICAL.json",
+        "private_source_sha256": "E0CA758CC11092BB7FF439C6074254AA17416124EA14AB64B27FBAC81456E4A0",
+        "public_bytes": 630,
+        "public_member": "evidence/web_r2_authority/qa/PDF_PREFLIGHT_CRITICAL_PUBLIC.json",
+        "public_sha256": "09392E592B9F5398DCE88546D38FDC5BDF883B93CF3A15DF48E5750A40D01EAE"
+      },
+      {
+        "local_paths_removed": true,
+        "private_source_bytes": 320,
+        "private_source_name": "PDF_PREFLIGHT_READER.json",
+        "private_source_sha256": "5BA1FE3EBB0CFC7D610662BDE39BAB536FAF7C76291B48F2609F3191BE617BC1",
+        "public_bytes": 654,
+        "public_member": "evidence/web_r2_authority/qa/PDF_PREFLIGHT_READER_PUBLIC.json",
+        "public_sha256": "B4D6A0752A8AD4DA12021B7FCBEBC842D88F997F348CA27F78BA126F57C219FF"
       }
     ]
   },
@@ -185,7 +203,7 @@
   "manifest_check": {
     "canonical_bytes_match": true,
     "concept_doi": "10.5281/zenodo.21924301",
-    "exact_doi": "10.5281/zenodo.21924302",
+    "exact_doi": "10.5281/zenodo.21926209",
     "payload_records": 4,
     "result": "PASS",
     "self_hashing": false
@@ -196,27 +214,27 @@
     "new_output_directory_claimed": true,
     "recursive_cleanup_performed": false
   },
-  "output_directory": "reader-final-verified-20260814T004653894",
+  "output_directory": "reader-r2-final-verified-20260814T024700000",
   "public_files": [
     {
-      "bytes": 3826541,
+      "bytes": 3734236,
       "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-      "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+      "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
     },
     {
-      "bytes": 2954866,
+      "bytes": 2958034,
       "name": "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
-      "sha256": "B640739E7114F3B38EC5AE39EBEBE0A12E11086C29EF4413BD667DA881886C76"
+      "sha256": "0575FE98EE8C8C3BB450C3FF1D433A5C98E7A6A4A7FD9CEA70552072CE878F0C"
     },
     {
-      "bytes": 3961966,
+      "bytes": 24174693,
       "name": "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
-      "sha256": "7398B19F1FD8D2610F947D991D4449C9C8B50647A56DFF4E2DED2220FA7AD08A"
+      "sha256": "A16FA574C3F713894A1E53EE77C79A3BE662DB569CF572A748379FC05AA0F031"
     },
     {
-      "bytes": 550,
+      "bytes": 551,
       "name": "03_GALOIS_1897_EN_SHA256_MANIFEST.txt",
-      "sha256": "0C44AF2121B2FCB9F31DA93EAEDAA32AFFDD5292DF5A76DF8639937F52173179"
+      "sha256": "60EF5DF9C2C8EC89BF8AF33B5B1393F6F76A34B160355381C8190E547453F610"
     },
     {
       "bytes": 293784456,
@@ -237,22 +255,23 @@
     "actual_visual_inspection": "PASS",
     "mechanical_render": "PASS_WITH_NO_VISUAL_CLAIM",
     "post_p13_structure": "PASS",
+    "r2_authority": "PASS_164_OF_164_WITH_DANGLING_POINTER_DISCLOSED",
     "reader_structure": "PASS",
     "result": "PASS",
-    "semantic_and_formula_audit": "PASS_POST_P13_AFTER_REPAIRS",
-    "visually_inspected_pages": 85
+    "semantic_and_formula_audit": "PASS_R2_AFTER_DEEP_REPLAY_AND_READER_HUMANIZATION",
+    "visually_inspected_pages": 84
   },
   "reader": {
-    "bytes": 3826541,
+    "bytes": 3734236,
     "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-    "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+    "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
   },
   "result": "PASS",
   "schema_version": 2,
   "source_allowlist": {
-    "archive_entries": 77,
+    "archive_entries": 78,
     "datacite_relations_sidecar_included": true,
-    "input_fingerprint_sha256": "39C858A27344D6CA0851FB0A3100D34AB2B13F50E5A917A9A22B0595A72EC894",
+    "input_fingerprint_sha256": "CB9239B012CE5CA9273766BDA4203C9050927AA06E2749915A0C54411CA24295",
     "source_authority_sidecar_included": true
   },
   "two_build_byte_identity": {
@@ -261,27 +280,27 @@
     "files": [
       {
         "byte_identical": true,
-        "bytes": 3826541,
+        "bytes": 3734236,
         "name": "00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-        "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+        "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
       },
       {
         "byte_identical": true,
-        "bytes": 2954866,
+        "bytes": 2958034,
         "name": "01_GALOIS_1897_EN_EDITABLE_SOURCES.zip",
-        "sha256": "B640739E7114F3B38EC5AE39EBEBE0A12E11086C29EF4413BD667DA881886C76"
+        "sha256": "0575FE98EE8C8C3BB450C3FF1D433A5C98E7A6A4A7FD9CEA70552072CE878F0C"
       },
       {
         "byte_identical": true,
-        "bytes": 3961966,
+        "bytes": 24174693,
         "name": "02_GALOIS_1897_EN_EVIDENCE_AND_PROVENANCE.zip",
-        "sha256": "7398B19F1FD8D2610F947D991D4449C9C8B50647A56DFF4E2DED2220FA7AD08A"
+        "sha256": "A16FA574C3F713894A1E53EE77C79A3BE662DB569CF572A748379FC05AA0F031"
       },
       {
         "byte_identical": true,
-        "bytes": 550,
+        "bytes": 551,
         "name": "03_GALOIS_1897_EN_SHA256_MANIFEST.txt",
-        "sha256": "0C44AF2121B2FCB9F31DA93EAEDAA32AFFDD5292DF5A76DF8639937F52173179"
+        "sha256": "60EF5DF9C2C8EC89BF8AF33B5B1393F6F76A34B160355381C8190E547453F610"
       },
       {
         "byte_identical": true,
@@ -290,7 +309,7 @@
         "sha256": "E397EDA6C022D2754A228FE1B4FB6453245AE75B7D4B54B6BB86BEB8578D72AD"
       }
     ],
-    "reference_output_directory": "reader-final-baseline-20260814T004620185",
+    "reference_output_directory": "reader-r2-final-baseline-20260814T024500000",
     "status": "PASS"
   }
 }

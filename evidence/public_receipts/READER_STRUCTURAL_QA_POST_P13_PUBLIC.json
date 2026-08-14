@@ -1,11 +1,13 @@
 {
   "_public_projection": {
     "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
-    "source_bytes": 92449,
+    "source_bytes": 96386,
     "source_name": "READER_STRUCTURAL_QA_POST_P13.json",
-    "source_sha256": "4E35C2C94AB22E92E6EE345C9DFAC4C2D6AE8AFDFCB4A338C376264EF985FC75"
+    "source_sha256": "BD6C174F8E2DA015AA01E948CAE305C2A3A697E5B094B26BA71324B0B4F3F729"
   },
   "assertions": {
+    "a_build_receipt_matches_pdf_page_count_and_bytes": true,
+    "all_build_receipt_page_counts_match_pdf": true,
     "all_fonts_embedded": true,
     "all_link_annotations_valid": true,
     "all_outline_destinations_resolve": true,
@@ -14,14 +16,22 @@
     "all_required_dois_extract_with_pdftotext": true,
     "all_required_dois_extract_with_pypdf": true,
     "blank_topology_matches_declared": true,
+    "build_log_output_receipts_present": true,
     "build_logs_have_no_errors": true,
     "build_logs_have_no_unapproved_warnings": true,
+    "build_logs_nonempty": true,
     "build_logs_readable": true,
+    "critical_note_destinations_exact": true,
     "direct_font_resources_present": true,
+    "editorial_reference_lines_present": true,
     "font_rows_present_and_parseable": true,
     "link_annotations_present": true,
+    "link_annotations_readable": true,
     "not_encrypted": true,
+    "outline_destinations_follow_document_order": true,
+    "outline_hierarchy_exact": true,
     "outline_titles_exact_and_ordered": true,
+    "outline_tree_readable": true,
     "page_count_derived_and_positive": true,
     "pdffonts_available": true,
     "pdffonts_no_diagnostics": true,
@@ -41,80 +51,84 @@
     "pdftotext_succeeded": true,
     "pypdf_extractable_text_nonempty": true,
     "pypdf_extraction_succeeded_on_all_pages": true,
+    "reader_surface_has_no_internal_audit_jargon": true,
     "required_metadata_exact": true,
     "single_media_and_crop_geometry": true
   },
   "assessment_scope": "structural-and-mechanical; no visual inspection performed",
   "blank_topology": {
     "expected_pages": [
-      42,
-      80,
+      41,
+      79,
+      82,
       83,
-      84,
-      85
+      84
     ],
-    "selector_spec": "42,80,83,84,85",
+    "selector_spec": "41,79,82,83,84",
     "structurally_blank_pages": [
-      42,
-      80,
+      41,
+      79,
+      82,
       83,
-      84,
-      85
+      84
     ]
   },
   "build_logs": {
-    "allowed_warning_regexes": [
-      "^Package: infwarerr .*Providing info/warning/error messages"
-    ],
+    "allowed_warning_regexes": [],
     "errors": [],
     "logs": [
       {
-        "allowed_warnings": [
+        "allowed_warnings": [],
+        "bytes": 69127,
+        "errors": [],
+        "output_receipts": [
           {
-            "line": 317,
-            "text": "Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)"
+            "bytes": 3734236,
+            "matches_pdf_bytes": true,
+            "matches_pdf_page_count": true,
+            "page_count": 84
           }
         ],
-        "bytes": 69222,
-        "errors": [],
         "path": "local-private-custody/GAL1897_EN_MODERN_READER.log",
-        "sha256": "021363FDE3E391FAD03EE4B13E278B172339D08E044BA4F467CA5E7EC1EB0971",
+        "sha256": "21A22E0558FCB28ED35BE84BDB7E39F1DBF45113A3CAA95585FE6B2F2C64B469",
         "unapproved_warnings": []
       },
       {
-        "allowed_warnings": [
+        "allowed_warnings": [],
+        "bytes": 69127,
+        "errors": [],
+        "output_receipts": [
           {
-            "line": 317,
-            "text": "Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)"
+            "bytes": 3734236,
+            "matches_pdf_bytes": true,
+            "matches_pdf_page_count": true,
+            "page_count": 84
           }
         ],
-        "bytes": 69222,
-        "errors": [],
         "path": "local-private-custody/GAL1897_EN_MODERN_READER.log",
-        "sha256": "AAEDEACC3A6E490CD0B78136B24F1275D58905A58B68A7B7DEBDF046453650AA",
+        "sha256": "C6DFC51EFE375BED39AB868006D8375E413F7FDCE3E4EF4CDE270A303684FC82",
         "unapproved_warnings": []
       }
     ],
     "unapproved_warnings": [],
     "unreadable": []
   },
-  "bytes": 3826541,
+  "bytes": 3734236,
   "extraction": {
-    "pdftotext_page_count": 85,
+    "pdftotext_page_count": 84,
     "pdftotext_page_text_lengths": [
-      470,
-      892,
-      1997,
-      385,
-      547,
-      610,
+      361,
+      695,
+      1202,
+      548,
+      632,
       64,
       108,
-      238,
-      346,
+      281,
+      389,
       1415,
       1737,
-      2423,
+      2095,
       1798,
       1725,
       334,
@@ -123,67 +137,67 @@
       779,
       530,
       1326,
-      2570,
+      2151,
       1212,
-      681,
-      418,
-      2358,
-      1687,
+      770,
+      65,
+      2075,
+      765,
       1307,
-      2388,
-      2658,
-      2268,
-      1646,
+      2092,
+      2348,
+      2045,
+      1399,
       1676,
       1843,
-      2318,
-      1773,
+      2173,
+      1670,
       1188,
-      1749,
-      3645,
-      2544,
+      1578,
+      2947,
+      2427,
       317,
       0,
       1402,
       1767,
-      2439,
+      2258,
       1214,
-      2568,
-      2382,
+      2177,
+      2516,
       1619,
       1526,
       2036,
-      2603,
+      2383,
       1905,
-      2001,
-      3115,
+      1774,
+      2884,
       1627,
       1836,
-      3253,
-      2565,
-      2419,
+      2963,
+      2294,
+      2183,
       1957,
-      2937,
+      2571,
       858,
-      2581,
+      2208,
       1156,
       1312,
-      2013,
+      1831,
       210,
       1633,
-      2390,
-      3151,
+      2123,
+      2688,
       1229,
-      3544,
-      2006,
-      3095,
-      2350,
-      2430,
-      1525,
-      1234,
+      2965,
+      1959,
+      2518,
+      2083,
+      2166,
+      1431,
+      1335,
       0,
-      2143,
-      1381,
+      1944,
+      909,
       0,
       0,
       0
@@ -202,88 +216,87 @@
     },
     "pypdf_errors": [],
     "pypdf_page_text_lengths": [
-      469,
-      890,
-      1987,
-      382,
-      535,
-      600,
+      360,
+      694,
+      1189,
+      536,
+      622,
       61,
       106,
-      234,
-      342,
+      277,
+      385,
       1407,
       1734,
-      2420,
+      2088,
       1796,
-      1723,
+      1722,
       332,
       784,
       1128,
       696,
       470,
       1275,
-      2481,
+      2068,
       1140,
-      620,
-      414,
-      2227,
-      1659,
+      709,
+      63,
+      1950,
+      747,
       1243,
-      2328,
-      2599,
-      2174,
-      1555,
+      2028,
+      2288,
+      1954,
+      1298,
       1625,
       1765,
-      2229,
-      1681,
+      2081,
+      1576,
       1118,
-      1651,
-      3523,
-      2475,
+      1480,
+      2825,
+      2355,
       296,
       0,
       1389,
       1731,
-      2375,
+      2196,
       1148,
-      2491,
-      2312,
+      2090,
+      2409,
       1557,
       1520,
       2026,
-      2584,
+      2365,
       1892,
-      1905,
-      3025,
+      1678,
+      2792,
       1565,
       1718,
-      3171,
-      2471,
-      2400,
+      2872,
+      2202,
+      2163,
       1945,
-      2898,
+      2530,
       850,
-      2492,
+      2118,
       1098,
       1224,
-      1967,
+      1784,
       206,
-      1605,
-      2300,
-      3049,
+      1611,
+      2032,
+      2582,
       1143,
-      3420,
-      1948,
-      3008,
-      2249,
-      2360,
-      1468,
-      1210,
+      2854,
+      1899,
+      2435,
+      1986,
+      2093,
+      1375,
+      1313,
       0,
-      2129,
-      1380,
+      1928,
+      903,
       0,
       0,
       0
@@ -297,7 +310,7 @@
         "pdftotext": true,
         "pypdf": true
       },
-      "10.5281/zenodo.21924302": {
+      "10.5281/zenodo.21926209": {
         "pdftotext": true,
         "pypdf": true
       }
@@ -305,41 +318,40 @@
   },
   "fonts": {
     "direct_resource_names": [
-      "/BGRQNB+LMRoman12-Bold",
-      "/BXWBRP+LMMathItalic10-Regular",
-      "/BZJPIU+LMRoman10-BoldItalic",
+      "/CEZOEF+LMRoman10-Bold",
+      "/COOCHS+LMRoman8-Regular",
       "/DXVLHD+LMRoman7-Regular",
-      "/EGVVJU+LMRoman12-Regular",
       "/ESRFCN+LMRoman17-Regular",
-      "/FLFDWN+LMRoman9-Regular",
-      "/GHLSGY+LMMono8-Regular",
+      "/HKASYH+LMRoman10-BoldItalic",
       "/HYQTGO+LMRoman7-Italic",
-      "/JMGURT+LMMathSymbols9-Regular",
-      "/JODEBO+LMMathItalic9-Regular",
+      "/IVEITJ+LMMathItalic10-Regular",
+      "/JCXAGE+LMRoman9-Italic",
       "/JOJIXY+LMRomanCaps10-Regular",
-      "/JVUOIN+LMMono9-Regular",
       "/JWSUPP+LMRoman6-Bold",
-      "/KCJFRP+LMRoman9-Bold",
       "/KDIPQH+LMMathItalic7-Regular",
-      "/KDVJJX+LMRoman10-Bold",
       "/KSQLZD+LMMathItalic8-Regular",
       "/KVYLRB+LMRoman6-Regular",
       "/LADYZX+LMMathSymbols5-Regular",
+      "/MGKPYK+LMMathSymbols10-Regular",
       "/MIVTKR+LMMathSymbols6-Regular",
-      "/MYNWWR+LMMono10-Regular",
+      "/NRBPIK+LMRoman9-Bold",
       "/OQQVFW+LMRoman5-Regular",
-      "/PRGDUU+LMRoman10-Italic",
+      "/OUUHLK+LMMathSymbols9-Regular",
+      "/RCWMRL+LMRoman10-Italic",
+      "/RQBKZJ+LMMathItalic9-Regular",
+      "/RRTPZX+LMMono10-Italic",
       "/SEGJIS+LMMathSymbols8-Regular",
-      "/TGDEAR+LMRoman8-Bold",
+      "/TRNMVP+LMRoman12-Bold",
+      "/TTWIPM+LMRoman12-Regular",
       "/UFAECB+LMMathExtension10-Regular",
-      "/ULNZHB+LMRoman10-Regular",
       "/URFIMQ+LMMathItalic6-Regular",
       "/URHYJZ+MSBM10",
+      "/VEOVDV+LMRoman8-Bold",
+      "/VQUECP+LMRoman10-Regular",
       "/WLGWNK+LMMathItalic5-Regular",
       "/XJKYAF+LMMathSymbols7-Regular",
-      "/XWCLXY+LMRoman8-Regular",
-      "/YMBOHT+LMRoman8-Italic",
-      "/YRWYME+LMRoman9-Italic"
+      "/XSLECN+LMRoman9-Regular",
+      "/YMBOHT+LMRoman8-Italic"
     ],
     "not_embedded": [],
     "pdffonts_tool": {
@@ -355,7 +367,7 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "BGRQNB+LMRoman12-Bold",
+        "name": "TRNMVP+LMRoman12-Bold",
         "object_id": [
           "49",
           "0"
@@ -377,7 +389,7 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "EGVVJU+LMRoman12-Regular",
+        "name": "TTWIPM+LMRoman12-Regular",
         "object_id": [
           "51",
           "0"
@@ -388,7 +400,7 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "ULNZHB+LMRoman10-Regular",
+        "name": "VQUECP+LMRoman10-Regular",
         "object_id": [
           "52",
           "0"
@@ -399,7 +411,7 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "FLFDWN+LMRoman9-Regular",
+        "name": "XSLECN+LMRoman9-Regular",
         "object_id": [
           "53",
           "0"
@@ -410,29 +422,7 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "PRGDUU+LMRoman10-Italic",
-        "object_id": [
-          "60",
-          "0"
-        ],
-        "subset": true,
-        "unicode_map": true
-      },
-      {
-        "description": "Type 1 Custom",
-        "embedded": true,
-        "name": "KDVJJX+LMRoman10-Bold",
-        "object_id": [
-          "67",
-          "0"
-        ],
-        "subset": true,
-        "unicode_map": true
-      },
-      {
-        "description": "Type 1 Custom",
-        "embedded": true,
-        "name": "MYNWWR+LMMono10-Regular",
+        "name": "YMBOHT+LMRoman8-Italic",
         "object_id": [
           "68",
           "0"
@@ -443,9 +433,20 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "ULNZHB+LMRoman10-Regular",
+        "name": "RRTPZX+LMMono10-Italic",
         "object_id": [
-          "92",
+          "69",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "VQUECP+LMRoman10-Regular",
+        "object_id": [
+          "87",
           "0"
         ],
         "subset": true,
@@ -456,7 +457,7 @@
         "embedded": true,
         "name": "KVYLRB+LMRoman6-Regular",
         "object_id": [
-          "110",
+          "105",
           "0"
         ],
         "subset": true,
@@ -465,9 +466,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "KCJFRP+LMRoman9-Bold",
+        "name": "CEZOEF+LMRoman10-Bold",
         "object_id": [
-          "111",
+          "106",
           "0"
         ],
         "subset": true,
@@ -476,9 +477,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "YRWYME+LMRoman9-Italic",
+        "name": "NRBPIK+LMRoman9-Bold",
         "object_id": [
-          "112",
+          "107",
           "0"
         ],
         "subset": true,
@@ -487,9 +488,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "BZJPIU+LMRoman10-BoldItalic",
+        "name": "RCWMRL+LMRoman10-Italic",
         "object_id": [
-          "113",
+          "137",
           "0"
         ],
         "subset": true,
@@ -500,7 +501,7 @@
         "embedded": true,
         "name": "XJKYAF+LMMathSymbols7-Regular",
         "object_id": [
-          "148",
+          "143",
           "0"
         ],
         "subset": true,
@@ -509,9 +510,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "BXWBRP+LMMathItalic10-Regular",
+        "name": "IVEITJ+LMMathItalic10-Regular",
         "object_id": [
-          "166",
+          "161",
           "0"
         ],
         "subset": true,
@@ -520,9 +521,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "ULNZHB+LMRoman10-Regular",
+        "name": "VQUECP+LMRoman10-Regular",
         "object_id": [
-          "167",
+          "162",
           "0"
         ],
         "subset": true,
@@ -533,7 +534,7 @@
         "embedded": true,
         "name": "JOJIXY+LMRomanCaps10-Regular",
         "object_id": [
-          "174",
+          "169",
           "0"
         ],
         "subset": true,
@@ -542,9 +543,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "TGDEAR+LMRoman8-Bold",
+        "name": "VEOVDV+LMRoman8-Bold",
         "object_id": [
-          "181",
+          "176",
           "0"
         ],
         "subset": true,
@@ -555,7 +556,7 @@
         "embedded": true,
         "name": "JWSUPP+LMRoman6-Bold",
         "object_id": [
-          "182",
+          "177",
           "0"
         ],
         "subset": true,
@@ -564,9 +565,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "JODEBO+LMMathItalic9-Regular",
+        "name": "JCXAGE+LMRoman9-Italic",
         "object_id": [
-          "188",
+          "178",
           "0"
         ],
         "subset": true,
@@ -575,9 +576,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "FLFDWN+LMRoman9-Regular",
+        "name": "RQBKZJ+LMMathItalic9-Regular",
         "object_id": [
-          "189",
+          "184",
           "0"
         ],
         "subset": true,
@@ -586,9 +587,20 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "JMGURT+LMMathSymbols9-Regular",
+        "name": "XSLECN+LMRoman9-Regular",
         "object_id": [
-          "195",
+          "185",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "OUUHLK+LMMathSymbols9-Regular",
+        "object_id": [
+          "191",
           "0"
         ],
         "subset": true,
@@ -599,18 +611,7 @@
         "embedded": true,
         "name": "MIVTKR+LMMathSymbols6-Regular",
         "object_id": [
-          "212",
-          "0"
-        ],
-        "subset": true,
-        "unicode_map": true
-      },
-      {
-        "description": "Type 1 Custom",
-        "embedded": true,
-        "name": "JVUOIN+LMMono9-Regular",
-        "object_id": [
-          "214",
+          "208",
           "0"
         ],
         "subset": true,
@@ -621,7 +622,18 @@
         "embedded": true,
         "name": "KVYLRB+LMRoman6-Regular",
         "object_id": [
-          "221",
+          "216",
+          "0"
+        ],
+        "subset": true,
+        "unicode_map": true
+      },
+      {
+        "description": "Type 1 Custom",
+        "embedded": true,
+        "name": "MGKPYK+LMMathSymbols10-Regular",
+        "object_id": [
+          "223",
           "0"
         ],
         "subset": true,
@@ -632,7 +644,7 @@
         "embedded": true,
         "name": "UFAECB+LMMathExtension10-Regular",
         "object_id": [
-          "251",
+          "247",
           "0"
         ],
         "subset": true,
@@ -643,7 +655,7 @@
         "embedded": true,
         "name": "URFIMQ+LMMathItalic6-Regular",
         "object_id": [
-          "257",
+          "253",
           "0"
         ],
         "subset": true,
@@ -652,9 +664,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "KCJFRP+LMRoman9-Bold",
+        "name": "NRBPIK+LMRoman9-Bold",
         "object_id": [
-          "259",
+          "255",
           "0"
         ],
         "subset": true,
@@ -665,7 +677,7 @@
         "embedded": true,
         "name": "URHYJZ+MSBM10",
         "object_id": [
-          "260",
+          "256",
           "0"
         ],
         "subset": true,
@@ -676,7 +688,7 @@
         "embedded": true,
         "name": "WLGWNK+LMMathItalic5-Regular",
         "object_id": [
-          "272",
+          "268",
           "0"
         ],
         "subset": true,
@@ -687,7 +699,7 @@
         "embedded": true,
         "name": "OQQVFW+LMRoman5-Regular",
         "object_id": [
-          "287",
+          "283",
           "0"
         ],
         "subset": true,
@@ -698,7 +710,7 @@
         "embedded": true,
         "name": "DXVLHD+LMRoman7-Regular",
         "object_id": [
-          "288",
+          "284",
           "0"
         ],
         "subset": true,
@@ -709,7 +721,7 @@
         "embedded": true,
         "name": "HYQTGO+LMRoman7-Italic",
         "object_id": [
-          "289",
+          "285",
           "0"
         ],
         "subset": true,
@@ -720,7 +732,7 @@
         "embedded": true,
         "name": "OQQVFW+LMRoman5-Regular",
         "object_id": [
-          "300",
+          "296",
           "0"
         ],
         "subset": true,
@@ -731,7 +743,7 @@
         "embedded": true,
         "name": "LADYZX+LMMathSymbols5-Regular",
         "object_id": [
-          "301",
+          "297",
           "0"
         ],
         "subset": true,
@@ -742,7 +754,7 @@
         "embedded": true,
         "name": "KDIPQH+LMMathItalic7-Regular",
         "object_id": [
-          "303",
+          "299",
           "0"
         ],
         "subset": true,
@@ -753,7 +765,7 @@
         "embedded": true,
         "name": "DXVLHD+LMRoman7-Regular",
         "object_id": [
-          "304",
+          "300",
           "0"
         ],
         "subset": true,
@@ -762,9 +774,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "XWCLXY+LMRoman8-Regular",
+        "name": "HKASYH+LMRoman10-BoldItalic",
         "object_id": [
-          "404",
+          "366",
           "0"
         ],
         "subset": true,
@@ -773,9 +785,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "YMBOHT+LMRoman8-Italic",
+        "name": "COOCHS+LMRoman8-Regular",
         "object_id": [
-          "405",
+          "401",
           "0"
         ],
         "subset": true,
@@ -786,7 +798,7 @@
         "embedded": true,
         "name": "KSQLZD+LMMathItalic8-Regular",
         "object_id": [
-          "418",
+          "414",
           "0"
         ],
         "subset": true,
@@ -797,7 +809,7 @@
         "embedded": true,
         "name": "SEGJIS+LMMathSymbols8-Regular",
         "object_id": [
-          "419",
+          "415",
           "0"
         ],
         "subset": true,
@@ -806,9 +818,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "XWCLXY+LMRoman8-Regular",
+        "name": "COOCHS+LMRoman8-Regular",
         "object_id": [
-          "420",
+          "416",
           "0"
         ],
         "subset": true,
@@ -817,20 +829,9 @@
       {
         "description": "Type 1 Custom",
         "embedded": true,
-        "name": "GHLSGY+LMMono8-Regular",
+        "name": "VEOVDV+LMRoman8-Bold",
         "object_id": [
-          "465",
-          "0"
-        ],
-        "subset": true,
-        "unicode_map": true
-      },
-      {
-        "description": "Type 1 Custom",
-        "embedded": true,
-        "name": "TGDEAR+LMRoman8-Bold",
-        "object_id": [
-          "586",
+          "581",
           "0"
         ],
         "subset": true,
@@ -846,9 +847,9 @@
         "kind": "URI",
         "rect": [
           248.006,
-          131.811,
+          120.852,
           360.418,
-          143.766
+          132.807
         ],
         "source_page": 1,
         "target": "https://doi.org/10.5281/zenodo.21924301"
@@ -858,21 +859,21 @@
         "kind": "URI",
         "rect": [
           241.973,
-          119.856,
+          108.897,
           354.385,
-          131.811
+          120.852
         ],
         "source_page": 1,
-        "target": "https://doi.org/10.5281/zenodo.21924302"
+        "target": "https://doi.org/10.5281/zenodo.21926209"
       },
       {
         "errors": [],
         "kind": "URI",
         "rect": [
           264.099,
-          107.901,
+          96.942,
           376.51,
-          119.856
+          108.897
         ],
         "source_page": 1,
         "target": "https://doi.org/10.5281/zenodo.21923856"
@@ -886,8 +887,8 @@
           372.691,
           550.436
         ],
-        "source_page": 5,
-        "target": 6
+        "source_page": 4,
+        "target": 5
       },
       {
         "errors": [],
@@ -898,8 +899,8 @@
           219.176,
           530.447
         ],
-        "source_page": 5,
-        "target": 11
+        "source_page": 4,
+        "target": 10
       },
       {
         "errors": [],
@@ -910,8 +911,8 @@
           387.085,
           505.405
         ],
-        "source_page": 5,
-        "target": 17
+        "source_page": 4,
+        "target": 16
       },
       {
         "errors": [],
@@ -922,8 +923,8 @@
           251.934,
           482.889
         ],
-        "source_page": 5,
-        "target": 26
+        "source_page": 4,
+        "target": 25
       },
       {
         "errors": [],
@@ -934,8 +935,8 @@
           382.237,
           460.373
         ],
-        "source_page": 5,
-        "target": 29
+        "source_page": 4,
+        "target": 28
       },
       {
         "errors": [],
@@ -946,8 +947,8 @@
           306.631,
           437.858
         ],
-        "source_page": 5,
-        "target": 31
+        "source_page": 4,
+        "target": 30
       },
       {
         "errors": [],
@@ -958,8 +959,8 @@
           220.752,
           415.342
         ],
-        "source_page": 5,
-        "target": 33
+        "source_page": 4,
+        "target": 32
       },
       {
         "errors": [],
@@ -970,8 +971,8 @@
           223.935,
           392.827
         ],
-        "source_page": 5,
-        "target": 43
+        "source_page": 4,
+        "target": 42
       },
       {
         "errors": [],
@@ -982,8 +983,8 @@
           409.661,
           370.311
         ],
-        "source_page": 5,
-        "target": 51
+        "source_page": 4,
+        "target": 50
       },
       {
         "errors": [],
@@ -994,8 +995,8 @@
           345.662,
           348.462
         ],
-        "source_page": 5,
-        "target": 69
+        "source_page": 4,
+        "target": 68
       },
       {
         "errors": [],
@@ -1006,104 +1007,108 @@
           322.389,
           325.28
         ],
-        "source_page": 5,
-        "target": 81
+        "source_page": 4,
+        "target": 80
       }
     ],
-    "count": 14
+    "count": 14,
+    "read_error": null
   },
   "metadata": {
     "actual": {
-      "/Author": "Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol",
+      "/Author": "Évariste Galois; Manuscript Typesetting Project",
       "/Creator": "LaTeX with hyperref",
       "/Keywords": "Évariste Galois, English translation, Galois theory, critical edition",
       "/Producer": "MiKTeX pdfTeX-1.40.29",
       "/Subject": "Modern-English translation aligned to the audited 1897 French diplomatic transcription",
-      "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes",
+      "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes",
       "/Trapped": "/False"
     },
     "required_exact": {
-      "/Author": "Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol",
+      "/Author": "Évariste Galois; Manuscript Typesetting Project",
       "/Creator": "LaTeX with hyperref",
       "/Keywords": "Évariste Galois, English translation, Galois theory, critical edition",
       "/Subject": "Modern-English translation aligned to the audited 1897 French diplomatic transcription",
-      "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes"
+      "/Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes"
     }
   },
-  "outline": [
-    {
-      "depth": 0,
-      "error": null,
-      "page": 5,
-      "title": "Reader contents"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 6,
-      "title": "1897 publication matter"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 11,
-      "title": "Picard: Introduction"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 17,
-      "title": "Periodic continued fractions"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 26,
-      "title": "Notes on analysis"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 29,
-      "title": "Algebraic solution of equations"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 31,
-      "title": "Numerical equations"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 33,
-      "title": "Theory of numbers"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 43,
-      "title": "Letter to Auguste Chevalier"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 51,
-      "title": "Solvability by radicals"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 69,
-      "title": "Primitive equations"
-    },
-    {
-      "depth": 1,
-      "error": null,
-      "page": 81,
-      "title": "Historical contents and colophon"
-    }
-  ],
+  "outline": {
+    "entries": [
+      {
+        "depth": 0,
+        "error": null,
+        "page": 4,
+        "title": "Reader contents"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 5,
+        "title": "1897 publication matter"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 10,
+        "title": "Picard: Introduction"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 16,
+        "title": "Periodic continued fractions"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 25,
+        "title": "Notes on analysis"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 28,
+        "title": "Algebraic solution of equations"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 30,
+        "title": "Numerical equations"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 32,
+        "title": "Theory of numbers"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 42,
+        "title": "Letter to Auguste Chevalier"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 50,
+        "title": "Solvability by radicals"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 68,
+        "title": "Primitive equations"
+      },
+      {
+        "depth": 1,
+        "error": null,
+        "page": 80,
+        "title": "Historical contents and colophon"
+      }
+    ],
+    "read_error": null
+  },
   "page_boxes": {
     "errors": [],
     "unique_effective_boxes": {
@@ -1149,7 +1154,7 @@
       ]
     }
   },
-  "page_count": 85,
+  "page_count": 84,
   "pages": [
     {
       "boxes": {
@@ -1185,12 +1190,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 1481,
+      "content_stream_bytes": 1203,
       "marking_operators": [
         "TJ"
       ],
       "page": 1,
-      "text_characters": 469
+      "text_characters": 360
     },
     {
       "boxes": {
@@ -1226,12 +1231,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 2508,
+      "content_stream_bytes": 1996,
       "marking_operators": [
         "TJ"
       ],
       "page": 2,
-      "text_characters": 890
+      "text_characters": 694
     },
     {
       "boxes": {
@@ -1267,13 +1272,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 10642,
+      "content_stream_bytes": 3566,
       "marking_operators": [
-        "TJ",
-        "f"
+        "TJ"
       ],
       "page": 3,
-      "text_characters": 1987
+      "text_characters": 1189
     },
     {
       "boxes": {
@@ -1309,12 +1313,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 1744,
+      "content_stream_bytes": 2562,
       "marking_operators": [
         "TJ"
       ],
       "page": 4,
-      "text_characters": 382
+      "text_characters": 536
     },
     {
       "boxes": {
@@ -1350,54 +1354,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 2539,
-      "marking_operators": [
-        "TJ"
-      ],
-      "page": 5,
-      "text_characters": 535
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 2533,
+      "content_stream_bytes": 2645,
       "marking_operators": [
         "Do",
         "TJ"
       ],
-      "page": 6,
-      "text_characters": 600
+      "page": 5,
+      "text_characters": 622
     },
     {
       "boxes": {
@@ -1433,11 +1396,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 494,
+      "content_stream_bytes": 498,
       "marking_operators": [
         "TJ"
       ],
-      "page": 7,
+      "page": 6,
       "text_characters": 61
     },
     {
@@ -1474,12 +1437,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 648,
+      "content_stream_bytes": 655,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 8,
+      "page": 7,
       "text_characters": 106
     },
     {
@@ -1516,13 +1479,55 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 1075,
+      "content_stream_bytes": 1285,
+      "marking_operators": [
+        "Do",
+        "TJ"
+      ],
+      "page": 8,
+      "text_characters": 277
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1511,
       "marking_operators": [
         "Do",
         "TJ"
       ],
       "page": 9,
-      "text_characters": 234
+      "text_characters": 385
     },
     {
       "boxes": {
@@ -1558,55 +1563,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 1390,
-      "marking_operators": [
-        "Do",
-        "TJ"
-      ],
-      "page": 10,
-      "text_characters": 342
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 4520,
+      "content_stream_bytes": 4529,
       "marking_operators": [
         "Do",
         "S",
         "TJ"
       ],
-      "page": 11,
+      "page": 10,
       "text_characters": 1407
     },
     {
@@ -1643,11 +1606,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 5311,
+      "content_stream_bytes": 5316,
       "marking_operators": [
         "TJ"
       ],
-      "page": 12,
+      "page": 11,
       "text_characters": 1734
     },
     {
@@ -1684,13 +1647,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 8673,
+      "content_stream_bytes": 7655,
       "marking_operators": [
         "TJ",
         "f"
       ],
-      "page": 13,
-      "text_characters": 2420
+      "page": 12,
+      "text_characters": 2088
     },
     {
       "boxes": {
@@ -1726,11 +1689,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 5343,
+      "content_stream_bytes": 5348,
       "marking_operators": [
         "TJ"
       ],
-      "page": 14,
+      "page": 13,
       "text_characters": 1796
     },
     {
@@ -1767,12 +1730,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 5381,
+      "content_stream_bytes": 5385,
       "marking_operators": [
         "TJ"
       ],
-      "page": 15,
-      "text_characters": 1723
+      "page": 14,
+      "text_characters": 1722
     },
     {
       "boxes": {
@@ -1808,12 +1771,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 1281,
+      "content_stream_bytes": 1287,
       "marking_operators": [
         "Do",
         "TJ"
       ],
-      "page": 16,
+      "page": 15,
       "text_characters": 332
     },
     {
@@ -1850,13 +1813,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 3294,
+      "content_stream_bytes": 3302,
       "marking_operators": [
         "Do",
         "S",
         "TJ"
       ],
-      "page": 17,
+      "page": 16,
       "text_characters": 784
     },
     {
@@ -1893,12 +1856,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 6029,
+      "content_stream_bytes": 6033,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 18,
+      "page": 17,
       "text_characters": 1128
     },
     {
@@ -1935,12 +1898,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 12660,
+      "content_stream_bytes": 12664,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 19,
+      "page": 18,
       "text_characters": 696
     },
     {
@@ -1977,12 +1940,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 8895,
+      "content_stream_bytes": 8899,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 20,
+      "page": 19,
       "text_characters": 470
     },
     {
@@ -2019,12 +1982,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 8958,
+      "content_stream_bytes": 8962,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 21,
+      "page": 20,
       "text_characters": 1275
     },
     {
@@ -2061,14 +2024,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 19537,
+      "content_stream_bytes": 17819,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
-      "page": 22,
-      "text_characters": 2481
+      "page": 21,
+      "text_characters": 2068
     },
     {
       "boxes": {
@@ -2104,12 +2067,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 8801,
+      "content_stream_bytes": 8805,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 23,
+      "page": 22,
       "text_characters": 1140
     },
     {
@@ -2146,14 +2109,57 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 11337,
+      "content_stream_bytes": 12035,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 23,
+      "text_characters": 709
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 1247,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 24,
-      "text_characters": 620
+      "text_characters": 63
     },
     {
       "boxes": {
@@ -2189,14 +2195,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 3052,
+      "content_stream_bytes": 16568,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 25,
-      "text_characters": 414
+      "text_characters": 1950
     },
     {
       "boxes": {
@@ -2232,14 +2238,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 17880,
+      "content_stream_bytes": 7869,
       "marking_operators": [
-        "S",
         "TJ",
         "f"
       ],
       "page": 26,
-      "text_characters": 2227
+      "text_characters": 747
     },
     {
       "boxes": {
@@ -2275,54 +2280,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 12459,
-      "marking_operators": [
-        "TJ",
-        "f"
-      ],
-      "page": 27,
-      "text_characters": 1659
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 10804,
+      "content_stream_bytes": 10772,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 28,
+      "page": 27,
       "text_characters": 1243
     },
     {
@@ -2359,14 +2322,57 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 14374,
+      "content_stream_bytes": 13434,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 28,
+      "text_characters": 2028
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12911,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 29,
-      "text_characters": 2328
+      "text_characters": 2288
     },
     {
       "boxes": {
@@ -2402,14 +2408,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 13830,
+      "content_stream_bytes": 14976,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 30,
-      "text_characters": 2599
+      "text_characters": 1954
     },
     {
       "boxes": {
@@ -2445,14 +2451,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 15479,
+      "content_stream_bytes": 12557,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 31,
-      "text_characters": 2174
+      "text_characters": 1298
     },
     {
       "boxes": {
@@ -2488,55 +2494,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 13322,
-      "marking_operators": [
-        "S",
-        "TJ",
-        "f"
-      ],
-      "page": 32,
-      "text_characters": 1555
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 7303,
+      "content_stream_bytes": 7307,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 33,
+      "page": 32,
       "text_characters": 1625
     },
     {
@@ -2573,11 +2536,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 11441,
+      "content_stream_bytes": 11445,
       "marking_operators": [
         "TJ"
       ],
-      "page": 34,
+      "page": 33,
       "text_characters": 1765
     },
     {
@@ -2614,14 +2577,56 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 14291,
+      "content_stream_bytes": 13937,
       "marking_operators": [
         "S",
+        "TJ",
+        "f"
+      ],
+      "page": 34,
+      "text_characters": 2081
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 12407,
+      "marking_operators": [
         "TJ",
         "f"
       ],
       "page": 35,
-      "text_characters": 2229
+      "text_characters": 1576
     },
     {
       "boxes": {
@@ -2657,54 +2662,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 12888,
-      "marking_operators": [
-        "TJ",
-        "f"
-      ],
-      "page": 36,
-      "text_characters": 1681
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 8003,
+      "content_stream_bytes": 8007,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 37,
+      "page": 36,
       "text_characters": 1118
     },
     {
@@ -2741,13 +2704,55 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 15495,
+      "content_stream_bytes": 14959,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 37,
+      "text_characters": 1480
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 22604,
       "marking_operators": [
         "TJ",
         "f"
       ],
       "page": 38,
-      "text_characters": 1651
+      "text_characters": 2825
     },
     {
       "boxes": {
@@ -2783,13 +2788,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 24673,
+      "content_stream_bytes": 13954,
       "marking_operators": [
         "TJ",
         "f"
       ],
       "page": 39,
-      "text_characters": 3523
+      "text_characters": 2355
     },
     {
       "boxes": {
@@ -2825,54 +2830,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 14280,
-      "marking_operators": [
-        "TJ",
-        "f"
-      ],
-      "page": 40,
-      "text_characters": 2475
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 2265,
+      "content_stream_bytes": 2269,
       "marking_operators": [
         "Do",
         "TJ"
       ],
-      "page": 41,
+      "page": 40,
       "text_characters": 296
     },
     {
@@ -2911,7 +2874,7 @@
       "content_parse_error": null,
       "content_stream_bytes": 32,
       "marking_operators": [],
-      "page": 42,
+      "page": 41,
       "text_characters": 0
     },
     {
@@ -2948,12 +2911,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 4979,
+      "content_stream_bytes": 4985,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 43,
+      "page": 42,
       "text_characters": 1389
     },
     {
@@ -2990,11 +2953,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 6716,
+      "content_stream_bytes": 6722,
       "marking_operators": [
         "TJ"
       ],
-      "page": 44,
+      "page": 43,
       "text_characters": 1731
     },
     {
@@ -3031,14 +2994,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 15298,
+      "content_stream_bytes": 14541,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
-      "page": 45,
-      "text_characters": 2375
+      "page": 44,
+      "text_characters": 2196
     },
     {
       "boxes": {
@@ -3074,12 +3037,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 8171,
+      "content_stream_bytes": 8175,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 46,
+      "page": 45,
       "text_characters": 1148
     },
     {
@@ -3116,14 +3079,57 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 17379,
+      "content_stream_bytes": 16508,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 46,
+      "text_characters": 2090
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 16886,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 47,
-      "text_characters": 2491
+      "text_characters": 2409
     },
     {
       "boxes": {
@@ -3159,54 +3165,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 12579,
-      "marking_operators": [
-        "S",
-        "TJ",
-        "f"
-      ],
-      "page": 48,
-      "text_characters": 2312
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 8405,
+      "content_stream_bytes": 8400,
       "marking_operators": [
         "TJ"
       ],
-      "page": 49,
+      "page": 48,
       "text_characters": 1557
     },
     {
@@ -3243,12 +3206,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 4956,
+      "content_stream_bytes": 4960,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 50,
+      "page": 49,
       "text_characters": 1520
     },
     {
@@ -3285,12 +3248,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 6811,
+      "content_stream_bytes": 6817,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 51,
+      "page": 50,
       "text_characters": 2026
     },
     {
@@ -3327,14 +3290,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 10643,
+      "content_stream_bytes": 10182,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
-      "page": 52,
-      "text_characters": 2584
+      "page": 51,
+      "text_characters": 2365
     },
     {
       "boxes": {
@@ -3375,7 +3338,7 @@
         "S",
         "TJ"
       ],
-      "page": 53,
+      "page": 52,
       "text_characters": 1892
     },
     {
@@ -3412,13 +3375,56 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 10136,
+      "content_stream_bytes": 9603,
       "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 53,
+      "text_characters": 1678
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 16683,
+      "marking_operators": [
+        "S",
         "TJ",
         "f"
       ],
       "page": 54,
-      "text_characters": 1905
+      "text_characters": 2792
     },
     {
       "boxes": {
@@ -3454,55 +3460,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 17224,
-      "marking_operators": [
-        "S",
-        "TJ",
-        "f"
-      ],
-      "page": 55,
-      "text_characters": 3025
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 7958,
+      "content_stream_bytes": 7944,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 56,
+      "page": 55,
       "text_characters": 1565
     },
     {
@@ -3539,11 +3502,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 12827,
+      "content_stream_bytes": 12832,
       "marking_operators": [
         "TJ"
       ],
-      "page": 57,
+      "page": 56,
       "text_characters": 1718
     },
     {
@@ -3580,14 +3543,57 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 18602,
+      "content_stream_bytes": 17976,
+      "marking_operators": [
+        "S",
+        "TJ",
+        "f"
+      ],
+      "page": 57,
+      "text_characters": 2872
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 16336,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 58,
-      "text_characters": 3171
+      "text_characters": 2202
     },
     {
       "boxes": {
@@ -3623,14 +3629,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 17045,
+      "content_stream_bytes": 9152,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 59,
-      "text_characters": 2471
+      "text_characters": 2163
     },
     {
       "boxes": {
@@ -3666,54 +3672,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 9858,
-      "marking_operators": [
-        "S",
-        "TJ",
-        "f"
-      ],
-      "page": 60,
-      "text_characters": 2400
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 6937,
+      "content_stream_bytes": 6944,
       "marking_operators": [
         "TJ"
       ],
-      "page": 61,
+      "page": 60,
       "text_characters": 1945
     },
     {
@@ -3750,13 +3713,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 13850,
+      "content_stream_bytes": 12890,
       "marking_operators": [
         "TJ",
         "f"
       ],
-      "page": 62,
-      "text_characters": 2898
+      "page": 61,
+      "text_characters": 2530
     },
     {
       "boxes": {
@@ -3792,11 +3755,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 2917,
+      "content_stream_bytes": 2921,
       "marking_operators": [
         "TJ"
       ],
-      "page": 63,
+      "page": 62,
       "text_characters": 850
     },
     {
@@ -3833,13 +3796,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 17198,
+      "content_stream_bytes": 16131,
       "marking_operators": [
         "TJ",
         "f"
       ],
-      "page": 64,
-      "text_characters": 2492
+      "page": 63,
+      "text_characters": 2118
     },
     {
       "boxes": {
@@ -3875,11 +3838,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 6916,
+      "content_stream_bytes": 6920,
       "marking_operators": [
         "TJ"
       ],
-      "page": 65,
+      "page": 64,
       "text_characters": 1098
     },
     {
@@ -3916,11 +3879,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 10523,
+      "content_stream_bytes": 10517,
       "marking_operators": [
         "TJ"
       ],
-      "page": 66,
+      "page": 65,
       "text_characters": 1224
     },
     {
@@ -3957,13 +3920,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 9886,
+      "content_stream_bytes": 9395,
       "marking_operators": [
         "TJ",
         "f"
       ],
-      "page": 67,
-      "text_characters": 1967
+      "page": 66,
+      "text_characters": 1784
     },
     {
       "boxes": {
@@ -3999,12 +3962,12 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 1462,
+      "content_stream_bytes": 1466,
       "marking_operators": [
         "S",
         "TJ"
       ],
-      "page": 68,
+      "page": 67,
       "text_characters": 206
     },
     {
@@ -4046,8 +4009,8 @@
         "S",
         "TJ"
       ],
-      "page": 69,
-      "text_characters": 1605
+      "page": 68,
+      "text_characters": 1611
     },
     {
       "boxes": {
@@ -4083,13 +4046,55 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 17461,
+      "content_stream_bytes": 16981,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 69,
+      "text_characters": 2032
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 21207,
       "marking_operators": [
         "TJ",
         "f"
       ],
       "page": 70,
-      "text_characters": 2300
+      "text_characters": 2582
     },
     {
       "boxes": {
@@ -4125,53 +4130,11 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 22377,
-      "marking_operators": [
-        "TJ",
-        "f"
-      ],
-      "page": 71,
-      "text_characters": 3049
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 13255,
+      "content_stream_bytes": 13259,
       "marking_operators": [
         "TJ"
       ],
-      "page": 72,
+      "page": 71,
       "text_characters": 1143
     },
     {
@@ -4208,14 +4171,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 25188,
+      "content_stream_bytes": 23677,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
-      "page": 73,
-      "text_characters": 3420
+      "page": 72,
+      "text_characters": 2854
     },
     {
       "boxes": {
@@ -4251,13 +4214,55 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 13914,
+      "content_stream_bytes": 13753,
+      "marking_operators": [
+        "TJ",
+        "f"
+      ],
+      "page": 73,
+      "text_characters": 1899
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 18056,
       "marking_operators": [
         "TJ",
         "f"
       ],
       "page": 74,
-      "text_characters": 1948
+      "text_characters": 2435
     },
     {
       "boxes": {
@@ -4293,13 +4298,13 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 19655,
+      "content_stream_bytes": 17752,
       "marking_operators": [
         "TJ",
         "f"
       ],
       "page": 75,
-      "text_characters": 3008
+      "text_characters": 1986
     },
     {
       "boxes": {
@@ -4335,13 +4340,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 18864,
+      "content_stream_bytes": 14965,
       "marking_operators": [
+        "S",
         "TJ",
         "f"
       ],
       "page": 76,
-      "text_characters": 2249
+      "text_characters": 2093
     },
     {
       "boxes": {
@@ -4377,14 +4383,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 15948,
+      "content_stream_bytes": 12592,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 77,
-      "text_characters": 2360
+      "text_characters": 1375
     },
     {
       "boxes": {
@@ -4420,57 +4426,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 12861,
+      "content_stream_bytes": 7111,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
       "page": 78,
-      "text_characters": 1468
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 6821,
-      "marking_operators": [
-        "S",
-        "TJ",
-        "f"
-      ],
-      "page": 79,
-      "text_characters": 1210
+      "text_characters": 1313
     },
     {
       "boxes": {
@@ -4508,7 +4471,7 @@
       "content_parse_error": null,
       "content_stream_bytes": 32,
       "marking_operators": [],
-      "page": 80,
+      "page": 79,
       "text_characters": 0
     },
     {
@@ -4545,14 +4508,14 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 8761,
+      "content_stream_bytes": 8231,
       "marking_operators": [
         "S",
         "TJ",
         "f"
       ],
-      "page": 81,
-      "text_characters": 2129
+      "page": 80,
+      "text_characters": 1928
     },
     {
       "boxes": {
@@ -4588,15 +4551,54 @@
         ]
       },
       "content_parse_error": null,
-      "content_stream_bytes": 7408,
+      "content_stream_bytes": 6072,
       "marking_operators": [
         "Do",
         "S",
         "TJ",
         "f"
       ],
+      "page": 81,
+      "text_characters": 903
+    },
+    {
+      "boxes": {
+        "ArtBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "BleedBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "CropBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "MediaBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ],
+        "TrimBox": [
+          0.0,
+          0.0,
+          510.236,
+          737.008
+        ]
+      },
+      "content_parse_error": null,
+      "content_stream_bytes": 32,
+      "marking_operators": [],
       "page": 82,
-      "text_characters": 1380
+      "text_characters": 0
     },
     {
       "boxes": {
@@ -4675,58 +4677,19 @@
       "marking_operators": [],
       "page": 84,
       "text_characters": 0
-    },
-    {
-      "boxes": {
-        "ArtBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "BleedBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "CropBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "MediaBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ],
-        "TrimBox": [
-          0.0,
-          0.0,
-          510.236,
-          737.008
-        ]
-      },
-      "content_parse_error": null,
-      "content_stream_bytes": 32,
-      "marking_operators": [],
-      "page": 85,
-      "text_characters": 0
     }
   ],
   "pdf": "local-private-custody/GAL1897_EN_MODERN_READER.pdf",
   "pdfinfo": {
     "fields": {
       "ArtBox": "0.00     0.00   510.24   737.01",
-      "Author": "Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol",
+      "Author": "Évariste Galois; Manuscript Typesetting Project",
       "BleedBox": "0.00     0.00   510.24   737.01",
       "Creator": "LaTeX with hyperref",
       "CropBox": "0.00     0.00   510.24   737.01",
       "Custom Metadata": "no",
       "Encrypted": "no",
-      "File size": "3826541 bytes",
+      "File size": "3734236 bytes",
       "Form": "none",
       "JavaScript": "no",
       "Keywords": "Évariste Galois, English translation, Galois theory, critical edition",
@@ -4736,12 +4699,12 @@
       "PDF version": "1.5",
       "Page rot": "0",
       "Page size": "510.236 x 737.008 pts",
-      "Pages": "85",
+      "Pages": "84",
       "Producer": "MiKTeX pdfTeX-1.40.29",
       "Subject": "Modern-English translation aligned to the audited 1897 French diplomatic transcription",
       "Suspects": "no",
       "Tagged": "no",
-      "Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes",
+      "Title": "Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes",
       "TrimBox": "0.00     0.00   510.24   737.01",
       "UserProperties": "no"
     },
@@ -4756,7 +4719,154 @@
       "stderr_lines": []
     }
   },
+  "reader_surface": {
+    "critical_destinations": [
+      "critical-POST-P13-A001",
+      "critical-POST-P13-A002",
+      "critical-POST-P13-A003",
+      "critical-POST-P13-A004",
+      "critical-POST-P13-A005",
+      "critical-POST-P13-A014",
+      "critical-W02-PE001",
+      "critical-W03-PE001",
+      "critical-W03-PE002",
+      "critical-W03-PE003",
+      "critical-W04-SE001",
+      "critical-W04-SE002",
+      "critical-W04-SE003",
+      "critical-W04-SE004",
+      "critical-W05-SE001",
+      "critical-W05-SE002",
+      "critical-W06-PE001",
+      "critical-W06-SE001",
+      "critical-W07-SE001",
+      "critical-W07-SE002",
+      "critical-W07-SE003",
+      "critical-W07-SE004",
+      "critical-W07-SE005",
+      "critical-W08-PE001",
+      "critical-W08-PE002",
+      "critical-W08-WV001",
+      "critical-W08-WV002",
+      "critical-W08-WV003",
+      "critical-W09-PE001",
+      "critical-W09-PE002",
+      "critical-W09-SE001",
+      "critical-W09-SE002",
+      "critical-W09-SE003",
+      "critical-W09-SE004",
+      "critical-W09-SE005",
+      "critical-W09-SE006",
+      "critical-W09-WV001",
+      "critical-W09-WV002",
+      "critical-W09-WV003",
+      "critical-W09-WV004",
+      "critical-W09-WV005",
+      "critical-W09-WV006",
+      "critical-W10-DA001",
+      "critical-W10-DA002",
+      "critical-W10-DA003",
+      "critical-W10-DA004",
+      "critical-W10-NA001",
+      "critical-W10-PE001",
+      "critical-W10-PE002",
+      "critical-W10-PE003",
+      "critical-W10-PE004",
+      "critical-W10-PE005",
+      "critical-W10-PE006",
+      "critical-W10-SE001",
+      "critical-W10-SE002",
+      "critical-W10-TERM001",
+      "critical-W10-WV001",
+      "critical-W10-WV002",
+      "critical-W10-WV003",
+      "critical-W10-WV004",
+      "critical-W10-WV005",
+      "critical-W10-WV006",
+      "critical-W11-DA003",
+      "critical-W11-PE001",
+      "critical-W11-U001"
+    ],
+    "editorial_reference_count": 65,
+    "editorial_references_plural_count": 1,
+    "exact_release_doi_required": "10.5281/zenodo.21926209",
+    "expected_critical_destinations": [
+      "critical-POST-P13-A001",
+      "critical-POST-P13-A002",
+      "critical-POST-P13-A003",
+      "critical-POST-P13-A004",
+      "critical-POST-P13-A005",
+      "critical-POST-P13-A014",
+      "critical-W02-PE001",
+      "critical-W03-PE001",
+      "critical-W03-PE002",
+      "critical-W03-PE003",
+      "critical-W04-SE001",
+      "critical-W04-SE002",
+      "critical-W04-SE003",
+      "critical-W04-SE004",
+      "critical-W05-SE001",
+      "critical-W05-SE002",
+      "critical-W06-PE001",
+      "critical-W06-SE001",
+      "critical-W07-SE001",
+      "critical-W07-SE002",
+      "critical-W07-SE003",
+      "critical-W07-SE004",
+      "critical-W07-SE005",
+      "critical-W08-PE001",
+      "critical-W08-PE002",
+      "critical-W08-WV001",
+      "critical-W08-WV002",
+      "critical-W08-WV003",
+      "critical-W09-PE001",
+      "critical-W09-PE002",
+      "critical-W09-SE001",
+      "critical-W09-SE002",
+      "critical-W09-SE003",
+      "critical-W09-SE004",
+      "critical-W09-SE005",
+      "critical-W09-SE006",
+      "critical-W09-WV001",
+      "critical-W09-WV002",
+      "critical-W09-WV003",
+      "critical-W09-WV004",
+      "critical-W09-WV005",
+      "critical-W09-WV006",
+      "critical-W10-DA001",
+      "critical-W10-DA002",
+      "critical-W10-DA003",
+      "critical-W10-DA004",
+      "critical-W10-NA001",
+      "critical-W10-PE001",
+      "critical-W10-PE002",
+      "critical-W10-PE003",
+      "critical-W10-PE004",
+      "critical-W10-PE005",
+      "critical-W10-PE006",
+      "critical-W10-SE001",
+      "critical-W10-SE002",
+      "critical-W10-TERM001",
+      "critical-W10-WV001",
+      "critical-W10-WV002",
+      "critical-W10-WV003",
+      "critical-W10-WV004",
+      "critical-W10-WV005",
+      "critical-W10-WV006",
+      "critical-W11-DA003",
+      "critical-W11-PE001",
+      "critical-W11-U001"
+    ],
+    "forbidden_pattern_findings": {
+      "audit_count_shorthand": [],
+      "evidence_field_label": [],
+      "machine_evidence_filename": [],
+      "old_internal_box_title": [],
+      "status_field_label": []
+    },
+    "pre_reservation_candidate": false
+  },
   "result": "PASS",
   "schema_version": 2,
-  "sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3"
+  "sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5"
 }

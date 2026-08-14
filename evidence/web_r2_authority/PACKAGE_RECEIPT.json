@@ -1,0 +1,57 @@
+{
+  "artifact_name": "GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2_REBUILT.zip",
+  "artifact_role": "self-contained reconstructed successor handoff",
+  "generated": "2026-08-14",
+  "predecessor_status": {
+    "missing_archive_name": "GAL1897_CUMULATIVE_P00-P13R_POST_P13_GPT_CRITICAL_EDITION_21_TASKS.zip",
+    "missing_archive_claimed_sha256": "C3D91146F5772861E614EF8C2FA42749D163274773D786051F6E9E499E417E44",
+    "byte_identity_claimed": false,
+    "surviving_receipt_and_sidecar_preserved": true
+  },
+  "immutable_inputs": {
+    "p13r_cumulative_handoff_sha256": "05C2247E2127BF816B838DA668EB9EF05AC6981D09862FB819470D79DFE3E74B",
+    "active_repaired_candidate_sha256": "4909FB4852F2178C583CCD425451E8BD5C7B02BD2346807F79F617BB3F2E645F",
+    "p13r_cold_reaudit_sha256": "0FC8F88EAD4D824BCF12168A504015D42BDB4BA15092B6C364B1AFF48328D9B9",
+    "frozen_diplomatic_pdf_sha256": "8E6071A2E4A0D38CC89232553CE0CC0314C7EF4BD0A084240C41D60B0AEBBFC5",
+    "frozen_diplomatic_pages": 78
+  },
+  "r2_task_disposition": {
+    "repaired": 10,
+    "proved": 9,
+    "rejected": 2,
+    "unresolved": 0,
+    "total": 21
+  },
+  "r2_resolutions": {
+    "POST-P13-A008/W08-WV001": "Tannery source formula E′F″−E″F′=(π/2)√−1; former F′F″ apparatus reading rejected; equivalence proved.",
+    "W11-DA002/W11-U001": "Independent ETH copy and OCR resolve five-digit printer job number 24572."
+  },
+  "open_outside_21_task_scope": [
+    "W01-U001",
+    "W01-U002",
+    "W01-U003"
+  ],
+  "critical_artifacts": {
+    "critical_pdf_pages": 24,
+    "critical_pdf_sha256": "BC152B109F592C159FB5267C69D01AF82B0F8152B7315D88CCC343953CDCE34E",
+    "reader_pdf_pages": 102,
+    "reader_pdf_sha256": "38A474F0ED516EBCC5A797E0178D34E4BD3168131B6A14870DD0E50C3AB55112"
+  },
+  "cold_audit": {
+    "status": "PASS",
+    "checks_passed": 242,
+    "checks_total": 242
+  },
+  "pixel_replay": {
+    "poppler_diplomatic_prefix": "78/78",
+    "poppler_critical_appendix": "24/24",
+    "pdfium_diplomatic_prefix": "78/78",
+    "pdfium_critical_appendix": "24/24"
+  },
+  "original_source_packet_files": 36,
+  "final_payload_file_count": 145,
+  "outer_zip_sha256_location": "adjacent external .sha256 sidecar",
+  "internal_hash_manifest": "OUTPUT_SHA256.txt",
+  "output_set_fingerprint": "OUTPUT_SET_FINGERPRINT.txt",
+  "publication_action_performed": false
+}

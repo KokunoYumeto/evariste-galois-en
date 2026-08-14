@@ -291,23 +291,15 @@ hypothesis, the value $x=p+\dfrac{1}{q+\dfrac{1}{A}}$ would therefore be
 immediately periodic. An analogous argument would prove that the periods
 cannot be preceded by a larger number of terms not belonging to them.
 
-\GalCriticalNote{W03-PE001}{\textbf{Status: proved printed-letter error.}
-Conjugating $x=p+1/A$ gives $p+1/(-1/B)=p-B$; the two printed occurrences
-of $a$ are inconsistent with the established variable $p$. Source:
-PDF035/L0034. Downstream effect: the conjugation and interval argument must use
-$p-B$. The bounded post-P13 search found no explicit prior notice securely
-dated in the searched corpus. Evidence: \texttt{W03-PE001} in
-\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
-\GalCriticalNote{W03-PE002}{\textbf{Status: proved sign error.} If $B=p+r$
-with $0<r<1$, then $p-B=-r$, so $-1<p-B<0$. The printed interval “between
-$0$ and $1$” has the wrong sign; it should be between $0$ and $-1$.
-Source: PDF035/L0034. Downstream effect: the subsequent converse argument
-already requires the corrected interval $-1<p-B<0$. The bounded post-P13
-search found no explicit prior notice securely dated in the searched corpus. Evidence:
-\texttt{W03-PE002} in
-\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalCriticalNote{W03-PE001}{The conjugate expression must use $p$, not $a$}{Conjugating
+$x=p+1/A$ gives $p+1/(-1/B)=p-B$. The two printed occurrences of $a$ are
+inconsistent with the variable already established, so both the conjugation
+and the interval argument must use $p-B$. No earlier explicit notice of this
+letter error was found in the sources examined.}
+\GalCriticalNote{W03-PE002}{The interval lies below zero}{If $B=p+r$ with
+$0<r<1$, then $p-B=-r$, so $-1<p-B<0$. The printed interval ``between $0$
+and $1$'' has the wrong sign; it should be between $0$ and $-1$. The converse
+argument that follows already requires this corrected interval.}
 
 % ENSEG:W03:PDF035:0010
 Thus, when treating a numerical equation by Lagrange's method, we may be sure
@@ -429,14 +421,9 @@ becomes
       \,1 + \raisebox{-2ex}{$\ddots$\rlap{\ .}} }$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}\;$}}
 \GalCfracCorrect
 \]
-\GalCriticalNote{W03-PE003}{\textbf{Status: proved formula error.} The second
-root is $3-A$, not the printed staircase expression $3-1/A$. Direct
-substitution gives zero residual for $3-A$, whereas the printed value is not
-a root of $3x^{2}-16x+18=0$. Source: PDF037/L0036. Downstream effect: the
-terminal continued fraction is consistent with the repaired root $3-A$; the
-printed intermediate display is not. The bounded post-P13 search found no
-explicit prior notice securely dated in the searched corpus. Evidence:
-\texttt{W03-PE003} in
-\nolinkurl{source/critical_baseline/PRINTED_AND_SOURCE_ERRORS.md} and
-\texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv}.}
+\GalCriticalNote{W03-PE003}{The second root is $3-A$}{The printed staircase
+expression $3-1/A$ is not a root of $3x^{2}-16x+18=0$. Direct substitution
+shows that the correct second root is $3-A$, which is also the value consistent
+with the terminal continued fraction. No earlier explicit notice of this
+formula error was found in the sources examined.}
 \GalArticleEndRule

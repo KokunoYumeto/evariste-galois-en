@@ -164,19 +164,16 @@ one will find the proof of the following theorems:
 radicals, it must have degree $\GalWitnessVariant{p^{\nu}}{W08-WV002}$,
 where $p$ is prime.
 
-\GalCriticalNote{W08-WV002}{\textbf{Status: documented editorial notation
-normalization; not an 1897 error.} The 1897 edition uses the indices
-$p,\nu$. Tannery's 1908 collation reports manuscript $p,n$ and attributes the
-change to $p,\nu$ to Liouville. The 1897 notation is retained above; the
-manuscript notation is recorded only as witness history. Evidence:
-\texttt{WITNESS\_VARIANTS.md}, W08-WV002, and W08-E1908A.}
+\GalCriticalNote{W08-WV002}{Liouville's change of indices}{The 1897 edition
+uses the indices $p,\nu$. Tannery's 1908 collation reports $p,n$ in the
+manuscript and attributes the change to Liouville. The translation retains the
+1897 notation; the manuscript form is recorded here only as witness history.}
 
-\GalCriticalNote{W08-WV003}{\textbf{Status: documented orthographic
-normalization; not an 1897 error.} The 1897 edition prints
-\emph{Bulletin de Férussac}; the 1908 collation reports the manuscript's
-lowercase, unaccented form. The bibliographic form in the translated 1897 text
-is preserved and the manuscript spelling is not imported. Evidence:
-\texttt{WITNESS\_VARIANTS.md}, W08-WV003, and W08-E1908A.}
+\GalCriticalNote{W08-WV003}{Spelling of \emph{Férussac}}{The 1897 edition
+prints \emph{Bulletin de Férussac}; Tannery's 1908 collation reports a
+lowercase, unaccented form in the manuscript. The translation preserves the
+bibliographic form printed in 1897 rather than importing the manuscript
+spelling.}
 
 % ENSEG:W08:PDF056:0031
 2\textsuperscript{o} All the permutations of such an equation are of
@@ -350,16 +347,15 @@ having respectively as their associated letters
 \]
 
 % ENSEG:W08:PDF058:0076
-\GalCriticalNote{W08-PE001}{\textbf{Status: repaired; correct 1846 witness found, with no explicit erratum located.} The 1897 upper row duplicates $5$
-and omits the projective point $4$. The corresponding 1846 publication
-reads $\infty,1,3,4,5,9$, and exact enumeration verifies that corrected
-partition
+\GalCriticalNote{W08-PE001}{The corrected six-point partition for $p=11$}{The
+1897 upper row repeats $5$ and omits the projective point $4$. The corresponding
+1846 publication reads $\infty,1,3,4,5,9$. Exact enumeration confirms the
+corrected partition
 $\{\infty,0\},\{1,2\},\{3,6\},\{4,8\},\{5,10\},\{9,7\}$
-and its order-$60$, index-$11$ stabilizer in
-$\operatorname{PSL}(2,11)$, whose order is $660$. The 1897 value remains in the translation;
-downstream use of the $p=11$ construction must apply the visibly stated
-correction. Evidence: W08-PE001, POST-P13-A006, and the cited 1846 witness and
-group certificates in the post-P13 return.}
+and its stabilizer of order $60$ and index $11$ in
+$\operatorname{PSL}(2,11)$, whose order is $660$. The 1897 value remains in
+the translation, but any use of the $p=11$ construction must apply this
+correction.}
 
 % ENSEG:W08:PDF058:0077
 Thus, for $p=5$, $7$, and $11$, the modular equation is lowered to
@@ -370,15 +366,12 @@ Strictly speaking, this \GalPrintedError{equation}{W08-PE002} is not
 possible in the higher cases.
 
 % ENSEG:W08:PDF058:0079
-\GalCriticalNote{W08-PE002}{\textbf{Status: proved editorial word error and transmission closed.} The 1897
-witness prints ``equation,'' whereas the 1846 publication prints
-``reduction'' and Tannery's 1908 collation reports the manuscript/Liouville
-reading as ``reduction.'' The printed word is retained; with the attested
-reading, the sentence says that this \emph{reduction} is impossible in
-higher cases. Downstream interpretation must not attribute impossibility
-to the equation's existence. Evidence: W08-PE002 and POST-P13-A007; the 1846
-witness and Tannery's explicit 1908 collation are recorded in the returned
-priority matrix.}
+\GalCriticalNote{W08-PE002}{``Reduction,'' not ``equation''}{The 1897 edition
+prints ``equation,'' whereas the 1846 publication prints ``reduction'' and
+Tannery's 1908 collation gives the same reading for the manuscript and
+Liouville. With that attested correction, the sentence says that this
+\emph{reduction} is impossible in higher cases; it does not deny the existence
+of the equation itself.}
 
 % ENSEG:W08:PDF058:0080
 The third Memoir concerns integrals.
@@ -459,15 +452,22 @@ One may also deduce theorems analogous to Legendre's theorem
 \]
 
 % ENSEG:W08:PDF059:0100
-\GalCriticalNote{W08-WV001}{\textbf{Status: unresolved after bounded search, with the printed formula mathematically identified.}
-The 1846 and 1897 relation $FE'+EF'-FF'=\pi/2$ is exactly Legendre's standard
-relation under the source's $F/K$ notation. Tannery's 1908 collation reports a
-materially different manuscript formula,
-$F'F''-E''F'=(\pi/2)\sqrt{-1}$, whose double-prime notation cannot be
-interpreted securely from the local evidence. The witnesses are not fused.
-There is no downstream use in this volume, so this open reading blocks no later
-claim. Evidence: W08-WV001, POST-P13-A008, DLMF 19.7.1, and
-\texttt{OPEN\_AFTER\_21\_TASKS.csv}.}
+\GalCriticalNote{W08-WV001}{Tannery's manuscript form of Legendre's relation}{The
+formula $FE'+EF'-FF'=\pi/2$ printed in 1846 and 1897 is Legendre's standard
+relation in the source's $F/K$ notation. A high-resolution reading of
+Tannery's 1908 collation shows that the manuscript form begins with $E'$, not
+$F'$:
+\[
+E'F''-E''F'=(\pi/2)\sqrt{-1}.
+\]
+The two displays express the same relation under an explicit half-period and
+quasiperiod normalization. Indeed, writing $F_c=K(k')$ and $E_c=E(k')$, take
+$\omega_1=F$, $\omega_2=iF_c$, $\eta_1=E$, and
+$\eta_2=i(F_c-E_c)$. Then
+$\eta_1\omega_2-\eta_2\omega_1=i(EF_c+E_cF-FF_c)=\pi i/2$.
+This corrects the earlier editorial reading of the manuscript formula without
+altering the historical text. Nothing later in this volume depends on the
+relation.}
 
 % ENSEG:W08:PDF059:0101
 The reduction of functions of the third kind to definite integrals,

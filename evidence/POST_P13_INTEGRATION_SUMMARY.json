@@ -1,24 +1,22 @@
 {
   "schema_version": 1,
-  "individual_download_custody_status": "INDIVIDUAL_SET_VALIDATED_ARCHIVE_ABSENT",
-  "individual_download_validation_receipt": "evidence/web_post_p13_return/INDIVIDUAL_DOWNLOAD_VALIDATION_RECEIPT.json",
-  "cumulative_archive_present": false,
-  "archive_internal_payload_replay_performed": false,
+  "authority": "validated merged web R2 split package",
+  "authority_manifest": "evidence/web_r2_authority/PACKAGE_MANIFEST.csv",
+  "authority_manifest_records": 142,
+  "retained_authority_records_replayed": 81,
+  "authority_manifest_replay": "PASS",
   "tasks": 21,
   "task_status_counts": {
-    "repaired": 9,
-    "proved": 8,
-    "rejected": 2,
-    "unresolved_after_bounded_search": 2
+    "repaired": 10,
+    "proved": 9,
+    "rejected": 2
   },
   "closed_errata": 36,
-  "priority_records": 51,
+  "priority_records": 52,
   "cumulative_open_records": [
     "W01-U001",
     "W01-U002",
-    "W01-U003",
-    "W08-WV001",
-    "W11-U001"
+    "W01-U003"
   ],
   "source_task_references": [
     "POST-P13-A001",
@@ -26,6 +24,14 @@
     "POST-P13-A003",
     "POST-P13-A004",
     "POST-P13-A005",
+    "POST-P13-A014",
+    "W10-DA001",
+    "W10-DA002",
+    "W10-DA003",
+    "W10-DA004",
+    "W11-DA003"
+  ],
+  "task_ids_without_source_reference": [
     "POST-P13-A006",
     "POST-P13-A007",
     "POST-P13-A008",
@@ -34,16 +40,10 @@
     "POST-P13-A011",
     "POST-P13-A012",
     "POST-P13-A013",
-    "POST-P13-A014",
-    "W10-DA001",
-    "W10-DA002",
-    "W10-DA003",
-    "W10-DA004",
     "W11-DA001",
-    "W11-DA002",
-    "W11-DA003"
+    "W11-DA002"
   ],
-  "task_ids_without_source_reference": [],
+  "all_21_task_certificates_present_and_hash_replayed": true,
   "cold_audit_checks": {
     "passed": 242,
     "total": 242,

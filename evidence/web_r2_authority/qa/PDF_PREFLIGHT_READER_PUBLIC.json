@@ -1,0 +1,16 @@
+{
+  "_public_projection": {
+    "projection_policy": "Substantive content preserved; local absolute paths replaced; private source retained unchanged in local custody.",
+    "source_bytes": 320,
+    "source_name": "PDF_PREFLIGHT_READER.json",
+    "source_sha256": "5BA1FE3EBB0CFC7D610662BDE39BAB536FAF7C76291B48F2609F3191BE617BC1"
+  },
+  "encrypted": false,
+  "likely_scanned": false,
+  "ok_open": true,
+  "pages": 102,
+  "path": "/mnt/data/_gptcrit_stage/GAL1897_POST_P13_GPT_CRITICAL_EDITION_21_TASKS_R2/critical_edition/GAL1897_ONE_CLICK_READER_DIPLOMATIC_PLUS_GPT_CRITICAL.pdf",
+  "pdffonts_excerpt": null,
+  "warnings": [],
+  "xfa_present": false
+}

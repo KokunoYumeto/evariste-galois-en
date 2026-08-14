@@ -2,30 +2,35 @@
   "$schema": "../qa/galois_english_pdf_visual_inspection.schema.json",
   "_public_projection": {
     "projection_policy": "Substantive content preserved; local absolute paths and private task identifier replaced; private schema-valid source retained unchanged.",
-    "source_bytes": 5014,
+    "source_bytes": 5435,
     "source_name": "READER_VISUAL_INSPECTION_POST_P13.json",
-    "source_sha256": "6386639B1DD6C32DAA827702CB1AAEF2F40D2098DCA4A2332074A9672F0D8B7B"
+    "source_sha256": "8E35EC441D8E417DE96D625DE88F6804500D542C1969F64EE1767D3BB1C81992"
   },
-  "attestation": "I visually inspected every page of the exact 85-page PDF identified above through ten original-detail contact sheets and inspected representative dense critical-note pages at full resolution. This record is based on actual rendered-page viewing, not merely pixel metrics. No release-blocking visual defect was found.",
+  "attestation": "I visually inspected every page of the exact 84-page PDF identified above through ten contact sheets and inspected representative front matter, dense mathematics, editorial notes, and back matter at full resolution. This is actual rendered-page inspection rather than inference from pixel metrics. No release-blocking visual defect was found.",
   "coverage": {
     "contact_sheets_reviewed": [
-      "contact_001_009.png",
-      "contact_010_018.png",
-      "contact_019_027.png",
-      "contact_028_036.png",
-      "contact_037_045.png",
-      "contact_046_054.png",
-      "contact_055_063.png",
-      "contact_064_072.png",
-      "contact_073_081.png",
-      "contact_082_085.png"
+      "contact-01.png",
+      "contact-02.png",
+      "contact-03.png",
+      "contact-04.png",
+      "contact-05.png",
+      "contact-06.png",
+      "contact-07.png",
+      "contact-08.png",
+      "contact-09.png",
+      "contact-10.png"
     ],
     "full_resolution_pages_reviewed": [
+      1,
       3,
-      29,
-      71,
-      73,
-      82
+      17,
+      21,
+      34,
+      43,
+      51,
+      66,
+      77,
+      81
     ],
     "reviewed_pages": [
       1,
@@ -111,99 +116,119 @@
       81,
       82,
       83,
-      84,
-      85
+      84
     ]
   },
   "criteria": [
     {
       "id": "clipping-and-cropped-content",
-      "notes": "All 85 rendered pages were viewed on original-detail contact sheets; representative dense pages were also viewed full resolution. No text, mathematics, images, notes, or source markers are clipped.",
+      "notes": "All 84 pages were reviewed through contact sheets, with representative front matter, dense mathematics, editorial notes, and back matter also viewed at full resolution. No text, mathematics, image, note, or source marker is clipped.",
       "status": "PASS"
     },
     {
       "id": "overlap-and-collisions",
-      "notes": "No overlapping body text, displays, footnotes, source anchors, page numbers, images, or critical-note boxes were observed.",
+      "notes": "No collision among body text, displays, footnotes, source anchors, page numbers, images, or editorial-note boxes was observed.",
       "status": "PASS"
     },
     {
       "id": "broken-or-missing-glyphs",
-      "notes": "Accented names, mathematical symbols, continued fractions, subscripts, superscripts, and monospaced evidence identifiers render legibly without missing-glyph boxes.",
+      "notes": "Accented names, primes, radicals, continued fractions, subscripts, superscripts, and witness formulas render legibly without missing-glyph boxes.",
       "status": "PASS"
     },
     {
       "id": "mathematical-legibility",
-      "notes": "Displayed mathematics and dense formula sequences remain readable, including the continued-fraction staircase and W09-W10 group-theoretic formulas.",
+      "notes": "Dense continued fractions, group-theoretic displays, corrected interval formulas, and the Tannery witness relation remain readable.",
       "status": "PASS"
     },
     {
       "id": "image-rule-and-seam-defects",
-      "notes": "Portraits, ornaments, printer mark, section rules, component seams, and critical-box continuations render consistently; no unintended seam or raster defect was observed.",
+      "notes": "Portraits, ornaments, printer mark, section rules, component seams, and note boundaries render consistently without unintended raster or seam defects.",
       "status": "PASS"
     },
     {
       "id": "unexpected-blank-or-black-pages",
-      "notes": "Pages 42, 80, 83, 84, and 85 are the five declared blank-topology pages. No other blank page and no black or dark-surprise page was observed.",
+      "notes": "Pages 41, 79, 82, 83, and 84 are the five declared blank-topology pages. No other blank page and no black or dark-surprise page was observed.",
       "status": "PASS"
     },
     {
       "id": "typography-spacing-and-hierarchy",
-      "notes": "The historical translation remains visually primary. Concise blue GPT Critical Note boxes are adjacent to relevant passages, visually distinct, consistently styled, and do not obscure the reading order.",
+      "notes": "The historical translation remains visually primary. Editorial notes use descriptive headings and ordinary prose, with stable IDs confined to small reference lines.",
       "status": "PASS"
     },
     {
       "id": "headers-footers-and-page-numbering",
-      "notes": "Source-coordinate labels, front-matter roman numerals, historical page numbers, and terminal topology are consistent and unobstructed.",
+      "notes": "Source-coordinate labels, front-matter numbering, historical pagination, and terminal topology are consistent and unobstructed.",
       "status": "PASS"
     }
   ],
   "inspection_kind": "actual-rendered-page-model-visual-inspection",
   "inspection_status": "COMPLETE",
   "overall_result": "PASS",
-  "page_count": 85,
+  "page_count": 84,
   "page_findings": [
     {
       "observations": [
-        "Post-P13 closure page fits cleanly; three overview notes are readable and visually subordinate to the explanatory heading."
+        "The title, human-facing edition name, and exact R2 DOI are clear and balanced."
+      ],
+      "page": 1,
+      "status": "PASS"
+    },
+    {
+      "observations": [
+        "The editorial-method page states the three remaining image questions in ordinary prose; compact evidence references remain visually subordinate."
       ],
       "page": 3,
       "status": "PASS"
     },
     {
       "observations": [
-        "The W05 degree-16 counterexample note is adjacent to the affected claim, fully readable, and leaves the historical translation visually primary."
+        "Two adjacent correction notes are readable, properly separated, and do not obscure the continued-fraction argument."
       ],
-      "page": 29,
+      "page": 21,
       "status": "PASS"
     },
     {
       "observations": [
-        "Four stacked W10 proof, typographical, and witness notes remain legible with clean borders and adequate separation."
+        "The finite-field counterexample note and historical footnote remain legible with a clear reading order."
       ],
-      "page": 71,
+      "page": 34,
       "status": "PASS"
     },
     {
       "observations": [
-        "The dense W10 coordinate-repair sequence retains readable mathematics and stable note hierarchy without clipping or collisions."
+        "The memoir's source-comparison and omitted-definition notes are concise, human-readable, and visually subordinate to the translated text."
       ],
-      "page": 73,
+      "page": 51,
       "status": "PASS"
     },
     {
       "observations": [
-        "The unresolved printer-number note and terminal-topology note are readable; the tiny source image remains visible and is not silently interpreted."
+        "The Proposition VIII qualification retains readable mathematics and clean spacing."
       ],
-      "page": 82,
+      "page": 66,
+      "status": "PASS"
+    },
+    {
+      "observations": [
+        "The counterexample to pairwise commutation is fully readable without collision or overfull layout."
+      ],
+      "page": 77,
+      "status": "PASS"
+    },
+    {
+      "observations": [
+        "The five-digit printer number 24572 and terminal-leaf explanation are clear; the historical crop remains unaltered and visible."
+      ],
+      "page": 81,
       "status": "PASS"
     }
   ],
-  "pdf": "reader/00_GALOIS_1897_EN_CURRENT_LINKED_READER.pdf",
-  "pdf_sha256": "8A3702F37031199F3AD4904C36297F439DE4E265A2D10C203F6A6B8F2D2AACF3",
+  "pdf": "build/en-r2-reader-a-20260814T022000/GAL1897_EN_MODERN_READER.pdf",
+  "pdf_sha256": "2AF04298A1184307C2F94B82FAE55E6AA0BDA4560C2E95461537924AB814E6D5",
   "render_report": "evidence/READER_MECHANICAL_RENDER_QA_POST_P13.json",
-  "render_report_sha256": "339CC55060078E35A80B22B8DE89C7265E7117D75F841709FC2EC530B50DA5BF",
+  "render_report_sha256": "0B4D693A6F4E05404F33DE3A5F6B6AA9720FA7DE8B4AB84168C9E01731CCE13C",
   "reviewer": {
-    "completed_at_utc": "2026-08-13T22:27:12Z",
+    "completed_at_utc": "2026-08-14T00:34:00Z",
     "model_id": "OpenAI GPT-5.6 Sol Ultra",
     "session_or_task_id": "private-task-id-omitted"
   },

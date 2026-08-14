@@ -1,6 +1,6 @@
 % GAL1897 modern-English reader -- independent translation layer.
 % The audited French diplomatic source remains immutable in ../french_diplomatic.
-% Historical claims are translated faithfully; repairs appear only in GPT Critical Notes.
+% Historical claims are translated faithfully; repairs appear only in editorial notes.
 \documentclass[11pt,oneside,openany]{book}
 \pdfinfoomitdate=1
 \pdfsuppressptexinfo=15
@@ -22,10 +22,10 @@
 \setlength{\emergencystretch}{2em}
 \allowdisplaybreaks[0]
 \pagestyle{plain}
-\hypersetup{pdftitle={Évariste Galois — Mathematical Works (1897): Modern English Reader with GPT Critical Notes},pdfauthor={Évariste Galois; Manuscript Typesetting Project; OpenAI GPT-5.6 Sol},pdfsubject={Modern-English translation aligned to the audited 1897 French diplomatic transcription},pdfkeywords={Évariste Galois, English translation, Galois theory, critical edition},colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!55!black}
+\hypersetup{pdftitle={Évariste Galois — Mathematical Works (1897): Modern English Reader with Editorial Notes},pdfauthor={Évariste Galois; Manuscript Typesetting Project},pdfsubject={Modern-English translation aligned to the audited 1897 French diplomatic transcription},pdfkeywords={Évariste Galois, English translation, Galois theory, critical edition},colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!55!black}
 \definecolor{GalCriticalBlue}{RGB}{35,74,112}
 \definecolor{GalCriticalBack}{RGB}{241,247,252}
-\newtcolorbox{GalCriticalBox}[1]{enhanced,breakable,colback=GalCriticalBack,colframe=GalCriticalBlue,boxrule=0.6pt,arc=1mm,left=2.5mm,right=2.5mm,top=1.5mm,bottom=1.5mm,title={GPT Critical Note [#1]},fonttitle=\bfseries\small,coltitle=white,before skip=0.8em,after skip=0.8em}
+\newtcolorbox{GalCriticalBox}[1]{enhanced,breakable,colback=GalCriticalBack,colframe=GalCriticalBlue,boxrule=0pt,leftrule=1.1pt,sharp corners,left=3mm,right=2.5mm,top=1.5mm,bottom=1.5mm,title={#1},fonttitle=\bfseries\small,coltitle=GalCriticalBlue,colbacktitle=GalCriticalBack,titlerule=0pt,before skip=0.8em,after skip=0.8em}
 
 % Translation defaults. Source anchors preserve alignment without historical page breaks.
 % The source marker already identifies the exact PDF/leaf coordinate.  The
@@ -35,12 +35,13 @@
 \providecommand{\GalVisibleFolio}[1]{}
 \providecommand{\GalSourceAnchor}[2]{\hypertarget{source-#1}{}\leavevmode\vadjust{\smash{\hbox to 0pt{\hskip\dimexpr\linewidth-2mm\relax\vbox{\hsize=10mm\raggedright\tiny Source PDF #1\\#2}\hss}}}}
 \providecommand{\GalCriticalMarker}{\textsuperscript{\color{GalCriticalBlue}\ensuremath{\dagger}}}
-\providecommand{\GalCriticalNote}[2]{\hypertarget{critical-#1}{}\begin{GalCriticalBox}{#1}#2\end{GalCriticalBox}}
+\providecommand{\GalEditorialReference}[1]{\par\smallskip{\color{black!55}\scriptsize\itshape Editorial reference: \nolinkurl{#1}\par}}
+\providecommand{\GalCriticalNote}[3]{\hypertarget{critical-#1}{}\if\relax\detokenize{#2}\relax\else\begin{GalCriticalBox}{#2}#3\GalEditorialReference{#1}\end{GalCriticalBox}\fi}
 \providecommand{\GalExcludedSourcePage}[4]{}
 \providecommand{\GalBlankTopologyPage}[4]{}
 \providecommand{\GalSourcePageBegin}[2]{\GalSourceAnchor{#1}{#2}}
 \providecommand{\GalSourcePageEnd}{\par}
-\providecommand{\GalWitnessNote}[1]{\par\begingroup\footnotesize\itshape\noindent [Witness note: #1]\par\endgroup}
+\providecommand{\GalWitnessNote}[3]{\par\smallskip\begingroup\footnotesize\noindent\textbf{#2.} #3\GalEditorialReference{#1}\endgroup\smallskip}
 \providecommand{\GalUnresolvedSourcePage}[4]{#4}
 \providecommand{\GalSourcePageStart}[4]{\GalSourceAnchor{#1}{#2}}
 \providecommand{\GalSourcePageBoundary}[4]{\par\GalSourceAnchor{#1}{#2}\noindent}
@@ -80,33 +81,34 @@
 \vspace{1.5em}
 {\LARGE Mathematical Works (1897)\par}
 \vspace{0.7em}
-{\Large Modern English Reader with GPT Critical Notes\par}
+{\Large Modern English Reader with Editorial Notes\par}
 \vfill
 {\large Manuscript Typesetting Project\par}
 \vspace{1em}
 {\small English concept DOI: \href{https://doi.org/10.5281/zenodo.21924301}{10.5281/zenodo.21924301}\par}
-{\small Exact release DOI: \href{https://doi.org/10.5281/zenodo.21924302}{10.5281/zenodo.21924302}\par}
+  {\small Exact release DOI: \href{https://doi.org/10.5281/zenodo.21926209}{10.5281/zenodo.21926209}\par}
 {\small French original concept DOI: \href{https://doi.org/10.5281/zenodo.21923856}{10.5281/zenodo.21923856}\par}
 \vspace{2em}
-  {\footnotesize Post-P13 web research and mathematical certificates: OpenAI GPT-5.6 Sol, Pro mode.\\Modern-English translation, critical integration, DOI release engineering, and independent QA: OpenAI GPT-5.6 Sol, Ultra mode.\par}
+  {\footnotesize Modern-English translation with critical commentary, witness comparison, and mathematical verification.\par}
 \end{titlepage}
 \clearpage
 \frontmatter
 \chapter*{Editorial method and scope}
-This reader translates the complete substantive content of the audited French diplomatic transcription of the 1897 Gauthier--Villars edition. The main English text follows the printed historical claim, including claims later shown to be defective. A dagger marks a proved or suspected defect; a nearby boxed \emph{GPT Critical Note} gives its stable identifier, correction or qualification, supporting mathematical evidence, transmission status where known, and current research disposition. No correction is silently substituted into Galois's or the historical editors' text.
+This reader translates the complete substantive content of the audited French diplomatic transcription of the 1897 Gauthier--Villars edition. The main English text follows the printed historical claim, including claims later shown to be defective. A dagger marks a passage that needs attention; a nearby editorial note explains the corrected reading, the necessary qualification, or the relevant witness history. No correction is silently substituted into Galois's or the historical editors' text.
 
-Source-page markers map the translation to the frozen French witness. The aligned French transcription, source authority, complete ledgers, build scripts, and validation evidence accompany the release. Model and mechanical evidence can close this publication; no human-review gate is asserted.
+Source-page markers map the translation to the fixed French witness. The aligned French transcription and the edition's detailed research archive accompany the release.
 
-\chapter*{Post-P13 critical research closure}
-Before this exact release, OpenAI GPT-5.6 Sol in Pro mode completed the bounded post-P13 critical-research program against the immutable French diplomatic layer. OpenAI GPT-5.6 Sol in Ultra mode then integrated the returned results into this English reader and independently rechecked the release. The twenty-one task dispositions are nine \emph{repaired}, eight \emph{proved}, two \emph{rejected}, and two \emph{unresolved after bounded search}. Here \emph{rejected} means that a historical mathematical premise or proposed repair was disproved; it does not mean that the audit failed. The returned cold audit records 242 of 242 checks passing.
+\chapter*{About the editorial research}
+The notes in this reader distinguish three kinds of intervention: corrections to the printed text, mathematical qualifications or counterexamples, and differences among historical witnesses. Each note begins with the point a reader needs to know; compact reference labels at the end connect it to the fuller evidence archive.
 
-\GalCriticalNote{POST-P13-A001}{\textbf{Status: repaired and closed in the critical layer.} All thirty-six proved source-error records now have a proved repair, a qualified replacement, or a counterexample rejecting the printed claim. No historical French byte and no faithfully translated historical claim was silently changed. The item-level certificates are preserved in \texttt{CRITICAL\_ERRATA\_CATALOGUE.csv}.}
+The edition was checked against the 1897 printing, earlier publications where available, Tannery's 1908 collation, later critical scholarship, and independent mathematical calculations. Every identified source error has either a supported correction, a clearly stated qualification, or a counterexample showing why the printed claim cannot stand. The historical French and its faithful English translation remain unchanged.
 
-\GalCriticalNote{POST-P13-A002}{\textbf{Status: proved and closed.} A machine-readable dependency graph records forty-six local and cross-work edges and classifies each downstream result as surviving, surviving only under added hypotheses, or blocked. The graph accompanies this release as \texttt{DEPENDENCY\_PROPAGATION\_EDGES.csv}.}
+Three questions in the preliminary images remain open: a faint portrait signature cannot be read securely, the relation between the two portrait scans cannot yet be established, and the publisher-device ribbon is too indistinct for a character-by-character transcription. These features remain visible in the reproduced images and are left unguessed.
 
-\GalCriticalNote{POST-P13-A003}{\textbf{Status: proved to the 2026-08-13 search cutoff.} The prior-notice matrix covers all thirty-six errors and fifteen witness or editorial variants. It distinguishes an earlier correct witness, explicit collation or erratum, later silent normalization, inaccessible candidate errata material, and a bounded negative search. In particular, the accessible record proves that the 1976 Bourgne--Azra printing added an errata list, but the item-level list was unavailable; this edition therefore makes no unsupported attribution to it. See \texttt{BIBLIOGRAPHIC\_PRIOR\_NOTICE\_MATRIX.csv} and \texttt{WEB\_SOURCE\_EVIDENCE.csv}.}
-
-Five records remain openly unresolved: three inherited image readings in the 1897 preliminary matter (\texttt{W01-U001}, \texttt{W01-U002}, and \texttt{W01-U003}); the materially different manuscript double-prime formula at \texttt{W08-WV001}; and the fused printer job number at \texttt{W11-U001}. No reading is supplied where the evidence does not support one. Exact missing evidence is recorded in \texttt{OPEN\_AFTER\_21\_TASKS.csv}.
+\GalCriticalNote{POST-P13-A001}{}{}
+\GalCriticalNote{POST-P13-A002}{}{}
+\GalCriticalNote{POST-P13-A003}{}{}
+\par\smallskip{\color{black!55}\scriptsize\itshape Editorial references: \nolinkurl{POST-P13-A001}; \nolinkurl{POST-P13-A002}; \nolinkurl{POST-P13-A003}.\par}
 
 \chapter*{Reader contents}
 \pdfbookmark[0]{Reader contents}{reader-contents}
